@@ -12,9 +12,24 @@ This repository was built from official Seedream 5.0 Pro launch material exporte
 
 | Case | Official source section | Public media |
 |---|---|---|
-| Region-box object description | `3.1.1 Interactive control` | `assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif` |
+| Interactive control annotation and region-box object description | `3.1.1 Interactive control` | `assets/media/003-arrows-annotation-boxes.gif`, `assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif` |
 | Anchor-position edit | `3.1.3 Anchor editing (position editing)` | `assets/media/015-Feishu-Docs-Image.png`, `assets/media/016-Feishu-Docs-Image.png` |
 | Multi-reference still-life composition | `3.1.6 Multi-image fusion editing` | `assets/media/014-Feishu-Docs-Image.gif` |
+
+## Collected Source GIF Inventory
+
+- `assets/media/003-arrows-annotation-boxes.gif`
+- `assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif`
+- `assets/media/005-doodles.gif`
+- `assets/media/006-color-block.gif`
+- `assets/media/007-lines.gif`
+- `assets/media/008-simple-sketches.gif`
+- `assets/media/009-Feishu-Docs-Image.gif`
+- `assets/media/010-Feishu-Docs-Image.gif`
+- `assets/media/011-Feishu-Docs-Image.gif`
+- `assets/media/012-Feishu-Docs-Image.gif`
+- `assets/media/013-Feishu-Docs-Image.gif`
+- `assets/media/014-Feishu-Docs-Image.gif`
 
 ## Public Technical Reference
 

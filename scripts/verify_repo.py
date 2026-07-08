@@ -24,6 +24,21 @@ LOCALIZED_READMES = [
     "README_ru.md",
 ]
 SOURCE_GIF_MEDIA = [
+    "003-arrows-annotation-boxes",
+    "004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex",
+    "005-doodles",
+    "006-color-block",
+    "007-lines",
+    "008-simple-sketches",
+    "009-Feishu-Docs-Image",
+    "010-Feishu-Docs-Image",
+    "011-Feishu-Docs-Image",
+    "012-Feishu-Docs-Image",
+    "013-Feishu-Docs-Image",
+    "014-Feishu-Docs-Image",
+]
+README_SOURCE_GIF_MEDIA = [
+    "003-arrows-annotation-boxes",
     "004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex",
     "005-doodles",
     "006-color-block",
@@ -131,6 +146,13 @@ def main() -> int:
     for media_stem in SOURCE_GIF_MEDIA:
         gif_ref = f"assets/media/{media_stem}.gif"
         png_ref = f"assets/media/{media_stem}.png"
+        if not (ROOT / gif_ref).is_file():
+            fail(f"Missing collected source GIF media file: {gif_ref}", failures)
+        if gif_ref not in source_notes:
+            fail(f"docs/source-notes.md must include collected source GIF media: {gif_ref}", failures)
+    for media_stem in README_SOURCE_GIF_MEDIA:
+        gif_ref = f"assets/media/{media_stem}.gif"
+        png_ref = f"assets/media/{media_stem}.png"
         if gif_ref not in readme:
             fail(f"README must preserve source GIF media reference: {gif_ref}", failures)
         if png_ref in readme:
@@ -177,7 +199,7 @@ def main() -> int:
         for media_ref in re.findall(r"(?:src=|\]\()(?:\"|')?(assets/[^\"')]+)", localized):
             if not (ROOT / media_ref).is_file():
                 fail(f"{rel} references missing media file: {media_ref}", failures)
-        for media_stem in SOURCE_GIF_MEDIA:
+        for media_stem in README_SOURCE_GIF_MEDIA:
             gif_ref = f"assets/media/{media_stem}.gif"
             png_ref = f"assets/media/{media_stem}.png"
             if gif_ref not in localized:
