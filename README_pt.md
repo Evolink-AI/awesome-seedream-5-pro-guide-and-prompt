@@ -94,7 +94,7 @@ Número de casos: **2**.
 
 ### Case 1: Setas e caixas de anotação para intenção espacial
 
-<img src="assets/media/003-arrows-annotation-boxes.gif" width="720" alt="Setas e caixas de anotação para intenção espacial">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/003-arrows-annotation-boxes.gif" width="720" alt="Setas e caixas de anotação para intenção espacial">
 
 > [!NOTE]
 > Use setas, caixas e anotações para explicitar a área-alvo antes da edição.
@@ -105,7 +105,7 @@ Número de casos: **2**.
 
 ### Case 2: Descrição de objetos por caixa de região para edição direcionada
 
-<img src="assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif" width="720" alt="Descrição de objetos por caixa de região para edição direcionada">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif" width="720" alt="Descrição de objetos por caixa de região para edição direcionada">
 
 **Prompt:**
 
@@ -127,7 +127,7 @@ Número de casos: **4**.
 
 ### Case 3: Geração de objetos guiada por rabiscos
 
-<img src="assets/media/005-doodles.gif" width="720" alt="Geração de objetos guiada por rabiscos">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/005-doodles.gif" width="720" alt="Geração de objetos guiada por rabiscos">
 
 > [!NOTE]
 > Use rabiscos soltos como sinal de controle visual e deixe o modelo renderizar o objeto pretendido.
@@ -138,7 +138,7 @@ Número de casos: **4**.
 
 ### Case 4: Edição guiada por blocos de cor
 
-<img src="assets/media/006-color-block.gif" width="720" alt="Edição guiada por blocos de cor">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/006-color-block.gif" width="720" alt="Edição guiada por blocos de cor">
 
 > [!NOTE]
 > Use blocos amplos de cor para indicar composição aproximada, zonas de cor ou posicionamento de objetos.
@@ -149,7 +149,7 @@ Número de casos: **4**.
 
 ### Case 5: Edição de detalhes guiada por linhas
 
-<img src="assets/media/007-lines.gif" width="720" alt="Edição de detalhes guiada por linhas">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/007-lines.gif" width="720" alt="Edição de detalhes guiada por linhas">
 
 > [!NOTE]
 > Use linhas simples quando o contorno da forma importar mais que uma descrição longa.
@@ -160,7 +160,7 @@ Número de casos: **4**.
 
 ### Case 6: De esboço simples a imagem refinada
 
-<img src="assets/media/008-simple-sketches.gif" width="720" alt="De esboço simples a imagem refinada">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/008-simple-sketches.gif" width="720" alt="De esboço simples a imagem refinada">
 
 > [!NOTE]
 > Transforme um esboço mínimo em uma imagem renderizada mais completa preservando a intenção do esboço.
@@ -179,7 +179,7 @@ Número de casos: **6**.
 
 ### Case 7: Edição de texto e camada gráfica de pôster: Avery Turns
 
-<img src="assets/media/009-Feishu-Docs-Image.gif" width="720" alt="Edição de texto e camada gráfica de pôster: Avery Turns">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/009-Feishu-Docs-Image.gif" width="720" alt="Edição de texto e camada gráfica de pôster: Avery Turns">
 
 > [!NOTE]
 > Edite elementos visíveis do pôster preservando a estrutura geral do design.
@@ -190,7 +190,7 @@ Número de casos: **6**.
 
 ### Case 8: Edição de camada de oferta em pôster: Happy Hour
 
-<img src="assets/media/010-Feishu-Docs-Image.gif" width="720" alt="Edição de camada de oferta em pôster: Happy Hour">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/010-Feishu-Docs-Image.gif" width="720" alt="Edição de camada de oferta em pôster: Happy Hour">
 
 > [!NOTE]
 > Altere um selo promocional ou elemento gráfico sem reconstruir todo o pôster.
@@ -201,7 +201,7 @@ Número de casos: **6**.
 
 ### Case 9: Edição de camada de imagem de moda dentro de um layout
 
-<img src="assets/media/011-Feishu-Docs-Image.gif" width="720" alt="Edição de camada de imagem de moda dentro de um layout">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/011-Feishu-Docs-Image.gif" width="720" alt="Edição de camada de imagem de moda dentro de um layout">
 
 > [!NOTE]
 > Ajuste um sujeito em camadas dentro de uma composição visual.
@@ -212,7 +212,7 @@ Número de casos: **6**.
 
 ### Case 10: Edição de camada gráfica em pôster esportivo
 
-<img src="assets/media/012-Feishu-Docs-Image.gif" width="720" alt="Edição de camada gráfica em pôster esportivo">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/012-Feishu-Docs-Image.gif" width="720" alt="Edição de camada gráfica em pôster esportivo">
 
 > [!NOTE]
 > Edite um gráfico de corrida mantendo tipografia e composição alinhadas.
@@ -223,7 +223,7 @@ Número de casos: **6**.
 
 ### Case 11: Edição de elemento de pôster: Public Joy
 
-<img src="assets/media/013-Feishu-Docs-Image.gif" width="720" alt="Edição de elemento de pôster: Public Joy">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/013-Feishu-Docs-Image.gif" width="720" alt="Edição de elemento de pôster: Public Joy">
 
 > [!NOTE]
 > Modifique elementos do pôster preservando a linguagem de design original.
@@ -234,7 +234,7 @@ Número de casos: **6**.
 
 ### Case 12: Troca de superfície material com resposta precisa de textura
 
-<img src="assets/media/014-Feishu-Docs-Image.gif" width="720" alt="Troca de superfície material com resposta precisa de textura">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/014-Feishu-Docs-Image.gif" width="720" alt="Troca de superfície material com resposta precisa de textura">
 
 > [!NOTE]
 > Troque alvos de material e cor mantendo intacta a estrutura do objeto.
@@ -259,14 +259,14 @@ Número de casos: **1**.
 
 **Antes:**
 
-<img src="assets/media/015-Feishu-Docs-Image.png" width="420" alt="Movimento de objeto por posição em grade antes">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/015-Feishu-Docs-Image.png" width="420" alt="Movimento de objeto por posição em grade antes">
 
 </td>
 <td width="50%" valign="top">
 
 **Depois:**
 
-<img src="assets/media/016-Feishu-Docs-Image.png" width="420" alt="Movimento de objeto por posição em grade depois">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/016-Feishu-Docs-Image.png" width="420" alt="Movimento de objeto por posição em grade depois">
 
 </td>
 </tr>
@@ -292,7 +292,7 @@ Número de casos: **1**.
 
 ### Case 14: Separação de camada de primeiro plano / pessoa
 
-<img src="assets/media/017-Feishu-Docs-Image.png" width="720" alt="Separação de camada de primeiro plano / pessoa">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/017-Feishu-Docs-Image.png" width="720" alt="Separação de camada de primeiro plano / pessoa">
 
 > [!NOTE]
 > Separe um sujeito em primeiro plano de um fundo parecido com pôster para reutilização posterior.
@@ -317,14 +317,14 @@ Número de casos: **1**.
 
 **Entrada:**
 
-<img src="assets/media/018-Feishu-Docs-Image.png" width="420" alt="Entrada de composição de natureza-morta com sete referências">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/018-Feishu-Docs-Image.png" width="420" alt="Entrada de composição de natureza-morta com sete referências">
 
 </td>
 <td width="50%" valign="top">
 
 **Saída:**
 
-<img src="assets/media/019-Feishu-Docs-Image.png" width="420" alt="Saída de composição de natureza-morta com sete referências">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/019-Feishu-Docs-Image.png" width="420" alt="Saída de composição de natureza-morta com sete referências">
 
 </td>
 </tr>
@@ -354,7 +354,7 @@ Número de casos: **5**.
 
 ### Case 16: Tênis cinematográfico com vidro estilhaçado
 
-<img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" width="720" alt="Tênis cinematográfico com vidro estilhaçado">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" width="720" alt="Tênis cinematográfico com vidro estilhaçado">
 
 > [!NOTE]
 > Geração de cena de alto movimento com fragmentos de vidro, timing de ação e iluminação cinematográfica.
@@ -365,7 +365,7 @@ Número de casos: **5**.
 
 ### Case 17: Ação cinematográfica de boxe
 
-<img src="assets/media/021-Cinematic-narrative-action-boxing.png" width="720" alt="Ação cinematográfica de boxe">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/021-Cinematic-narrative-action-boxing.png" width="720" alt="Ação cinematográfica de boxe">
 
 > [!NOTE]
 > Renderização de cena de ação com maior sensação de movimento, impacto e profundidade.
@@ -376,7 +376,7 @@ Número de casos: **5**.
 
 ### Case 18: Cena em estilo de animação 3D
 
-<img src="assets/media/022-Cinematic-narrative-3D-animation.png" width="720" alt="Cena em estilo de animação 3D">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/022-Cinematic-narrative-3D-animation.png" width="720" alt="Cena em estilo de animação 3D">
 
 > [!NOTE]
 > Saída 3D / animação estilizada para personagens ou visuais de entretenimento.
@@ -387,7 +387,7 @@ Número de casos: **5**.
 
 ### Case 19: Arte conceitual visual
 
-<img src="assets/media/023-Cinematic-narrative-visual-concept.png" width="720" alt="Arte conceitual visual">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/023-Cinematic-narrative-visual-concept.png" width="720" alt="Arte conceitual visual">
 
 > [!NOTE]
 > Geração em estilo de arte conceitual para explorar atmosfera, direção visual e mood.
@@ -398,7 +398,7 @@ Número de casos: **5**.
 
 ### Case 20: Visual de cena de jogo
 
-<img src="assets/media/024-Cinematic-narrative-game-scene.png" width="720" alt="Visual de cena de jogo">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/024-Cinematic-narrative-game-scene.png" width="720" alt="Visual de cena de jogo">
 
 > [!NOTE]
 > Geração de cena tipo jogo para explorar ambiente, set ou key art.
@@ -417,7 +417,7 @@ Número de casos: **5**.
 
 ### Case 21: Placa de boas-vindas em árabe e inglês
 
-<img src="assets/media/025-Welcome.png" width="720" alt="Placa de boas-vindas em árabe e inglês">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/025-Welcome.png" width="720" alt="Placa de boas-vindas em árabe e inglês">
 
 > [!NOTE]
 > Renderização multilíngue nativa com texto árabe e inglês no mesmo visual.
@@ -428,7 +428,7 @@ Número de casos: **5**.
 
 ### Case 22: Placa coreana de aberto 24 horas
 
-<img src="assets/media/026-24-Open-24-hours.png" width="720" alt="Placa coreana de aberto 24 horas">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/026-24-Open-24-hours.png" width="720" alt="Placa coreana de aberto 24 horas">
 
 > [!NOTE]
 > Renderização de texto coreano para vitrines ou sinalização localizada.
@@ -439,7 +439,7 @@ Número de casos: **5**.
 
 ### Case 23: Placa tailandesa de limpeza
 
-<img src="assets/media/027-Please-help-keep-the-place-clean-together.png" width="720" alt="Placa tailandesa de limpeza">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/027-Please-help-keep-the-place-clean-together.png" width="720" alt="Placa tailandesa de limpeza">
 
 > [!NOTE]
 > Renderização de texto tailandês para espaços públicos locais ou visuais de campanha.
@@ -450,7 +450,7 @@ Número de casos: **5**.
 
 ### Case 24: Pôster francês de criação
 
-<img src="assets/media/028-CREATION-FRANCAISE-Made-in-France.png" width="720" alt="Pôster francês de criação">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/028-CREATION-FRANCAISE-Made-in-France.png" width="720" alt="Pôster francês de criação">
 
 > [!NOTE]
 > Renderização de texto francês para produtos, moda e recursos de campanha.
@@ -461,7 +461,7 @@ Número de casos: **5**.
 
 ### Case 25: Pôster russo de futuro
 
-<img src="assets/media/029-Future.png" width="720" alt="Pôster russo de futuro">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/029-Future.png" width="720" alt="Pôster russo de futuro">
 
 > [!NOTE]
 > Renderização de texto russo com estrutura clara de caracteres para conceitos visuais localizados.

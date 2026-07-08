@@ -94,7 +94,7 @@ Seedream 5.0 Pro 在官方发布材料中被定位为可控的图像生成与编
 
 ### Case 1: 用于空间意图的箭头和标注框
 
-<img src="assets/media/003-arrows-annotation-boxes.gif" width="720" alt="用于空间意图的箭头和标注框">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/003-arrows-annotation-boxes.gif" width="720" alt="用于空间意图的箭头和标注框">
 
 > [!NOTE]
 > 在编辑前使用箭头、框和标注明确目标区域。
@@ -105,7 +105,7 @@ Seedream 5.0 Pro 在官方发布材料中被定位为可控的图像生成与编
 
 ### Case 2: 用于定向编辑的区域框对象描述
 
-<img src="assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif" width="720" alt="用于定向编辑的区域框对象描述">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif" width="720" alt="用于定向编辑的区域框对象描述">
 
 **Prompt:**
 
@@ -127,7 +127,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 3: 涂鸦引导的对象生成
 
-<img src="assets/media/005-doodles.gif" width="720" alt="涂鸦引导的对象生成">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/005-doodles.gif" width="720" alt="涂鸦引导的对象生成">
 
 > [!NOTE]
 > 使用松散涂鸦作为视觉控制信号，让模型渲染目标对象。
@@ -138,7 +138,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 4: 色块引导的编辑
 
-<img src="assets/media/006-color-block.gif" width="720" alt="色块引导的编辑">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/006-color-block.gif" width="720" alt="色块引导的编辑">
 
 > [!NOTE]
 > 使用大块色块指定粗略构图、颜色区域或对象位置。
@@ -149,7 +149,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 5: 线条引导的细节编辑
 
-<img src="assets/media/007-lines.gif" width="720" alt="线条引导的细节编辑">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/007-lines.gif" width="720" alt="线条引导的细节编辑">
 
 > [!NOTE]
 > 当形状边界比长文本描述更重要时，使用简单线条进行引导。
@@ -160,7 +160,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 6: 从简单草图到精细图像
 
-<img src="assets/media/008-simple-sketches.gif" width="720" alt="从简单草图到精细图像">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/008-simple-sketches.gif" width="720" alt="从简单草图到精细图像">
 
 > [!NOTE]
 > 在保留草图意图的同时，把极简草图转成更完整的渲染图。
@@ -179,7 +179,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 7: 海报文字与图形图层编辑：Avery Turns
 
-<img src="assets/media/009-Feishu-Docs-Image.gif" width="720" alt="海报文字与图形图层编辑：Avery Turns">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/009-Feishu-Docs-Image.gif" width="720" alt="海报文字与图形图层编辑：Avery Turns">
 
 > [!NOTE]
 > 在保留整体设计结构的同时编辑可见海报元素。
@@ -190,7 +190,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 8: 海报优惠图层编辑：Happy Hour
 
-<img src="assets/media/010-Feishu-Docs-Image.gif" width="720" alt="海报优惠图层编辑：Happy Hour">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/010-Feishu-Docs-Image.gif" width="720" alt="海报优惠图层编辑：Happy Hour">
 
 > [!NOTE]
 > 无需重建整张海报即可修改促销标识或图形元素。
@@ -201,7 +201,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 9: 设计版式中的时尚图像图层编辑
 
-<img src="assets/media/011-Feishu-Docs-Image.gif" width="720" alt="设计版式中的时尚图像图层编辑">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/011-Feishu-Docs-Image.gif" width="720" alt="设计版式中的时尚图像图层编辑">
 
 > [!NOTE]
 > 在已构成的视觉版式中调整分层主体。
@@ -212,7 +212,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 10: 运动海报图形图层编辑
 
-<img src="assets/media/012-Feishu-Docs-Image.gif" width="720" alt="运动海报图形图层编辑">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/012-Feishu-Docs-Image.gif" width="720" alt="运动海报图形图层编辑">
 
 > [!NOTE]
 > 在保持文字排版和构图对齐的同时编辑赛车海报图形。
@@ -223,7 +223,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 11: 海报元素编辑：Public Joy
 
-<img src="assets/media/013-Feishu-Docs-Image.gif" width="720" alt="海报元素编辑：Public Joy">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/013-Feishu-Docs-Image.gif" width="720" alt="海报元素编辑：Public Joy">
 
 > [!NOTE]
 > 在保留原始设计语言的同时修改海报元素。
@@ -234,7 +234,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 12: 具备精确纹理响应的材质表面替换
 
-<img src="assets/media/014-Feishu-Docs-Image.gif" width="720" alt="具备精确纹理响应的材质表面替换">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/014-Feishu-Docs-Image.gif" width="720" alt="具备精确纹理响应的材质表面替换">
 
 > [!NOTE]
 > 在保持对象结构完整的同时替换材质和颜色目标。
@@ -259,14 +259,14 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 **编辑前：**
 
-<img src="assets/media/015-Feishu-Docs-Image.png" width="420" alt="网格位置对象移动编辑前">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/015-Feishu-Docs-Image.png" width="420" alt="网格位置对象移动编辑前">
 
 </td>
 <td width="50%" valign="top">
 
 **编辑后：**
 
-<img src="assets/media/016-Feishu-Docs-Image.png" width="420" alt="网格位置对象移动编辑后">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/016-Feishu-Docs-Image.png" width="420" alt="网格位置对象移动编辑后">
 
 </td>
 </tr>
@@ -292,7 +292,7 @@ Move the red car in the lower-left corner one grid cell to the right, and move t
 
 ### Case 14: 前景 / 人物图层分离
 
-<img src="assets/media/017-Feishu-Docs-Image.png" width="720" alt="前景 / 人物图层分离">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/017-Feishu-Docs-Image.png" width="720" alt="前景 / 人物图层分离">
 
 > [!NOTE]
 > 从海报式背景中分离前景主体，以便后续复用。
@@ -317,14 +317,14 @@ Move the red car in the lower-left corner one grid cell to the right, and move t
 
 **输入：**
 
-<img src="assets/media/018-Feishu-Docs-Image.png" width="420" alt="七张参考图静物构图输入">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/018-Feishu-Docs-Image.png" width="420" alt="七张参考图静物构图输入">
 
 </td>
 <td width="50%" valign="top">
 
 **输出：**
 
-<img src="assets/media/019-Feishu-Docs-Image.png" width="420" alt="七张参考图静物构图输出">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/019-Feishu-Docs-Image.png" width="420" alt="七张参考图静物构图输出">
 
 </td>
 </tr>
@@ -354,7 +354,7 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 ### Case 16: 电影感网球玻璃碎裂
 
-<img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" width="720" alt="电影感网球玻璃碎裂">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" width="720" alt="电影感网球玻璃碎裂">
 
 > [!NOTE]
 > 生成包含玻璃碎片、动作节奏和电影感光照的高动态场景。
@@ -365,7 +365,7 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 ### Case 17: 电影感拳击动作
 
-<img src="assets/media/021-Cinematic-narrative-action-boxing.png" width="720" alt="电影感拳击动作">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/021-Cinematic-narrative-action-boxing.png" width="720" alt="电影感拳击动作">
 
 > [!NOTE]
 > 渲染具有更强运动感、冲击感和场景纵深的动作场景。
@@ -376,7 +376,7 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 ### Case 18: 3D 动画风格场景
 
-<img src="assets/media/022-Cinematic-narrative-3D-animation.png" width="720" alt="3D 动画风格场景">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/022-Cinematic-narrative-3D-animation.png" width="720" alt="3D 动画风格场景">
 
 > [!NOTE]
 > 用于角色或娱乐视觉的风格化 3D / 动画输出。
@@ -387,7 +387,7 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 ### Case 19: 视觉概念艺术
 
-<img src="assets/media/023-Cinematic-narrative-visual-concept.png" width="720" alt="视觉概念艺术">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/023-Cinematic-narrative-visual-concept.png" width="720" alt="视觉概念艺术">
 
 > [!NOTE]
 > 用于氛围、视觉方向和情绪探索的概念艺术风格生成。
@@ -398,7 +398,7 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 ### Case 20: 游戏场景视觉
 
-<img src="assets/media/024-Cinematic-narrative-game-scene.png" width="720" alt="游戏场景视觉">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/024-Cinematic-narrative-game-scene.png" width="720" alt="游戏场景视觉">
 
 > [!NOTE]
 > 用于环境、布景或 key art 探索的游戏化场景生成。
@@ -417,7 +417,7 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 ### Case 21: 阿拉伯语与英语欢迎牌
 
-<img src="assets/media/025-Welcome.png" width="720" alt="阿拉伯语与英语欢迎牌">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/025-Welcome.png" width="720" alt="阿拉伯语与英语欢迎牌">
 
 > [!NOTE]
 > 在同一画面中原生渲染阿拉伯语和英语文字。
@@ -428,7 +428,7 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 ### Case 22: 韩语 24 小时营业标牌
 
-<img src="assets/media/026-24-Open-24-hours.png" width="720" alt="韩语 24 小时营业标牌">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/026-24-Open-24-hours.png" width="720" alt="韩语 24 小时营业标牌">
 
 > [!NOTE]
 > 面向本地化店面或标牌内容的韩语文字渲染。
@@ -439,7 +439,7 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 ### Case 23: 泰语清洁提示标牌
 
-<img src="assets/media/027-Please-help-keep-the-place-clean-together.png" width="720" alt="泰语清洁提示标牌">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/027-Please-help-keep-the-place-clean-together.png" width="720" alt="泰语清洁提示标牌">
 
 > [!NOTE]
 > 面向本地公共空间或活动视觉的泰语文字渲染。
@@ -450,7 +450,7 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 ### Case 24: 法语创作海报
 
-<img src="assets/media/028-CREATION-FRANCAISE-Made-in-France.png" width="720" alt="法语创作海报">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/028-CREATION-FRANCAISE-Made-in-France.png" width="720" alt="法语创作海报">
 
 > [!NOTE]
 > 面向产品、时尚和活动资产的法语文字渲染。
@@ -461,7 +461,7 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 ### Case 25: 俄语未来海报
 
-<img src="assets/media/029-Future.png" width="720" alt="俄语未来海报">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/029-Future.png" width="720" alt="俄语未来海报">
 
 > [!NOTE]
 > 为本地化视觉概念渲染字符结构清晰的俄语文字。

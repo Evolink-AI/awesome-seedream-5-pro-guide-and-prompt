@@ -94,7 +94,7 @@ Case-Anzahl: **2**.
 
 ### Case 1: Pfeile und Anmerkungsboxen für räumliche Absicht
 
-<img src="assets/media/003-arrows-annotation-boxes.gif" width="720" alt="Pfeile und Anmerkungsboxen für räumliche Absicht">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/003-arrows-annotation-boxes.gif" width="720" alt="Pfeile und Anmerkungsboxen für räumliche Absicht">
 
 > [!NOTE]
 > Markiere den Zielbereich vor der Bearbeitung explizit mit Pfeilen, Boxen und Anmerkungen.
@@ -105,7 +105,7 @@ Case-Anzahl: **2**.
 
 ### Case 2: Objektbeschreibung nach Bereichsboxen für gezielte Bearbeitung
 
-<img src="assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif" width="720" alt="Objektbeschreibung nach Bereichsboxen für gezielte Bearbeitung">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif" width="720" alt="Objektbeschreibung nach Bereichsboxen für gezielte Bearbeitung">
 
 **Prompt:**
 
@@ -127,7 +127,7 @@ Case-Anzahl: **4**.
 
 ### Case 3: Objektgenerierung mit Doodle-Vorgabe
 
-<img src="assets/media/005-doodles.gif" width="720" alt="Objektgenerierung mit Doodle-Vorgabe">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/005-doodles.gif" width="720" alt="Objektgenerierung mit Doodle-Vorgabe">
 
 > [!NOTE]
 > Verwende grobe Doodles als visuelles Steuersignal und lasse das Modell das beabsichtigte Objekt rendern.
@@ -138,7 +138,7 @@ Case-Anzahl: **4**.
 
 ### Case 4: Bearbeitung mit Farbblock-Vorgabe
 
-<img src="assets/media/006-color-block.gif" width="720" alt="Bearbeitung mit Farbblock-Vorgabe">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/006-color-block.gif" width="720" alt="Bearbeitung mit Farbblock-Vorgabe">
 
 > [!NOTE]
 > Nutze breite Farbblöcke, um grobe Komposition, Farbzonen oder Objektplatzierung festzulegen.
@@ -149,7 +149,7 @@ Case-Anzahl: **4**.
 
 ### Case 5: Detailbearbeitung mit Linienvorgabe
 
-<img src="assets/media/007-lines.gif" width="720" alt="Detailbearbeitung mit Linienvorgabe">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/007-lines.gif" width="720" alt="Detailbearbeitung mit Linienvorgabe">
 
 > [!NOTE]
 > Verwende einfache Linienvorgaben, wenn die Formgrenze wichtiger ist als eine lange Textbeschreibung.
@@ -160,7 +160,7 @@ Case-Anzahl: **4**.
 
 ### Case 6: Von einfacher Skizze zu verfeinertem Bild
 
-<img src="assets/media/008-simple-sketches.gif" width="720" alt="Von einfacher Skizze zu verfeinertem Bild">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/008-simple-sketches.gif" width="720" alt="Von einfacher Skizze zu verfeinertem Bild">
 
 > [!NOTE]
 > Wandle eine minimale Skizze in ein vollständiger gerendertes Bild um, ohne die Skizzenabsicht zu verlieren.
@@ -179,7 +179,7 @@ Case-Anzahl: **6**.
 
 ### Case 7: Text- und Grafikebenen im Poster bearbeiten: Avery Turns
 
-<img src="assets/media/009-Feishu-Docs-Image.gif" width="720" alt="Text- und Grafikebenen im Poster bearbeiten: Avery Turns">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/009-Feishu-Docs-Image.gif" width="720" alt="Text- und Grafikebenen im Poster bearbeiten: Avery Turns">
 
 > [!NOTE]
 > Bearbeite sichtbare Posterelemente, während die gesamte Designstruktur erhalten bleibt.
@@ -190,7 +190,7 @@ Case-Anzahl: **6**.
 
 ### Case 8: Angebots-Ebene im Poster bearbeiten: Happy Hour
 
-<img src="assets/media/010-Feishu-Docs-Image.gif" width="720" alt="Angebots-Ebene im Poster bearbeiten: Happy Hour">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/010-Feishu-Docs-Image.gif" width="720" alt="Angebots-Ebene im Poster bearbeiten: Happy Hour">
 
 > [!NOTE]
 > Ändere ein Promotion-Badge oder Grafikelement, ohne das ganze Poster neu aufzubauen.
@@ -201,7 +201,7 @@ Case-Anzahl: **6**.
 
 ### Case 9: Modebild-Ebene innerhalb eines Designlayouts bearbeiten
 
-<img src="assets/media/011-Feishu-Docs-Image.gif" width="720" alt="Modebild-Ebene innerhalb eines Designlayouts bearbeiten">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/011-Feishu-Docs-Image.gif" width="720" alt="Modebild-Ebene innerhalb eines Designlayouts bearbeiten">
 
 > [!NOTE]
 > Passe ein geschichtetes Motiv innerhalb eines komponierten visuellen Layouts an.
@@ -212,7 +212,7 @@ Case-Anzahl: **6**.
 
 ### Case 10: Grafikebene eines Sportposters bearbeiten
 
-<img src="assets/media/012-Feishu-Docs-Image.gif" width="720" alt="Grafikebene eines Sportposters bearbeiten">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/012-Feishu-Docs-Image.gif" width="720" alt="Grafikebene eines Sportposters bearbeiten">
 
 > [!NOTE]
 > Bearbeite eine Racing-Poster-Grafik, während Typografie und Komposition ausgerichtet bleiben.
@@ -223,7 +223,7 @@ Case-Anzahl: **6**.
 
 ### Case 11: Posterelement bearbeiten: Public Joy
 
-<img src="assets/media/013-Feishu-Docs-Image.gif" width="720" alt="Posterelement bearbeiten: Public Joy">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/013-Feishu-Docs-Image.gif" width="720" alt="Posterelement bearbeiten: Public Joy">
 
 > [!NOTE]
 > Ändere Posterelemente, während die ursprüngliche Designsprache erhalten bleibt.
@@ -234,7 +234,7 @@ Case-Anzahl: **6**.
 
 ### Case 12: Materialoberfläche mit präziser Texturreaktion austauschen
 
-<img src="assets/media/014-Feishu-Docs-Image.gif" width="720" alt="Materialoberfläche mit präziser Texturreaktion austauschen">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/014-Feishu-Docs-Image.gif" width="720" alt="Materialoberfläche mit präziser Texturreaktion austauschen">
 
 > [!NOTE]
 > Tausche Material- und Farbziele aus, während die Objektstruktur intakt bleibt.
@@ -259,14 +259,14 @@ Case-Anzahl: **1**.
 
 **Vorher:**
 
-<img src="assets/media/015-Feishu-Docs-Image.png" width="420" alt="Objektbewegung anhand einer Rasterposition vorher">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/015-Feishu-Docs-Image.png" width="420" alt="Objektbewegung anhand einer Rasterposition vorher">
 
 </td>
 <td width="50%" valign="top">
 
 **Nachher:**
 
-<img src="assets/media/016-Feishu-Docs-Image.png" width="420" alt="Objektbewegung anhand einer Rasterposition nachher">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/016-Feishu-Docs-Image.png" width="420" alt="Objektbewegung anhand einer Rasterposition nachher">
 
 </td>
 </tr>
@@ -292,7 +292,7 @@ Case-Anzahl: **1**.
 
 ### Case 14: Vordergrund-/Personenebene trennen
 
-<img src="assets/media/017-Feishu-Docs-Image.png" width="720" alt="Vordergrund-/Personenebene trennen">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/017-Feishu-Docs-Image.png" width="720" alt="Vordergrund-/Personenebene trennen">
 
 > [!NOTE]
 > Trenne ein Vordergrundmotiv von einem posterartigen Hintergrund, damit es später wiederverwendet werden kann.
@@ -317,14 +317,14 @@ Case-Anzahl: **1**.
 
 **Input:**
 
-<img src="assets/media/018-Feishu-Docs-Image.png" width="420" alt="Stillleben-Komposition mit sieben Referenzen als Input">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/018-Feishu-Docs-Image.png" width="420" alt="Stillleben-Komposition mit sieben Referenzen als Input">
 
 </td>
 <td width="50%" valign="top">
 
 **Output:**
 
-<img src="assets/media/019-Feishu-Docs-Image.png" width="420" alt="Stillleben-Komposition mit sieben Referenzen als Output">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/019-Feishu-Docs-Image.png" width="420" alt="Stillleben-Komposition mit sieben Referenzen als Output">
 
 </td>
 </tr>
@@ -354,7 +354,7 @@ Case-Anzahl: **5**.
 
 ### Case 16: Filmische Tennisszene mit splitterndem Glas
 
-<img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" width="720" alt="Filmische Tennisszene mit splitterndem Glas">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" width="720" alt="Filmische Tennisszene mit splitterndem Glas">
 
 > [!NOTE]
 > High-Motion-Szenengenerierung mit Glassplittern, Action-Timing und filmischem Licht.
@@ -365,7 +365,7 @@ Case-Anzahl: **5**.
 
 ### Case 17: Filmische Boxaktion
 
-<img src="assets/media/021-Cinematic-narrative-action-boxing.png" width="720" alt="Filmische Boxaktion">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/021-Cinematic-narrative-action-boxing.png" width="720" alt="Filmische Boxaktion">
 
 > [!NOTE]
 > Action-Szenen-Rendering mit stärkerem Bewegungsgefühl, Impact und Szenentiefe.
@@ -376,7 +376,7 @@ Case-Anzahl: **5**.
 
 ### Case 18: Szene im 3D-Animationsstil
 
-<img src="assets/media/022-Cinematic-narrative-3D-animation.png" width="720" alt="Szene im 3D-Animationsstil">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/022-Cinematic-narrative-3D-animation.png" width="720" alt="Szene im 3D-Animationsstil">
 
 > [!NOTE]
 > Stilisierter 3D-/Animations-Output für Charaktere oder Entertainment-Visuals.
@@ -387,7 +387,7 @@ Case-Anzahl: **5**.
 
 ### Case 19: Visuelle Concept Art
 
-<img src="assets/media/023-Cinematic-narrative-visual-concept.png" width="720" alt="Visuelle Concept Art">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/023-Cinematic-narrative-visual-concept.png" width="720" alt="Visuelle Concept Art">
 
 > [!NOTE]
 > Concept-Art-Generierung zur Erkundung von Atmosphäre, visueller Richtung und Stimmung.
@@ -398,7 +398,7 @@ Case-Anzahl: **5**.
 
 ### Case 20: Game-Scene-Visual
 
-<img src="assets/media/024-Cinematic-narrative-game-scene.png" width="720" alt="Game-Scene-Visual">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/024-Cinematic-narrative-game-scene.png" width="720" alt="Game-Scene-Visual">
 
 > [!NOTE]
 > Spielartige Szenengenerierung für Umgebung, Set oder Key-Art-Erkundung.
@@ -417,7 +417,7 @@ Case-Anzahl: **5**.
 
 ### Case 21: Willkommensschild auf Arabisch und Englisch
 
-<img src="assets/media/025-Welcome.png" width="720" alt="Willkommensschild auf Arabisch und Englisch">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/025-Welcome.png" width="720" alt="Willkommensschild auf Arabisch und Englisch">
 
 > [!NOTE]
 > Natives mehrsprachiges Rendering mit arabischem und englischem Text im selben Visual.
@@ -428,7 +428,7 @@ Case-Anzahl: **5**.
 
 ### Case 22: Koreanisches 24-Stunden-geöffnet-Schild
 
-<img src="assets/media/026-24-Open-24-hours.png" width="720" alt="Koreanisches 24-Stunden-geöffnet-Schild">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/026-24-Open-24-hours.png" width="720" alt="Koreanisches 24-Stunden-geöffnet-Schild">
 
 > [!NOTE]
 > Koreanisches Textrendering für lokalisierte Ladenfronten oder Beschilderung.
@@ -439,7 +439,7 @@ Case-Anzahl: **5**.
 
 ### Case 23: Thailändisches Sauberkeitsschild
 
-<img src="assets/media/027-Please-help-keep-the-place-clean-together.png" width="720" alt="Thailändisches Sauberkeitsschild">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/027-Please-help-keep-the-place-clean-together.png" width="720" alt="Thailändisches Sauberkeitsschild">
 
 > [!NOTE]
 > Thailändisches Textrendering für lokale öffentliche Räume oder Kampagnenvisuals.
@@ -450,7 +450,7 @@ Case-Anzahl: **5**.
 
 ### Case 24: Französisches Creation-Poster
 
-<img src="assets/media/028-CREATION-FRANCAISE-Made-in-France.png" width="720" alt="Französisches Creation-Poster">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/028-CREATION-FRANCAISE-Made-in-France.png" width="720" alt="Französisches Creation-Poster">
 
 > [!NOTE]
 > Französisches Textrendering für Produkt-, Fashion- und Kampagnenassets.
@@ -461,7 +461,7 @@ Case-Anzahl: **5**.
 
 ### Case 25: Russisches Zukunftsposter
 
-<img src="assets/media/029-Future.png" width="720" alt="Russisches Zukunftsposter">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/029-Future.png" width="720" alt="Russisches Zukunftsposter">
 
 > [!NOTE]
 > Russisches Textrendering mit klarer Zeichenstruktur für lokalisierte visuelle Konzepte.

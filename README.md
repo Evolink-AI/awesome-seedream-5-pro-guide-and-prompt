@@ -94,7 +94,7 @@ Case count: **2**.
 
 ### Case 1: Arrows and annotation boxes for spatial intent
 
-<img src="assets/media/003-arrows-annotation-boxes.gif" width="720" alt="Arrows and annotation boxes for spatial intent">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/003-arrows-annotation-boxes.gif" width="720" alt="Arrows and annotation boxes for spatial intent">
 
 > [!NOTE]
 > Use arrows, boxes, and annotations to make the target area explicit before editing.
@@ -105,7 +105,7 @@ Case count: **2**.
 
 ### Case 2: Region-box object description for targeted editing
 
-<img src="assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif" width="720" alt="Region-box object description for targeted editing">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif" width="720" alt="Region-box object description for targeted editing">
 
 **Prompt:**
 
@@ -127,7 +127,7 @@ Case count: **4**.
 
 ### Case 3: Doodle-guided object generation
 
-<img src="assets/media/005-doodles.gif" width="720" alt="Doodle-guided object generation">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/005-doodles.gif" width="720" alt="Doodle-guided object generation">
 
 > [!NOTE]
 > Use loose doodles as the visual control signal and let the model render the intended object.
@@ -138,7 +138,7 @@ Case count: **4**.
 
 ### Case 4: Color-block guided editing
 
-<img src="assets/media/006-color-block.gif" width="720" alt="Color-block guided editing">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/006-color-block.gif" width="720" alt="Color-block guided editing">
 
 > [!NOTE]
 > Use broad color blocks to specify rough composition, color zones, or object placement.
@@ -149,7 +149,7 @@ Case count: **4**.
 
 ### Case 5: Line-guided detail editing
 
-<img src="assets/media/007-lines.gif" width="720" alt="Line-guided detail editing">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/007-lines.gif" width="720" alt="Line-guided detail editing">
 
 > [!NOTE]
 > Use simple line guidance when the shape boundary matters more than a long text description.
@@ -160,7 +160,7 @@ Case count: **4**.
 
 ### Case 6: Simple sketch to refined image
 
-<img src="assets/media/008-simple-sketches.gif" width="720" alt="Simple sketch to refined image">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/008-simple-sketches.gif" width="720" alt="Simple sketch to refined image">
 
 > [!NOTE]
 > Turn a minimal sketch into a more complete rendered image while preserving the sketch intent.
@@ -179,7 +179,7 @@ Case count: **6**.
 
 ### Case 7: Poster text and graphic layer edit: Avery Turns
 
-<img src="assets/media/009-Feishu-Docs-Image.gif" width="720" alt="Poster text and graphic layer edit: Avery Turns">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/009-Feishu-Docs-Image.gif" width="720" alt="Poster text and graphic layer edit: Avery Turns">
 
 > [!NOTE]
 > Edit visible poster elements while preserving the overall design structure.
@@ -190,7 +190,7 @@ Case count: **6**.
 
 ### Case 8: Poster offer layer edit: Happy Hour
 
-<img src="assets/media/010-Feishu-Docs-Image.gif" width="720" alt="Poster offer layer edit: Happy Hour">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/010-Feishu-Docs-Image.gif" width="720" alt="Poster offer layer edit: Happy Hour">
 
 > [!NOTE]
 > Change a promotion badge or graphic element without rebuilding the whole poster.
@@ -201,7 +201,7 @@ Case count: **6**.
 
 ### Case 9: Fashion image layer edit inside a design layout
 
-<img src="assets/media/011-Feishu-Docs-Image.gif" width="720" alt="Fashion image layer edit inside a design layout">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/011-Feishu-Docs-Image.gif" width="720" alt="Fashion image layer edit inside a design layout">
 
 > [!NOTE]
 > Adjust a layered subject inside a composed visual layout.
@@ -212,7 +212,7 @@ Case count: **6**.
 
 ### Case 10: Sports poster graphic layer edit
 
-<img src="assets/media/012-Feishu-Docs-Image.gif" width="720" alt="Sports poster graphic layer edit">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/012-Feishu-Docs-Image.gif" width="720" alt="Sports poster graphic layer edit">
 
 > [!NOTE]
 > Edit a racing poster graphic while keeping typography and composition aligned.
@@ -223,7 +223,7 @@ Case count: **6**.
 
 ### Case 11: Poster element edit: Public Joy
 
-<img src="assets/media/013-Feishu-Docs-Image.gif" width="720" alt="Poster element edit: Public Joy">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/013-Feishu-Docs-Image.gif" width="720" alt="Poster element edit: Public Joy">
 
 > [!NOTE]
 > Modify poster elements while preserving the source design language.
@@ -234,7 +234,7 @@ Case count: **6**.
 
 ### Case 12: Material surface swap with precise texture response
 
-<img src="assets/media/014-Feishu-Docs-Image.gif" width="720" alt="Material surface swap with precise texture response">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/014-Feishu-Docs-Image.gif" width="720" alt="Material surface swap with precise texture response">
 
 > [!NOTE]
 > Swap material and color targets while keeping the object structure intact.
@@ -259,14 +259,14 @@ Case count: **1**.
 
 **Before:**
 
-<img src="assets/media/015-Feishu-Docs-Image.png" width="420" alt="Grid-position object movement before">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/015-Feishu-Docs-Image.png" width="420" alt="Grid-position object movement before">
 
 </td>
 <td width="50%" valign="top">
 
 **After:**
 
-<img src="assets/media/016-Feishu-Docs-Image.png" width="420" alt="Grid-position object movement after">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/016-Feishu-Docs-Image.png" width="420" alt="Grid-position object movement after">
 
 </td>
 </tr>
@@ -292,7 +292,7 @@ Case count: **1**.
 
 ### Case 14: Foreground/person layer separation
 
-<img src="assets/media/017-Feishu-Docs-Image.png" width="720" alt="Foreground/person layer separation">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/017-Feishu-Docs-Image.png" width="720" alt="Foreground/person layer separation">
 
 > [!NOTE]
 > Separate a foreground subject from a poster-like background for later reuse.
@@ -317,14 +317,14 @@ Case count: **1**.
 
 **Input:**
 
-<img src="assets/media/018-Feishu-Docs-Image.png" width="420" alt="Seven-reference still-life composition input">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/018-Feishu-Docs-Image.png" width="420" alt="Seven-reference still-life composition input">
 
 </td>
 <td width="50%" valign="top">
 
 **Output:**
 
-<img src="assets/media/019-Feishu-Docs-Image.png" width="420" alt="Seven-reference still-life composition output">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/019-Feishu-Docs-Image.png" width="420" alt="Seven-reference still-life composition output">
 
 </td>
 </tr>
@@ -353,7 +353,7 @@ Case count: **5**.
 
 ### Case 16: Cinematic tennis glass shatter
 
-<img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" width="720" alt="Cinematic tennis glass shatter">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" width="720" alt="Cinematic tennis glass shatter">
 
 > [!NOTE]
 > High-motion scene generation with glass fragments, action timing, and cinematic lighting.
@@ -364,7 +364,7 @@ Case count: **5**.
 
 ### Case 17: Cinematic boxing action
 
-<img src="assets/media/021-Cinematic-narrative-action-boxing.png" width="720" alt="Cinematic boxing action">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/021-Cinematic-narrative-action-boxing.png" width="720" alt="Cinematic boxing action">
 
 > [!NOTE]
 > Action-scene rendering with a stronger sense of motion, impact, and scene depth.
@@ -375,7 +375,7 @@ Case count: **5**.
 
 ### Case 18: 3D animation style scene
 
-<img src="assets/media/022-Cinematic-narrative-3D-animation.png" width="720" alt="3D animation style scene">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/022-Cinematic-narrative-3D-animation.png" width="720" alt="3D animation style scene">
 
 > [!NOTE]
 > Stylized 3D/animation output for character or entertainment visuals.
@@ -386,7 +386,7 @@ Case count: **5**.
 
 ### Case 19: Visual concept art
 
-<img src="assets/media/023-Cinematic-narrative-visual-concept.png" width="720" alt="Visual concept art">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/023-Cinematic-narrative-visual-concept.png" width="720" alt="Visual concept art">
 
 > [!NOTE]
 > Concept-art style generation for atmosphere, visual direction, and mood exploration.
@@ -397,7 +397,7 @@ Case count: **5**.
 
 ### Case 20: Game scene visual
 
-<img src="assets/media/024-Cinematic-narrative-game-scene.png" width="720" alt="Game scene visual">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/024-Cinematic-narrative-game-scene.png" width="720" alt="Game scene visual">
 
 > [!NOTE]
 > Game-like scene generation for environment, set, or key-art exploration.
@@ -416,7 +416,7 @@ Case count: **5**.
 
 ### Case 21: Arabic and English welcome sign
 
-<img src="assets/media/025-Welcome.png" width="720" alt="Arabic and English welcome sign">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/025-Welcome.png" width="720" alt="Arabic and English welcome sign">
 
 > [!NOTE]
 > Native multilingual rendering with Arabic and English text in the same visual.
@@ -427,7 +427,7 @@ Case count: **5**.
 
 ### Case 22: Korean open-24-hours sign
 
-<img src="assets/media/026-24-Open-24-hours.png" width="720" alt="Korean open-24-hours sign">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/026-24-Open-24-hours.png" width="720" alt="Korean open-24-hours sign">
 
 > [!NOTE]
 > Korean text rendering for localized storefront or signage content.
@@ -438,7 +438,7 @@ Case count: **5**.
 
 ### Case 23: Thai cleanliness sign
 
-<img src="assets/media/027-Please-help-keep-the-place-clean-together.png" width="720" alt="Thai cleanliness sign">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/027-Please-help-keep-the-place-clean-together.png" width="720" alt="Thai cleanliness sign">
 
 > [!NOTE]
 > Thai text rendering for local public-space or campaign visuals.
@@ -449,7 +449,7 @@ Case count: **5**.
 
 ### Case 24: French creation poster
 
-<img src="assets/media/028-CREATION-FRANCAISE-Made-in-France.png" width="720" alt="French creation poster">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/028-CREATION-FRANCAISE-Made-in-France.png" width="720" alt="French creation poster">
 
 > [!NOTE]
 > French text rendering for product, fashion, and campaign assets.
@@ -460,7 +460,7 @@ Case count: **5**.
 
 ### Case 25: Russian future poster
 
-<img src="assets/media/029-Future.png" width="720" alt="Russian future poster">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/029-Future.png" width="720" alt="Russian future poster">
 
 > [!NOTE]
 > Russian text rendering with clear character structure for localized visual concepts.

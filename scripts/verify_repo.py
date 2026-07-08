@@ -7,6 +7,7 @@ import json
 import re
 import sys
 from pathlib import Path
+from urllib.parse import unquote, urlparse
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -65,10 +66,25 @@ def case_numbers(text: str) -> list[int]:
     return [int(match) for match in re.findall(r"^### Case ([0-9]+):", text, re.MULTILINE)]
 
 
-def media_refs(text: str) -> list[str]:
+def media_refs(text: str, *, local_only: bool = True) -> list[str]:
     refs = re.findall(r"<img\s+[^>]*src=[\"']([^\"']+)[\"']", text)
     refs.extend(re.findall(r"!\[[^\]]*\]\(([^)]+)\)", text))
-    return [ref for ref in refs if not ref.startswith("http")]
+    if local_only:
+        return [ref for ref in refs if not ref.startswith("http")]
+    return refs
+
+
+def ref_mentions_path(ref: str, rel: str) -> bool:
+    if ref == rel:
+        return True
+    if ref.startswith("http://") or ref.startswith("https://"):
+        path = unquote(urlparse(ref).path.lstrip("/"))
+        return path.endswith(rel) or f"/{rel}" in f"/{path}"
+    return False
+
+
+def text_mentions_media(text: str, rel: str) -> bool:
+    return any(ref_mentions_path(ref, rel) for ref in media_refs(text, local_only=False))
 
 
 def load_inventory(failures: list[str]) -> dict:
@@ -116,20 +132,27 @@ def verify_readme(rel: str, source_case_numbers: list[int], source_media_refs: s
             fail(f"{rel} is missing explicit anchor for case {number}.", failures)
 
     refs = set(media_refs(text))
+    all_refs = set(media_refs(text, local_only=False))
+    all_source_refs = set(media_refs(read_text(ROOT / "README.md"), local_only=False))
     if rel != "README.md" and refs != source_media_refs:
         missing = sorted(source_media_refs - refs)
         extra = sorted(refs - source_media_refs)
         if missing or extra:
             fail(f"{rel} media refs differ from README.md. Missing={missing}; extra={extra}", failures)
+    if rel != "README.md" and all_refs != all_source_refs:
+        missing = sorted(all_source_refs - all_refs)
+        extra = sorted(all_refs - all_source_refs)
+        if missing or extra:
+            fail(f"{rel} all media refs differ from README.md. Missing={missing}; extra={extra}", failures)
     for ref in refs:
         if not (ROOT / ref).is_file():
             fail(f"{rel} references missing media file: {ref}", failures)
     for stem in EXPECTED_GIF_STEMS:
         gif = f"assets/media/{stem}.gif"
         png = f"assets/media/{stem}.png"
-        if gif not in text:
+        if not text_mentions_media(text, gif):
             fail(f"{rel} must reference collected GIF media: {gif}", failures)
-        if png in text:
+        if text_mentions_media(text, png):
             fail(f"{rel} must not use static PNG fallback for collected GIF media: {png}", failures)
 
 
@@ -203,11 +226,11 @@ def main() -> int:
     if "#case-15" in layer_section or '<a id="case-15"></a>' in layer_section or "assets/media/018-Feishu-Docs-Image.png" in layer_section or "assets/media/019-Feishu-Docs-Image.png" in layer_section:
         fail("Layer Separation must not list Case 15 or media 018/019; those form the Multi-image Fusion input-output case.")
     case15 = readme.split("### Case 15:", 1)[1].split("---", 1)[0] if "### Case 15:" in readme else ""
-    if "assets/media/018-Feishu-Docs-Image.png" not in case15 or "assets/media/019-Feishu-Docs-Image.png" not in case15:
+    if not text_mentions_media(case15, "assets/media/018-Feishu-Docs-Image.png") or not text_mentions_media(case15, "assets/media/019-Feishu-Docs-Image.png"):
         fail("Case 15 must merge former media 018/019 as one Multi-image Fusion input-output pair.")
     if "**Prompt:**" not in case15:
         fail("Case 15 must keep the official seven-reference prompt with the input-output media pair.")
-    if "assets/media/014-Feishu-Docs-Image.gif" not in readme:
+    if not text_mentions_media(readme, "assets/media/014-Feishu-Docs-Image.gif"):
         fail("Material editing GIF must be represented as its own layer-editing case.")
     multi_section = readme.split('<a id="multi-image-fusion-editing"></a>', 1)[1].split('<a id="visual-quality-narrative"></a>', 1)[0]
     if "Case count: **1**." not in multi_section or "### Case 15:" not in multi_section:

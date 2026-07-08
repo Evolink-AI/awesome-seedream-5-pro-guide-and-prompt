@@ -66,21 +66,36 @@ def extract_targets(text: str) -> list[tuple[str, str]]:
     return targets
 
 
+def request_http(url: str, timeout: int, method: str) -> tuple[bool, str]:
+    headers = {"User-Agent": "model-repo-link-audit/1.0"}
+    if method == "GET":
+        headers["Range"] = "bytes=0-0"
+    request = urllib.request.Request(url, method=method, headers=headers)
+    with urllib.request.urlopen(request, timeout=timeout) as response:
+        status = response.getcode()
+        final_url = response.geturl()
+        if 200 <= status < 400:
+            if final_url != url:
+                return True, f"{status}, redirected to {final_url}"
+            return True, str(status)
+        return False, f"HTTP {status}"
+
+
 def check_http(url: str, timeout: int) -> tuple[bool, str]:
-    request = urllib.request.Request(url, method="GET", headers={"User-Agent": "model-repo-link-audit/1.0"})
     last_error = ""
     for attempt in range(3):
         try:
-            with urllib.request.urlopen(request, timeout=timeout) as response:
-                status = response.getcode()
-                final_url = response.geturl()
-                if 200 <= status < 400:
-                    if final_url != url:
-                        return True, f"{status}, redirected to {final_url}"
-                    return True, str(status)
-                return False, f"HTTP {status}"
+            return request_http(url, timeout, "HEAD")
         except urllib.error.HTTPError as exc:
-            return False, f"HTTP {exc.code}"
+            if exc.code in {403, 405, 501}:
+                try:
+                    return request_http(url, timeout, "GET")
+                except urllib.error.HTTPError as get_exc:
+                    return False, f"HTTP {get_exc.code}"
+                except Exception as get_exc:
+                    last_error = get_exc.__class__.__name__
+            else:
+                return False, f"HTTP {exc.code}"
         except Exception as exc:
             last_error = exc.__class__.__name__
             if attempt < 2:
@@ -107,7 +122,8 @@ def check_utm(url: str) -> str | None:
 
 def audit(root: Path, timeout: int) -> tuple[list[Finding], dict[str, int]]:
     findings: list[Finding] = []
-    counts = {"targets": 0, "checked_http": 0, "skipped_http": 0, "redirects": 0}
+    counts = {"targets": 0, "checked_http": 0, "http_cache_hits": 0, "skipped_http": 0, "redirects": 0}
+    http_cache: dict[str, tuple[bool, str]] = {}
     file_anchors = {path: anchors_for(path.read_text(encoding="utf-8", errors="replace")) for path in public_files(root)}
 
     for path, anchors in file_anchors.items():
@@ -128,8 +144,13 @@ def audit(root: Path, timeout: int) -> tuple[list[Finding], dict[str, int]]:
                     utm_issue = check_utm(base)
                     if utm_issue:
                         findings.append(Finding("P1", rel_file, target, utm_issue))
-                ok, detail = check_http(base, timeout)
-                counts["checked_http"] += 1
+                if base in http_cache:
+                    ok, detail = http_cache[base]
+                    counts["http_cache_hits"] += 1
+                else:
+                    ok, detail = check_http(base, timeout)
+                    http_cache[base] = (ok, detail)
+                    counts["checked_http"] += 1
                 if "redirected to" in detail:
                     counts["redirects"] += 1
                 if not ok:
@@ -168,7 +189,8 @@ def write_report(root: Path, out: Path, findings: list[Finding], counts: dict[st
         "- Excluded: `local-audits/` private evidence, `source-material/` provenance copies, generated/vendor/cache paths",
         f"- Command: `{command}`",
         f"- Total extracted links/assets: {counts['targets']}",
-        f"- Checked HTTP(S): {counts['checked_http']}",
+        f"- Checked unique HTTP(S): {counts['checked_http']}",
+        f"- HTTP(S) cache hits: {counts['http_cache_hits']}",
         f"- Skipped HTTP(S): {counts['skipped_http']}",
         f"- Redirects: {counts['redirects']}",
         f"- P0 failures: {p0}",

@@ -94,7 +94,7 @@ Case sayısı: **2**.
 
 ### Case 1: Mekânsal niyet için oklar ve açıklama kutuları
 
-<img src="assets/media/003-arrows-annotation-boxes.gif" width="720" alt="Mekânsal niyet için oklar ve açıklama kutuları">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/003-arrows-annotation-boxes.gif" width="720" alt="Mekânsal niyet için oklar ve açıklama kutuları">
 
 > [!NOTE]
 > Düzenlemeden önce hedef alanı açık hale getirmek için oklar, kutular ve açıklamalar kullanın.
@@ -105,7 +105,7 @@ Case sayısı: **2**.
 
 ### Case 2: Hedefli düzenleme için bölge kutusu nesne açıklaması
 
-<img src="assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif" width="720" alt="Hedefli düzenleme için bölge kutusu nesne açıklaması">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif" width="720" alt="Hedefli düzenleme için bölge kutusu nesne açıklaması">
 
 **Prompt:**
 
@@ -127,7 +127,7 @@ Case sayısı: **4**.
 
 ### Case 3: Karalama rehberli nesne üretimi
 
-<img src="assets/media/005-doodles.gif" width="720" alt="Karalama rehberli nesne üretimi">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/005-doodles.gif" width="720" alt="Karalama rehberli nesne üretimi">
 
 > [!NOTE]
 > Gevşek karalamaları görsel kontrol sinyali olarak kullanın ve modelin amaçlanan nesneyi işlemesini sağlayın.
@@ -138,7 +138,7 @@ Case sayısı: **4**.
 
 ### Case 4: Renk bloğu rehberli düzenleme
 
-<img src="assets/media/006-color-block.gif" width="720" alt="Renk bloğu rehberli düzenleme">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/006-color-block.gif" width="720" alt="Renk bloğu rehberli düzenleme">
 
 > [!NOTE]
 > Kabaca kompozisyonu, renk bölgelerini veya nesne yerleşimini belirtmek için geniş renk blokları kullanın.
@@ -149,7 +149,7 @@ Case sayısı: **4**.
 
 ### Case 5: Çizgi rehberli detay düzenleme
 
-<img src="assets/media/007-lines.gif" width="720" alt="Çizgi rehberli detay düzenleme">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/007-lines.gif" width="720" alt="Çizgi rehberli detay düzenleme">
 
 > [!NOTE]
 > Şekil sınırı uzun metin açıklamasından daha önemli olduğunda basit çizgi rehberliği kullanın.
@@ -160,7 +160,7 @@ Case sayısı: **4**.
 
 ### Case 6: Basit eskizden rafine görüntüye
 
-<img src="assets/media/008-simple-sketches.gif" width="720" alt="Basit eskizden rafine görüntüye">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/008-simple-sketches.gif" width="720" alt="Basit eskizden rafine görüntüye">
 
 > [!NOTE]
 > Eskizin niyetini korurken minimal bir eskizi daha tamamlanmış bir render görüntüsüne dönüştürün.
@@ -179,7 +179,7 @@ Case sayısı: **6**.
 
 ### Case 7: Poster metni ve grafik katmanı düzenleme: Avery Turns
 
-<img src="assets/media/009-Feishu-Docs-Image.gif" width="720" alt="Poster metni ve grafik katmanı düzenleme: Avery Turns">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/009-Feishu-Docs-Image.gif" width="720" alt="Poster metni ve grafik katmanı düzenleme: Avery Turns">
 
 > [!NOTE]
 > Genel tasarım yapısını koruyarak posterin görünen öğelerini düzenleyin.
@@ -190,7 +190,7 @@ Case sayısı: **6**.
 
 ### Case 8: Poster teklif katmanı düzenleme: Happy Hour
 
-<img src="assets/media/010-Feishu-Docs-Image.gif" width="720" alt="Poster teklif katmanı düzenleme: Happy Hour">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/010-Feishu-Docs-Image.gif" width="720" alt="Poster teklif katmanı düzenleme: Happy Hour">
 
 > [!NOTE]
 > Tüm posteri yeniden oluşturmadan promosyon rozeti veya grafik öğesini değiştirin.
@@ -201,7 +201,7 @@ Case sayısı: **6**.
 
 ### Case 9: Tasarım düzeni içinde moda görseli katmanı düzenleme
 
-<img src="assets/media/011-Feishu-Docs-Image.gif" width="720" alt="Tasarım düzeni içinde moda görseli katmanı düzenleme">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/011-Feishu-Docs-Image.gif" width="720" alt="Tasarım düzeni içinde moda görseli katmanı düzenleme">
 
 > [!NOTE]
 > Oluşturulmuş görsel düzen içinde katmanlı bir özneyi ayarlayın.
@@ -212,7 +212,7 @@ Case sayısı: **6**.
 
 ### Case 10: Spor posteri grafik katmanı düzenleme
 
-<img src="assets/media/012-Feishu-Docs-Image.gif" width="720" alt="Spor posteri grafik katmanı düzenleme">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/012-Feishu-Docs-Image.gif" width="720" alt="Spor posteri grafik katmanı düzenleme">
 
 > [!NOTE]
 > Tipografi ve kompozisyon hizasını koruyarak yarış posteri grafiğini düzenleyin.
@@ -223,7 +223,7 @@ Case sayısı: **6**.
 
 ### Case 11: Poster öğesi düzenleme: Public Joy
 
-<img src="assets/media/013-Feishu-Docs-Image.gif" width="720" alt="Poster öğesi düzenleme: Public Joy">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/013-Feishu-Docs-Image.gif" width="720" alt="Poster öğesi düzenleme: Public Joy">
 
 > [!NOTE]
 > Kaynak tasarım dilini koruyarak poster öğelerini değiştirin.
@@ -234,7 +234,7 @@ Case sayısı: **6**.
 
 ### Case 12: Hassas doku yanıtıyla malzeme yüzeyi değiştirme
 
-<img src="assets/media/014-Feishu-Docs-Image.gif" width="720" alt="Hassas doku yanıtıyla malzeme yüzeyi değiştirme">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/014-Feishu-Docs-Image.gif" width="720" alt="Hassas doku yanıtıyla malzeme yüzeyi değiştirme">
 
 > [!NOTE]
 > Nesne yapısını bozmadan malzeme ve renk hedeflerini değiştirin.
@@ -259,14 +259,14 @@ Case sayısı: **1**.
 
 **Önce:**
 
-<img src="assets/media/015-Feishu-Docs-Image.png" width="420" alt="Izgara konumuna göre nesne hareketi önce">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/015-Feishu-Docs-Image.png" width="420" alt="Izgara konumuna göre nesne hareketi önce">
 
 </td>
 <td width="50%" valign="top">
 
 **Sonra:**
 
-<img src="assets/media/016-Feishu-Docs-Image.png" width="420" alt="Izgara konumuna göre nesne hareketi sonra">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/016-Feishu-Docs-Image.png" width="420" alt="Izgara konumuna göre nesne hareketi sonra">
 
 </td>
 </tr>
@@ -292,7 +292,7 @@ Case sayısı: **1**.
 
 ### Case 14: Ön plan / kişi katmanı ayırma
 
-<img src="assets/media/017-Feishu-Docs-Image.png" width="720" alt="Ön plan / kişi katmanı ayırma">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/017-Feishu-Docs-Image.png" width="720" alt="Ön plan / kişi katmanı ayırma">
 
 > [!NOTE]
 > Daha sonra yeniden kullanmak için ön plan öznesini poster benzeri bir arka plandan ayırın.
@@ -317,14 +317,14 @@ Case sayısı: **1**.
 
 **Giriş:**
 
-<img src="assets/media/018-Feishu-Docs-Image.png" width="420" alt="Yedi referanslı natürmort kompozisyonu girişi">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/018-Feishu-Docs-Image.png" width="420" alt="Yedi referanslı natürmort kompozisyonu girişi">
 
 </td>
 <td width="50%" valign="top">
 
 **Çıkış:**
 
-<img src="assets/media/019-Feishu-Docs-Image.png" width="420" alt="Yedi referanslı natürmort kompozisyonu çıkışı">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/019-Feishu-Docs-Image.png" width="420" alt="Yedi referanslı natürmort kompozisyonu çıkışı">
 
 </td>
 </tr>
@@ -354,7 +354,7 @@ Case sayısı: **5**.
 
 ### Case 16: Cam kırılmalı sinematik tenis sahnesi
 
-<img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" width="720" alt="Cam kırılmalı sinematik tenis sahnesi">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" width="720" alt="Cam kırılmalı sinematik tenis sahnesi">
 
 > [!NOTE]
 > Cam parçaları, aksiyon zamanlaması ve sinematik ışık içeren yüksek hareketli sahne üretimi.
@@ -365,7 +365,7 @@ Case sayısı: **5**.
 
 ### Case 17: Sinematik boks aksiyonu
 
-<img src="assets/media/021-Cinematic-narrative-action-boxing.png" width="720" alt="Sinematik boks aksiyonu">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/021-Cinematic-narrative-action-boxing.png" width="720" alt="Sinematik boks aksiyonu">
 
 > [!NOTE]
 > Daha güçlü hareket, darbe ve sahne derinliği hissi veren aksiyon sahnesi render’ı.
@@ -376,7 +376,7 @@ Case sayısı: **5**.
 
 ### Case 18: 3D animasyon tarzı sahne
 
-<img src="assets/media/022-Cinematic-narrative-3D-animation.png" width="720" alt="3D animasyon tarzı sahne">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/022-Cinematic-narrative-3D-animation.png" width="720" alt="3D animasyon tarzı sahne">
 
 > [!NOTE]
 > Karakter veya eğlence görselleri için stilize 3D / animasyon çıktısı.
@@ -387,7 +387,7 @@ Case sayısı: **5**.
 
 ### Case 19: Görsel konsept sanatı
 
-<img src="assets/media/023-Cinematic-narrative-visual-concept.png" width="720" alt="Görsel konsept sanatı">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/023-Cinematic-narrative-visual-concept.png" width="720" alt="Görsel konsept sanatı">
 
 > [!NOTE]
 > Atmosfer, görsel yön ve duygu keşfi için konsept sanat tarzı üretim.
@@ -398,7 +398,7 @@ Case sayısı: **5**.
 
 ### Case 20: Oyun sahnesi görseli
 
-<img src="assets/media/024-Cinematic-narrative-game-scene.png" width="720" alt="Oyun sahnesi görseli">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/024-Cinematic-narrative-game-scene.png" width="720" alt="Oyun sahnesi görseli">
 
 > [!NOTE]
 > Ortam, set veya key art keşfi için oyun benzeri sahne üretimi.
@@ -417,7 +417,7 @@ Case sayısı: **5**.
 
 ### Case 21: Arapça ve İngilizce karşılama tabelası
 
-<img src="assets/media/025-Welcome.png" width="720" alt="Arapça ve İngilizce karşılama tabelası">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/025-Welcome.png" width="720" alt="Arapça ve İngilizce karşılama tabelası">
 
 > [!NOTE]
 > Aynı görselde Arapça ve İngilizce metinle yerel çok dilli render.
@@ -428,7 +428,7 @@ Case sayısı: **5**.
 
 ### Case 22: Korece 24 saat açık tabelası
 
-<img src="assets/media/026-24-Open-24-hours.png" width="720" alt="Korece 24 saat açık tabelası">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/026-24-Open-24-hours.png" width="720" alt="Korece 24 saat açık tabelası">
 
 > [!NOTE]
 > Yerelleştirilmiş vitrin veya tabela içeriği için Korece metin render’ı.
@@ -439,7 +439,7 @@ Case sayısı: **5**.
 
 ### Case 23: Tayca temizlik tabelası
 
-<img src="assets/media/027-Please-help-keep-the-place-clean-together.png" width="720" alt="Tayca temizlik tabelası">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/027-Please-help-keep-the-place-clean-together.png" width="720" alt="Tayca temizlik tabelası">
 
 > [!NOTE]
 > Yerel kamusal alanlar veya kampanya görselleri için Tayca metin render’ı.
@@ -450,7 +450,7 @@ Case sayısı: **5**.
 
 ### Case 24: Fransızca yaratım posteri
 
-<img src="assets/media/028-CREATION-FRANCAISE-Made-in-France.png" width="720" alt="Fransızca yaratım posteri">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/028-CREATION-FRANCAISE-Made-in-France.png" width="720" alt="Fransızca yaratım posteri">
 
 > [!NOTE]
 > Ürün, moda ve kampanya varlıkları için Fransızca metin render’ı.
@@ -461,7 +461,7 @@ Case sayısı: **5**.
 
 ### Case 25: Rusça gelecek posteri
 
-<img src="assets/media/029-Future.png" width="720" alt="Rusça gelecek posteri">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/029-Future.png" width="720" alt="Rusça gelecek posteri">
 
 > [!NOTE]
 > Yerelleştirilmiş görsel konseptler için net karakter yapısıyla Rusça metin render’ı.

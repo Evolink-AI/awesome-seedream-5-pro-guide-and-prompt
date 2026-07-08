@@ -94,7 +94,7 @@
 
 ### Case 1: Стрелки и аннотационные рамки для пространственного намерения
 
-<img src="assets/media/003-arrows-annotation-boxes.gif" width="720" alt="Стрелки и аннотационные рамки для пространственного намерения">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/003-arrows-annotation-boxes.gif" width="720" alt="Стрелки и аннотационные рамки для пространственного намерения">
 
 > [!NOTE]
 > Перед редактированием явно обозначьте целевую область стрелками, рамками и аннотациями.
@@ -105,7 +105,7 @@
 
 ### Case 2: Описание объектов по областям для целевого редактирования
 
-<img src="assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif" width="720" alt="Описание объектов по областям для целевого редактирования">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif" width="720" alt="Описание объектов по областям для целевого редактирования">
 
 **Prompt:**
 
@@ -127,7 +127,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 3: Генерация объекта по каракулю
 
-<img src="assets/media/005-doodles.gif" width="720" alt="Генерация объекта по каракулю">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/005-doodles.gif" width="720" alt="Генерация объекта по каракулю">
 
 > [!NOTE]
 > Используйте свободные каракули как визуальный управляющий сигнал, чтобы модель отрисовала нужный объект.
@@ -138,7 +138,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 4: Редактирование по цветовым блокам
 
-<img src="assets/media/006-color-block.gif" width="720" alt="Редактирование по цветовым блокам">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/006-color-block.gif" width="720" alt="Редактирование по цветовым блокам">
 
 > [!NOTE]
 > Используйте крупные цветовые блоки, чтобы задать общую композицию, цветовые зоны или размещение объектов.
@@ -149,7 +149,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 5: Детальное редактирование по линиям
 
-<img src="assets/media/007-lines.gif" width="720" alt="Детальное редактирование по линиям">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/007-lines.gif" width="720" alt="Детальное редактирование по линиям">
 
 > [!NOTE]
 > Используйте простые линии, когда граница формы важнее длинного текстового описания.
@@ -160,7 +160,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 6: От простого эскиза к доработанному изображению
 
-<img src="assets/media/008-simple-sketches.gif" width="720" alt="От простого эскиза к доработанному изображению">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/008-simple-sketches.gif" width="720" alt="От простого эскиза к доработанному изображению">
 
 > [!NOTE]
 > Превратите минимальный эскиз в более завершенное изображение, сохранив исходное намерение.
@@ -179,7 +179,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 7: Редактирование текстового и графического слоя постера: Avery Turns
 
-<img src="assets/media/009-Feishu-Docs-Image.gif" width="720" alt="Редактирование текстового и графического слоя постера: Avery Turns">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/009-Feishu-Docs-Image.gif" width="720" alt="Редактирование текстового и графического слоя постера: Avery Turns">
 
 > [!NOTE]
 > Редактируйте видимые элементы постера, сохраняя общую структуру дизайна.
@@ -190,7 +190,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 8: Редактирование слоя оффера в постере: Happy Hour
 
-<img src="assets/media/010-Feishu-Docs-Image.gif" width="720" alt="Редактирование слоя оффера в постере: Happy Hour">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/010-Feishu-Docs-Image.gif" width="720" alt="Редактирование слоя оффера в постере: Happy Hour">
 
 > [!NOTE]
 > Меняйте промо-бейдж или графический элемент, не пересобирая весь постер.
@@ -201,7 +201,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 9: Редактирование слоя fashion-изображения внутри дизайн-макета
 
-<img src="assets/media/011-Feishu-Docs-Image.gif" width="720" alt="Редактирование слоя fashion-изображения внутри дизайн-макета">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/011-Feishu-Docs-Image.gif" width="720" alt="Редактирование слоя fashion-изображения внутри дизайн-макета">
 
 > [!NOTE]
 > Настраивайте слоёный объект внутри собранного визуального макета.
@@ -212,7 +212,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 10: Редактирование графического слоя спортивного постера
 
-<img src="assets/media/012-Feishu-Docs-Image.gif" width="720" alt="Редактирование графического слоя спортивного постера">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/012-Feishu-Docs-Image.gif" width="720" alt="Редактирование графического слоя спортивного постера">
 
 > [!NOTE]
 > Редактируйте графику гоночного постера, сохраняя типографику и композицию выровненными.
@@ -223,7 +223,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 11: Редактирование элемента постера: Public Joy
 
-<img src="assets/media/013-Feishu-Docs-Image.gif" width="720" alt="Редактирование элемента постера: Public Joy">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/013-Feishu-Docs-Image.gif" width="720" alt="Редактирование элемента постера: Public Joy">
 
 > [!NOTE]
 > Изменяйте элементы постера, сохраняя исходный язык дизайна.
@@ -234,7 +234,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 12: Замена поверхности материала с точной реакцией текстуры
 
-<img src="assets/media/014-Feishu-Docs-Image.gif" width="720" alt="Замена поверхности материала с точной реакцией текстуры">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/014-Feishu-Docs-Image.gif" width="720" alt="Замена поверхности материала с точной реакцией текстуры">
 
 > [!NOTE]
 > Заменяйте материал и цветовые цели, сохраняя структуру объекта.
@@ -259,14 +259,14 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 **До:**
 
-<img src="assets/media/015-Feishu-Docs-Image.png" width="420" alt="Перемещение объекта по позиции в сетке до">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/015-Feishu-Docs-Image.png" width="420" alt="Перемещение объекта по позиции в сетке до">
 
 </td>
 <td width="50%" valign="top">
 
 **После:**
 
-<img src="assets/media/016-Feishu-Docs-Image.png" width="420" alt="Перемещение объекта по позиции в сетке после">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/016-Feishu-Docs-Image.png" width="420" alt="Перемещение объекта по позиции в сетке после">
 
 </td>
 </tr>
@@ -292,7 +292,7 @@ Move the red car in the lower-left corner one grid cell to the right, and move t
 
 ### Case 14: Разделение слоя переднего плана / человека
 
-<img src="assets/media/017-Feishu-Docs-Image.png" width="720" alt="Разделение слоя переднего плана / человека">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/017-Feishu-Docs-Image.png" width="720" alt="Разделение слоя переднего плана / человека">
 
 > [!NOTE]
 > Отделяйте объект переднего плана от постерного фона для последующего повторного использования.
@@ -317,14 +317,14 @@ Move the red car in the lower-left corner one grid cell to the right, and move t
 
 **Вход:**
 
-<img src="assets/media/018-Feishu-Docs-Image.png" width="420" alt="Вход для натюрморта из семи референсов">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/018-Feishu-Docs-Image.png" width="420" alt="Вход для натюрморта из семи референсов">
 
 </td>
 <td width="50%" valign="top">
 
 **Выход:**
 
-<img src="assets/media/019-Feishu-Docs-Image.png" width="420" alt="Выход натюрморта из семи референсов">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/019-Feishu-Docs-Image.png" width="420" alt="Выход натюрморта из семи референсов">
 
 </td>
 </tr>
@@ -354,7 +354,7 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 ### Case 16: Кинематографичная теннисная сцена с разбитым стеклом
 
-<img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" width="720" alt="Кинематографичная теннисная сцена с разбитым стеклом">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" width="720" alt="Кинематографичная теннисная сцена с разбитым стеклом">
 
 > [!NOTE]
 > Генерация динамичной сцены с осколками стекла, таймингом действия и кинематографичным светом.
@@ -365,7 +365,7 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 ### Case 17: Кинематографичный боксёрский экшен
 
-<img src="assets/media/021-Cinematic-narrative-action-boxing.png" width="720" alt="Кинематографичный боксёрский экшен">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/021-Cinematic-narrative-action-boxing.png" width="720" alt="Кинематографичный боксёрский экшен">
 
 > [!NOTE]
 > Рендер экшен-сцены с более сильным ощущением движения, удара и глубины.
@@ -376,7 +376,7 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 ### Case 18: Сцена в стиле 3D-анимации
 
-<img src="assets/media/022-Cinematic-narrative-3D-animation.png" width="720" alt="Сцена в стиле 3D-анимации">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/022-Cinematic-narrative-3D-animation.png" width="720" alt="Сцена в стиле 3D-анимации">
 
 > [!NOTE]
 > Стилизованный 3D / анимационный вывод для персонажей или развлекательных визуалов.
@@ -387,7 +387,7 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 ### Case 19: Визуальный концепт-арт
 
-<img src="assets/media/023-Cinematic-narrative-visual-concept.png" width="720" alt="Визуальный концепт-арт">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/023-Cinematic-narrative-visual-concept.png" width="720" alt="Визуальный концепт-арт">
 
 > [!NOTE]
 > Генерация в стиле концепт-арта для исследования атмосферы, визуального направления и настроения.
@@ -398,7 +398,7 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 ### Case 20: Визуал игровой сцены
 
-<img src="assets/media/024-Cinematic-narrative-game-scene.png" width="720" alt="Визуал игровой сцены">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/024-Cinematic-narrative-game-scene.png" width="720" alt="Визуал игровой сцены">
 
 > [!NOTE]
 > Генерация игровой сцены для исследования окружения, сета или key art.
@@ -417,7 +417,7 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 ### Case 21: Приветственный знак на арабском и английском
 
-<img src="assets/media/025-Welcome.png" width="720" alt="Приветственный знак на арабском и английском">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/025-Welcome.png" width="720" alt="Приветственный знак на арабском и английском">
 
 > [!NOTE]
 > Нативный многоязычный рендеринг с арабским и английским текстом в одном визуале.
@@ -428,7 +428,7 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 ### Case 22: Корейский знак «открыто 24 часа»
 
-<img src="assets/media/026-24-Open-24-hours.png" width="720" alt="Корейский знак открыто 24 часа">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/026-24-Open-24-hours.png" width="720" alt="Корейский знак открыто 24 часа">
 
 > [!NOTE]
 > Рендеринг корейского текста для локализованных витрин или вывесок.
@@ -439,7 +439,7 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 ### Case 23: Тайский знак о поддержании чистоты
 
-<img src="assets/media/027-Please-help-keep-the-place-clean-together.png" width="720" alt="Тайский знак о поддержании чистоты">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/027-Please-help-keep-the-place-clean-together.png" width="720" alt="Тайский знак о поддержании чистоты">
 
 > [!NOTE]
 > Рендеринг тайского текста для локальных общественных пространств или кампаний.
@@ -450,7 +450,7 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 ### Case 24: Французский постер о творчестве
 
-<img src="assets/media/028-CREATION-FRANCAISE-Made-in-France.png" width="720" alt="Французский постер о творчестве">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/028-CREATION-FRANCAISE-Made-in-France.png" width="720" alt="Французский постер о творчестве">
 
 > [!NOTE]
 > Рендеринг французского текста для продуктовых, fashion- и кампейн-материалов.
@@ -461,7 +461,7 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 ### Case 25: Русский постер о будущем
 
-<img src="assets/media/029-Future.png" width="720" alt="Русский постер о будущем">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/029-Future.png" width="720" alt="Русский постер о будущем">
 
 > [!NOTE]
 > Рендеринг русского текста с чёткой структурой символов для локализованных визуальных концепций.

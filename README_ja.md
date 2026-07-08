@@ -94,7 +94,7 @@ EvoLink のモデル入口を試す: [EvoLink で Seedream 5.0 Pro を開く](ht
 
 ### Case 1: 空間意図を示す矢印と注釈ボックス
 
-<img src="assets/media/003-arrows-annotation-boxes.gif" width="720" alt="空間意図を示す矢印と注釈ボックス">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/003-arrows-annotation-boxes.gif" width="720" alt="空間意図を示す矢印と注釈ボックス">
 
 > [!NOTE]
 > 編集前に矢印、ボックス、注釈で対象エリアを明確にします。
@@ -105,7 +105,7 @@ EvoLink のモデル入口を試す: [EvoLink で Seedream 5.0 Pro を開く](ht
 
 ### Case 2: 対象編集のための領域ボックス別オブジェクト説明
 
-<img src="assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif" width="720" alt="対象編集のための領域ボックス別オブジェクト説明">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif" width="720" alt="対象編集のための領域ボックス別オブジェクト説明">
 
 **Prompt:**
 
@@ -127,7 +127,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 3: 落書きガイドによるオブジェクト生成
 
-<img src="assets/media/005-doodles.gif" width="720" alt="落書きガイドによるオブジェクト生成">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/005-doodles.gif" width="720" alt="落書きガイドによるオブジェクト生成">
 
 > [!NOTE]
 > ラフな落書きを視覚制御信号として使い、意図したオブジェクトをモデルに描画させます。
@@ -138,7 +138,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 4: 色ブロックでガイドする編集
 
-<img src="assets/media/006-color-block.gif" width="720" alt="色ブロックでガイドする編集">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/006-color-block.gif" width="720" alt="色ブロックでガイドする編集">
 
 > [!NOTE]
 > 大きな色ブロックで大まかな構図、色領域、オブジェクト配置を指定します。
@@ -149,7 +149,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 5: 線でガイドするディテール編集
 
-<img src="assets/media/007-lines.gif" width="720" alt="線でガイドするディテール編集">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/007-lines.gif" width="720" alt="線でガイドするディテール編集">
 
 > [!NOTE]
 > 形状の輪郭が長い説明より重要なとき、シンプルな線ガイドを使います。
@@ -160,7 +160,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 6: 簡単なスケッチから洗練された画像へ
 
-<img src="assets/media/008-simple-sketches.gif" width="720" alt="簡単なスケッチから洗練された画像へ">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/008-simple-sketches.gif" width="720" alt="簡単なスケッチから洗練された画像へ">
 
 > [!NOTE]
 > 最小限のスケッチを、意図を保ったままより完成度の高い画像にします。
@@ -179,7 +179,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 7: ポスターの文字・グラフィックレイヤー編集: Avery Turns
 
-<img src="assets/media/009-Feishu-Docs-Image.gif" width="720" alt="ポスターの文字・グラフィックレイヤー編集: Avery Turns">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/009-Feishu-Docs-Image.gif" width="720" alt="ポスターの文字・グラフィックレイヤー編集: Avery Turns">
 
 > [!NOTE]
 > 全体のデザイン構造を保ちながら、ポスター内の可視要素を編集します。
@@ -190,7 +190,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 8: ポスターのオファーレイヤー編集: Happy Hour
 
-<img src="assets/media/010-Feishu-Docs-Image.gif" width="720" alt="ポスターのオファーレイヤー編集: Happy Hour">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/010-Feishu-Docs-Image.gif" width="720" alt="ポスターのオファーレイヤー編集: Happy Hour">
 
 > [!NOTE]
 > ポスター全体を作り直さずに、プロモーションバッジやグラフィック要素を変更します。
@@ -201,7 +201,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 9: デザインレイアウト内のファッション画像レイヤー編集
 
-<img src="assets/media/011-Feishu-Docs-Image.gif" width="720" alt="デザインレイアウト内のファッション画像レイヤー編集">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/011-Feishu-Docs-Image.gif" width="720" alt="デザインレイアウト内のファッション画像レイヤー編集">
 
 > [!NOTE]
 > 構成済みビジュアルレイアウト内のレイヤー化された被写体を調整します。
@@ -212,7 +212,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 10: スポーツポスターのグラフィックレイヤー編集
 
-<img src="assets/media/012-Feishu-Docs-Image.gif" width="720" alt="スポーツポスターのグラフィックレイヤー編集">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/012-Feishu-Docs-Image.gif" width="720" alt="スポーツポスターのグラフィックレイヤー編集">
 
 > [!NOTE]
 > タイポグラフィと構図を整えたまま、レーシングポスターのグラフィックを編集します。
@@ -223,7 +223,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 11: ポスター要素の編集: Public Joy
 
-<img src="assets/media/013-Feishu-Docs-Image.gif" width="720" alt="ポスター要素の編集: Public Joy">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/013-Feishu-Docs-Image.gif" width="720" alt="ポスター要素の編集: Public Joy">
 
 > [!NOTE]
 > 元のデザイン言語を保ちながらポスター要素を変更します。
@@ -234,7 +234,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 12: 正確なテクスチャ応答による素材表面の置換
 
-<img src="assets/media/014-Feishu-Docs-Image.gif" width="720" alt="正確なテクスチャ応答による素材表面の置換">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/014-Feishu-Docs-Image.gif" width="720" alt="正確なテクスチャ応答による素材表面の置換">
 
 > [!NOTE]
 > オブジェクト構造を保ったまま、素材と色の対象を置き換えます。
@@ -259,14 +259,14 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 **変更前:**
 
-<img src="assets/media/015-Feishu-Docs-Image.png" width="420" alt="グリッド位置に基づくオブジェクト移動の変更前">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/015-Feishu-Docs-Image.png" width="420" alt="グリッド位置に基づくオブジェクト移動の変更前">
 
 </td>
 <td width="50%" valign="top">
 
 **変更後:**
 
-<img src="assets/media/016-Feishu-Docs-Image.png" width="420" alt="グリッド位置に基づくオブジェクト移動の変更後">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/016-Feishu-Docs-Image.png" width="420" alt="グリッド位置に基づくオブジェクト移動の変更後">
 
 </td>
 </tr>
@@ -292,7 +292,7 @@ Move the red car in the lower-left corner one grid cell to the right, and move t
 
 ### Case 14: 前景 / 人物レイヤー分離
 
-<img src="assets/media/017-Feishu-Docs-Image.png" width="720" alt="前景 / 人物レイヤー分離">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/017-Feishu-Docs-Image.png" width="720" alt="前景 / 人物レイヤー分離">
 
 > [!NOTE]
 > 後で再利用できるよう、ポスター風背景から前景の被写体を分離します。
@@ -317,14 +317,14 @@ Move the red car in the lower-left corner one grid cell to the right, and move t
 
 **入力:**
 
-<img src="assets/media/018-Feishu-Docs-Image.png" width="420" alt="7枚参照の静物構図入力">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/018-Feishu-Docs-Image.png" width="420" alt="7枚参照の静物構図入力">
 
 </td>
 <td width="50%" valign="top">
 
 **出力:**
 
-<img src="assets/media/019-Feishu-Docs-Image.png" width="420" alt="7枚参照の静物構図出力">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/019-Feishu-Docs-Image.png" width="420" alt="7枚参照の静物構図出力">
 
 </td>
 </tr>
@@ -353,7 +353,7 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 ### Case 16: ガラスが砕けるシネマティックなテニスシーン
 
-<img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" width="720" alt="ガラスが砕けるシネマティックなテニスシーン">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" width="720" alt="ガラスが砕けるシネマティックなテニスシーン">
 
 > [!NOTE]
 > ガラス片、アクションのタイミング、映画的照明を含む高モーションシーン生成。
@@ -364,7 +364,7 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 ### Case 17: シネマティックなボクシングアクション
 
-<img src="assets/media/021-Cinematic-narrative-action-boxing.png" width="720" alt="シネマティックなボクシングアクション">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/021-Cinematic-narrative-action-boxing.png" width="720" alt="シネマティックなボクシングアクション">
 
 > [!NOTE]
 > 動き、衝撃、シーンの奥行きがより強いアクションレンダリング。
@@ -375,7 +375,7 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 ### Case 18: 3Dアニメーション風シーン
 
-<img src="assets/media/022-Cinematic-narrative-3D-animation.png" width="720" alt="3Dアニメーション風シーン">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/022-Cinematic-narrative-3D-animation.png" width="720" alt="3Dアニメーション風シーン">
 
 > [!NOTE]
 > キャラクターやエンタメビジュアル向けのスタイライズされた3D / アニメーション出力。
@@ -386,7 +386,7 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 ### Case 19: ビジュアルコンセプトアート
 
-<img src="assets/media/023-Cinematic-narrative-visual-concept.png" width="720" alt="ビジュアルコンセプトアート">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/023-Cinematic-narrative-visual-concept.png" width="720" alt="ビジュアルコンセプトアート">
 
 > [!NOTE]
 > 雰囲気、ビジュアル方向性、ムード探索のためのコンセプトアート生成。
@@ -397,7 +397,7 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 ### Case 20: ゲームシーンビジュアル
 
-<img src="assets/media/024-Cinematic-narrative-game-scene.png" width="720" alt="ゲームシーンビジュアル">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/024-Cinematic-narrative-game-scene.png" width="720" alt="ゲームシーンビジュアル">
 
 > [!NOTE]
 > 環境、セット、キーアート探索のためのゲーム風シーン生成。
@@ -416,7 +416,7 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 ### Case 21: アラビア語と英語のウェルカムサイン
 
-<img src="assets/media/025-Welcome.png" width="720" alt="アラビア語と英語のウェルカムサイン">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/025-Welcome.png" width="720" alt="アラビア語と英語のウェルカムサイン">
 
 > [!NOTE]
 > 同じビジュアル内にアラビア語と英語を含むネイティブ多言語描画。
@@ -427,7 +427,7 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 ### Case 22: 韓国語の24時間営業サイン
 
-<img src="assets/media/026-24-Open-24-hours.png" width="720" alt="韓国語の24時間営業サイン">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/026-24-Open-24-hours.png" width="720" alt="韓国語の24時間営業サイン">
 
 > [!NOTE]
 > ローカライズされた店舗やサイン向けの韓国語テキスト描画。
@@ -438,7 +438,7 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 ### Case 23: タイ語の清潔保持サイン
 
-<img src="assets/media/027-Please-help-keep-the-place-clean-together.png" width="720" alt="タイ語の清潔保持サイン">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/027-Please-help-keep-the-place-clean-together.png" width="720" alt="タイ語の清潔保持サイン">
 
 > [!NOTE]
 > 地域の公共空間やキャンペーンビジュアル向けのタイ語テキスト描画。
@@ -449,7 +449,7 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 ### Case 24: フランス語のクリエーションポスター
 
-<img src="assets/media/028-CREATION-FRANCAISE-Made-in-France.png" width="720" alt="フランス語のクリエーションポスター">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/028-CREATION-FRANCAISE-Made-in-France.png" width="720" alt="フランス語のクリエーションポスター">
 
 > [!NOTE]
 > 商品、ファッション、キャンペーン向けのフランス語テキスト描画。
@@ -460,7 +460,7 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 ### Case 25: ロシア語の未来ポスター
 
-<img src="assets/media/029-Future.png" width="720" alt="ロシア語の未来ポスター">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/029-Future.png" width="720" alt="ロシア語の未来ポスター">
 
 > [!NOTE]
 > ローカライズされたビジュアルコンセプト向けに、明確な文字構造でロシア語を描画します。
