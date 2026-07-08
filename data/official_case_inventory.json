@@ -1,0 +1,384 @@
+{
+  "source_type": "owner_provided_official_launch_export",
+  "source_url_public": null,
+  "private_source_policy": "Private Lark/Feishu URLs are retained only in ignored local audit evidence, not in public README files.",
+  "exported_at": "2026-07-08",
+  "owner_corrections": [
+    "Interaction Control has 2 public cases.",
+    "Layer Editing has 6 public cases.",
+    "Two images intended for comparison must be displayed in one row.",
+    "Section-level source mapping lines must not appear in public README files."
+  ],
+  "case_categories": [
+    {
+      "id": "interaction-control",
+      "emoji": "🎛️",
+      "title": "Interaction Control",
+      "desc": "Use boxes, points, arrows, annotation marks, or coordinates to specify the target region.",
+      "expected": 2,
+      "case_numbers": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "sketch-editing",
+      "emoji": "✏️",
+      "title": "Sketch Editing",
+      "desc": "Use doodles, color blocks, lines, or simple sketches as visual guidance.",
+      "expected": 4,
+      "case_numbers": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "layer-editing",
+      "emoji": "🧱",
+      "title": "Layer Editing",
+      "desc": "Edit poster, graphic, text, material, or surface layers while preserving the broader composition.",
+      "expected": 6,
+      "case_numbers": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "anchor-position-editing",
+      "emoji": "📍",
+      "title": "Anchor / Position Editing",
+      "desc": "Use grid-like anchors or relative positions to move a specific target precisely.",
+      "expected": 1,
+      "case_numbers": [
+        13
+      ]
+    },
+    {
+      "id": "layer-separation",
+      "emoji": "🧩",
+      "title": "Layer Separation",
+      "desc": "Separate foreground, background, and reusable components for downstream editing.",
+      "expected": 3,
+      "case_numbers": [
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "id": "multi-image-fusion-editing",
+      "emoji": "🖼️",
+      "title": "Multi-image Fusion Editing",
+      "desc": "Combine multiple reference images into one coherent composition under a single instruction.",
+      "expected": 1,
+      "case_numbers": [
+        17
+      ]
+    },
+    {
+      "id": "visual-quality-narrative",
+      "emoji": "🎬",
+      "title": "Visual Quality & Narrative",
+      "desc": "Group the effect samples by cinematic action, 3D/animation, concept art, and game-scene output.",
+      "expected": 5,
+      "case_numbers": [
+        18,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "id": "multilingual-text-rendering",
+      "emoji": "🌐",
+      "title": "Multilingual Text Rendering",
+      "desc": "Group the multilingual samples by rendered language and local-text use case.",
+      "expected": 5,
+      "case_numbers": [
+        23,
+        24,
+        25,
+        26,
+        27
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "case": 1,
+      "category": "interaction-control",
+      "title": "Arrows and annotation boxes for spatial intent",
+      "media": [
+        "003-arrows-annotation-boxes.gif"
+      ],
+      "has_prompt": false,
+      "prompt_is_official": false
+    },
+    {
+      "case": 2,
+      "category": "interaction-control",
+      "title": "Region-box object description for targeted editing",
+      "media": [
+        "004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif"
+      ],
+      "has_prompt": true,
+      "prompt_is_official": true
+    },
+    {
+      "case": 3,
+      "category": "sketch-editing",
+      "title": "Doodle-guided object generation",
+      "media": [
+        "005-doodles.gif"
+      ],
+      "has_prompt": false,
+      "prompt_is_official": false
+    },
+    {
+      "case": 4,
+      "category": "sketch-editing",
+      "title": "Color-block guided editing",
+      "media": [
+        "006-color-block.gif"
+      ],
+      "has_prompt": false,
+      "prompt_is_official": false
+    },
+    {
+      "case": 5,
+      "category": "sketch-editing",
+      "title": "Line-guided detail editing",
+      "media": [
+        "007-lines.gif"
+      ],
+      "has_prompt": false,
+      "prompt_is_official": false
+    },
+    {
+      "case": 6,
+      "category": "sketch-editing",
+      "title": "Simple sketch to refined image",
+      "media": [
+        "008-simple-sketches.gif"
+      ],
+      "has_prompt": false,
+      "prompt_is_official": false
+    },
+    {
+      "case": 7,
+      "category": "layer-editing",
+      "title": "Poster text and graphic layer edit: Avery Turns",
+      "media": [
+        "009-Feishu-Docs-Image.gif"
+      ],
+      "has_prompt": false,
+      "prompt_is_official": false
+    },
+    {
+      "case": 8,
+      "category": "layer-editing",
+      "title": "Poster offer layer edit: Happy Hour",
+      "media": [
+        "010-Feishu-Docs-Image.gif"
+      ],
+      "has_prompt": false,
+      "prompt_is_official": false
+    },
+    {
+      "case": 9,
+      "category": "layer-editing",
+      "title": "Fashion image layer edit inside a design layout",
+      "media": [
+        "011-Feishu-Docs-Image.gif"
+      ],
+      "has_prompt": false,
+      "prompt_is_official": false
+    },
+    {
+      "case": 10,
+      "category": "layer-editing",
+      "title": "Sports poster graphic layer edit",
+      "media": [
+        "012-Feishu-Docs-Image.gif"
+      ],
+      "has_prompt": false,
+      "prompt_is_official": false
+    },
+    {
+      "case": 11,
+      "category": "layer-editing",
+      "title": "Poster element edit: Public Joy",
+      "media": [
+        "013-Feishu-Docs-Image.gif"
+      ],
+      "has_prompt": false,
+      "prompt_is_official": false
+    },
+    {
+      "case": 12,
+      "category": "layer-editing",
+      "title": "Material surface swap with precise texture response",
+      "media": [
+        "014-Feishu-Docs-Image.gif"
+      ],
+      "has_prompt": false,
+      "prompt_is_official": false
+    },
+    {
+      "case": 13,
+      "category": "anchor-position-editing",
+      "title": "Grid-position object movement",
+      "media": [
+        "015-Feishu-Docs-Image.png",
+        "016-Feishu-Docs-Image.png"
+      ],
+      "has_prompt": true,
+      "prompt_is_official": true
+    },
+    {
+      "case": 14,
+      "category": "layer-separation",
+      "title": "Foreground/person layer separation",
+      "media": [
+        "017-Feishu-Docs-Image.png"
+      ],
+      "has_prompt": false,
+      "prompt_is_official": false
+    },
+    {
+      "case": 15,
+      "category": "layer-separation",
+      "title": "Scene component layers for object reuse",
+      "media": [
+        "018-Feishu-Docs-Image.png"
+      ],
+      "has_prompt": false,
+      "prompt_is_official": false
+    },
+    {
+      "case": 16,
+      "category": "layer-separation",
+      "title": "Recombined layered scene output",
+      "media": [
+        "019-Feishu-Docs-Image.png"
+      ],
+      "has_prompt": false,
+      "prompt_is_official": false
+    },
+    {
+      "case": 17,
+      "category": "multi-image-fusion-editing",
+      "title": "Seven-reference still-life composition",
+      "media": [],
+      "has_prompt": true,
+      "prompt_is_official": true
+    },
+    {
+      "case": 18,
+      "category": "visual-quality-narrative",
+      "title": "Cinematic tennis glass shatter",
+      "media": [
+        "020-Cinematic-narrative-tennis-glass-shatter.png"
+      ],
+      "has_prompt": false,
+      "prompt_is_official": false
+    },
+    {
+      "case": 19,
+      "category": "visual-quality-narrative",
+      "title": "Cinematic boxing action",
+      "media": [
+        "021-Cinematic-narrative-action-boxing.png"
+      ],
+      "has_prompt": false,
+      "prompt_is_official": false
+    },
+    {
+      "case": 20,
+      "category": "visual-quality-narrative",
+      "title": "3D animation style scene",
+      "media": [
+        "022-Cinematic-narrative-3D-animation.png"
+      ],
+      "has_prompt": false,
+      "prompt_is_official": false
+    },
+    {
+      "case": 21,
+      "category": "visual-quality-narrative",
+      "title": "Visual concept art",
+      "media": [
+        "023-Cinematic-narrative-visual-concept.png"
+      ],
+      "has_prompt": false,
+      "prompt_is_official": false
+    },
+    {
+      "case": 22,
+      "category": "visual-quality-narrative",
+      "title": "Game scene visual",
+      "media": [
+        "024-Cinematic-narrative-game-scene.png"
+      ],
+      "has_prompt": false,
+      "prompt_is_official": false
+    },
+    {
+      "case": 23,
+      "category": "multilingual-text-rendering",
+      "title": "Arabic and English welcome sign",
+      "media": [
+        "025-Welcome.png"
+      ],
+      "has_prompt": false,
+      "prompt_is_official": false
+    },
+    {
+      "case": 24,
+      "category": "multilingual-text-rendering",
+      "title": "Korean open-24-hours sign",
+      "media": [
+        "026-24-Open-24-hours.png"
+      ],
+      "has_prompt": false,
+      "prompt_is_official": false
+    },
+    {
+      "case": 25,
+      "category": "multilingual-text-rendering",
+      "title": "Thai cleanliness sign",
+      "media": [
+        "027-Please-help-keep-the-place-clean-together.png"
+      ],
+      "has_prompt": false,
+      "prompt_is_official": false
+    },
+    {
+      "case": 26,
+      "category": "multilingual-text-rendering",
+      "title": "French creation poster",
+      "media": [
+        "028-CREATION-FRANCAISE-Made-in-France.png"
+      ],
+      "has_prompt": false,
+      "prompt_is_official": false
+    },
+    {
+      "case": 27,
+      "category": "multilingual-text-rendering",
+      "title": "Russian future poster",
+      "media": [
+        "029-Future.png"
+      ],
+      "has_prompt": false,
+      "prompt_is_official": false
+    }
+  ]
+}

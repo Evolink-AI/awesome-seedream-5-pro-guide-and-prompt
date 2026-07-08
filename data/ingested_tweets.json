@@ -1,56 +1,26 @@
 [
   {
     "id": "owner-lark-export-2026-07-08",
-    "source_type": "owner_provided_lark_export",
+    "source_type": "owner_provided_official_launch_export",
     "source_url": null,
-    "source_label": "Private owner-provided Lark export; URL retained only in ignored local audit evidence.",
-    "public_source_note": null,
-    "public_source_label": "Source: Official.",
-    "private_provenance_policy": "Private owner-provided export URLs and section-level provenance are retained only in ignored local audit evidence, not in public repository files.",
-    "case_heading_policy": "Official-source-only cases use plain Case headings plus the public label `Source: Official.`; pseudo-author labels are not allowed.",
+    "public_source_label": "Official",
+    "private_provenance_policy": "Private Lark/Feishu URLs are retained only in ignored local audit evidence, not in public README files.",
     "exported_at": "2026-07-08",
     "model": "Seedream 5.0 Pro",
     "decision": "selected",
-    "reason": "Owner-provided launch material includes prompt examples, product notes, and downloaded media for first local guide/prompt scaffold. Private source URLs are not exposed in public repository files.",
-    "interactive_editing_categories": [
-      "interaction-control",
-      "sketch-editing",
-      "anchor-position-editing",
-      "layer-separation",
-      "precise-color-and-material-response",
-      "multi-image-fusion-editing"
-    ],
-    "selected_cases": [
-      "region-box-object-description",
-      "anchor-position-grid-edit",
-      "multi-reference-still-life-composition"
-    ],
-    "case_source_mappings": [
-      {
-        "case": 1,
-        "prompt_section": "3.1.1 interaction control",
-        "media_sections": [
-          "3.1.1 interaction control"
-        ],
-        "mapping_status": "paired"
-      },
-      {
-        "case": 2,
-        "prompt_section": "3.1.3 anchor/position editing",
-        "media_sections": [
-          "3.1.3 anchor/position editing"
-        ],
-        "mapping_status": "paired"
-      },
-      {
-        "case": 3,
-        "prompt_section": "3.1.6 multi-image fusion",
-        "media_sections": [
-          "3.1.5 precise color/material response"
-        ],
-        "mapping_status": "related_different_case_media"
-      }
-    ],
+    "reason": "Owner-provided official launch material and owner corrections define the public guide inventory.",
+    "official_case_inventory": "data/official_case_inventory.json",
+    "selected_case_count": 27,
+    "category_case_counts": {
+      "interaction-control": 2,
+      "sketch-editing": 4,
+      "layer-editing": 6,
+      "anchor-position-editing": 1,
+      "layer-separation": 3,
+      "multi-image-fusion-editing": 1,
+      "visual-quality-narrative": 5,
+      "multilingual-text-rendering": 5
+    },
     "dropped_reason": null
   }
 ]

@@ -5,10 +5,12 @@
 - First scaffold uses owner-provided source material only.
 - Do not invent prompts to fill missing cases.
 - Community or X/Twitter updates must go through prompt curation before README mutation.
-- Official-source-only cases use the public label `Source: Official.` and do not use pseudo-author labels.
-- Private export URLs and section-level provenance stay in ignored local audit evidence, not in public README links or source-note pages.
+- Official-source-only cases use the README-level source policy and do not use pseudo-author labels.
+- Private export URLs and section-level provenance stay in ignored local audit evidence, not in public README links or public source pages.
 - Prompt text copied from owner-provided source material may be translated when the README is English, but the private source boundary must remain recorded in the run evidence.
-- Collected source GIFs may remain in `assets/media/` even when not all of them are embedded in the public README; README-visible GIFs must not be silently replaced by static PNG fallbacks.
+- Collected GIFs from the official material must be embedded as GIFs when they are public cases; do not silently replace them with static PNG fallbacks.
+- If a prompt has no paired public output image in the official material, keep it prompt-only instead of borrowing unrelated media.
+- Owner-corrected case counts are part of the contract: `Interaction Control = 2` and `Layer Editing = 6`.
 
 ## Update Cadence
 

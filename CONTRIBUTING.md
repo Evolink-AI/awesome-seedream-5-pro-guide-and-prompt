@@ -12,7 +12,7 @@ This repository accepts issues and pull requests that improve source-backed Seed
 ## Source Rules
 
 - Do not invent prompts, model IDs, benchmark claims, pricing, availability, or API behavior.
-- Use `Source: Official.` for current official-source cases unless a future public source policy changes.
+- Use the README-level official-source policy for current official-source cases unless a future public source policy changes.
 - Keep private source URLs out of public files.
 - Put comparison images on the same row when they are meant to be read together.
 

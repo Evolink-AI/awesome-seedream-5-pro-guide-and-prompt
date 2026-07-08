@@ -4,7 +4,7 @@
 
 # Awesome Seedream 5.0 Pro Guide and Prompt
 
-用於評估 Seedream 5.0 Pro 影像生成與編輯工作流的來源佐證指南、提示詞模式與視覺範例。
+Source-backed guide, prompt patterns, and visual examples for evaluating Seedream 5.0 Pro image generation and editing workflows.
 
 [![License: MIT](assets/badges/license-mit.svg)](LICENSE)
 [![Use on EvoLink](assets/badges/use-on-evolink.svg)](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=badge&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=top_badge)
@@ -16,76 +16,98 @@
 
 <a id="introduction"></a>
 
-## 🍌 介紹
+## 🍌 Introduction
 
-官方發布材料將 Seedream 5.0 Pro 描述為面向可控視覺生產的影像生成與編輯模型。材料重點包括區域定向編輯、草圖引導編輯、錨點定位、圖層分離、材質與色彩控制、多參考圖合成、電影感影像與多語文字渲染。
+Seedream 5.0 Pro 在官方發布材料中被定位為可控的圖像生成與編輯模型。本指南把公開 README 對齊官方能力菜單：交互控制、草圖編輯、圖層編輯、錨點 / 位置編輯、圖層分離、多圖融合、效果樣例與多語言文字渲染。
 
-這個倉庫是 **guide and prompt** 內容入口。它把有來源佐證的提示詞模式和媒體範例集中在一起，讓使用者可以檢查要測什麼，只複製來源材料中出現的提示詞，並在可用時走向 EvoLink 轉換路徑。
+**你可以用這個倉庫檢查有來源支撐的案例，只複製官方材料中實際出現的 prompt，並理解每個能力分類如何對應到可見 case。**
 
-在 EvoLink 試用模型入口: [開啟 Seedream 5.0 Pro 的 EvoLink 路徑](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=top_text_cta).
+Try the model entry point on EvoLink: [Open Seedream 5.0 Pro on EvoLink](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=top_text_cta).
 
-**快速開始:** 本倉庫不聲稱已驗證 EvoLink Seedream 5.0 Pro 的首次 API 執行路徑。在記錄當前模型執行證據之前，請使用以下公開轉換路徑:
+**快速開始:** 本倉庫不聲稱 EvoLink 上的 Seedream 5.0 Pro 首次 API 路徑已完成驗證。在 runtime 證據被記錄前，請使用公開模型入口、API key 控制台與官方技術參考。
 
-1. [開啟 EvoLink 取得 Seedream 5.0 Pro 存取](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=model_link).
-2. [取得你的 EvoLink API key](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=api_key).
-3. 將官方 ModelArk 參考作為技術背景: [閱讀 Seedream 5.0 Pro ModelArk 文件](https://docs.byteplus.com/en/docs/ModelArk/1541523).
+1. [Open the Seedream 5.0 Pro EvoLink path](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=model_link).
+2. [Get your EvoLink API key](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=api_key).
+3. [Read the official ModelArk technical reference](https://docs.byteplus.com/en/docs/ModelArk/1541523).
 
-執行狀態: 官方材料將 `dola-seedream-5-0-pro-260628` 列為 Seedream 5.0 Pro 模型 ID，但本倉庫尚未完成會消耗額度的 EvoLink API smoke test。不要把相鄰影像模型範例視為 Seedream 5.0 Pro 已驗證的首次執行證據。
+> [!NOTE]
+> 來源政策：使用 owner 提供的官方發布材料。私有 Lark/Feishu URL 只保留在本地 audit 證據中，不作為 README 的公開來源頁暴露。
 
 <a id="news"></a>
 
-## 📰 最新消息
+## 📰 News
 
-- **2026-07-08:** 根據 Seedream 5.0 Pro 官方發布材料與媒體匯出建立初始本地 scaffold。
+- **July 8, 2026:** 根據官方菜單與 owner 修正後的 case inventory 重新整理初版指南。
 
 <a id="menu"></a>
 
 ## 📑 目錄
 
-- [🍌 介紹](#introduction)
-- [📰 最新消息](#news)
+- [🍌 Introduction](#introduction)
+- [📰 News](#news)
 - [📑 目錄](#menu)
-- [🧭 互動式編輯分類](#interactive-editing-categories)
-- [🎛️ 受控編輯提示詞模式](#controlled-editing-prompt-patterns)
-  - [Case 1: 用區域框物件描述進行定向編輯](#case-1)
-  - [Case 2: 在網格狀場景中進行錨點位置編輯](#case-2)
-  - [Case 3: 多參考圖靜物構圖](#case-3)
-- [🎬 視覺能力展示](#visual-capability-gallery)
+- [🎛️ Interaction Control](#interaction-control)
+  - [Case 1: Arrows and annotation boxes for spatial intent](#case-1)
+  - [Case 2: Region-box object description for targeted editing](#case-2)
+- [✏️ Sketch Editing](#sketch-editing)
+  - [Case 3: Doodle-guided object generation](#case-3)
+  - [Case 4: Color-block guided editing](#case-4)
+  - [Case 5: Line-guided detail editing](#case-5)
+  - [Case 6: Simple sketch to refined image](#case-6)
+- [🧱 Layer Editing](#layer-editing)
+  - [Case 7: Poster text and graphic layer edit: Avery Turns](#case-7)
+  - [Case 8: Poster offer layer edit: Happy Hour](#case-8)
+  - [Case 9: Fashion image layer edit inside a design layout](#case-9)
+  - [Case 10: Sports poster graphic layer edit](#case-10)
+  - [Case 11: Poster element edit: Public Joy](#case-11)
+  - [Case 12: Material surface swap with precise texture response](#case-12)
+- [📍 Anchor / Position Editing](#anchor-position-editing)
+  - [Case 13: Grid-position object movement](#case-13)
+- [🧩 Layer Separation](#layer-separation)
+  - [Case 14: Foreground/person layer separation](#case-14)
+  - [Case 15: Scene component layers for object reuse](#case-15)
+  - [Case 16: Recombined layered scene output](#case-16)
+- [🖼️ Multi-image Fusion Editing](#multi-image-fusion-editing)
+  - [Case 17: Seven-reference still-life composition](#case-17)
+- [🎬 Visual Quality & Narrative](#visual-quality-narrative)
+  - [Case 18: Cinematic tennis glass shatter](#case-18)
+  - [Case 19: Cinematic boxing action](#case-19)
+  - [Case 20: 3D animation style scene](#case-20)
+  - [Case 21: Visual concept art](#case-21)
+  - [Case 22: Game scene visual](#case-22)
+- [🌐 Multilingual Text Rendering](#multilingual-text-rendering)
+  - [Case 23: Arabic and English welcome sign](#case-23)
+  - [Case 24: Korean open-24-hours sign](#case-24)
+  - [Case 25: Thai cleanliness sign](#case-25)
+  - [Case 26: French creation poster](#case-26)
+  - [Case 27: Russian future poster](#case-27)
 - [🧩 模型備註](#model-notes)
 - [🙏 致謝](#acknowledge)
 
-<a id="interactive-editing-categories"></a>
+<a id="interaction-control"></a>
 
-## 🧭 互動式編輯分類
+## 🎛️ Interaction Control
 
-Seedream 5.0 Pro 官方材料把可控編輯拆成六類實用模式。先用這張表判斷應該給模型什麼控制訊號，再選擇下面的提示詞模式。
+Use boxes, points, arrows, annotation marks, or coordinates to specify the target region.
 
-| 分類 | 使用者提供什麼 | 適合什麼場景 |
-|---|---|---|
-| 互動控制 | 選區、點、箭頭、標註框或座標，用來指向目標區域。 | 帶明確空間意圖的局部生成或局部修改。 |
-| 草圖編輯 | 塗鴉、色塊、線條或簡單草圖，並配合自然語言指令。 | 把粗略視覺意圖轉成真實物件或細節。 |
-| 錨點 / 位置編輯 | 網格狀或清晰排列場景中的文字錨點。 | 移動或重新定位指定物件，同時減少誤改非目標區域。 |
-| 圖層分離 | 要求模型拆分前景、背景和元件的提示詞。 | 下游拖曳、縮放、重組和可重用素材工作流。 |
-| 精準顏色與材質響應 | 十六進位 / 顏色代碼和材質描述。 | 產品變體、品牌色匹配和材質替換。 |
-| 多圖融合編輯 | 多張參考圖，並給出統一布局、風格或材質指令。 | 把產品、風格、紋理或物件組合成一張連貫圖像。 |
-
-<a id="controlled-editing-prompt-patterns"></a>
-
-## 🎛️ 受控編輯提示詞模式
-
+Case count: **2**.
 
 <a id="case-1"></a>
 
-### Case 1: 用區域框物件描述進行定向編輯
+### Case 1: Arrows and annotation boxes for spatial intent
 
-<table>
-  <tr>
-    <td width="50%" valign="top"><img src="assets/media/003-arrows-annotation-boxes.gif" alt="Interaction arrows and annotation boxes"></td>
-    <td width="50%" valign="top"><img src="assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif" alt="Region-box annotation example"></td>
-  </tr>
-</table>
+<img src="assets/media/003-arrows-annotation-boxes.gif" width="720" alt="Arrows and annotation boxes for spatial intent">
 
-**Source mapping:** Prompt and media are paired in official section 3.1.1 (interaction control).
+> [!NOTE]
+> Use arrows, boxes, and annotations to make the target area explicit before editing.
+
+---
+
+<a id="case-2"></a>
+
+### Case 2: Region-box object description for targeted editing
+
+<img src="assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif" width="720" alt="Region-box object description for targeted editing">
 
 **Prompt:**
 
@@ -93,20 +115,164 @@ Seedream 5.0 Pro 官方材料把可控編輯拆成六類實用模式。先用這
 Red box: A huge blue-furred head with a ferocious squished expression, gazing at the bubble ahead. Green box: A transparent bubble reflecting the indoor lights. Yellow box: A large warm gray-beige yarn ball. Blue box: A stack of building blocks including a warm dark gray arch, a warm light gray half-cylinder, a lake blue cylinder, a deep lake blue ramp, and a cobalt blue half-disc. Purple box: A grass green tasseled blanket draped over the sofa.
 ```
 
-Source: Official.
+---
 
-<a id="case-2"></a>
+<a id="sketch-editing"></a>
 
-### Case 2: 在網格狀場景中進行錨點位置編輯
+## ✏️ Sketch Editing
+
+Use doodles, color blocks, lines, or simple sketches as visual guidance.
+
+Case count: **4**.
+
+<a id="case-3"></a>
+
+### Case 3: Doodle-guided object generation
+
+<img src="assets/media/005-doodles.gif" width="720" alt="Doodle-guided object generation">
+
+> [!NOTE]
+> Use loose doodles as the visual control signal and let the model render the intended object.
+
+---
+
+<a id="case-4"></a>
+
+### Case 4: Color-block guided editing
+
+<img src="assets/media/006-color-block.gif" width="720" alt="Color-block guided editing">
+
+> [!NOTE]
+> Use broad color blocks to specify rough composition, color zones, or object placement.
+
+---
+
+<a id="case-5"></a>
+
+### Case 5: Line-guided detail editing
+
+<img src="assets/media/007-lines.gif" width="720" alt="Line-guided detail editing">
+
+> [!NOTE]
+> Use simple line guidance when the shape boundary matters more than a long text description.
+
+---
+
+<a id="case-6"></a>
+
+### Case 6: Simple sketch to refined image
+
+<img src="assets/media/008-simple-sketches.gif" width="720" alt="Simple sketch to refined image">
+
+> [!NOTE]
+> Turn a minimal sketch into a more complete rendered image while preserving the sketch intent.
+
+---
+
+<a id="layer-editing"></a>
+
+## 🧱 Layer Editing
+
+Edit poster, graphic, text, material, or surface layers while preserving the broader composition.
+
+Case count: **6**.
+
+<a id="case-7"></a>
+
+### Case 7: Poster text and graphic layer edit: Avery Turns
+
+<img src="assets/media/009-Feishu-Docs-Image.gif" width="720" alt="Poster text and graphic layer edit: Avery Turns">
+
+> [!NOTE]
+> Edit visible poster elements while preserving the overall design structure.
+
+---
+
+<a id="case-8"></a>
+
+### Case 8: Poster offer layer edit: Happy Hour
+
+<img src="assets/media/010-Feishu-Docs-Image.gif" width="720" alt="Poster offer layer edit: Happy Hour">
+
+> [!NOTE]
+> Change a promotion badge or graphic element without rebuilding the whole poster.
+
+---
+
+<a id="case-9"></a>
+
+### Case 9: Fashion image layer edit inside a design layout
+
+<img src="assets/media/011-Feishu-Docs-Image.gif" width="720" alt="Fashion image layer edit inside a design layout">
+
+> [!NOTE]
+> Adjust a layered subject inside a composed visual layout.
+
+---
+
+<a id="case-10"></a>
+
+### Case 10: Sports poster graphic layer edit
+
+<img src="assets/media/012-Feishu-Docs-Image.gif" width="720" alt="Sports poster graphic layer edit">
+
+> [!NOTE]
+> Edit a racing poster graphic while keeping typography and composition aligned.
+
+---
+
+<a id="case-11"></a>
+
+### Case 11: Poster element edit: Public Joy
+
+<img src="assets/media/013-Feishu-Docs-Image.gif" width="720" alt="Poster element edit: Public Joy">
+
+> [!NOTE]
+> Modify poster elements while preserving the source design language.
+
+---
+
+<a id="case-12"></a>
+
+### Case 12: Material surface swap with precise texture response
+
+<img src="assets/media/014-Feishu-Docs-Image.gif" width="720" alt="Material surface swap with precise texture response">
+
+> [!NOTE]
+> Swap material and color targets while keeping the object structure intact.
+
+---
+
+<a id="anchor-position-editing"></a>
+
+## 📍 Anchor / Position Editing
+
+Use grid-like anchors or relative positions to move a specific target precisely.
+
+Case count: **1**.
+
+<a id="case-13"></a>
+
+### Case 13: Grid-position object movement
 
 <table>
-  <tr>
-    <td width="50%" valign="top"><strong>之前</strong><br><img src="assets/media/015-Feishu-Docs-Image.png" alt="Anchor positioning example before edit"></td>
-    <td width="50%" valign="top"><strong>之後</strong><br><img src="assets/media/016-Feishu-Docs-Image.png" alt="Anchor positioning example after edit"></td>
-  </tr>
-</table>
+<tr>
+<td width="50%" valign="top">
 
-**Source mapping:** Prompt and media are paired in official section 3.1.3 (anchor/position editing).
+**Before:**
+
+<img src="assets/media/015-Feishu-Docs-Image.png" width="420" alt="Grid-position object movement before">
+
+</td>
+<td width="50%" valign="top">
+
+**After:**
+
+<img src="assets/media/016-Feishu-Docs-Image.png" width="420" alt="Grid-position object movement after">
+
+</td>
+</tr>
+</table>
 
 **Prompt:**
 
@@ -114,15 +280,63 @@ Source: Official.
 Move the red car in the lower-left corner one grid cell to the right, and move the black pawn in the second column from the left of the black-square position one grid cell downward.
 ```
 
-Source: Official.
+---
 
-<a id="case-3"></a>
+<a id="layer-separation"></a>
 
-### Case 3: 多參考圖靜物構圖
+## 🧩 Layer Separation
 
-**Source mapping:** Prompt comes from official section 3.1.6 (multi-image fusion). The media below is from official section 3.1.5 (precise color/material response), so it is marked as related different-case media, not a paired output.
+Separate foreground, background, and reusable components for downstream editing.
 
-![Related different-case material-response media](assets/media/014-Feishu-Docs-Image.gif)
+Case count: **3**.
+
+<a id="case-14"></a>
+
+### Case 14: Foreground/person layer separation
+
+<img src="assets/media/017-Feishu-Docs-Image.png" width="720" alt="Foreground/person layer separation">
+
+> [!NOTE]
+> Separate a foreground subject from a poster-like background for later reuse.
+
+---
+
+<a id="case-15"></a>
+
+### Case 15: Scene component layers for object reuse
+
+<img src="assets/media/018-Feishu-Docs-Image.png" width="720" alt="Scene component layers for object reuse">
+
+> [!NOTE]
+> Expose independently editable scene components for drag, scale, and recomposition workflows.
+
+---
+
+<a id="case-16"></a>
+
+### Case 16: Recombined layered scene output
+
+<img src="assets/media/019-Feishu-Docs-Image.png" width="720" alt="Recombined layered scene output">
+
+> [!NOTE]
+> Use separated assets to rebuild a coherent scene after component-level editing.
+
+---
+
+<a id="multi-image-fusion-editing"></a>
+
+## 🖼️ Multi-image Fusion Editing
+
+Combine multiple reference images into one coherent composition under a single instruction.
+
+Case count: **1**.
+
+<a id="case-17"></a>
+
+### Case 17: Seven-reference still-life composition
+
+> [!NOTE]
+> Official material provides the prompt for this case without a paired public output image in the export used for this repository.
 
 **Prompt:**
 
@@ -130,54 +344,154 @@ Source: Official.
 Precisely cut out the objects from my seven white-background reference photos and arrange them into a realistic still-life photography image according to the specified layout. Make sure the perspective, lighting, and spatial relationships are correct. Faithfully preserve material details such as wood grain, leather, lace, jelly glass, and feathers, creating a high-quality image that feels realistic and playful, with a blend of vintage and modern aesthetics.
 ```
 
-Source: Official.
+---
 
-<a id="visual-capability-gallery"></a>
+<a id="visual-quality-narrative"></a>
 
-## 🎬 視覺能力展示
+## 🎬 Visual Quality & Narrative
 
-官方材料還包含草圖引導編輯、圖層分離、電影敘事影像與多語文字渲染的額外視覺樣本。
+Group the effect samples by cinematic action, 3D/animation, concept art, and game-scene output.
 
-<table>
-  <tr>
-    <td width="50%" valign="top"><strong>草圖引導塗鴉</strong><br><img src="assets/media/005-doodles.gif" alt="Sketch-guided doodles example"></td>
-    <td width="50%" valign="top"><strong>草圖引導色塊</strong><br><img src="assets/media/006-color-block.gif" alt="Sketch-guided color block example"></td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top"><strong>草圖引導線條</strong><br><img src="assets/media/007-lines.gif" alt="Sketch-guided lines example"></td>
-    <td width="50%" valign="top"><strong>簡單草圖控制</strong><br><img src="assets/media/008-simple-sketches.gif" alt="Simple sketch control example"></td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top"><strong>圖層分離範例</strong><br><img src="assets/media/017-Feishu-Docs-Image.png" alt="Layer separation example"></td>
-    <td width="50%" valign="top"><strong>圖層分離變體</strong><br><img src="assets/media/018-Feishu-Docs-Image.png" alt="Layer separation variant"></td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top"><strong>電影感網球玻璃碎裂</strong><br><img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" alt="Cinematic tennis glass shatter"></td>
-    <td width="50%" valign="top"><strong>電影感拳擊動作</strong><br><img src="assets/media/021-Cinematic-narrative-action-boxing.png" alt="Cinematic action boxing"></td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top"><strong>阿拉伯語與英語文字渲染</strong><br><img src="assets/media/025-Welcome.png" alt="Arabic and English welcome text rendering"></td>
-    <td width="50%" valign="top"><strong>韓語文字渲染</strong><br><img src="assets/media/026-24-Open-24-hours.png" alt="Korean open 24 hours text rendering"></td>
-  </tr>
-</table>
+Case count: **5**.
+
+<a id="case-18"></a>
+
+### Case 18: Cinematic tennis glass shatter
+
+<img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" width="720" alt="Cinematic tennis glass shatter">
+
+> [!NOTE]
+> High-motion scene generation with glass fragments, action timing, and cinematic lighting.
+
+---
+
+<a id="case-19"></a>
+
+### Case 19: Cinematic boxing action
+
+<img src="assets/media/021-Cinematic-narrative-action-boxing.png" width="720" alt="Cinematic boxing action">
+
+> [!NOTE]
+> Action-scene rendering with a stronger sense of motion, impact, and scene depth.
+
+---
+
+<a id="case-20"></a>
+
+### Case 20: 3D animation style scene
+
+<img src="assets/media/022-Cinematic-narrative-3D-animation.png" width="720" alt="3D animation style scene">
+
+> [!NOTE]
+> Stylized 3D/animation output for character or entertainment visuals.
+
+---
+
+<a id="case-21"></a>
+
+### Case 21: Visual concept art
+
+<img src="assets/media/023-Cinematic-narrative-visual-concept.png" width="720" alt="Visual concept art">
+
+> [!NOTE]
+> Concept-art style generation for atmosphere, visual direction, and mood exploration.
+
+---
+
+<a id="case-22"></a>
+
+### Case 22: Game scene visual
+
+<img src="assets/media/024-Cinematic-narrative-game-scene.png" width="720" alt="Game scene visual">
+
+> [!NOTE]
+> Game-like scene generation for environment, set, or key-art exploration.
+
+---
+
+<a id="multilingual-text-rendering"></a>
+
+## 🌐 Multilingual Text Rendering
+
+Group the multilingual samples by rendered language and local-text use case.
+
+Case count: **5**.
+
+<a id="case-23"></a>
+
+### Case 23: Arabic and English welcome sign
+
+<img src="assets/media/025-Welcome.png" width="720" alt="Arabic and English welcome sign">
+
+> [!NOTE]
+> Native multilingual rendering with Arabic and English text in the same visual.
+
+---
+
+<a id="case-24"></a>
+
+### Case 24: Korean open-24-hours sign
+
+<img src="assets/media/026-24-Open-24-hours.png" width="720" alt="Korean open-24-hours sign">
+
+> [!NOTE]
+> Korean text rendering for localized storefront or signage content.
+
+---
+
+<a id="case-25"></a>
+
+### Case 25: Thai cleanliness sign
+
+<img src="assets/media/027-Please-help-keep-the-place-clean-together.png" width="720" alt="Thai cleanliness sign">
+
+> [!NOTE]
+> Thai text rendering for local public-space or campaign visuals.
+
+---
+
+<a id="case-26"></a>
+
+### Case 26: French creation poster
+
+<img src="assets/media/028-CREATION-FRANCAISE-Made-in-France.png" width="720" alt="French creation poster">
+
+> [!NOTE]
+> French text rendering for product, fashion, and campaign assets.
+
+---
+
+<a id="case-27"></a>
+
+### Case 27: Russian future poster
+
+<img src="assets/media/029-Future.png" width="720" alt="Russian future poster">
+
+> [!NOTE]
+> Russian text rendering with clear character structure for localized visual concepts.
+
+---
 
 <a id="model-notes"></a>
 
 ## 🧩 模型備註
 
-| 領域 | 來源佐證備註 |
+| Area | Source-backed note |
 |---|---|
-| 模型 ID | 官方材料列出 `dola-seedream-5-0-pro-260628`；在它成為首次執行證據之前，仍需要 EvoLink 執行驗證。 |
-| 輸入圖片 | 來源材料表示 Seedream 5.0 Pro 支援最多 10 張輸入圖片。 |
-| 輸出解析度 | 來源材料表示 Pro 的公開定位不應宣稱 4K；它描述的輸出級別約為 <= 2.36M 像素與 > 2.36M 像素。 |
-| 原生提示詞語言 | Source material lists Arabic, English, Russian, Indonesian, Spanish, German, Turkish, Portuguese, Malay, Vietnamese, French, Japanese, Korean, Tagalog, and Thai. |
-| Seedream 到 Seedance 路徑 | 來源材料表示，在帳號與審核條件下，Seedream 5.0 Pro/Lite 的輸出可成為 Seedance 系列 image-to-video 工作流的可信輸入。 |
+| Model ID | Official material lists `dola-seedream-5-0-pro-260628`; EvoLink runtime verification is still required before this becomes first-run evidence. |
+| Input images | Official material says Seedream 5.0 Pro supports up to 10 input images. |
+| Output resolution | Do not claim 4K for Pro; the source material describes output tiers around `<= 2.36M` pixels and `> 2.36M` pixels. |
+| Native prompt languages | Official material lists Arabic, English, Russian, Indonesian, Spanish, German, Turkish, Portuguese, Malay, Vietnamese, French, Japanese, Korean, Tagalog, and Thai. |
+| Seedream to Seedance path | Official material says Seedream 5.0 Pro/Lite outputs can become trusted inputs for Seedance-family image-to-video workflows, with account and moderation conditions. |
 
 <a id="acknowledge"></a>
 
 ## 🙏 致謝
 
-本倉庫由 2026-07-08 匯出的 Seedream 5.0 Pro 官方發布材料建立。
+This repository was created from official Seedream 5.0 Pro launch material exported on July 8, 2026 and from owner corrections about the case inventory.
 
-- 私有來源 URL：記錄在本地審計證據中，不作為 README 公開連結暴露。
-- 執行備註：本倉庫審計尚未執行會消耗額度的 EvoLink API smoke test。
+- Official private source URLs are retained only in local audit evidence.
+- Prompt blocks are included only where the official material provides prompt text.
+- Media-only cases remain media-only; missing prompts are not invented.
+
+*If any public case boundary needs correction, open an issue or send a patch with concrete source evidence.*

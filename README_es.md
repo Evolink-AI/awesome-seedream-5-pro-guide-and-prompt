@@ -4,7 +4,7 @@
 
 # Awesome Seedream 5.0 Pro Guide and Prompt
 
-Guía con fuentes, patrones de prompts y ejemplos visuales para evaluar flujos de generación y edición de imágenes con Seedream 5.0 Pro.
+Source-backed guide, prompt patterns, and visual examples for evaluating Seedream 5.0 Pro image generation and editing workflows.
 
 [![License: MIT](assets/badges/license-mit.svg)](LICENSE)
 [![Use on EvoLink](assets/badges/use-on-evolink.svg)](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=badge&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=top_badge)
@@ -16,76 +16,98 @@ Guía con fuentes, patrones de prompts y ejemplos visuales para evaluar flujos d
 
 <a id="introduction"></a>
 
-## 🍌 Introducción
+## 🍌 Introduction
 
-Seedream 5.0 Pro aparece en el material oficial de lanzamiento como un modelo de generación y edición de imágenes para producción visual controlable. El material destaca ediciones dirigidas por regiones, bocetos, posicionamiento con anclas, separación por capas, control de materiales y color, composición con múltiples referencias, imágenes cinematográficas y texto multilingüe.
+Seedream 5.0 Pro se presenta en el material oficial de lanzamiento como un modelo controlable de generación y edición de imágenes. Esta guía mantiene el README público alineado con el menú oficial de capacidades: control de interacción, edición con bocetos, edición por capas, posicionamiento por anclas, separación de capas, fusión de múltiples imágenes, muestras visuales y renderizado de texto multilingüe.
 
-Este repositorio es una superficie de **guía y prompts**. Reúne patrones de prompts y ejemplos multimedia respaldados por fuentes para que los builders puedan inspeccionar qué probar, copiar solo los prompts que aparecen en el material fuente y avanzar hacia una ruta de conversión en EvoLink cuando el acceso esté disponible.
+**Usa este repositorio para revisar ejemplos respaldados por la fuente, copiar solo los prompts que aparecen en el material oficial y entender cómo cada categoría se vincula con casos visibles.**
 
-Prueba el punto de entrada del modelo en EvoLink: [Abrir la ruta de Seedream 5.0 Pro en EvoLink](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=top_text_cta).
+Try the model entry point on EvoLink: [Open Seedream 5.0 Pro on EvoLink](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=top_text_cta).
 
-**Inicio rápido:** este repositorio no afirma que se haya verificado una ruta API de primera ejecución de EvoLink para Seedream 5.0 Pro. Usa esta ruta pública hasta que se registre evidencia de ejecución del modelo actual:
+**Inicio rápido:** Este repositorio no afirma que ya exista una ruta API de primera ejecución verificada en EvoLink para Seedream 5.0 Pro. Usa la entrada pública del modelo, el panel de claves API y la referencia técnica oficial hasta que haya evidencia de runtime.
 
-1. [Abrir EvoLink para acceder a Seedream 5.0 Pro](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=model_link).
-2. [Obtener tu clave API de EvoLink](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=api_key).
-3. Tratar la referencia oficial de ModelArk como contexto técnico: [Leer la documentación de Seedream 5.0 Pro en ModelArk](https://docs.byteplus.com/en/docs/ModelArk/1541523).
+1. [Open the Seedream 5.0 Pro EvoLink path](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=model_link).
+2. [Get your EvoLink API key](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=api_key).
+3. [Read the official ModelArk technical reference](https://docs.byteplus.com/en/docs/ModelArk/1541523).
 
-Estado de ejecución: el material oficial nombra `dola-seedream-5-0-pro-260628` como ID del modelo Seedream 5.0 Pro, pero este repositorio no ha completado una prueba de API de EvoLink que consuma créditos. No trates ejemplos de modelos de imagen adyacentes como evidencia verificada de primera ejecución para Seedream 5.0 Pro.
+> [!NOTE]
+> Política de fuente: material oficial de lanzamiento proporcionado por el owner. Las URL privadas de Lark/Feishu se conservan solo en evidencia local de auditoría y no se exponen como páginas públicas de fuente en el README.
 
 <a id="news"></a>
 
-## 📰 Novedades
+## 📰 News
 
-- **2026-07-08:** Scaffold local inicial creado a partir del material oficial de lanzamiento de Seedream 5.0 Pro y la exportación multimedia.
+- **July 8, 2026:** Guía inicial reorganizada según el menú oficial y el inventario de casos corregido por el owner.
 
 <a id="menu"></a>
 
 ## 📑 Menú
 
-- [🍌 Introducción](#introduction)
-- [📰 Novedades](#news)
+- [🍌 Introduction](#introduction)
+- [📰 News](#news)
 - [📑 Menú](#menu)
-- [🧭 Categorías de edición interactiva](#interactive-editing-categories)
-- [🎛️ Patrones de prompts para edición controlada](#controlled-editing-prompt-patterns)
-  - [Case 1: Descripción de objetos por cajas de región para edición dirigida](#case-1)
-  - [Case 2: Edición por posición de anclas en una escena tipo cuadrícula](#case-2)
-  - [Case 3: Composición de bodegón con múltiples referencias](#case-3)
-- [🎬 Galería visual de capacidades](#visual-capability-gallery)
+- [🎛️ Interaction Control](#interaction-control)
+  - [Case 1: Arrows and annotation boxes for spatial intent](#case-1)
+  - [Case 2: Region-box object description for targeted editing](#case-2)
+- [✏️ Sketch Editing](#sketch-editing)
+  - [Case 3: Doodle-guided object generation](#case-3)
+  - [Case 4: Color-block guided editing](#case-4)
+  - [Case 5: Line-guided detail editing](#case-5)
+  - [Case 6: Simple sketch to refined image](#case-6)
+- [🧱 Layer Editing](#layer-editing)
+  - [Case 7: Poster text and graphic layer edit: Avery Turns](#case-7)
+  - [Case 8: Poster offer layer edit: Happy Hour](#case-8)
+  - [Case 9: Fashion image layer edit inside a design layout](#case-9)
+  - [Case 10: Sports poster graphic layer edit](#case-10)
+  - [Case 11: Poster element edit: Public Joy](#case-11)
+  - [Case 12: Material surface swap with precise texture response](#case-12)
+- [📍 Anchor / Position Editing](#anchor-position-editing)
+  - [Case 13: Grid-position object movement](#case-13)
+- [🧩 Layer Separation](#layer-separation)
+  - [Case 14: Foreground/person layer separation](#case-14)
+  - [Case 15: Scene component layers for object reuse](#case-15)
+  - [Case 16: Recombined layered scene output](#case-16)
+- [🖼️ Multi-image Fusion Editing](#multi-image-fusion-editing)
+  - [Case 17: Seven-reference still-life composition](#case-17)
+- [🎬 Visual Quality & Narrative](#visual-quality-narrative)
+  - [Case 18: Cinematic tennis glass shatter](#case-18)
+  - [Case 19: Cinematic boxing action](#case-19)
+  - [Case 20: 3D animation style scene](#case-20)
+  - [Case 21: Visual concept art](#case-21)
+  - [Case 22: Game scene visual](#case-22)
+- [🌐 Multilingual Text Rendering](#multilingual-text-rendering)
+  - [Case 23: Arabic and English welcome sign](#case-23)
+  - [Case 24: Korean open-24-hours sign](#case-24)
+  - [Case 25: Thai cleanliness sign](#case-25)
+  - [Case 26: French creation poster](#case-26)
+  - [Case 27: Russian future poster](#case-27)
 - [🧩 Notas del modelo](#model-notes)
 - [🙏 Agradecimientos](#acknowledge)
 
-<a id="interactive-editing-categories"></a>
+<a id="interaction-control"></a>
 
-## 🧭 Categorías de edición interactiva
+## 🎛️ Interaction Control
 
-El material oficial de Seedream 5.0 Pro agrupa la edición controlable en seis modos prácticos. Usa este mapa antes de elegir un patrón de prompt, porque la señal de control cambia lo que debe especificar el prompt.
+Use boxes, points, arrows, annotation marks, or coordinates to specify the target region.
 
-| Categoría | Qué aporta el usuario | Mejor para |
-|---|---|---|
-| Control interactivo | Selecciones, puntos, flechas, cajas de anotación o coordenadas que señalan la región objetivo. | Generación o modificación local con intención espacial explícita. |
-| Edición con bocetos | Garabatos, bloques de color, líneas o bocetos simples junto con instrucciones en lenguaje natural. | Convertir intención visual aproximada en objetos o detalles renderizados. |
-| Edición por ancla / posición | Anclas textuales en una escena tipo cuadrícula o claramente ordenada. | Mover o reposicionar objetos concretos evitando regiones no objetivo. |
-| Separación por capas | Un prompt que pide dividir primer plano, fondo y componentes en capas editables. | Arrastrar, escalar, recomponer y reutilizar activos aguas abajo. |
-| Respuesta precisa de color y material | Códigos hex / de color y descripciones de materiales. | Variantes de producto, coincidencia de color de marca y cambios de material. |
-| Edición por fusión multiimagen | Varias imágenes de referencia con una instrucción de diseño, estilo o material. | Combinar productos, estilos, texturas u objetos en una imagen coherente. |
-
-<a id="controlled-editing-prompt-patterns"></a>
-
-## 🎛️ Patrones de prompts para edición controlada
-
+Case count: **2**.
 
 <a id="case-1"></a>
 
-### Case 1: Descripción de objetos por cajas de región para edición dirigida
+### Case 1: Arrows and annotation boxes for spatial intent
 
-<table>
-  <tr>
-    <td width="50%" valign="top"><img src="assets/media/003-arrows-annotation-boxes.gif" alt="Interaction arrows and annotation boxes"></td>
-    <td width="50%" valign="top"><img src="assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif" alt="Region-box annotation example"></td>
-  </tr>
-</table>
+<img src="assets/media/003-arrows-annotation-boxes.gif" width="720" alt="Arrows and annotation boxes for spatial intent">
 
-**Source mapping:** Prompt and media are paired in official section 3.1.1 (interaction control).
+> [!NOTE]
+> Use arrows, boxes, and annotations to make the target area explicit before editing.
+
+---
+
+<a id="case-2"></a>
+
+### Case 2: Region-box object description for targeted editing
+
+<img src="assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif" width="720" alt="Region-box object description for targeted editing">
 
 **Prompt:**
 
@@ -93,20 +115,164 @@ El material oficial de Seedream 5.0 Pro agrupa la edición controlable en seis m
 Red box: A huge blue-furred head with a ferocious squished expression, gazing at the bubble ahead. Green box: A transparent bubble reflecting the indoor lights. Yellow box: A large warm gray-beige yarn ball. Blue box: A stack of building blocks including a warm dark gray arch, a warm light gray half-cylinder, a lake blue cylinder, a deep lake blue ramp, and a cobalt blue half-disc. Purple box: A grass green tasseled blanket draped over the sofa.
 ```
 
-Source: Official.
+---
 
-<a id="case-2"></a>
+<a id="sketch-editing"></a>
 
-### Case 2: Edición por posición de anclas en una escena tipo cuadrícula
+## ✏️ Sketch Editing
+
+Use doodles, color blocks, lines, or simple sketches as visual guidance.
+
+Case count: **4**.
+
+<a id="case-3"></a>
+
+### Case 3: Doodle-guided object generation
+
+<img src="assets/media/005-doodles.gif" width="720" alt="Doodle-guided object generation">
+
+> [!NOTE]
+> Use loose doodles as the visual control signal and let the model render the intended object.
+
+---
+
+<a id="case-4"></a>
+
+### Case 4: Color-block guided editing
+
+<img src="assets/media/006-color-block.gif" width="720" alt="Color-block guided editing">
+
+> [!NOTE]
+> Use broad color blocks to specify rough composition, color zones, or object placement.
+
+---
+
+<a id="case-5"></a>
+
+### Case 5: Line-guided detail editing
+
+<img src="assets/media/007-lines.gif" width="720" alt="Line-guided detail editing">
+
+> [!NOTE]
+> Use simple line guidance when the shape boundary matters more than a long text description.
+
+---
+
+<a id="case-6"></a>
+
+### Case 6: Simple sketch to refined image
+
+<img src="assets/media/008-simple-sketches.gif" width="720" alt="Simple sketch to refined image">
+
+> [!NOTE]
+> Turn a minimal sketch into a more complete rendered image while preserving the sketch intent.
+
+---
+
+<a id="layer-editing"></a>
+
+## 🧱 Layer Editing
+
+Edit poster, graphic, text, material, or surface layers while preserving the broader composition.
+
+Case count: **6**.
+
+<a id="case-7"></a>
+
+### Case 7: Poster text and graphic layer edit: Avery Turns
+
+<img src="assets/media/009-Feishu-Docs-Image.gif" width="720" alt="Poster text and graphic layer edit: Avery Turns">
+
+> [!NOTE]
+> Edit visible poster elements while preserving the overall design structure.
+
+---
+
+<a id="case-8"></a>
+
+### Case 8: Poster offer layer edit: Happy Hour
+
+<img src="assets/media/010-Feishu-Docs-Image.gif" width="720" alt="Poster offer layer edit: Happy Hour">
+
+> [!NOTE]
+> Change a promotion badge or graphic element without rebuilding the whole poster.
+
+---
+
+<a id="case-9"></a>
+
+### Case 9: Fashion image layer edit inside a design layout
+
+<img src="assets/media/011-Feishu-Docs-Image.gif" width="720" alt="Fashion image layer edit inside a design layout">
+
+> [!NOTE]
+> Adjust a layered subject inside a composed visual layout.
+
+---
+
+<a id="case-10"></a>
+
+### Case 10: Sports poster graphic layer edit
+
+<img src="assets/media/012-Feishu-Docs-Image.gif" width="720" alt="Sports poster graphic layer edit">
+
+> [!NOTE]
+> Edit a racing poster graphic while keeping typography and composition aligned.
+
+---
+
+<a id="case-11"></a>
+
+### Case 11: Poster element edit: Public Joy
+
+<img src="assets/media/013-Feishu-Docs-Image.gif" width="720" alt="Poster element edit: Public Joy">
+
+> [!NOTE]
+> Modify poster elements while preserving the source design language.
+
+---
+
+<a id="case-12"></a>
+
+### Case 12: Material surface swap with precise texture response
+
+<img src="assets/media/014-Feishu-Docs-Image.gif" width="720" alt="Material surface swap with precise texture response">
+
+> [!NOTE]
+> Swap material and color targets while keeping the object structure intact.
+
+---
+
+<a id="anchor-position-editing"></a>
+
+## 📍 Anchor / Position Editing
+
+Use grid-like anchors or relative positions to move a specific target precisely.
+
+Case count: **1**.
+
+<a id="case-13"></a>
+
+### Case 13: Grid-position object movement
 
 <table>
-  <tr>
-    <td width="50%" valign="top"><strong>Antes</strong><br><img src="assets/media/015-Feishu-Docs-Image.png" alt="Anchor positioning example before edit"></td>
-    <td width="50%" valign="top"><strong>Después</strong><br><img src="assets/media/016-Feishu-Docs-Image.png" alt="Anchor positioning example after edit"></td>
-  </tr>
-</table>
+<tr>
+<td width="50%" valign="top">
 
-**Source mapping:** Prompt and media are paired in official section 3.1.3 (anchor/position editing).
+**Before:**
+
+<img src="assets/media/015-Feishu-Docs-Image.png" width="420" alt="Grid-position object movement before">
+
+</td>
+<td width="50%" valign="top">
+
+**After:**
+
+<img src="assets/media/016-Feishu-Docs-Image.png" width="420" alt="Grid-position object movement after">
+
+</td>
+</tr>
+</table>
 
 **Prompt:**
 
@@ -114,15 +280,63 @@ Source: Official.
 Move the red car in the lower-left corner one grid cell to the right, and move the black pawn in the second column from the left of the black-square position one grid cell downward.
 ```
 
-Source: Official.
+---
 
-<a id="case-3"></a>
+<a id="layer-separation"></a>
 
-### Case 3: Composición de bodegón con múltiples referencias
+## 🧩 Layer Separation
 
-**Source mapping:** Prompt comes from official section 3.1.6 (multi-image fusion). The media below is from official section 3.1.5 (precise color/material response), so it is marked as related different-case media, not a paired output.
+Separate foreground, background, and reusable components for downstream editing.
 
-![Related different-case material-response media](assets/media/014-Feishu-Docs-Image.gif)
+Case count: **3**.
+
+<a id="case-14"></a>
+
+### Case 14: Foreground/person layer separation
+
+<img src="assets/media/017-Feishu-Docs-Image.png" width="720" alt="Foreground/person layer separation">
+
+> [!NOTE]
+> Separate a foreground subject from a poster-like background for later reuse.
+
+---
+
+<a id="case-15"></a>
+
+### Case 15: Scene component layers for object reuse
+
+<img src="assets/media/018-Feishu-Docs-Image.png" width="720" alt="Scene component layers for object reuse">
+
+> [!NOTE]
+> Expose independently editable scene components for drag, scale, and recomposition workflows.
+
+---
+
+<a id="case-16"></a>
+
+### Case 16: Recombined layered scene output
+
+<img src="assets/media/019-Feishu-Docs-Image.png" width="720" alt="Recombined layered scene output">
+
+> [!NOTE]
+> Use separated assets to rebuild a coherent scene after component-level editing.
+
+---
+
+<a id="multi-image-fusion-editing"></a>
+
+## 🖼️ Multi-image Fusion Editing
+
+Combine multiple reference images into one coherent composition under a single instruction.
+
+Case count: **1**.
+
+<a id="case-17"></a>
+
+### Case 17: Seven-reference still-life composition
+
+> [!NOTE]
+> Official material provides the prompt for this case without a paired public output image in the export used for this repository.
 
 **Prompt:**
 
@@ -130,54 +344,154 @@ Source: Official.
 Precisely cut out the objects from my seven white-background reference photos and arrange them into a realistic still-life photography image according to the specified layout. Make sure the perspective, lighting, and spatial relationships are correct. Faithfully preserve material details such as wood grain, leather, lace, jelly glass, and feathers, creating a high-quality image that feels realistic and playful, with a blend of vintage and modern aesthetics.
 ```
 
-Source: Official.
+---
 
-<a id="visual-capability-gallery"></a>
+<a id="visual-quality-narrative"></a>
 
-## 🎬 Galería visual de capacidades
+## 🎬 Visual Quality & Narrative
 
-El material oficial incluye muestras visuales adicionales de edición guiada por bocetos, separación de capas, narrativa cinematográfica y renderizado de texto multilingüe.
+Group the effect samples by cinematic action, 3D/animation, concept art, and game-scene output.
 
-<table>
-  <tr>
-    <td width="50%" valign="top"><strong>Garabatos guiados por boceto</strong><br><img src="assets/media/005-doodles.gif" alt="Sketch-guided doodles example"></td>
-    <td width="50%" valign="top"><strong>Bloque de color guiado por boceto</strong><br><img src="assets/media/006-color-block.gif" alt="Sketch-guided color block example"></td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top"><strong>Líneas guiadas por boceto</strong><br><img src="assets/media/007-lines.gif" alt="Sketch-guided lines example"></td>
-    <td width="50%" valign="top"><strong>Control con boceto simple</strong><br><img src="assets/media/008-simple-sketches.gif" alt="Simple sketch control example"></td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top"><strong>Ejemplo de separación de capas</strong><br><img src="assets/media/017-Feishu-Docs-Image.png" alt="Layer separation example"></td>
-    <td width="50%" valign="top"><strong>Variante de separación de capas</strong><br><img src="assets/media/018-Feishu-Docs-Image.png" alt="Layer separation variant"></td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top"><strong>Tenis cinematográfico con cristal roto</strong><br><img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" alt="Cinematic tennis glass shatter"></td>
-    <td width="50%" valign="top"><strong>Acción cinematográfica de boxeo</strong><br><img src="assets/media/021-Cinematic-narrative-action-boxing.png" alt="Cinematic action boxing"></td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top"><strong>Renderizado de texto árabe e inglés</strong><br><img src="assets/media/025-Welcome.png" alt="Arabic and English welcome text rendering"></td>
-    <td width="50%" valign="top"><strong>Renderizado de texto coreano</strong><br><img src="assets/media/026-24-Open-24-hours.png" alt="Korean open 24 hours text rendering"></td>
-  </tr>
-</table>
+Case count: **5**.
+
+<a id="case-18"></a>
+
+### Case 18: Cinematic tennis glass shatter
+
+<img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" width="720" alt="Cinematic tennis glass shatter">
+
+> [!NOTE]
+> High-motion scene generation with glass fragments, action timing, and cinematic lighting.
+
+---
+
+<a id="case-19"></a>
+
+### Case 19: Cinematic boxing action
+
+<img src="assets/media/021-Cinematic-narrative-action-boxing.png" width="720" alt="Cinematic boxing action">
+
+> [!NOTE]
+> Action-scene rendering with a stronger sense of motion, impact, and scene depth.
+
+---
+
+<a id="case-20"></a>
+
+### Case 20: 3D animation style scene
+
+<img src="assets/media/022-Cinematic-narrative-3D-animation.png" width="720" alt="3D animation style scene">
+
+> [!NOTE]
+> Stylized 3D/animation output for character or entertainment visuals.
+
+---
+
+<a id="case-21"></a>
+
+### Case 21: Visual concept art
+
+<img src="assets/media/023-Cinematic-narrative-visual-concept.png" width="720" alt="Visual concept art">
+
+> [!NOTE]
+> Concept-art style generation for atmosphere, visual direction, and mood exploration.
+
+---
+
+<a id="case-22"></a>
+
+### Case 22: Game scene visual
+
+<img src="assets/media/024-Cinematic-narrative-game-scene.png" width="720" alt="Game scene visual">
+
+> [!NOTE]
+> Game-like scene generation for environment, set, or key-art exploration.
+
+---
+
+<a id="multilingual-text-rendering"></a>
+
+## 🌐 Multilingual Text Rendering
+
+Group the multilingual samples by rendered language and local-text use case.
+
+Case count: **5**.
+
+<a id="case-23"></a>
+
+### Case 23: Arabic and English welcome sign
+
+<img src="assets/media/025-Welcome.png" width="720" alt="Arabic and English welcome sign">
+
+> [!NOTE]
+> Native multilingual rendering with Arabic and English text in the same visual.
+
+---
+
+<a id="case-24"></a>
+
+### Case 24: Korean open-24-hours sign
+
+<img src="assets/media/026-24-Open-24-hours.png" width="720" alt="Korean open-24-hours sign">
+
+> [!NOTE]
+> Korean text rendering for localized storefront or signage content.
+
+---
+
+<a id="case-25"></a>
+
+### Case 25: Thai cleanliness sign
+
+<img src="assets/media/027-Please-help-keep-the-place-clean-together.png" width="720" alt="Thai cleanliness sign">
+
+> [!NOTE]
+> Thai text rendering for local public-space or campaign visuals.
+
+---
+
+<a id="case-26"></a>
+
+### Case 26: French creation poster
+
+<img src="assets/media/028-CREATION-FRANCAISE-Made-in-France.png" width="720" alt="French creation poster">
+
+> [!NOTE]
+> French text rendering for product, fashion, and campaign assets.
+
+---
+
+<a id="case-27"></a>
+
+### Case 27: Russian future poster
+
+<img src="assets/media/029-Future.png" width="720" alt="Russian future poster">
+
+> [!NOTE]
+> Russian text rendering with clear character structure for localized visual concepts.
+
+---
 
 <a id="model-notes"></a>
 
 ## 🧩 Notas del modelo
 
-| Área | Nota respaldada por fuente |
+| Area | Source-backed note |
 |---|---|
-| ID del modelo | El material oficial lista `dola-seedream-5-0-pro-260628`; aún se requiere verificación de ejecución en EvoLink antes de usarlo como evidencia de primera ejecución. |
-| Imágenes de entrada | El material fuente dice que Seedream 5.0 Pro admite hasta 10 imágenes de entrada. |
-| Resolución de salida | El material fuente dice que el posicionamiento público no debe prometer 4K para Pro; describe niveles de salida alrededor de <= 2.36M píxeles y > 2.36M píxeles. |
-| Idiomas nativos de prompt | El material fuente lista árabe, inglés, ruso, indonesio, español, alemán, turco, portugués, malayo, vietnamita, francés, japonés, coreano, tagalo y tailandés. |
-| Ruta Seedream a Seedance | El material fuente dice que las salidas de Seedream 5.0 Pro/Lite pueden convertirse en entradas confiables para flujos de imagen a video de la familia Seedance, con condiciones de cuenta y moderación. |
+| Model ID | Official material lists `dola-seedream-5-0-pro-260628`; EvoLink runtime verification is still required before this becomes first-run evidence. |
+| Input images | Official material says Seedream 5.0 Pro supports up to 10 input images. |
+| Output resolution | Do not claim 4K for Pro; the source material describes output tiers around `<= 2.36M` pixels and `> 2.36M` pixels. |
+| Native prompt languages | Official material lists Arabic, English, Russian, Indonesian, Spanish, German, Turkish, Portuguese, Malay, Vietnamese, French, Japanese, Korean, Tagalog, and Thai. |
+| Seedream to Seedance path | Official material says Seedream 5.0 Pro/Lite outputs can become trusted inputs for Seedance-family image-to-video workflows, with account and moderation conditions. |
 
 <a id="acknowledge"></a>
 
 ## 🙏 Agradecimientos
 
-Este repositorio se creó a partir del material oficial de lanzamiento de Seedream 5.0 Pro exportado el 2026-07-08.
+This repository was created from official Seedream 5.0 Pro launch material exported on July 8, 2026 and from owner corrections about the case inventory.
 
-- URL fuente privada: registrada en evidencia local de auditoría, no expuesta como enlace público del README.
-- Nota de ejecución: no se ha realizado una prueba de API de EvoLink que consuma créditos en esta auditoría del repositorio.
+- Official private source URLs are retained only in local audit evidence.
+- Prompt blocks are included only where the official material provides prompt text.
+- Media-only cases remain media-only; missing prompts are not invented.
+
+*If any public case boundary needs correction, open an issue or send a patch with concrete source evidence.*
