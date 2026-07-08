@@ -5,7 +5,10 @@
 - First scaffold uses owner-provided source material only.
 - Do not invent prompts to fill missing cases.
 - Community or X/Twitter updates must go through prompt curation before README mutation.
-- Prompt text copied from Chinese source material may be translated when the README is English, but the source section must be recorded in the case notes.
+- Official-source-only cases use the public label `Source: Official.` and do not use pseudo-author labels.
+- Private export URLs and section-level provenance stay in ignored local audit evidence, not in public README links or source-note pages.
+- Prompt text copied from owner-provided source material may be translated when the README is English, but the private source boundary must remain recorded in the run evidence.
+- Collected source GIFs may remain in `assets/media/` even when not all of them are embedded in the public README; README-visible GIFs must not be silently replaced by static PNG fallbacks.
 
 ## Update Cadence
 

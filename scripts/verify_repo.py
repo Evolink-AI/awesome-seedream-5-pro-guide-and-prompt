@@ -5,11 +5,15 @@ from __future__ import annotations
 
 import re
 import sys
+import json
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
 README = ROOT / "README.md"
+OFFICIAL_SOURCE_LABEL = "Source: Official."
+REMOVED_SOURCE_NOTE_TOKEN = "source" + "-notes"
+REMOVED_SOURCE_NOTE_PATH = "docs/" + REMOVED_SOURCE_NOTE_TOKEN + ".md"
 LOCALIZED_READMES = [
     "README.md",
     "README_es.md",
@@ -127,6 +131,10 @@ def main() -> int:
         fail("README must not expose non-English official-source labels or pseudo-author labels.", failures)
     if readme.count("Source: Official.") != len(case_numbers):
         fail("Official-source cases must use the public source label `Source: Official.`.", failures)
+    if "(by [@" in readme or "@\u5b98\u65b9" in readme:
+        fail("Official-source-only cases must not use pseudo-author heading labels.", failures)
+    if REMOVED_SOURCE_NOTE_PATH in readme or REMOVED_SOURCE_NOTE_TOKEN in readme:
+        fail("README must not reference the removed public source note page.", failures)
     if "## 🎬 Visual Capability Gallery" in readme:
         gallery = readme.split("## 🎬 Visual Capability Gallery", 1)[1].split("## 🧩 Model Notes", 1)[0]
         if gallery.count("<table>") != 1:
@@ -180,6 +188,10 @@ def main() -> int:
         for forbidden in forbidden_source_labels:
             if forbidden in localized:
                 fail(f"{rel} contains forbidden pseudo-author or non-English source label: {forbidden}", failures)
+        if REMOVED_SOURCE_NOTE_PATH in localized or REMOVED_SOURCE_NOTE_TOKEN in localized:
+            fail(f"{rel} must not reference the removed public source note page.", failures)
+        if localized.count(OFFICIAL_SOURCE_LABEL) != source_case_count:
+            fail(f"{rel} must use the canonical official-source label exactly once per case.", failures)
     for rel in LOCALIZED_READMES[1:]:
         localized = (ROOT / rel).read_text(encoding="utf-8")
         localized_headings = [line for line in localized.splitlines() if line.startswith("## ")]
@@ -198,6 +210,22 @@ def main() -> int:
                 fail(f"{rel} must preserve source GIF media reference: {gif_ref}", failures)
             if png_ref in localized:
                 fail(f"{rel} must not use static PNG fallback for source GIF media: {png_ref}", failures)
+
+    source_index = ROOT / "data/ingested_tweets.json"
+    try:
+        source_records = json.loads(source_index.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        fail(f"Source index is not valid JSON: {exc}", failures)
+        source_records = []
+    for index, record in enumerate(source_records):
+        public_note = record.get("public_source_note")
+        if public_note:
+            fail(f"data/ingested_tweets.json record {index} must not point to a public source-note page: {public_note}", failures)
+        if record.get("public_source_label") != OFFICIAL_SOURCE_LABEL:
+            fail(f"data/ingested_tweets.json record {index} must record `{OFFICIAL_SOURCE_LABEL}` as public_source_label.", failures)
+        policy = record.get("case_heading_policy", "")
+        if "pseudo-author" not in policy or "Source: Official." not in policy:
+            fail(f"data/ingested_tweets.json record {index} must document the official-source case heading policy.", failures)
 
     print("# Local Repo Verification")
     print()
