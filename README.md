@@ -45,6 +45,7 @@ Runtime status: the official material names `dola-seedream-5-0-pro-260628` as th
 - [🍌 Introduction](#introduction)
 - [📰 News](#news)
 - [📑 Menu](#menu)
+- [🧭 Interactive Editing Categories](#interactive-editing-categories)
 - [🎛️ Controlled Editing Prompt Patterns](#controlled-editing-prompt-patterns)
   - [Case 1: Region-box object description for targeted editing](#case-1)
   - [Case 2: Anchor-position edit on a grid-like scene](#case-2)
@@ -52,6 +53,21 @@ Runtime status: the official material names `dola-seedream-5-0-pro-260628` as th
 - [🎬 Visual Capability Gallery](#visual-capability-gallery)
 - [🧩 Model Notes](#model-notes)
 - [🙏 Acknowledge](#acknowledge)
+
+<a id="interactive-editing-categories"></a>
+
+## 🧭 Interactive Editing Categories
+
+Seedream 5.0 Pro's official material groups controllable editing into six practical modes. Use this map before choosing a prompt pattern, because the control signal changes what the prompt should specify.
+
+| Category | What the user provides | Best for |
+|---|---|---|
+| Interaction control | Selection boxes, points, arrows, annotation boxes, or coordinates that point to the target region. | Local generation or modification with explicit spatial intent. |
+| Sketch editing | Doodles, color blocks, lines, or simple sketches plus natural-language instructions. | Turning rough visual intent into rendered objects/details. |
+| Anchor / position editing | Textual anchors in a grid-like or clearly arranged scene. | Moving or repositioning specific objects while avoiding non-target regions. |
+| Layer separation | A prompt asking the model to split foreground, background, and components into editable layers. | Downstream drag, scale, recomposition, and reusable asset workflows. |
+| Precise color and material response | Hex/color codes and material descriptions. | Product variants, brand color matching, and material swaps. |
+| Multi-image fusion editing | Multiple reference images with one layout, style, or material instruction. | Combining products, styles, textures, or objects into one coherent visual. |
 
 <a id="controlled-editing-prompt-patterns"></a>
 

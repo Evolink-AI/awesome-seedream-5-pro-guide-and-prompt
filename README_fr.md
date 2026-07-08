@@ -45,6 +45,7 @@ Essayer le point d’entrée du modèle sur EvoLink: [Ouvrir le chemin Seedream 
 - [🍌 Introduction](#introduction)
 - [📰 Actualités](#news)
 - [📑 Menu](#menu)
+- [🧭 Catégories d’édition interactive](#interactive-editing-categories)
 - [🎛️ Modèles de prompts pour édition contrôlée](#controlled-editing-prompt-patterns)
   - [Case 1: Description d’objets par cadres de région pour édition ciblée](#case-1)
   - [Case 2: Édition par position d’ancre dans une scène en grille](#case-2)
@@ -52,6 +53,21 @@ Essayer le point d’entrée du modèle sur EvoLink: [Ouvrir le chemin Seedream 
 - [🎬 Galerie visuelle des capacités](#visual-capability-gallery)
 - [🧩 Notes du modèle](#model-notes)
 - [🙏 Remerciements](#acknowledge)
+
+<a id="interactive-editing-categories"></a>
+
+## 🧭 Catégories d’édition interactive
+
+Le matériel officiel de Seedream 5.0 Pro regroupe l’édition contrôlable en six modes pratiques. Utilisez cette carte avant de choisir un modèle de prompt, car le signal de contrôle change ce que le prompt doit préciser.
+
+| Catégorie | Ce que fournit l’utilisateur | Idéal pour |
+|---|---|---|
+| Contrôle interactif | Sélections, points, flèches, cadres d’annotation ou coordonnées indiquant la région cible. | Génération ou modification locale avec intention spatiale explicite. |
+| Édition par croquis | Gribouillis, blocs de couleur, lignes ou croquis simples avec instructions en langage naturel. | Transformer une intention visuelle approximative en objets ou détails rendus. |
+| Édition par ancre / position | Ancres textuelles dans une scène en grille ou clairement organisée. | Déplacer ou repositionner des objets précis en évitant les zones non ciblées. |
+| Séparation des calques | Un prompt demandant de séparer premier plan, arrière-plan et composants en calques éditables. | Glisser, redimensionner, recomposer et réutiliser les assets en aval. |
+| Réponse précise aux couleurs et matériaux | Codes hex / couleurs et descriptions de matériaux. | Variantes produit, correspondance couleur de marque et changements de matériau. |
+| Édition par fusion multi-image | Plusieurs images de référence avec une instruction de mise en page, style ou matériau. | Combiner produits, styles, textures ou objets dans une image cohérente. |
 
 <a id="controlled-editing-prompt-patterns"></a>
 

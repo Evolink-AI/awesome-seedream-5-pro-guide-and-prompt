@@ -45,6 +45,7 @@ Laufzeitstatus: Das offizielle Material nennt `dola-seedream-5-0-pro-260628` als
 - [🍌 Einführung](#introduction)
 - [📰 Neuigkeiten](#news)
 - [📑 Menü](#menu)
+- [🧭 Kategorien interaktiver Bearbeitung](#interactive-editing-categories)
 - [🎛️ Prompt-Muster für kontrollierte Bearbeitung](#controlled-editing-prompt-patterns)
   - [Case 1: Objektbeschreibung per Regionsbox für gezielte Bearbeitung](#case-1)
   - [Case 2: Ankerpositionsbearbeitung in einer rasterartigen Szene](#case-2)
@@ -52,6 +53,21 @@ Laufzeitstatus: Das offizielle Material nennt `dola-seedream-5-0-pro-260628` als
 - [🎬 Visuelle Funktionsgalerie](#visual-capability-gallery)
 - [🧩 Modellnotizen](#model-notes)
 - [🙏 Danksagung](#acknowledge)
+
+<a id="interactive-editing-categories"></a>
+
+## 🧭 Kategorien interaktiver Bearbeitung
+
+Das offizielle Material zu Seedream 5.0 Pro ordnet kontrollierbare Bearbeitung in sechs praktische Modi. Verwende diese Übersicht vor der Wahl eines Prompt-Musters, weil das Kontrollsignal bestimmt, was der Prompt angeben sollte.
+
+| Kategorie | Was der Nutzer liefert | Am besten für |
+|---|---|---|
+| Interaktionskontrolle | Auswahlbereiche, Punkte, Pfeile, Anmerkungsboxen oder Koordinaten, die auf die Zielregion zeigen. | Lokale Generierung oder Änderung mit expliziter räumlicher Absicht. |
+| Skizzenbearbeitung | Doodles, Farbblöcke, Linien oder einfache Skizzen plus natürliche Sprache. | Grobe visuelle Absichten in gerenderte Objekte oder Details übertragen. |
+| Anker- / Positionsbearbeitung | Textanker in einer rasterartigen oder klar angeordneten Szene. | Bestimmte Objekte bewegen oder neu positionieren, ohne Nicht-Zielbereiche zu verändern. |
+| Ebenentrennung | Ein Prompt, der Vordergrund, Hintergrund und Komponenten in editierbare Ebenen aufteilen lässt. | Nachgelagertes Ziehen, Skalieren, Neukombinieren und wiederverwendbare Asset-Workflows. |
+| Präzise Farb- und Materialreaktion | Hex- / Farbcodes und Materialbeschreibungen. | Produktvarianten, Markenfarbtreue und Materialwechsel. |
+| Multi-Image-Fusionsbearbeitung | Mehrere Referenzbilder mit einer Layout-, Stil- oder Materialanweisung. | Produkte, Stile, Texturen oder Objekte zu einem kohärenten Bild kombinieren. |
 
 <a id="controlled-editing-prompt-patterns"></a>
 

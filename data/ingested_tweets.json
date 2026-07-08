@@ -12,6 +12,14 @@
     "model": "Seedream 5.0 Pro",
     "decision": "selected",
     "reason": "Owner-provided launch material includes prompt examples, product notes, and downloaded media for first local guide/prompt scaffold. Private source URLs are not exposed in public repository files.",
+    "interactive_editing_categories": [
+      "interaction-control",
+      "sketch-editing",
+      "anchor-position-editing",
+      "layer-separation",
+      "precise-color-and-material-response",
+      "multi-image-fusion-editing"
+    ],
     "selected_cases": [
       "region-box-object-description",
       "anchor-position-grid-edit",

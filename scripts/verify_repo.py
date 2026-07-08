@@ -50,6 +50,22 @@ README_SOURCE_GIF_MEDIA = [
     "008-simple-sketches",
     "014-Feishu-Docs-Image",
 ]
+INTERACTIVE_EDITING_CATEGORIES = [
+    "Interaction control",
+    "Sketch editing",
+    "Anchor / position editing",
+    "Layer separation",
+    "Precise color and material response",
+    "Multi-image fusion editing",
+]
+INTERACTIVE_EDITING_CATEGORY_IDS = [
+    "interaction-control",
+    "sketch-editing",
+    "anchor-position-editing",
+    "layer-separation",
+    "precise-color-and-material-response",
+    "multi-image-fusion-editing",
+]
 
 
 def fail(message: str, failures: list[str]) -> None:
@@ -103,6 +119,7 @@ def main() -> int:
         "## 🍌 Introduction",
         "## 📰 News",
         "## 📑 Menu",
+        "## 🧭 Interactive Editing Categories",
         "## 🎛️ Controlled Editing Prompt Patterns",
         "## 🙏 Acknowledge",
     ]
@@ -114,6 +131,14 @@ def main() -> int:
         fail("Required headings are not in the expected order.", failures)
     if "Quick start:" not in readme or "Get your EvoLink API key" not in readme:
         fail("README does not show a visible conversion path before the first case section.", failures)
+
+    if "- [🧭 Interactive Editing Categories](#interactive-editing-categories)" not in readme:
+        fail("README menu must expose the interactive editing categories section.", failures)
+    if '<a id="interactive-editing-categories"></a>' not in readme:
+        fail("README must include an explicit interactive editing categories anchor.", failures)
+    for category in INTERACTIVE_EDITING_CATEGORIES:
+        if category not in readme:
+            fail(f"README missing interactive editing category: {category}", failures)
 
     case_heading_re = re.compile(r"^### Case ([0-9]+): .+$", re.MULTILINE)
     case_numbers = [int(match) for match in case_heading_re.findall(readme)]
@@ -226,6 +251,8 @@ def main() -> int:
         policy = record.get("case_heading_policy", "")
         if "pseudo-author" not in policy or "Source: Official." not in policy:
             fail(f"data/ingested_tweets.json record {index} must document the official-source case heading policy.", failures)
+        if record.get("interactive_editing_categories") != INTERACTIVE_EDITING_CATEGORY_IDS:
+            fail(f"data/ingested_tweets.json record {index} must record the six official interactive editing categories.", failures)
 
     print("# Local Repo Verification")
     print()

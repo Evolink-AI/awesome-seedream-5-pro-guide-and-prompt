@@ -45,6 +45,7 @@ Estado de ejecución: el material oficial nombra `dola-seedream-5-0-pro-260628` 
 - [🍌 Introducción](#introduction)
 - [📰 Novedades](#news)
 - [📑 Menú](#menu)
+- [🧭 Categorías de edición interactiva](#interactive-editing-categories)
 - [🎛️ Patrones de prompts para edición controlada](#controlled-editing-prompt-patterns)
   - [Case 1: Descripción de objetos por cajas de región para edición dirigida](#case-1)
   - [Case 2: Edición por posición de anclas en una escena tipo cuadrícula](#case-2)
@@ -52,6 +53,21 @@ Estado de ejecución: el material oficial nombra `dola-seedream-5-0-pro-260628` 
 - [🎬 Galería visual de capacidades](#visual-capability-gallery)
 - [🧩 Notas del modelo](#model-notes)
 - [🙏 Agradecimientos](#acknowledge)
+
+<a id="interactive-editing-categories"></a>
+
+## 🧭 Categorías de edición interactiva
+
+El material oficial de Seedream 5.0 Pro agrupa la edición controlable en seis modos prácticos. Usa este mapa antes de elegir un patrón de prompt, porque la señal de control cambia lo que debe especificar el prompt.
+
+| Categoría | Qué aporta el usuario | Mejor para |
+|---|---|---|
+| Control interactivo | Selecciones, puntos, flechas, cajas de anotación o coordenadas que señalan la región objetivo. | Generación o modificación local con intención espacial explícita. |
+| Edición con bocetos | Garabatos, bloques de color, líneas o bocetos simples junto con instrucciones en lenguaje natural. | Convertir intención visual aproximada en objetos o detalles renderizados. |
+| Edición por ancla / posición | Anclas textuales en una escena tipo cuadrícula o claramente ordenada. | Mover o reposicionar objetos concretos evitando regiones no objetivo. |
+| Separación por capas | Un prompt que pide dividir primer plano, fondo y componentes en capas editables. | Arrastrar, escalar, recomponer y reutilizar activos aguas abajo. |
+| Respuesta precisa de color y material | Códigos hex / de color y descripciones de materiales. | Variantes de producto, coincidencia de color de marca y cambios de material. |
+| Edición por fusión multiimagen | Varias imágenes de referencia con una instrucción de diseño, estilo o material. | Combinar productos, estilos, texturas u objetos en una imagen coherente. |
 
 <a id="controlled-editing-prompt-patterns"></a>
 

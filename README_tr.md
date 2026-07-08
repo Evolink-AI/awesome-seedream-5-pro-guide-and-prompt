@@ -45,6 +45,7 @@ Model giriş noktasını EvoLink üzerinde dene: [EvoLink Seedream 5.0 Pro yolun
 - [🍌 Giriş](#introduction)
 - [📰 Haberler](#news)
 - [📑 Menü](#menu)
+- [🧭 Etkileşimli düzenleme kategorileri](#interactive-editing-categories)
 - [🎛️ Kontrollü düzenleme prompt kalıpları](#controlled-editing-prompt-patterns)
   - [Case 1: Hedefli düzenleme için bölge kutusu nesne açıklaması](#case-1)
   - [Case 2: Izgara benzeri sahnede çapa konumu düzenleme](#case-2)
@@ -52,6 +53,21 @@ Model giriş noktasını EvoLink üzerinde dene: [EvoLink Seedream 5.0 Pro yolun
 - [🎬 Görsel yetenek galerisi](#visual-capability-gallery)
 - [🧩 Model notları](#model-notes)
 - [🙏 Teşekkür](#acknowledge)
+
+<a id="interactive-editing-categories"></a>
+
+## 🧭 Etkileşimli düzenleme kategorileri
+
+Seedream 5.0 Pro resmi materyali, kontrol edilebilir düzenlemeyi altı pratik moda ayırır. Prompt kalıbı seçmeden önce bu haritayı kullanın; çünkü kontrol sinyali promptun neyi belirtmesi gerektiğini değiştirir.
+
+| Kategori | Kullanıcının sağladığı şey | En uygun kullanım |
+|---|---|---|
+| Etkileşim kontrolü | Hedef bölgeyi gösteren seçimler, noktalar, oklar, açıklama kutuları veya koordinatlar. | Açık mekansal niyetle yerel üretim veya değişiklik. |
+| Eskiz düzenleme | Doodle, renk blokları, çizgiler veya basit eskizler ve doğal dil talimatları. | Kaba görsel niyeti işlenmiş nesnelere veya ayrıntılara dönüştürmek. |
+| Çapa / konum düzenleme | Izgara benzeri veya açık düzenlenmiş sahnede metinsel çapalar. | Hedef dışı bölgelerden kaçınarak belirli nesneleri taşımak veya yeniden konumlandırmak. |
+| Katman ayırma | Ön planı, arka planı ve bileşenleri düzenlenebilir katmanlara ayırmayı isteyen prompt. | Sonraki sürükleme, ölçekleme, yeniden birleştirme ve yeniden kullanılabilir varlık iş akışları. |
+| Hassas renk ve malzeme yanıtı | Hex / renk kodları ve malzeme açıklamaları. | Ürün varyantları, marka rengi eşleştirme ve malzeme değişimleri. |
+| Çok görüntülü füzyon düzenleme | Bir düzen, stil veya malzeme talimatıyla birden fazla referans görsel. | Ürünleri, stilleri, dokuları veya nesneleri tutarlı tek bir görselde birleştirmek. |
 
 <a id="controlled-editing-prompt-patterns"></a>
 

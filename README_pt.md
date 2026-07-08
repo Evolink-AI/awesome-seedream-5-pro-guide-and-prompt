@@ -45,6 +45,7 @@ Estado de execução: o material oficial nomeia `dola-seedream-5-0-pro-260628` c
 - [🍌 Introdução](#introduction)
 - [📰 Notícias](#news)
 - [📑 Menu](#menu)
+- [🧭 Categorias de edição interativa](#interactive-editing-categories)
 - [🎛️ Padrões de prompts para edição controlada](#controlled-editing-prompt-patterns)
   - [Case 1: Descrição de objetos por caixas de região para edição direcionada](#case-1)
   - [Case 2: Edição por posição de âncora em uma cena em grade](#case-2)
@@ -52,6 +53,21 @@ Estado de execução: o material oficial nomeia `dola-seedream-5-0-pro-260628` c
 - [🎬 Galeria visual de capacidades](#visual-capability-gallery)
 - [🧩 Notas do modelo](#model-notes)
 - [🙏 Agradecimentos](#acknowledge)
+
+<a id="interactive-editing-categories"></a>
+
+## 🧭 Categorias de edição interativa
+
+O material oficial do Seedream 5.0 Pro agrupa a edição controlável em seis modos práticos. Use este mapa antes de escolher um padrão de prompt, porque o sinal de controle muda o que o prompt deve especificar.
+
+| Categoria | O que o usuário fornece | Melhor para |
+|---|---|---|
+| Controle interativo | Seleções, pontos, setas, caixas de anotação ou coordenadas que apontam para a região alvo. | Geração ou modificação local com intenção espacial explícita. |
+| Edição por esboço | Rabiscos, blocos de cor, linhas ou esboços simples com instruções em linguagem natural. | Transformar intenção visual aproximada em objetos ou detalhes renderizados. |
+| Edição por âncora / posição | Âncoras textuais em uma cena em grade ou claramente organizada. | Mover ou reposicionar objetos específicos evitando regiões não alvo. |
+| Separação em camadas | Um prompt que pede dividir primeiro plano, fundo e componentes em camadas editáveis. | Arrastar, escalar, recompor e reutilizar ativos em fluxos posteriores. |
+| Resposta precisa de cor e material | Códigos hex / de cor e descrições de materiais. | Variantes de produto, correspondência de cor de marca e troca de materiais. |
+| Edição por fusão multiimagem | Várias imagens de referência com uma instrução de layout, estilo ou material. | Combinar produtos, estilos, texturas ou objetos em uma imagem coerente. |
 
 <a id="controlled-editing-prompt-patterns"></a>
 
