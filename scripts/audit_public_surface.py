@@ -45,7 +45,7 @@ def anchors_for(text: str) -> set[str]:
 
 
 def public_files(root: Path) -> list[Path]:
-    files = [root / "README.md"]
+    files = sorted(root.glob("README*.md"))
     files.extend(sorted((root / "docs").glob("**/*.md")) if (root / "docs").is_dir() else [])
     return [path for path in files if path.is_file()]
 
@@ -158,7 +158,7 @@ def write_report(root: Path, out: Path, findings: list[Finding], counts: dict[st
         "# Public Surface Link Audit",
         "",
         f"- Repository: `{root}`",
-        "- Scope: `README.md`, `docs/**/*.md`",
+        "- Scope: root `README*.md`, `docs/**/*.md`",
         "- Excluded: `local-audits/` private evidence, `source-material/` provenance copies, generated/vendor/cache paths",
         f"- Command: `{command}`",
         f"- Total extracted links/assets: {counts['targets']}",

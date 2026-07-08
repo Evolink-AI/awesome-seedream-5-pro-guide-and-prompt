@@ -1,0 +1,158 @@
+<div align="center">
+
+<a href="https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=banner&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=readme_banner"><img src="assets/banner.png" alt="Awesome Seedream 5.0 Pro EvoLink banner"></a>
+
+# Awesome Seedream 5.0 Pro Guide and Prompt
+
+Guia com fontes, padrões de prompts e exemplos visuais para avaliar fluxos de geração e edição de imagens com Seedream 5.0 Pro.
+
+[![License: MIT](assets/badges/license-mit.svg)](LICENSE)
+[![Use on EvoLink](assets/badges/use-on-evolink.svg)](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=badge&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=top_badge)
+[![Get API Key](assets/badges/get-api-key.svg)](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=api_key)
+
+[🇺🇸 English](README.md) · [🇪🇸 Español](README_es.md) · [🇵🇹 Português](README_pt.md) · [🇯🇵 日本語](README_ja.md) · [🇰🇷 한국어](README_ko.md) · [🇩🇪 Deutsch](README_de.md) · [🇫🇷 Français](README_fr.md) · [🇹🇷 Türkçe](README_tr.md) · [🇹🇼 繁體中文](README_zh-TW.md) · [🇨🇳 简体中文](README_zh-CN.md) · [🇷🇺 Русский](README_ru.md)
+
+</div>
+
+<a id="introduction"></a>
+
+## 🍌 Introdução
+
+Seedream 5.0 Pro é apresentado no material oficial de lançamento como um modelo de geração e edição de imagens para produção visual controlável. O material destaca edições direcionadas por região, edições guiadas por esboços, posicionamento por âncoras, separação em camadas, controle de materiais e cores, composição com múltiplas referências, imagens cinematográficas e renderização de texto multilíngue.
+
+Este repositório é uma superfície de **guia e prompts**. Ele reúne padrões de prompts e exemplos de mídia respaldados por fontes para que builders possam inspecionar o que testar, copiar apenas os prompts presentes no material de origem e avançar para uma rota de conversão no EvoLink quando o acesso estiver disponível.
+
+Experimente o ponto de entrada do modelo no EvoLink: [Abrir a rota do Seedream 5.0 Pro no EvoLink](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=top_text_cta).
+
+**Início rápido:** este repositório não afirma que uma rota de primeira execução da API EvoLink para Seedream 5.0 Pro foi verificada. Use esta rota pública até que a evidência de execução do modelo atual seja registrada:
+
+1. [Abrir o EvoLink para acessar o Seedream 5.0 Pro](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=model_link).
+2. [Obter sua chave API do EvoLink](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=api_key).
+3. Tratar a referência oficial do ModelArk como contexto técnico: [Ler a documentação do Seedream 5.0 Pro no ModelArk](https://docs.byteplus.com/en/docs/ModelArk/1541523).
+
+Estado de execução: o material oficial nomeia `dola-seedream-5-0-pro-260628` como o ID do modelo Seedream 5.0 Pro, mas este repositório não concluiu um smoke test da API EvoLink com consumo de créditos. Não trate exemplos de modelos de imagem adjacentes como evidência verificada de primeira execução para Seedream 5.0 Pro.
+
+<a id="news"></a>
+
+## 📰 Notícias
+
+- **2026-07-08:** Scaffold local inicial criado a partir do material oficial de lançamento do Seedream 5.0 Pro e da exportação de mídia.
+
+<a id="menu"></a>
+
+## 📑 Menu
+
+- [🍌 Introdução](#introduction)
+- [📰 Notícias](#news)
+- [📑 Menu](#menu)
+- [🎛️ Padrões de prompts para edição controlada](#controlled-editing-prompt-patterns)
+  - [Case 1: Descrição de objetos por caixas de região para edição direcionada](#case-1)
+  - [Case 2: Edição por posição de âncora em uma cena em grade](#case-2)
+  - [Case 3: Composição de natureza-morta com múltiplas referências](#case-3)
+- [🎬 Galeria visual de capacidades](#visual-capability-gallery)
+- [🧩 Notas do modelo](#model-notes)
+- [🙏 Agradecimentos](#acknowledge)
+
+<a id="controlled-editing-prompt-patterns"></a>
+
+## 🎛️ Padrões de prompts para edição controlada
+
+Os casos abaixo não são exemplos inventados. Eles foram copiados ou traduzidos do material oficial de origem do Seedream 5.0 Pro resumido em `docs/source-notes.md`.
+
+<a id="case-1"></a>
+
+### Case 1: [Descrição de objetos por caixas de região para edição direcionada](docs/source-notes.md#included-public-cases) (by [@官方](docs/source-notes.md))
+
+![Region-box annotation example](assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.png)
+
+**Prompt:**
+
+```
+Red box: A huge blue-furred head with a ferocious squished expression, gazing at the bubble ahead. Green box: A transparent bubble reflecting the indoor lights. Yellow box: A large warm gray-beige yarn ball. Blue box: A stack of building blocks including a warm dark gray arch, a warm light gray half-cylinder, a lake blue cylinder, a deep lake blue ramp, and a cobalt blue half-disc. Purple box: A grass green tasseled blanket draped over the sofa.
+```
+
+Source: 官方.
+
+<a id="case-2"></a>
+
+### Case 2: [Edição por posição de âncora em uma cena em grade](docs/source-notes.md#included-public-cases) (by [@官方](docs/source-notes.md))
+
+<table>
+  <tr>
+    <td width="50%" valign="top"><strong>Antes</strong><br><img src="assets/media/015-Feishu-Docs-Image.png" alt="Anchor positioning example before edit"></td>
+    <td width="50%" valign="top"><strong>Depois</strong><br><img src="assets/media/016-Feishu-Docs-Image.png" alt="Anchor positioning example after edit"></td>
+  </tr>
+</table>
+
+**Prompt:**
+
+```
+Move the red car in the lower-left corner one grid cell to the right, and move the black pawn in the second column from the left of the black-square position one grid cell downward.
+```
+
+Source: 官方.
+
+<a id="case-3"></a>
+
+### Case 3: [Composição de natureza-morta com múltiplas referências](docs/source-notes.md#included-public-cases) (by [@官方](docs/source-notes.md))
+
+![Multi-reference material example](assets/media/014-Feishu-Docs-Image.png)
+
+**Prompt:**
+
+```
+Precisely cut out the objects from my seven white-background reference photos and arrange them into a realistic still-life photography image according to the specified layout. Make sure the perspective, lighting, and spatial relationships are correct. Faithfully preserve material details such as wood grain, leather, lace, jelly glass, and feathers, creating a high-quality image that feels realistic and playful, with a blend of vintage and modern aesthetics.
+```
+
+Source: 官方.
+
+<a id="visual-capability-gallery"></a>
+
+## 🎬 Galeria visual de capacidades
+
+O material oficial inclui amostras visuais adicionais de edição guiada por esboços, separação em camadas, imagens narrativas cinematográficas e renderização de texto multilíngue.
+
+<table>
+  <tr>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Rabiscos guiados por esboço</a></strong> - by <a href="docs/source-notes.md">@官方</a><br><img src="assets/media/005-doodles.png" alt="Rabiscos guiados por esboço example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Bloco de cor guiado por esboço</a></strong> - by <a href="docs/source-notes.md">@官方</a><br><img src="assets/media/006-color-block.png" alt="Bloco de cor guiado por esboço example"></td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Linhas guiadas por esboço</a></strong> - by <a href="docs/source-notes.md">@官方</a><br><img src="assets/media/007-lines.png" alt="Linhas guiadas por esboço example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Controle por esboço simples</a></strong> - by <a href="docs/source-notes.md">@官方</a><br><img src="assets/media/008-simple-sketches.png" alt="Controle por esboço simples example"></td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Exemplo de separação em camadas</a></strong> - by <a href="docs/source-notes.md">@官方</a><br><img src="assets/media/017-Feishu-Docs-Image.png" alt="Exemplo de separação em camadas"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Variante de separação em camadas</a></strong> - by <a href="docs/source-notes.md">@官方</a><br><img src="assets/media/018-Feishu-Docs-Image.png" alt="Variante de separação em camadas"></td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Tênis cinematográfico com vidro estilhaçado</a></strong> - by <a href="docs/source-notes.md">@官方</a><br><img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" alt="Tênis cinematográfico com vidro estilhaçado"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Ação cinematográfica de boxe</a></strong> - by <a href="docs/source-notes.md">@官方</a><br><img src="assets/media/021-Cinematic-narrative-action-boxing.png" alt="Ação cinematográfica de boxe"></td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Renderização de texto em árabe e inglês</a></strong> - by <a href="docs/source-notes.md">@官方</a><br><img src="assets/media/025-Welcome.png" alt="Arabic and English welcome text rendering"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Renderização de texto em coreano</a></strong> - by <a href="docs/source-notes.md">@官方</a><br><img src="assets/media/026-24-Open-24-hours.png" alt="Korean open 24 hours text rendering"></td>
+  </tr>
+</table>
+
+<a id="model-notes"></a>
+
+## 🧩 Notas do modelo
+
+| Área | Nota respaldada por fonte |
+|---|---|
+| ID do modelo | O material oficial lista `dola-seedream-5-0-pro-260628`; ainda é necessária verificação de execução no EvoLink antes que isso se torne evidência de primeira execução. |
+| Imagens de entrada | O material de origem informa que Seedream 5.0 Pro aceita até 10 imagens de entrada. |
+| Resolução de saída | O material de origem diz que o posicionamento público não deve prometer 4K para o Pro; ele descreve faixas de saída em torno de <= 2,36M pixels e > 2,36M pixels. |
+| Idiomas nativos de prompt | O material de origem lista árabe, inglês, russo, indonésio, espanhol, alemão, turco, português, malaio, vietnamita, francês, japonês, coreano, tagalo e tailandês. |
+| Caminho de Seedream para Seedance | O material de origem diz que saídas do Seedream 5.0 Pro/Lite podem se tornar entradas confiáveis para fluxos de imagem para vídeo da família Seedance, com condições de conta e moderação. |
+
+<a id="acknowledge"></a>
+
+## 🙏 Agradecimentos
+
+Este repositório foi criado a partir do material oficial de lançamento do Seedream 5.0 Pro exportado em 2026-07-08.
+
+- Nota pública de procedência: `docs/source-notes.md`
+- URL fonte privada: registrada na evidência local de auditoria, não exposta como link público do README.
+- Nota de execução: uma prova de API do EvoLink que consome créditos ainda não foi executada nesta auditoria do repositório.

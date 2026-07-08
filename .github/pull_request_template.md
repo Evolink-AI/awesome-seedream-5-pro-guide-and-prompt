@@ -4,7 +4,7 @@
 
 ## Verification
 
-- [ ] `python3 scripts/verify_repo.py --repo .`
+- [ ] `python3 scripts/verify_repo.py`
 - [ ] `python3 scripts/audit_public_surface.py --repo . --out local-audits/<run>/public-surface-link-audit.md`
 - [ ] `git diff --check`
 

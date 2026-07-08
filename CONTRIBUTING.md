@@ -18,7 +18,7 @@ This repository accepts issues and pull requests that improve source-backed Seed
 
 ## Pull Request Checklist
 
-- `python3 scripts/verify_repo.py --repo .` passes.
+- `python3 scripts/verify_repo.py` passes.
 - `python3 scripts/audit_public_surface.py --repo . --out local-audits/<run>/public-surface-link-audit.md` has no unresolved P0/P1 failures or documents the blocker.
 - `git diff --check` passes.
 - New public links are action-labeled and use the expected UTM parameters when they point to EvoLink.

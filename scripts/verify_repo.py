@@ -10,6 +10,19 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 README = ROOT / "README.md"
+LOCALIZED_READMES = [
+    "README.md",
+    "README_es.md",
+    "README_pt.md",
+    "README_ja.md",
+    "README_ko.md",
+    "README_de.md",
+    "README_fr.md",
+    "README_tr.md",
+    "README_zh-TW.md",
+    "README_zh-CN.md",
+    "README_ru.md",
+]
 
 
 def fail(message: str, failures: list[str]) -> None:
@@ -37,6 +50,11 @@ def main() -> int:
     for rel in required_files:
         if not (ROOT / rel).is_file():
             fail(f"Missing required file: {rel}", failures)
+    for rel in LOCALIZED_READMES:
+        if not (ROOT / rel).is_file():
+            fail(f"Missing localized README file: {rel}", failures)
+    if (ROOT / "README_en.md").exists():
+        fail("README_en.md must not exist; English source is README.md.", failures)
 
     if "{{" in readme or "}}" in readme or "Placeholder" in readme or "post-link" in readme:
         fail("README contains scaffold placeholder text.", failures)
@@ -57,7 +75,6 @@ def main() -> int:
 
     ordered = [
         "## 🍌 Introduction",
-        "## ⚡ Quick Start",
         "## 📰 News",
         "## 📑 Menu",
         "## 🎛️ Controlled Editing Prompt Patterns",
@@ -69,14 +86,31 @@ def main() -> int:
             fail(f"Missing required heading: {item}", failures)
     if positions != sorted(positions):
         fail("Required headings are not in the expected order.", failures)
+    if "Quick start:" not in readme or "Get your EvoLink API key" not in readme:
+        fail("README does not show a visible conversion path before the first case section.", failures)
 
-    case_numbers = [int(match) for match in re.findall(r"^### Case ([0-9]+):", readme, flags=re.MULTILINE)]
+    case_heading_re = re.compile(r"^### Case ([0-9]+): \[.+\]\(.+\) \(by \[@.+\]\(.+\)\)$", re.MULTILINE)
+    case_numbers = [int(match[0]) for match in case_heading_re.findall(readme)]
     if case_numbers != list(range(1, len(case_numbers) + 1)) or len(case_numbers) < 3:
-        fail(f"Case numbers are not contiguous from 1 or too few cases: {case_numbers}", failures)
+        fail(f"Case headings are not template-compliant or case numbers are not contiguous: {case_numbers}", failures)
+    for number in case_numbers:
+        anchor = f'<a id="case-{number}"></a>'
+        if anchor not in readme:
+            fail(f"Missing explicit case anchor: {anchor}", failures)
 
     prompt_blocks = re.findall(r"\*\*Prompt:\*\*\n\n```\n.+?\n```", readme, flags=re.DOTALL)
     if len(prompt_blocks) != len(case_numbers):
         fail("Every case must have one visible text prompt block.", failures)
+    if readme.count("Source: 官方.") != len(case_numbers):
+        fail("Official-source cases must use the public source label `Source: 官方.`.", failures)
+    if "## 🎬 Visual Capability Gallery" in readme:
+        gallery = readme.split("## 🎬 Visual Capability Gallery", 1)[1].split("## 🧩 Model Notes", 1)[0]
+        if gallery.count("<table>") != 1:
+            fail("Gallery must use one HTML table.", failures)
+        if '<td width="50%" valign="top">' not in gallery:
+            fail("Gallery cells must use width=\"50%\" valign=\"top\".", failures)
+        if "**Prompt:**" in gallery or "Source:" in gallery or "---" in gallery:
+            fail("Gallery must not contain prompt blocks, Source lines, or separators.", failures)
 
     media_refs = re.findall(r"\]\((assets/media/[^)]+)\)", readme)
     media_refs.extend(re.findall(r"<img\s+[^>]*src=[\"'](assets/[^\"']+)[\"']", readme))
@@ -97,6 +131,20 @@ def main() -> int:
         accidental.extend(str(path.relative_to(ROOT)) for path in ROOT.rglob(pattern))
     if accidental:
         fail("Accidental generated/system files found: " + ", ".join(sorted(accidental)), failures)
+
+    source_headings = [line for line in readme.splitlines() if line.startswith("## ")]
+    source_case_count = len(case_numbers)
+    for rel in LOCALIZED_READMES[1:]:
+        localized = (ROOT / rel).read_text(encoding="utf-8")
+        localized_headings = [line for line in localized.splitlines() if line.startswith("## ")]
+        if len(localized_headings) != len(source_headings):
+            fail(f"{rel} top-level heading count differs from README.md.", failures)
+        localized_case_count = len(re.findall(r"^### Case [0-9]+:", localized, flags=re.MULTILINE))
+        if localized_case_count != source_case_count:
+            fail(f"{rel} case count differs from README.md.", failures)
+        for media_ref in re.findall(r"(?:src=|\]\()(?:\"|')?(assets/[^\"')]+)", localized):
+            if not (ROOT / media_ref).is_file():
+                fail(f"{rel} references missing media file: {media_ref}", failures)
 
     print("# Local Repo Verification")
     print()
