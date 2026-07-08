@@ -1,0 +1,19 @@
+[
+  {
+    "id": "owner-lark-export-2026-07-08",
+    "source_type": "owner_provided_lark_export",
+    "source_url": null,
+    "source_label": "Private owner-provided Lark export; URL retained only in ignored local audit evidence.",
+    "public_source_note": "docs/source-notes.md",
+    "exported_at": "2026-07-08",
+    "model": "Seedream 5.0 Pro",
+    "decision": "selected",
+    "reason": "Owner-provided launch material includes prompt examples, product notes, and downloaded media for first local guide/prompt scaffold. Private source URLs are not exposed in public repository files.",
+    "selected_cases": [
+      "region-box-object-description",
+      "anchor-position-grid-edit",
+      "multi-reference-still-life-composition"
+    ],
+    "dropped_reason": null
+  }
+]
