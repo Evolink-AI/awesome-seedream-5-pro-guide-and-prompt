@@ -61,7 +61,7 @@ The cases below are not invented examples. They are copied or translated from of
 
 <a id="case-1"></a>
 
-### Case 1: [Region-box object description for targeted editing](docs/source-notes.md#included-public-cases) (by [@官方](docs/source-notes.md))
+### Case 1: [Region-box object description for targeted editing](docs/source-notes.md#included-public-cases)
 
 ![Region-box annotation example](assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.png)
 
@@ -71,11 +71,11 @@ The cases below are not invented examples. They are copied or translated from of
 Red box: A huge blue-furred head with a ferocious squished expression, gazing at the bubble ahead. Green box: A transparent bubble reflecting the indoor lights. Yellow box: A large warm gray-beige yarn ball. Blue box: A stack of building blocks including a warm dark gray arch, a warm light gray half-cylinder, a lake blue cylinder, a deep lake blue ramp, and a cobalt blue half-disc. Purple box: A grass green tasseled blanket draped over the sofa.
 ```
 
-Source: 官方.
+Source: Official.
 
 <a id="case-2"></a>
 
-### Case 2: [Anchor-position edit on a grid-like scene](docs/source-notes.md#included-public-cases) (by [@官方](docs/source-notes.md))
+### Case 2: [Anchor-position edit on a grid-like scene](docs/source-notes.md#included-public-cases)
 
 <table>
   <tr>
@@ -90,11 +90,11 @@ Source: 官方.
 Move the red car in the lower-left corner one grid cell to the right, and move the black pawn in the second column from the left of the black-square position one grid cell downward.
 ```
 
-Source: 官方.
+Source: Official.
 
 <a id="case-3"></a>
 
-### Case 3: [Multi-reference still-life composition](docs/source-notes.md#included-public-cases) (by [@官方](docs/source-notes.md))
+### Case 3: [Multi-reference still-life composition](docs/source-notes.md#included-public-cases)
 
 ![Multi-reference material example](assets/media/014-Feishu-Docs-Image.png)
 
@@ -104,7 +104,7 @@ Source: 官方.
 Precisely cut out the objects from my seven white-background reference photos and arrange them into a realistic still-life photography image according to the specified layout. Make sure the perspective, lighting, and spatial relationships are correct. Faithfully preserve material details such as wood grain, leather, lace, jelly glass, and feathers, creating a high-quality image that feels realistic and playful, with a blend of vintage and modern aesthetics.
 ```
 
-Source: 官方.
+Source: Official.
 
 <a id="visual-capability-gallery"></a>
 
@@ -114,24 +114,24 @@ The official material includes additional visual samples for sketch-guided editi
 
 <table>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Sketch-guided doodles</a></strong> - by <a href="docs/source-notes.md">@官方</a><br><img src="assets/media/005-doodles.png" alt="Sketch-guided doodles example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Sketch-guided color block</a></strong> - by <a href="docs/source-notes.md">@官方</a><br><img src="assets/media/006-color-block.png" alt="Sketch-guided color block example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Sketch-guided doodles</a></strong><br><img src="assets/media/005-doodles.png" alt="Sketch-guided doodles example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Sketch-guided color block</a></strong><br><img src="assets/media/006-color-block.png" alt="Sketch-guided color block example"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Sketch-guided lines</a></strong> - by <a href="docs/source-notes.md">@官方</a><br><img src="assets/media/007-lines.png" alt="Sketch-guided lines example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Simple sketch control</a></strong> - by <a href="docs/source-notes.md">@官方</a><br><img src="assets/media/008-simple-sketches.png" alt="Simple sketch control example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Sketch-guided lines</a></strong><br><img src="assets/media/007-lines.png" alt="Sketch-guided lines example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Simple sketch control</a></strong><br><img src="assets/media/008-simple-sketches.png" alt="Simple sketch control example"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Layer separation example</a></strong> - by <a href="docs/source-notes.md">@官方</a><br><img src="assets/media/017-Feishu-Docs-Image.png" alt="Layer separation example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Layer separation variant</a></strong> - by <a href="docs/source-notes.md">@官方</a><br><img src="assets/media/018-Feishu-Docs-Image.png" alt="Layer separation variant"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Layer separation example</a></strong><br><img src="assets/media/017-Feishu-Docs-Image.png" alt="Layer separation example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Layer separation variant</a></strong><br><img src="assets/media/018-Feishu-Docs-Image.png" alt="Layer separation variant"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Cinematic tennis glass shatter</a></strong> - by <a href="docs/source-notes.md">@官方</a><br><img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" alt="Cinematic tennis glass shatter"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Cinematic action boxing</a></strong> - by <a href="docs/source-notes.md">@官方</a><br><img src="assets/media/021-Cinematic-narrative-action-boxing.png" alt="Cinematic action boxing"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Cinematic tennis glass shatter</a></strong><br><img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" alt="Cinematic tennis glass shatter"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Cinematic action boxing</a></strong><br><img src="assets/media/021-Cinematic-narrative-action-boxing.png" alt="Cinematic action boxing"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Arabic and English text rendering</a></strong> - by <a href="docs/source-notes.md">@官方</a><br><img src="assets/media/025-Welcome.png" alt="Arabic and English welcome text rendering"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Korean text rendering</a></strong> - by <a href="docs/source-notes.md">@官方</a><br><img src="assets/media/026-24-Open-24-hours.png" alt="Korean open 24 hours text rendering"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Arabic and English text rendering</a></strong><br><img src="assets/media/025-Welcome.png" alt="Arabic and English welcome text rendering"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Korean text rendering</a></strong><br><img src="assets/media/026-24-Open-24-hours.png" alt="Korean open 24 hours text rendering"></td>
   </tr>
 </table>
 

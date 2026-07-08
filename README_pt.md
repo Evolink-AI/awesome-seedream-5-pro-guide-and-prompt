@@ -61,7 +61,7 @@ Os casos abaixo não são exemplos inventados. Eles foram copiados ou traduzidos
 
 <a id="case-1"></a>
 
-### Case 1: [Descrição de objetos por caixas de região para edição direcionada](docs/source-notes.md#included-public-cases) (by [@官方](docs/source-notes.md))
+### Case 1: [Descrição de objetos por caixas de região para edição direcionada](docs/source-notes.md#included-public-cases)
 
 ![Region-box annotation example](assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.png)
 
@@ -71,11 +71,11 @@ Os casos abaixo não são exemplos inventados. Eles foram copiados ou traduzidos
 Red box: A huge blue-furred head with a ferocious squished expression, gazing at the bubble ahead. Green box: A transparent bubble reflecting the indoor lights. Yellow box: A large warm gray-beige yarn ball. Blue box: A stack of building blocks including a warm dark gray arch, a warm light gray half-cylinder, a lake blue cylinder, a deep lake blue ramp, and a cobalt blue half-disc. Purple box: A grass green tasseled blanket draped over the sofa.
 ```
 
-Source: 官方.
+Source: Official.
 
 <a id="case-2"></a>
 
-### Case 2: [Edição por posição de âncora em uma cena em grade](docs/source-notes.md#included-public-cases) (by [@官方](docs/source-notes.md))
+### Case 2: [Edição por posição de âncora em uma cena em grade](docs/source-notes.md#included-public-cases)
 
 <table>
   <tr>
@@ -90,11 +90,11 @@ Source: 官方.
 Move the red car in the lower-left corner one grid cell to the right, and move the black pawn in the second column from the left of the black-square position one grid cell downward.
 ```
 
-Source: 官方.
+Source: Official.
 
 <a id="case-3"></a>
 
-### Case 3: [Composição de natureza-morta com múltiplas referências](docs/source-notes.md#included-public-cases) (by [@官方](docs/source-notes.md))
+### Case 3: [Composição de natureza-morta com múltiplas referências](docs/source-notes.md#included-public-cases)
 
 ![Multi-reference material example](assets/media/014-Feishu-Docs-Image.png)
 
@@ -104,7 +104,7 @@ Source: 官方.
 Precisely cut out the objects from my seven white-background reference photos and arrange them into a realistic still-life photography image according to the specified layout. Make sure the perspective, lighting, and spatial relationships are correct. Faithfully preserve material details such as wood grain, leather, lace, jelly glass, and feathers, creating a high-quality image that feels realistic and playful, with a blend of vintage and modern aesthetics.
 ```
 
-Source: 官方.
+Source: Official.
 
 <a id="visual-capability-gallery"></a>
 
@@ -114,24 +114,24 @@ O material oficial inclui amostras visuais adicionais de edição guiada por esb
 
 <table>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Rabiscos guiados por esboço</a></strong> - by <a href="docs/source-notes.md">@官方</a><br><img src="assets/media/005-doodles.png" alt="Rabiscos guiados por esboço example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Bloco de cor guiado por esboço</a></strong> - by <a href="docs/source-notes.md">@官方</a><br><img src="assets/media/006-color-block.png" alt="Bloco de cor guiado por esboço example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Rabiscos guiados por esboço</a></strong><br><img src="assets/media/005-doodles.png" alt="Rabiscos guiados por esboço example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Bloco de cor guiado por esboço</a></strong><br><img src="assets/media/006-color-block.png" alt="Bloco de cor guiado por esboço example"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Linhas guiadas por esboço</a></strong> - by <a href="docs/source-notes.md">@官方</a><br><img src="assets/media/007-lines.png" alt="Linhas guiadas por esboço example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Controle por esboço simples</a></strong> - by <a href="docs/source-notes.md">@官方</a><br><img src="assets/media/008-simple-sketches.png" alt="Controle por esboço simples example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Linhas guiadas por esboço</a></strong><br><img src="assets/media/007-lines.png" alt="Linhas guiadas por esboço example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Controle por esboço simples</a></strong><br><img src="assets/media/008-simple-sketches.png" alt="Controle por esboço simples example"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Exemplo de separação em camadas</a></strong> - by <a href="docs/source-notes.md">@官方</a><br><img src="assets/media/017-Feishu-Docs-Image.png" alt="Exemplo de separação em camadas"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Variante de separação em camadas</a></strong> - by <a href="docs/source-notes.md">@官方</a><br><img src="assets/media/018-Feishu-Docs-Image.png" alt="Variante de separação em camadas"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Exemplo de separação em camadas</a></strong><br><img src="assets/media/017-Feishu-Docs-Image.png" alt="Exemplo de separação em camadas"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Variante de separação em camadas</a></strong><br><img src="assets/media/018-Feishu-Docs-Image.png" alt="Variante de separação em camadas"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Tênis cinematográfico com vidro estilhaçado</a></strong> - by <a href="docs/source-notes.md">@官方</a><br><img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" alt="Tênis cinematográfico com vidro estilhaçado"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Ação cinematográfica de boxe</a></strong> - by <a href="docs/source-notes.md">@官方</a><br><img src="assets/media/021-Cinematic-narrative-action-boxing.png" alt="Ação cinematográfica de boxe"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Tênis cinematográfico com vidro estilhaçado</a></strong><br><img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" alt="Tênis cinematográfico com vidro estilhaçado"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Ação cinematográfica de boxe</a></strong><br><img src="assets/media/021-Cinematic-narrative-action-boxing.png" alt="Ação cinematográfica de boxe"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Renderização de texto em árabe e inglês</a></strong> - by <a href="docs/source-notes.md">@官方</a><br><img src="assets/media/025-Welcome.png" alt="Arabic and English welcome text rendering"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Renderização de texto em coreano</a></strong> - by <a href="docs/source-notes.md">@官方</a><br><img src="assets/media/026-24-Open-24-hours.png" alt="Korean open 24 hours text rendering"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Renderização de texto em árabe e inglês</a></strong><br><img src="assets/media/025-Welcome.png" alt="Arabic and English welcome text rendering"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Renderização de texto em coreano</a></strong><br><img src="assets/media/026-24-Open-24-hours.png" alt="Korean open 24 hours text rendering"></td>
   </tr>
 </table>
 

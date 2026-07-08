@@ -89,7 +89,7 @@ def main() -> int:
     if "Quick start:" not in readme or "Get your EvoLink API key" not in readme:
         fail("README does not show a visible conversion path before the first case section.", failures)
 
-    case_heading_re = re.compile(r"^### Case ([0-9]+): \[.+\]\(.+\) \(by \[@.+\]\(.+\)\)$", re.MULTILINE)
+    case_heading_re = re.compile(r"^### Case ([0-9]+): \[.+\]\(.+\)$", re.MULTILINE)
     case_numbers = [int(match[0]) for match in case_heading_re.findall(readme)]
     if case_numbers != list(range(1, len(case_numbers) + 1)) or len(case_numbers) < 3:
         fail(f"Case headings are not template-compliant or case numbers are not contiguous: {case_numbers}", failures)
@@ -101,8 +101,10 @@ def main() -> int:
     prompt_blocks = re.findall(r"\*\*Prompt:\*\*\n\n```\n.+?\n```", readme, flags=re.DOTALL)
     if len(prompt_blocks) != len(case_numbers):
         fail("Every case must have one visible text prompt block.", failures)
-    if readme.count("Source: 官方.") != len(case_numbers):
-        fail("Official-source cases must use the public source label `Source: 官方.`.", failures)
+    if "\u5b98\u65b9" in readme or "@\u5b98\u65b9" in readme:
+        fail("README must not expose non-English official-source labels or pseudo-author labels.", failures)
+    if readme.count("Source: Official.") != len(case_numbers):
+        fail("Official-source cases must use the public source label `Source: Official.`.", failures)
     if "## 🎬 Visual Capability Gallery" in readme:
         gallery = readme.split("## 🎬 Visual Capability Gallery", 1)[1].split("## 🧩 Model Notes", 1)[0]
         if gallery.count("<table>") != 1:
@@ -134,6 +136,16 @@ def main() -> int:
 
     source_headings = [line for line in readme.splitlines() if line.startswith("## ")]
     source_case_count = len(case_numbers)
+    forbidden_source_labels = [
+        "@\u5b98\u65b9",
+        "Source: \u5b98\u65b9.",
+        "(by [@",
+    ]
+    for rel in LOCALIZED_READMES:
+        localized = (ROOT / rel).read_text(encoding="utf-8")
+        for forbidden in forbidden_source_labels:
+            if forbidden in localized:
+                fail(f"{rel} contains forbidden pseudo-author or non-English source label: {forbidden}", failures)
     for rel in LOCALIZED_READMES[1:]:
         localized = (ROOT / rel).read_text(encoding="utf-8")
         localized_headings = [line for line in localized.splitlines() if line.startswith("## ")]
