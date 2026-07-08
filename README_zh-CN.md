@@ -85,6 +85,8 @@ Seedream 5.0 Pro 官方材料把可控编辑拆成六类实用模式。先用这
   </tr>
 </table>
 
+**Source mapping:** Prompt and media are paired in official section 3.1.1 (interaction control).
+
 **Prompt:**
 
 ```
@@ -104,6 +106,8 @@ Source: Official.
   </tr>
 </table>
 
+**Source mapping:** Prompt and media are paired in official section 3.1.3 (anchor/position editing).
+
 **Prompt:**
 
 ```
@@ -116,7 +120,9 @@ Source: Official.
 
 ### Case 3: 多参考图静物构图
 
-![Multi-reference material example](assets/media/014-Feishu-Docs-Image.gif)
+**Source mapping:** Prompt comes from official section 3.1.6 (multi-image fusion). The media below is from official section 3.1.5 (precise color/material response), so it is marked as related different-case media, not a paired output.
+
+![Related different-case material-response media](assets/media/014-Feishu-Docs-Image.gif)
 
 **Prompt:**
 

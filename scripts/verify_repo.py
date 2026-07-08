@@ -66,6 +66,26 @@ INTERACTIVE_EDITING_CATEGORY_IDS = [
     "precise-color-and-material-response",
     "multi-image-fusion-editing",
 ]
+EXPECTED_CASE_SOURCE_MAPPINGS = [
+    {
+        "case": 1,
+        "prompt_section": "3.1.1 interaction control",
+        "media_sections": ["3.1.1 interaction control"],
+        "mapping_status": "paired",
+    },
+    {
+        "case": 2,
+        "prompt_section": "3.1.3 anchor/position editing",
+        "media_sections": ["3.1.3 anchor/position editing"],
+        "mapping_status": "paired",
+    },
+    {
+        "case": 3,
+        "prompt_section": "3.1.6 multi-image fusion",
+        "media_sections": ["3.1.5 precise color/material response"],
+        "mapping_status": "related_different_case_media",
+    },
+]
 
 
 def fail(message: str, failures: list[str]) -> None:
@@ -156,6 +176,17 @@ def main() -> int:
         fail("README must not expose non-English official-source labels or pseudo-author labels.", failures)
     if readme.count("Source: Official.") != len(case_numbers):
         fail("Official-source cases must use the public source label `Source: Official.`.", failures)
+    if readme.count("**Source mapping:**") != len(case_numbers):
+        fail("Every case must expose a source mapping line before its prompt.", failures)
+    for required_mapping in [
+        "official section 3.1.1 (interaction control)",
+        "official section 3.1.3 (anchor/position editing)",
+        "Prompt comes from official section 3.1.6 (multi-image fusion)",
+        "media below is from official section 3.1.5 (precise color/material response)",
+        "related different-case media, not a paired output",
+    ]:
+        if required_mapping not in readme:
+            fail(f"README missing required source mapping detail: {required_mapping}", failures)
     if "(by [@" in readme or "@\u5b98\u65b9" in readme:
         fail("Official-source-only cases must not use pseudo-author heading labels.", failures)
     if REMOVED_SOURCE_NOTE_PATH in readme or REMOVED_SOURCE_NOTE_TOKEN in readme:
@@ -217,6 +248,10 @@ def main() -> int:
             fail(f"{rel} must not reference the removed public source note page.", failures)
         if localized.count(OFFICIAL_SOURCE_LABEL) != source_case_count:
             fail(f"{rel} must use the canonical official-source label exactly once per case.", failures)
+        if localized.count("**Source mapping:**") != source_case_count:
+            fail(f"{rel} must expose one source mapping line per case.", failures)
+        if "related different-case media, not a paired output" not in localized:
+            fail(f"{rel} must mark the case with different source prompt/media mapping.", failures)
     for rel in LOCALIZED_READMES[1:]:
         localized = (ROOT / rel).read_text(encoding="utf-8")
         localized_headings = [line for line in localized.splitlines() if line.startswith("## ")]
@@ -253,6 +288,8 @@ def main() -> int:
             fail(f"data/ingested_tweets.json record {index} must document the official-source case heading policy.", failures)
         if record.get("interactive_editing_categories") != INTERACTIVE_EDITING_CATEGORY_IDS:
             fail(f"data/ingested_tweets.json record {index} must record the six official interactive editing categories.", failures)
+        if record.get("case_source_mappings") != EXPECTED_CASE_SOURCE_MAPPINGS:
+            fail(f"data/ingested_tweets.json record {index} must record the case prompt/media source mappings.", failures)
 
     print("# Local Repo Verification")
     print()
