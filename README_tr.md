@@ -1,14 +1,14 @@
 <div align="center">
 
-<a href="https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=banner&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=readme_banner"><img src="assets/banner.png" alt="Awesome Seedream 5.0 Pro EvoLink banner"></a>
+<a href="https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=banner&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=readme_banner"><img src="assets/banner.png" alt="Awesome Seedream 5.0 Pro EvoLink bannerı"></a>
 
-# Awesome Seedream 5.0 Pro Guide and Prompt
+# Awesome Seedream 5.0 Pro rehberi ve promptları
 
-Source-backed guide, prompt patterns, and visual examples for evaluating Seedream 5.0 Pro image generation and editing workflows.
+Seedream 5.0 Pro görüntü üretim ve düzenleme iş akışlarını değerlendirmek için kaynak destekli rehber, prompt kalıpları ve görsel örnekler.
 
 [![License: MIT](assets/badges/license-mit.svg)](LICENSE)
-[![Use on EvoLink](assets/badges/use-on-evolink.svg)](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=badge&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=top_badge)
-[![Get API Key](assets/badges/get-api-key.svg)](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=api_key)
+[![EvoLink’te kullan](assets/badges/use-on-evolink.svg)](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=badge&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=top_badge)
+[![API anahtarı al](assets/badges/get-api-key.svg)](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=api_key)
 
 [🇺🇸 English](README.md) · [🇪🇸 Español](README_es.md) · [🇵🇹 Português](README_pt.md) · [🇯🇵 日本語](README_ja.md) · [🇰🇷 한국어](README_ko.md) · [🇩🇪 Deutsch](README_de.md) · [🇫🇷 Français](README_fr.md) · [🇹🇷 Türkçe](README_tr.md) · [🇹🇼 繁體中文](README_zh-TW.md) · [🇨🇳 简体中文](README_zh-CN.md) · [🇷🇺 Русский](README_ru.md)
 
@@ -16,98 +16,96 @@ Source-backed guide, prompt patterns, and visual examples for evaluating Seedrea
 
 <a id="introduction"></a>
 
-## 🍌 Introduction
+## 🍌 Giriş
 
 Seedream 5.0 Pro, resmi lansman materyalinde kontrol edilebilir bir görüntü üretim ve düzenleme modeli olarak sunulur. Bu rehber, README içeriğini resmi yetenek menüsüyle hizalar: etkileşim kontrolü, eskizle düzenleme, katman düzenleme, çapa/konum düzenleme, katman ayırma, çoklu görüntü füzyonu, görsel efekt örnekleri ve çok dilli metin işleme.
 
 **Bu depoyu kaynak destekli örnekleri incelemek, yalnızca resmi materyalde bulunan promptları kopyalamak ve her kategorinin görünen case’lerle nasıl eşleştiğini anlamak için kullanın.**
 
-Try the model entry point on EvoLink: [Open Seedream 5.0 Pro on EvoLink](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=top_text_cta).
+EvoLink model girişini deneyin: [Seedream 5.0 Pro’yu EvoLink’te açın](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=top_text_cta).
 
-**Hızlı başlangıç:** Bu depo, EvoLink üzerinde Seedream 5.0 Pro için doğrulanmış bir ilk API çalıştırma rotası olduğunu iddia etmez. Runtime kanıtı kaydedilene kadar herkese açık model girişini, API anahtarı panelini ve resmi teknik referansı kullanın.
+**Hızlı başlangıç:** Bu depo, EvoLink üzerinde Seedream 5.0 Pro için doğrulanmış bir ilk API çalıştırma rotası olduğunu iddia etmez. Çalıştırma kanıtı kaydedilene kadar herkese açık model girişini, API anahtarı panelini ve resmi teknik referansı kullanın.
 
-1. [Open the Seedream 5.0 Pro EvoLink path](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=model_link).
-2. [Get your EvoLink API key](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=api_key).
-3. [Read the official ModelArk technical reference](https://docs.byteplus.com/en/docs/ModelArk/1541523).
+1. [Seedream 5.0 Pro EvoLink yolunu açın](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=model_link).
+2. [EvoLink API anahtarınızı alın](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=api_key).
+3. [Resmi ModelArk teknik referansını okuyun](https://docs.byteplus.com/en/docs/ModelArk/1541523).
 
 > [!NOTE]
-> Kaynak politikası: owner tarafından sağlanan resmi lansman materyali. Özel Lark/Feishu URL’leri yalnızca yerel audit kanıtında tutulur ve README’de public source page olarak gösterilmez.
+> Kaynak politikası: resmi lansman materyali. Özel Lark/Feishu URL’leri yalnızca yerel denetim kanıtında tutulur ve README’de herkese açık kaynak sayfaları olarak gösterilmez.
 
 <a id="news"></a>
 
-## 📰 News
+## 📰 Haberler
 
-- **July 8, 2026:** İlk rehber resmi menü ve owner tarafından düzeltilen case inventory etrafında yeniden kuruldu.
+- **July 8, 2026:** İlk rehber resmi menü ve resmi olarak düzeltilen case envanteri etrafında yeniden kuruldu.
 
 <a id="menu"></a>
 
 ## 📑 Menü
 
-- [🍌 Introduction](#introduction)
-- [📰 News](#news)
+- [🍌 Giriş](#introduction)
+- [📰 Haberler](#news)
 - [📑 Menü](#menu)
-- [🎛️ Interaction Control](#interaction-control)
-  - [Case 1: Arrows and annotation boxes for spatial intent](#case-1)
-  - [Case 2: Region-box object description for targeted editing](#case-2)
-- [✏️ Sketch Editing](#sketch-editing)
-  - [Case 3: Doodle-guided object generation](#case-3)
-  - [Case 4: Color-block guided editing](#case-4)
-  - [Case 5: Line-guided detail editing](#case-5)
-  - [Case 6: Simple sketch to refined image](#case-6)
-- [🧱 Layer Editing](#layer-editing)
-  - [Case 7: Poster text and graphic layer edit: Avery Turns](#case-7)
-  - [Case 8: Poster offer layer edit: Happy Hour](#case-8)
-  - [Case 9: Fashion image layer edit inside a design layout](#case-9)
-  - [Case 10: Sports poster graphic layer edit](#case-10)
-  - [Case 11: Poster element edit: Public Joy](#case-11)
-  - [Case 12: Material surface swap with precise texture response](#case-12)
-- [📍 Anchor / Position Editing](#anchor-position-editing)
-  - [Case 13: Grid-position object movement](#case-13)
-- [🧩 Layer Separation](#layer-separation)
-  - [Case 14: Foreground/person layer separation](#case-14)
-  - [Case 15: Scene component layers for object reuse](#case-15)
-  - [Case 16: Recombined layered scene output](#case-16)
-- [🖼️ Multi-image Fusion Editing](#multi-image-fusion-editing)
-  - [Case 17: Seven-reference still-life composition](#case-17)
-- [🎬 Visual Quality & Narrative](#visual-quality-narrative)
-  - [Case 18: Cinematic tennis glass shatter](#case-18)
-  - [Case 19: Cinematic boxing action](#case-19)
-  - [Case 20: 3D animation style scene](#case-20)
-  - [Case 21: Visual concept art](#case-21)
-  - [Case 22: Game scene visual](#case-22)
-- [🌐 Multilingual Text Rendering](#multilingual-text-rendering)
-  - [Case 23: Arabic and English welcome sign](#case-23)
-  - [Case 24: Korean open-24-hours sign](#case-24)
-  - [Case 25: Thai cleanliness sign](#case-25)
-  - [Case 26: French creation poster](#case-26)
-  - [Case 27: Russian future poster](#case-27)
+- [🎛️ Etkileşim kontrolü](#interaction-control)
+  - [Case 1: Mekânsal niyet için oklar ve açıklama kutuları](#case-1)
+  - [Case 2: Hedefli düzenleme için bölge kutusu nesne açıklaması](#case-2)
+- [✏️ Eskizle düzenleme](#sketch-editing)
+  - [Case 3: Karalama rehberli nesne üretimi](#case-3)
+  - [Case 4: Renk bloğu rehberli düzenleme](#case-4)
+  - [Case 5: Çizgi rehberli detay düzenleme](#case-5)
+  - [Case 6: Basit eskizden rafine görüntüye](#case-6)
+- [🧱 Katman düzenleme](#layer-editing)
+  - [Case 7: Poster metni ve grafik katmanı düzenleme: Avery Turns](#case-7)
+  - [Case 8: Poster teklif katmanı düzenleme: Happy Hour](#case-8)
+  - [Case 9: Tasarım düzeni içinde moda görseli katmanı düzenleme](#case-9)
+  - [Case 10: Spor posteri grafik katmanı düzenleme](#case-10)
+  - [Case 11: Poster öğesi düzenleme: Public Joy](#case-11)
+  - [Case 12: Hassas doku yanıtıyla malzeme yüzeyi değiştirme](#case-12)
+- [📍 Çapa / konum düzenleme](#anchor-position-editing)
+  - [Case 13: Izgara konumuna göre nesne hareketi](#case-13)
+- [🧩 Katman ayırma](#layer-separation)
+  - [Case 14: Ön plan / kişi katmanı ayırma](#case-14)
+- [🖼️ Çoklu görüntü füzyon düzenleme](#multi-image-fusion-editing)
+  - [Case 15: Yedi referanslı giriş/çıkış natürmort kompozisyonu](#case-15)
+- [🎬 Görsel kalite ve anlatı](#visual-quality-narrative)
+  - [Case 16: Cam kırılmalı sinematik tenis sahnesi](#case-16)
+  - [Case 17: Sinematik boks aksiyonu](#case-17)
+  - [Case 18: 3D animasyon tarzı sahne](#case-18)
+  - [Case 19: Görsel konsept sanatı](#case-19)
+  - [Case 20: Oyun sahnesi görseli](#case-20)
+- [🌐 Çok dilli metin işleme](#multilingual-text-rendering)
+  - [Case 21: Arapça ve İngilizce karşılama tabelası](#case-21)
+  - [Case 22: Korece 24 saat açık tabelası](#case-22)
+  - [Case 23: Tayca temizlik tabelası](#case-23)
+  - [Case 24: Fransızca yaratım posteri](#case-24)
+  - [Case 25: Rusça gelecek posteri](#case-25)
 - [🧩 Model notları](#model-notes)
 - [🙏 Teşekkür](#acknowledge)
 
 <a id="interaction-control"></a>
 
-## 🎛️ Interaction Control
+## 🎛️ Etkileşim kontrolü
 
-Use boxes, points, arrows, annotation marks, or coordinates to specify the target region.
+Hedef bölgeyi belirtmek için kutular, noktalar, oklar, açıklama işaretleri veya koordinatlar kullanın.
 
-Case count: **2**.
+Case sayısı: **2**.
 
 <a id="case-1"></a>
 
-### Case 1: Arrows and annotation boxes for spatial intent
+### Case 1: Mekânsal niyet için oklar ve açıklama kutuları
 
-<img src="assets/media/003-arrows-annotation-boxes.gif" width="720" alt="Arrows and annotation boxes for spatial intent">
+<img src="assets/media/003-arrows-annotation-boxes.gif" width="720" alt="Mekânsal niyet için oklar ve açıklama kutuları">
 
 > [!NOTE]
-> Use arrows, boxes, and annotations to make the target area explicit before editing.
+> Düzenlemeden önce hedef alanı açık hale getirmek için oklar, kutular ve açıklamalar kullanın.
 
 ---
 
 <a id="case-2"></a>
 
-### Case 2: Region-box object description for targeted editing
+### Case 2: Hedefli düzenleme için bölge kutusu nesne açıklaması
 
-<img src="assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif" width="720" alt="Region-box object description for targeted editing">
+<img src="assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif" width="720" alt="Hedefli düzenleme için bölge kutusu nesne açıklaması">
 
 **Prompt:**
 
@@ -119,156 +117,156 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 <a id="sketch-editing"></a>
 
-## ✏️ Sketch Editing
+## ✏️ Eskizle düzenleme
 
-Use doodles, color blocks, lines, or simple sketches as visual guidance.
+Görsel rehberlik olarak karalamalar, renk blokları, çizgiler veya basit eskizler kullanın.
 
-Case count: **4**.
+Case sayısı: **4**.
 
 <a id="case-3"></a>
 
-### Case 3: Doodle-guided object generation
+### Case 3: Karalama rehberli nesne üretimi
 
-<img src="assets/media/005-doodles.gif" width="720" alt="Doodle-guided object generation">
+<img src="assets/media/005-doodles.gif" width="720" alt="Karalama rehberli nesne üretimi">
 
 > [!NOTE]
-> Use loose doodles as the visual control signal and let the model render the intended object.
+> Gevşek karalamaları görsel kontrol sinyali olarak kullanın ve modelin amaçlanan nesneyi işlemesini sağlayın.
 
 ---
 
 <a id="case-4"></a>
 
-### Case 4: Color-block guided editing
+### Case 4: Renk bloğu rehberli düzenleme
 
-<img src="assets/media/006-color-block.gif" width="720" alt="Color-block guided editing">
+<img src="assets/media/006-color-block.gif" width="720" alt="Renk bloğu rehberli düzenleme">
 
 > [!NOTE]
-> Use broad color blocks to specify rough composition, color zones, or object placement.
+> Kabaca kompozisyonu, renk bölgelerini veya nesne yerleşimini belirtmek için geniş renk blokları kullanın.
 
 ---
 
 <a id="case-5"></a>
 
-### Case 5: Line-guided detail editing
+### Case 5: Çizgi rehberli detay düzenleme
 
-<img src="assets/media/007-lines.gif" width="720" alt="Line-guided detail editing">
+<img src="assets/media/007-lines.gif" width="720" alt="Çizgi rehberli detay düzenleme">
 
 > [!NOTE]
-> Use simple line guidance when the shape boundary matters more than a long text description.
+> Şekil sınırı uzun metin açıklamasından daha önemli olduğunda basit çizgi rehberliği kullanın.
 
 ---
 
 <a id="case-6"></a>
 
-### Case 6: Simple sketch to refined image
+### Case 6: Basit eskizden rafine görüntüye
 
-<img src="assets/media/008-simple-sketches.gif" width="720" alt="Simple sketch to refined image">
+<img src="assets/media/008-simple-sketches.gif" width="720" alt="Basit eskizden rafine görüntüye">
 
 > [!NOTE]
-> Turn a minimal sketch into a more complete rendered image while preserving the sketch intent.
+> Eskizin niyetini korurken minimal bir eskizi daha tamamlanmış bir render görüntüsüne dönüştürün.
 
 ---
 
 <a id="layer-editing"></a>
 
-## 🧱 Layer Editing
+## 🧱 Katman düzenleme
 
-Edit poster, graphic, text, material, or surface layers while preserving the broader composition.
+Daha geniş kompozisyonu koruyarak poster, grafik, metin, malzeme veya yüzey katmanlarını düzenleyin.
 
-Case count: **6**.
+Case sayısı: **6**.
 
 <a id="case-7"></a>
 
-### Case 7: Poster text and graphic layer edit: Avery Turns
+### Case 7: Poster metni ve grafik katmanı düzenleme: Avery Turns
 
-<img src="assets/media/009-Feishu-Docs-Image.gif" width="720" alt="Poster text and graphic layer edit: Avery Turns">
+<img src="assets/media/009-Feishu-Docs-Image.gif" width="720" alt="Poster metni ve grafik katmanı düzenleme: Avery Turns">
 
 > [!NOTE]
-> Edit visible poster elements while preserving the overall design structure.
+> Genel tasarım yapısını koruyarak posterin görünen öğelerini düzenleyin.
 
 ---
 
 <a id="case-8"></a>
 
-### Case 8: Poster offer layer edit: Happy Hour
+### Case 8: Poster teklif katmanı düzenleme: Happy Hour
 
-<img src="assets/media/010-Feishu-Docs-Image.gif" width="720" alt="Poster offer layer edit: Happy Hour">
+<img src="assets/media/010-Feishu-Docs-Image.gif" width="720" alt="Poster teklif katmanı düzenleme: Happy Hour">
 
 > [!NOTE]
-> Change a promotion badge or graphic element without rebuilding the whole poster.
+> Tüm posteri yeniden oluşturmadan promosyon rozeti veya grafik öğesini değiştirin.
 
 ---
 
 <a id="case-9"></a>
 
-### Case 9: Fashion image layer edit inside a design layout
+### Case 9: Tasarım düzeni içinde moda görseli katmanı düzenleme
 
-<img src="assets/media/011-Feishu-Docs-Image.gif" width="720" alt="Fashion image layer edit inside a design layout">
+<img src="assets/media/011-Feishu-Docs-Image.gif" width="720" alt="Tasarım düzeni içinde moda görseli katmanı düzenleme">
 
 > [!NOTE]
-> Adjust a layered subject inside a composed visual layout.
+> Oluşturulmuş görsel düzen içinde katmanlı bir özneyi ayarlayın.
 
 ---
 
 <a id="case-10"></a>
 
-### Case 10: Sports poster graphic layer edit
+### Case 10: Spor posteri grafik katmanı düzenleme
 
-<img src="assets/media/012-Feishu-Docs-Image.gif" width="720" alt="Sports poster graphic layer edit">
+<img src="assets/media/012-Feishu-Docs-Image.gif" width="720" alt="Spor posteri grafik katmanı düzenleme">
 
 > [!NOTE]
-> Edit a racing poster graphic while keeping typography and composition aligned.
+> Tipografi ve kompozisyon hizasını koruyarak yarış posteri grafiğini düzenleyin.
 
 ---
 
 <a id="case-11"></a>
 
-### Case 11: Poster element edit: Public Joy
+### Case 11: Poster öğesi düzenleme: Public Joy
 
-<img src="assets/media/013-Feishu-Docs-Image.gif" width="720" alt="Poster element edit: Public Joy">
+<img src="assets/media/013-Feishu-Docs-Image.gif" width="720" alt="Poster öğesi düzenleme: Public Joy">
 
 > [!NOTE]
-> Modify poster elements while preserving the source design language.
+> Kaynak tasarım dilini koruyarak poster öğelerini değiştirin.
 
 ---
 
 <a id="case-12"></a>
 
-### Case 12: Material surface swap with precise texture response
+### Case 12: Hassas doku yanıtıyla malzeme yüzeyi değiştirme
 
-<img src="assets/media/014-Feishu-Docs-Image.gif" width="720" alt="Material surface swap with precise texture response">
+<img src="assets/media/014-Feishu-Docs-Image.gif" width="720" alt="Hassas doku yanıtıyla malzeme yüzeyi değiştirme">
 
 > [!NOTE]
-> Swap material and color targets while keeping the object structure intact.
+> Nesne yapısını bozmadan malzeme ve renk hedeflerini değiştirin.
 
 ---
 
 <a id="anchor-position-editing"></a>
 
-## 📍 Anchor / Position Editing
+## 📍 Çapa / konum düzenleme
 
-Use grid-like anchors or relative positions to move a specific target precisely.
+Belirli bir hedefi hassas biçimde taşımak için ızgara benzeri çapalar veya göreli konumlar kullanın.
 
-Case count: **1**.
+Case sayısı: **1**.
 
 <a id="case-13"></a>
 
-### Case 13: Grid-position object movement
+### Case 13: Izgara konumuna göre nesne hareketi
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**Before:**
+**Önce:**
 
-<img src="assets/media/015-Feishu-Docs-Image.png" width="420" alt="Grid-position object movement before">
+<img src="assets/media/015-Feishu-Docs-Image.png" width="420" alt="Izgara konumuna göre nesne hareketi önce">
 
 </td>
 <td width="50%" valign="top">
 
-**After:**
+**Sonra:**
 
-<img src="assets/media/016-Feishu-Docs-Image.png" width="420" alt="Grid-position object movement after">
+<img src="assets/media/016-Feishu-Docs-Image.png" width="420" alt="Izgara konumuna göre nesne hareketi sonra">
 
 </td>
 </tr>
@@ -284,59 +282,57 @@ Move the red car in the lower-left corner one grid cell to the right, and move t
 
 <a id="layer-separation"></a>
 
-## 🧩 Layer Separation
+## 🧩 Katman ayırma
 
-Separate foreground, background, and reusable components for downstream editing.
+Sonraki düzenleme için ön planı, arka planı ve yeniden kullanılabilir bileşenleri ayırın.
 
-Case count: **3**.
+Case sayısı: **1**.
 
 <a id="case-14"></a>
 
-### Case 14: Foreground/person layer separation
+### Case 14: Ön plan / kişi katmanı ayırma
 
-<img src="assets/media/017-Feishu-Docs-Image.png" width="720" alt="Foreground/person layer separation">
-
-> [!NOTE]
-> Separate a foreground subject from a poster-like background for later reuse.
-
----
-
-<a id="case-15"></a>
-
-### Case 15: Scene component layers for object reuse
-
-<img src="assets/media/018-Feishu-Docs-Image.png" width="720" alt="Scene component layers for object reuse">
+<img src="assets/media/017-Feishu-Docs-Image.png" width="720" alt="Ön plan / kişi katmanı ayırma">
 
 > [!NOTE]
-> Expose independently editable scene components for drag, scale, and recomposition workflows.
-
----
-
-<a id="case-16"></a>
-
-### Case 16: Recombined layered scene output
-
-<img src="assets/media/019-Feishu-Docs-Image.png" width="720" alt="Recombined layered scene output">
-
-> [!NOTE]
-> Use separated assets to rebuild a coherent scene after component-level editing.
+> Daha sonra yeniden kullanmak için ön plan öznesini poster benzeri bir arka plandan ayırın.
 
 ---
 
 <a id="multi-image-fusion-editing"></a>
 
-## 🖼️ Multi-image Fusion Editing
+## 🖼️ Çoklu görüntü füzyon düzenleme
 
-Combine multiple reference images into one coherent composition under a single instruction.
+Tek bir talimat altında birden fazla referans görüntüyü tutarlı bir kompozisyonda birleştirin.
 
-Case count: **1**.
+Case sayısı: **1**.
 
-<a id="case-17"></a>
+<a id="case-15"></a>
 
-### Case 17: Seven-reference still-life composition
+### Case 15: Yedi referanslı giriş/çıkış natürmort kompozisyonu
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Giriş:**
+
+<img src="assets/media/018-Feishu-Docs-Image.png" width="420" alt="Yedi referanslı natürmort kompozisyonu girişi">
+
+</td>
+<td width="50%" valign="top">
+
+**Çıkış:**
+
+<img src="assets/media/019-Feishu-Docs-Image.png" width="420" alt="Yedi referanslı natürmort kompozisyonu çıkışı">
+
+</td>
+</tr>
+</table>
 
 > [!NOTE]
-> Official material provides the prompt for this case without a paired public output image in the export used for this repository.
+> Yedi beyaz arka planlı referansı giriş grubu olarak kullanın ve aynı eşleştirilmiş case içinde natürmort fotoğraf çıktısını üretin.
+
 
 **Prompt:**
 
@@ -348,127 +344,127 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 <a id="visual-quality-narrative"></a>
 
-## 🎬 Visual Quality & Narrative
+## 🎬 Görsel kalite ve anlatı
 
-Group the effect samples by cinematic action, 3D/animation, concept art, and game-scene output.
+Efekt örneklerini sinematik aksiyon, 3D / animasyon, konsept sanat ve oyun sahnesi çıktısı olarak gruplayın.
 
-Case count: **5**.
+Case sayısı: **5**.
+
+<a id="case-16"></a>
+
+### Case 16: Cam kırılmalı sinematik tenis sahnesi
+
+<img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" width="720" alt="Cam kırılmalı sinematik tenis sahnesi">
+
+> [!NOTE]
+> Cam parçaları, aksiyon zamanlaması ve sinematik ışık içeren yüksek hareketli sahne üretimi.
+
+---
+
+<a id="case-17"></a>
+
+### Case 17: Sinematik boks aksiyonu
+
+<img src="assets/media/021-Cinematic-narrative-action-boxing.png" width="720" alt="Sinematik boks aksiyonu">
+
+> [!NOTE]
+> Daha güçlü hareket, darbe ve sahne derinliği hissi veren aksiyon sahnesi render’ı.
+
+---
 
 <a id="case-18"></a>
 
-### Case 18: Cinematic tennis glass shatter
+### Case 18: 3D animasyon tarzı sahne
 
-<img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" width="720" alt="Cinematic tennis glass shatter">
+<img src="assets/media/022-Cinematic-narrative-3D-animation.png" width="720" alt="3D animasyon tarzı sahne">
 
 > [!NOTE]
-> High-motion scene generation with glass fragments, action timing, and cinematic lighting.
+> Karakter veya eğlence görselleri için stilize 3D / animasyon çıktısı.
 
 ---
 
 <a id="case-19"></a>
 
-### Case 19: Cinematic boxing action
+### Case 19: Görsel konsept sanatı
 
-<img src="assets/media/021-Cinematic-narrative-action-boxing.png" width="720" alt="Cinematic boxing action">
+<img src="assets/media/023-Cinematic-narrative-visual-concept.png" width="720" alt="Görsel konsept sanatı">
 
 > [!NOTE]
-> Action-scene rendering with a stronger sense of motion, impact, and scene depth.
+> Atmosfer, görsel yön ve duygu keşfi için konsept sanat tarzı üretim.
 
 ---
 
 <a id="case-20"></a>
 
-### Case 20: 3D animation style scene
+### Case 20: Oyun sahnesi görseli
 
-<img src="assets/media/022-Cinematic-narrative-3D-animation.png" width="720" alt="3D animation style scene">
-
-> [!NOTE]
-> Stylized 3D/animation output for character or entertainment visuals.
-
----
-
-<a id="case-21"></a>
-
-### Case 21: Visual concept art
-
-<img src="assets/media/023-Cinematic-narrative-visual-concept.png" width="720" alt="Visual concept art">
+<img src="assets/media/024-Cinematic-narrative-game-scene.png" width="720" alt="Oyun sahnesi görseli">
 
 > [!NOTE]
-> Concept-art style generation for atmosphere, visual direction, and mood exploration.
-
----
-
-<a id="case-22"></a>
-
-### Case 22: Game scene visual
-
-<img src="assets/media/024-Cinematic-narrative-game-scene.png" width="720" alt="Game scene visual">
-
-> [!NOTE]
-> Game-like scene generation for environment, set, or key-art exploration.
+> Ortam, set veya key art keşfi için oyun benzeri sahne üretimi.
 
 ---
 
 <a id="multilingual-text-rendering"></a>
 
-## 🌐 Multilingual Text Rendering
+## 🌐 Çok dilli metin işleme
 
-Group the multilingual samples by rendered language and local-text use case.
+Çok dilli örnekleri işlenen dile ve yerel metin kullanım durumuna göre gruplayın.
 
-Case count: **5**.
+Case sayısı: **5**.
+
+<a id="case-21"></a>
+
+### Case 21: Arapça ve İngilizce karşılama tabelası
+
+<img src="assets/media/025-Welcome.png" width="720" alt="Arapça ve İngilizce karşılama tabelası">
+
+> [!NOTE]
+> Aynı görselde Arapça ve İngilizce metinle yerel çok dilli render.
+
+---
+
+<a id="case-22"></a>
+
+### Case 22: Korece 24 saat açık tabelası
+
+<img src="assets/media/026-24-Open-24-hours.png" width="720" alt="Korece 24 saat açık tabelası">
+
+> [!NOTE]
+> Yerelleştirilmiş vitrin veya tabela içeriği için Korece metin render’ı.
+
+---
 
 <a id="case-23"></a>
 
-### Case 23: Arabic and English welcome sign
+### Case 23: Tayca temizlik tabelası
 
-<img src="assets/media/025-Welcome.png" width="720" alt="Arabic and English welcome sign">
+<img src="assets/media/027-Please-help-keep-the-place-clean-together.png" width="720" alt="Tayca temizlik tabelası">
 
 > [!NOTE]
-> Native multilingual rendering with Arabic and English text in the same visual.
+> Yerel kamusal alanlar veya kampanya görselleri için Tayca metin render’ı.
 
 ---
 
 <a id="case-24"></a>
 
-### Case 24: Korean open-24-hours sign
+### Case 24: Fransızca yaratım posteri
 
-<img src="assets/media/026-24-Open-24-hours.png" width="720" alt="Korean open-24-hours sign">
+<img src="assets/media/028-CREATION-FRANCAISE-Made-in-France.png" width="720" alt="Fransızca yaratım posteri">
 
 > [!NOTE]
-> Korean text rendering for localized storefront or signage content.
+> Ürün, moda ve kampanya varlıkları için Fransızca metin render’ı.
 
 ---
 
 <a id="case-25"></a>
 
-### Case 25: Thai cleanliness sign
+### Case 25: Rusça gelecek posteri
 
-<img src="assets/media/027-Please-help-keep-the-place-clean-together.png" width="720" alt="Thai cleanliness sign">
-
-> [!NOTE]
-> Thai text rendering for local public-space or campaign visuals.
-
----
-
-<a id="case-26"></a>
-
-### Case 26: French creation poster
-
-<img src="assets/media/028-CREATION-FRANCAISE-Made-in-France.png" width="720" alt="French creation poster">
+<img src="assets/media/029-Future.png" width="720" alt="Rusça gelecek posteri">
 
 > [!NOTE]
-> French text rendering for product, fashion, and campaign assets.
-
----
-
-<a id="case-27"></a>
-
-### Case 27: Russian future poster
-
-<img src="assets/media/029-Future.png" width="720" alt="Russian future poster">
-
-> [!NOTE]
-> Russian text rendering with clear character structure for localized visual concepts.
+> Yerelleştirilmiş görsel konseptler için net karakter yapısıyla Rusça metin render’ı.
 
 ---
 
@@ -476,22 +472,22 @@ Case count: **5**.
 
 ## 🧩 Model notları
 
-| Area | Source-backed note |
+| Alan | Kaynak destekli not |
 |---|---|
-| Model ID | Official material lists `dola-seedream-5-0-pro-260628`; EvoLink runtime verification is still required before this becomes first-run evidence. |
-| Input images | Official material says Seedream 5.0 Pro supports up to 10 input images. |
-| Output resolution | Do not claim 4K for Pro; the source material describes output tiers around `<= 2.36M` pixels and `> 2.36M` pixels. |
-| Native prompt languages | Official material lists Arabic, English, Russian, Indonesian, Spanish, German, Turkish, Portuguese, Malay, Vietnamese, French, Japanese, Korean, Tagalog, and Thai. |
-| Seedream to Seedance path | Official material says Seedream 5.0 Pro/Lite outputs can become trusted inputs for Seedance-family image-to-video workflows, with account and moderation conditions. |
+| Model ID | Resmi materyalde `dola-seedream-5-0-pro-260628` listelenir; bunun ilk çalıştırma kanıtı olabilmesi için EvoLink runtime doğrulaması hâlâ gereklidir. |
+| Giriş görüntüleri | Resmi materyal, Seedream 5.0 Pro’nun en fazla 10 giriş görüntüsünü desteklediğini belirtir. |
+| Çıkış çözünürlüğü | Pro için 4K iddia etmeyin; kaynak materyal `<= 2.36M` piksel ve `> 2.36M` piksel civarında çıkış katmanlarını açıklar. |
+| Yerel prompt dilleri | Resmi materyal Arapça, İngilizce, Rusça, Endonezce, İspanyolca, Almanca, Türkçe, Portekizce, Malayca, Vietnamca, Fransızca, Japonca, Korece, Tagalogca ve Taycayı listeler. |
+| Seedream’den Seedance’e yol | Resmi materyal, Seedream 5.0 Pro/Lite çıktılarının hesap ve moderasyon koşulları altında Seedance ailesi image-to-video iş akışları için güvenilir girdiler olabileceğini belirtir. |
 
 <a id="acknowledge"></a>
 
 ## 🙏 Teşekkür
 
-This repository was created from official Seedream 5.0 Pro launch material exported on July 8, 2026 and from owner corrections about the case inventory.
+Bu depo, 8 Temmuz 2026’da dışa aktarılan resmi Seedream 5.0 Pro lansman materyalinden ve case envanteri hakkındaki resmi düzeltmelerden oluşturuldu.
 
-- Official private source URLs are retained only in local audit evidence.
-- Prompt blocks are included only where the official material provides prompt text.
-- Media-only cases remain media-only; missing prompts are not invented.
+- Resmi özel kaynak URL’leri yalnızca yerel denetim kanıtlarında saklanır.
+- Prompt blokları yalnızca resmi materyalin prompt metni sağladığı yerlerde eklenir.
+- Yalnızca medya içeren case’ler yalnızca medya olarak kalır; eksik promptlar uydurulmaz.
 
-*If any public case boundary needs correction, open an issue or send a patch with concrete source evidence.*
+*Herhangi bir public case sınırının düzeltilmesi gerekiyorsa, somut kaynak kanıtıyla bir issue açın veya patch gönderin.*

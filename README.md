@@ -65,22 +65,20 @@ Try the model entry point on EvoLink: [Open Seedream 5.0 Pro on EvoLink](https:/
   - [Case 13: Grid-position object movement](#case-13)
 - [🧩 Layer Separation](#layer-separation)
   - [Case 14: Foreground/person layer separation](#case-14)
-  - [Case 15: Scene component layers for object reuse](#case-15)
-  - [Case 16: Recombined layered scene output](#case-16)
 - [🖼️ Multi-image Fusion Editing](#multi-image-fusion-editing)
-  - [Case 17: Seven-reference still-life composition](#case-17)
+  - [Case 15: Seven-reference still-life input/output composition](#case-15)
 - [🎬 Visual Quality & Narrative](#visual-quality-narrative)
-  - [Case 18: Cinematic tennis glass shatter](#case-18)
-  - [Case 19: Cinematic boxing action](#case-19)
-  - [Case 20: 3D animation style scene](#case-20)
-  - [Case 21: Visual concept art](#case-21)
-  - [Case 22: Game scene visual](#case-22)
+  - [Case 16: Cinematic tennis glass shatter](#case-16)
+  - [Case 17: Cinematic boxing action](#case-17)
+  - [Case 18: 3D animation style scene](#case-18)
+  - [Case 19: Visual concept art](#case-19)
+  - [Case 20: Game scene visual](#case-20)
 - [🌐 Multilingual Text Rendering](#multilingual-text-rendering)
-  - [Case 23: Arabic and English welcome sign](#case-23)
-  - [Case 24: Korean open-24-hours sign](#case-24)
-  - [Case 25: Thai cleanliness sign](#case-25)
-  - [Case 26: French creation poster](#case-26)
-  - [Case 27: Russian future poster](#case-27)
+  - [Case 21: Arabic and English welcome sign](#case-21)
+  - [Case 22: Korean open-24-hours sign](#case-22)
+  - [Case 23: Thai cleanliness sign](#case-23)
+  - [Case 24: French creation poster](#case-24)
+  - [Case 25: Russian future poster](#case-25)
 - [🧩 Model Notes](#model-notes)
 - [🙏 Acknowledge](#acknowledge)
 
@@ -288,7 +286,7 @@ Move the red car in the lower-left corner one grid cell to the right, and move t
 
 Separate foreground, background, and reusable components for downstream editing.
 
-Case count: **3**.
+Case count: **1**.
 
 <a id="case-14"></a>
 
@@ -301,28 +299,6 @@ Case count: **3**.
 
 ---
 
-<a id="case-15"></a>
-
-### Case 15: Scene component layers for object reuse
-
-<img src="assets/media/018-Feishu-Docs-Image.png" width="720" alt="Scene component layers for object reuse">
-
-> [!NOTE]
-> Expose independently editable scene components for drag, scale, and recomposition workflows.
-
----
-
-<a id="case-16"></a>
-
-### Case 16: Recombined layered scene output
-
-<img src="assets/media/019-Feishu-Docs-Image.png" width="720" alt="Recombined layered scene output">
-
-> [!NOTE]
-> Use separated assets to rebuild a coherent scene after component-level editing.
-
----
-
 <a id="multi-image-fusion-editing"></a>
 
 ## 🖼️ Multi-image Fusion Editing
@@ -331,12 +307,31 @@ Combine multiple reference images into one coherent composition under a single i
 
 Case count: **1**.
 
-<a id="case-17"></a>
+<a id="case-15"></a>
 
-### Case 17: Seven-reference still-life composition
+### Case 15: Seven-reference still-life input/output composition
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Input:**
+
+<img src="assets/media/018-Feishu-Docs-Image.png" width="420" alt="Seven-reference still-life composition input">
+
+</td>
+<td width="50%" valign="top">
+
+**Output:**
+
+<img src="assets/media/019-Feishu-Docs-Image.png" width="420" alt="Seven-reference still-life composition output">
+
+</td>
+</tr>
+</table>
 
 > [!NOTE]
-> Official material provides the prompt for this case without a paired public output image in the export used for this repository.
+> Use the seven white-background references as the input group and generate the still-life photography output in one paired case.
 
 **Prompt:**
 
@@ -354,9 +349,9 @@ Group the effect samples by cinematic action, 3D/animation, concept art, and gam
 
 Case count: **5**.
 
-<a id="case-18"></a>
+<a id="case-16"></a>
 
-### Case 18: Cinematic tennis glass shatter
+### Case 16: Cinematic tennis glass shatter
 
 <img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" width="720" alt="Cinematic tennis glass shatter">
 
@@ -365,9 +360,9 @@ Case count: **5**.
 
 ---
 
-<a id="case-19"></a>
+<a id="case-17"></a>
 
-### Case 19: Cinematic boxing action
+### Case 17: Cinematic boxing action
 
 <img src="assets/media/021-Cinematic-narrative-action-boxing.png" width="720" alt="Cinematic boxing action">
 
@@ -376,9 +371,9 @@ Case count: **5**.
 
 ---
 
-<a id="case-20"></a>
+<a id="case-18"></a>
 
-### Case 20: 3D animation style scene
+### Case 18: 3D animation style scene
 
 <img src="assets/media/022-Cinematic-narrative-3D-animation.png" width="720" alt="3D animation style scene">
 
@@ -387,9 +382,9 @@ Case count: **5**.
 
 ---
 
-<a id="case-21"></a>
+<a id="case-19"></a>
 
-### Case 21: Visual concept art
+### Case 19: Visual concept art
 
 <img src="assets/media/023-Cinematic-narrative-visual-concept.png" width="720" alt="Visual concept art">
 
@@ -398,9 +393,9 @@ Case count: **5**.
 
 ---
 
-<a id="case-22"></a>
+<a id="case-20"></a>
 
-### Case 22: Game scene visual
+### Case 20: Game scene visual
 
 <img src="assets/media/024-Cinematic-narrative-game-scene.png" width="720" alt="Game scene visual">
 
@@ -417,9 +412,9 @@ Group the multilingual samples by rendered language and local-text use case.
 
 Case count: **5**.
 
-<a id="case-23"></a>
+<a id="case-21"></a>
 
-### Case 23: Arabic and English welcome sign
+### Case 21: Arabic and English welcome sign
 
 <img src="assets/media/025-Welcome.png" width="720" alt="Arabic and English welcome sign">
 
@@ -428,9 +423,9 @@ Case count: **5**.
 
 ---
 
-<a id="case-24"></a>
+<a id="case-22"></a>
 
-### Case 24: Korean open-24-hours sign
+### Case 22: Korean open-24-hours sign
 
 <img src="assets/media/026-24-Open-24-hours.png" width="720" alt="Korean open-24-hours sign">
 
@@ -439,9 +434,9 @@ Case count: **5**.
 
 ---
 
-<a id="case-25"></a>
+<a id="case-23"></a>
 
-### Case 25: Thai cleanliness sign
+### Case 23: Thai cleanliness sign
 
 <img src="assets/media/027-Please-help-keep-the-place-clean-together.png" width="720" alt="Thai cleanliness sign">
 
@@ -450,9 +445,9 @@ Case count: **5**.
 
 ---
 
-<a id="case-26"></a>
+<a id="case-24"></a>
 
-### Case 26: French creation poster
+### Case 24: French creation poster
 
 <img src="assets/media/028-CREATION-FRANCAISE-Made-in-France.png" width="720" alt="French creation poster">
 
@@ -461,9 +456,9 @@ Case count: **5**.
 
 ---
 
-<a id="case-27"></a>
+<a id="case-25"></a>
 
-### Case 27: Russian future poster
+### Case 25: Russian future poster
 
 <img src="assets/media/029-Future.png" width="720" alt="Russian future poster">
 

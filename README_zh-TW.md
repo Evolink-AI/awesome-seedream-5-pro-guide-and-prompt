@@ -1,14 +1,14 @@
 <div align="center">
 
-<a href="https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=banner&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=readme_banner"><img src="assets/banner.png" alt="Awesome Seedream 5.0 Pro EvoLink banner"></a>
+<a href="https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=banner&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=readme_banner"><img src="assets/banner.png" alt="Awesome Seedream 5.0 Pro EvoLink 橫幅"></a>
 
-# Awesome Seedream 5.0 Pro Guide and Prompt
+# Awesome Seedream 5.0 Pro 指南與 Prompt
 
-Source-backed guide, prompt patterns, and visual examples for evaluating Seedream 5.0 Pro image generation and editing workflows.
+用於評估 Seedream 5.0 Pro 圖像生成與編輯工作流的有來源支撐指南、prompt 模式和視覺化範例。
 
-[![License: MIT](assets/badges/license-mit.svg)](LICENSE)
-[![Use on EvoLink](assets/badges/use-on-evolink.svg)](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=badge&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=top_badge)
-[![Get API Key](assets/badges/get-api-key.svg)](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=api_key)
+[![MIT 授權](assets/badges/license-mit.svg)](LICENSE)
+[![在 EvoLink 使用](assets/badges/use-on-evolink.svg)](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=badge&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=top_badge)
+[![取得 API Key](assets/badges/get-api-key.svg)](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=api_key)
 
 [🇺🇸 English](README.md) · [🇪🇸 Español](README_es.md) · [🇵🇹 Português](README_pt.md) · [🇯🇵 日本語](README_ja.md) · [🇰🇷 한국어](README_ko.md) · [🇩🇪 Deutsch](README_de.md) · [🇫🇷 Français](README_fr.md) · [🇹🇷 Türkçe](README_tr.md) · [🇹🇼 繁體中文](README_zh-TW.md) · [🇨🇳 简体中文](README_zh-CN.md) · [🇷🇺 Русский](README_ru.md)
 
@@ -16,98 +16,96 @@ Source-backed guide, prompt patterns, and visual examples for evaluating Seedrea
 
 <a id="introduction"></a>
 
-## 🍌 Introduction
+## 🍌 介紹
 
 Seedream 5.0 Pro 在官方發布材料中被定位為可控的圖像生成與編輯模型。本指南把公開 README 對齊官方能力菜單：交互控制、草圖編輯、圖層編輯、錨點 / 位置編輯、圖層分離、多圖融合、效果樣例與多語言文字渲染。
 
 **你可以用這個倉庫檢查有來源支撐的案例，只複製官方材料中實際出現的 prompt，並理解每個能力分類如何對應到可見 case。**
 
-Try the model entry point on EvoLink: [Open Seedream 5.0 Pro on EvoLink](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=top_text_cta).
+在 EvoLink 試用模型入口：[打開 EvoLink 上的 Seedream 5.0 Pro](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=top_text_cta)。
 
 **快速開始:** 本倉庫不聲稱 EvoLink 上的 Seedream 5.0 Pro 首次 API 路徑已完成驗證。在 runtime 證據被記錄前，請使用公開模型入口、API key 控制台與官方技術參考。
 
-1. [Open the Seedream 5.0 Pro EvoLink path](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=model_link).
-2. [Get your EvoLink API key](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=api_key).
-3. [Read the official ModelArk technical reference](https://docs.byteplus.com/en/docs/ModelArk/1541523).
+1. [打開 Seedream 5.0 Pro 的 EvoLink 路徑](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=model_link)。
+2. [取得你的 EvoLink API key](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=api_key)。
+3. [閱讀官方 ModelArk 技術參考](https://docs.byteplus.com/en/docs/ModelArk/1541523)。
 
 > [!NOTE]
-> 來源政策：使用 owner 提供的官方發布材料。私有 Lark/Feishu URL 只保留在本地 audit 證據中，不作為 README 的公開來源頁暴露。
+> 來源政策：使用官方發布材料。私有 Lark/Feishu URL 只保留在本地審計證據中，不作為 README 的公開來源頁暴露。
 
 <a id="news"></a>
 
-## 📰 News
+## 📰 更新
 
-- **July 8, 2026:** 根據官方菜單與 owner 修正後的 case inventory 重新整理初版指南。
+- **July 8, 2026:** 根據官方菜單與官方修正後的 case 清單重新整理初版指南。
 
 <a id="menu"></a>
 
 ## 📑 目錄
 
-- [🍌 Introduction](#introduction)
-- [📰 News](#news)
+- [🍌 介紹](#introduction)
+- [📰 更新](#news)
 - [📑 目錄](#menu)
-- [🎛️ Interaction Control](#interaction-control)
-  - [Case 1: Arrows and annotation boxes for spatial intent](#case-1)
-  - [Case 2: Region-box object description for targeted editing](#case-2)
-- [✏️ Sketch Editing](#sketch-editing)
-  - [Case 3: Doodle-guided object generation](#case-3)
-  - [Case 4: Color-block guided editing](#case-4)
-  - [Case 5: Line-guided detail editing](#case-5)
-  - [Case 6: Simple sketch to refined image](#case-6)
-- [🧱 Layer Editing](#layer-editing)
-  - [Case 7: Poster text and graphic layer edit: Avery Turns](#case-7)
-  - [Case 8: Poster offer layer edit: Happy Hour](#case-8)
-  - [Case 9: Fashion image layer edit inside a design layout](#case-9)
-  - [Case 10: Sports poster graphic layer edit](#case-10)
-  - [Case 11: Poster element edit: Public Joy](#case-11)
-  - [Case 12: Material surface swap with precise texture response](#case-12)
-- [📍 Anchor / Position Editing](#anchor-position-editing)
-  - [Case 13: Grid-position object movement](#case-13)
-- [🧩 Layer Separation](#layer-separation)
-  - [Case 14: Foreground/person layer separation](#case-14)
-  - [Case 15: Scene component layers for object reuse](#case-15)
-  - [Case 16: Recombined layered scene output](#case-16)
-- [🖼️ Multi-image Fusion Editing](#multi-image-fusion-editing)
-  - [Case 17: Seven-reference still-life composition](#case-17)
-- [🎬 Visual Quality & Narrative](#visual-quality-narrative)
-  - [Case 18: Cinematic tennis glass shatter](#case-18)
-  - [Case 19: Cinematic boxing action](#case-19)
-  - [Case 20: 3D animation style scene](#case-20)
-  - [Case 21: Visual concept art](#case-21)
-  - [Case 22: Game scene visual](#case-22)
-- [🌐 Multilingual Text Rendering](#multilingual-text-rendering)
-  - [Case 23: Arabic and English welcome sign](#case-23)
-  - [Case 24: Korean open-24-hours sign](#case-24)
-  - [Case 25: Thai cleanliness sign](#case-25)
-  - [Case 26: French creation poster](#case-26)
-  - [Case 27: Russian future poster](#case-27)
+- [🎛️ 交互控制](#interaction-control)
+  - [Case 1: 用於空間意圖的箭頭和標註框](#case-1)
+  - [Case 2: 用於定向編輯的區域框物件描述](#case-2)
+- [✏️ 草圖編輯](#sketch-editing)
+  - [Case 3: 塗鴉引導的物件生成](#case-3)
+  - [Case 4: 色塊引導的編輯](#case-4)
+  - [Case 5: 線條引導的細節編輯](#case-5)
+  - [Case 6: 從簡單草圖到精細圖像](#case-6)
+- [🧱 圖層編輯](#layer-editing)
+  - [Case 7: 海報文字與圖形圖層編輯：Avery Turns](#case-7)
+  - [Case 8: 海報優惠圖層編輯：Happy Hour](#case-8)
+  - [Case 9: 設計版式中的時尚圖像圖層編輯](#case-9)
+  - [Case 10: 運動海報圖形圖層編輯](#case-10)
+  - [Case 11: 海報元素編輯：Public Joy](#case-11)
+  - [Case 12: 具備精確紋理回應的材質表面替換](#case-12)
+- [📍 錨點 / 位置編輯](#anchor-position-editing)
+  - [Case 13: 網格位置物件移動](#case-13)
+- [🧩 圖層分離](#layer-separation)
+  - [Case 14: 前景 / 人物圖層分離](#case-14)
+- [🖼️ 多圖融合編輯](#multi-image-fusion-editing)
+  - [Case 15: 七張參考圖輸入/輸出靜物構圖](#case-15)
+- [🎬 視覺品質與敘事](#visual-quality-narrative)
+  - [Case 16: 電影感網球玻璃碎裂](#case-16)
+  - [Case 17: 電影感拳擊動作](#case-17)
+  - [Case 18: 3D 動畫風格場景](#case-18)
+  - [Case 19: 視覺概念藝術](#case-19)
+  - [Case 20: 遊戲場景視覺](#case-20)
+- [🌐 多語言文字渲染](#multilingual-text-rendering)
+  - [Case 21: 阿拉伯語與英語歡迎牌](#case-21)
+  - [Case 22: 韓語 24 小時營業標牌](#case-22)
+  - [Case 23: 泰語清潔提示標牌](#case-23)
+  - [Case 24: 法語創作海報](#case-24)
+  - [Case 25: 俄語未來海報](#case-25)
 - [🧩 模型備註](#model-notes)
 - [🙏 致謝](#acknowledge)
 
 <a id="interaction-control"></a>
 
-## 🎛️ Interaction Control
+## 🎛️ 交互控制
 
-Use boxes, points, arrows, annotation marks, or coordinates to specify the target region.
+使用框、點、箭頭、標註或座標來指定目標區域。
 
-Case count: **2**.
+案例數量：**2**。
 
 <a id="case-1"></a>
 
-### Case 1: Arrows and annotation boxes for spatial intent
+### Case 1: 用於空間意圖的箭頭和標註框
 
-<img src="assets/media/003-arrows-annotation-boxes.gif" width="720" alt="Arrows and annotation boxes for spatial intent">
+<img src="assets/media/003-arrows-annotation-boxes.gif" width="720" alt="用於空間意圖的箭頭和標註框">
 
 > [!NOTE]
-> Use arrows, boxes, and annotations to make the target area explicit before editing.
+> 在編輯前使用箭頭、框和標註明確目標區域。
 
 ---
 
 <a id="case-2"></a>
 
-### Case 2: Region-box object description for targeted editing
+### Case 2: 用於定向編輯的區域框物件描述
 
-<img src="assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif" width="720" alt="Region-box object description for targeted editing">
+<img src="assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif" width="720" alt="用於定向編輯的區域框物件描述">
 
 **Prompt:**
 
@@ -119,156 +117,156 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 <a id="sketch-editing"></a>
 
-## ✏️ Sketch Editing
+## ✏️ 草圖編輯
 
-Use doodles, color blocks, lines, or simple sketches as visual guidance.
+使用塗鴉、色塊、線條或簡單草圖作為視覺引導。
 
-Case count: **4**.
+案例數量：**4**。
 
 <a id="case-3"></a>
 
-### Case 3: Doodle-guided object generation
+### Case 3: 塗鴉引導的物件生成
 
-<img src="assets/media/005-doodles.gif" width="720" alt="Doodle-guided object generation">
+<img src="assets/media/005-doodles.gif" width="720" alt="塗鴉引導的物件生成">
 
 > [!NOTE]
-> Use loose doodles as the visual control signal and let the model render the intended object.
+> 使用鬆散塗鴉作為視覺控制訊號，讓模型渲染目標物件。
 
 ---
 
 <a id="case-4"></a>
 
-### Case 4: Color-block guided editing
+### Case 4: 色塊引導的編輯
 
-<img src="assets/media/006-color-block.gif" width="720" alt="Color-block guided editing">
+<img src="assets/media/006-color-block.gif" width="720" alt="色塊引導的編輯">
 
 > [!NOTE]
-> Use broad color blocks to specify rough composition, color zones, or object placement.
+> 使用大塊色塊指定粗略構圖、顏色區域或物件位置。
 
 ---
 
 <a id="case-5"></a>
 
-### Case 5: Line-guided detail editing
+### Case 5: 線條引導的細節編輯
 
-<img src="assets/media/007-lines.gif" width="720" alt="Line-guided detail editing">
+<img src="assets/media/007-lines.gif" width="720" alt="線條引導的細節編輯">
 
 > [!NOTE]
-> Use simple line guidance when the shape boundary matters more than a long text description.
+> 當形狀邊界比長文字描述更重要時，使用簡單線條進行引導。
 
 ---
 
 <a id="case-6"></a>
 
-### Case 6: Simple sketch to refined image
+### Case 6: 從簡單草圖到精細圖像
 
-<img src="assets/media/008-simple-sketches.gif" width="720" alt="Simple sketch to refined image">
+<img src="assets/media/008-simple-sketches.gif" width="720" alt="從簡單草圖到精細圖像">
 
 > [!NOTE]
-> Turn a minimal sketch into a more complete rendered image while preserving the sketch intent.
+> 在保留草圖意圖的同時，把極簡草圖轉成更完整的渲染圖。
 
 ---
 
 <a id="layer-editing"></a>
 
-## 🧱 Layer Editing
+## 🧱 圖層編輯
 
-Edit poster, graphic, text, material, or surface layers while preserving the broader composition.
+在保留整體構圖的同時編輯海報、圖形、文字、材質或表面圖層。
 
-Case count: **6**.
+案例數量：**6**。
 
 <a id="case-7"></a>
 
-### Case 7: Poster text and graphic layer edit: Avery Turns
+### Case 7: 海報文字與圖形圖層編輯：Avery Turns
 
-<img src="assets/media/009-Feishu-Docs-Image.gif" width="720" alt="Poster text and graphic layer edit: Avery Turns">
+<img src="assets/media/009-Feishu-Docs-Image.gif" width="720" alt="海報文字與圖形圖層編輯：Avery Turns">
 
 > [!NOTE]
-> Edit visible poster elements while preserving the overall design structure.
+> 在保留整體設計結構的同時編輯可見海報元素。
 
 ---
 
 <a id="case-8"></a>
 
-### Case 8: Poster offer layer edit: Happy Hour
+### Case 8: 海報優惠圖層編輯：Happy Hour
 
-<img src="assets/media/010-Feishu-Docs-Image.gif" width="720" alt="Poster offer layer edit: Happy Hour">
+<img src="assets/media/010-Feishu-Docs-Image.gif" width="720" alt="海報優惠圖層編輯：Happy Hour">
 
 > [!NOTE]
-> Change a promotion badge or graphic element without rebuilding the whole poster.
+> 無需重建整張海報即可修改促銷標識或圖形元素。
 
 ---
 
 <a id="case-9"></a>
 
-### Case 9: Fashion image layer edit inside a design layout
+### Case 9: 設計版式中的時尚圖像圖層編輯
 
-<img src="assets/media/011-Feishu-Docs-Image.gif" width="720" alt="Fashion image layer edit inside a design layout">
+<img src="assets/media/011-Feishu-Docs-Image.gif" width="720" alt="設計版式中的時尚圖像圖層編輯">
 
 > [!NOTE]
-> Adjust a layered subject inside a composed visual layout.
+> 在已構成的視覺版式中調整分層主體。
 
 ---
 
 <a id="case-10"></a>
 
-### Case 10: Sports poster graphic layer edit
+### Case 10: 運動海報圖形圖層編輯
 
-<img src="assets/media/012-Feishu-Docs-Image.gif" width="720" alt="Sports poster graphic layer edit">
+<img src="assets/media/012-Feishu-Docs-Image.gif" width="720" alt="運動海報圖形圖層編輯">
 
 > [!NOTE]
-> Edit a racing poster graphic while keeping typography and composition aligned.
+> 在保持文字排版和構圖對齊的同時編輯賽車海報圖形。
 
 ---
 
 <a id="case-11"></a>
 
-### Case 11: Poster element edit: Public Joy
+### Case 11: 海報元素編輯：Public Joy
 
-<img src="assets/media/013-Feishu-Docs-Image.gif" width="720" alt="Poster element edit: Public Joy">
+<img src="assets/media/013-Feishu-Docs-Image.gif" width="720" alt="海報元素編輯：Public Joy">
 
 > [!NOTE]
-> Modify poster elements while preserving the source design language.
+> 在保留原始設計語言的同時修改海報元素。
 
 ---
 
 <a id="case-12"></a>
 
-### Case 12: Material surface swap with precise texture response
+### Case 12: 具備精確紋理回應的材質表面替換
 
-<img src="assets/media/014-Feishu-Docs-Image.gif" width="720" alt="Material surface swap with precise texture response">
+<img src="assets/media/014-Feishu-Docs-Image.gif" width="720" alt="具備精確紋理回應的材質表面替換">
 
 > [!NOTE]
-> Swap material and color targets while keeping the object structure intact.
+> 在保持物件結構完整的同時替換材質和顏色目標。
 
 ---
 
 <a id="anchor-position-editing"></a>
 
-## 📍 Anchor / Position Editing
+## 📍 錨點 / 位置編輯
 
-Use grid-like anchors or relative positions to move a specific target precisely.
+使用網格式錨點或相對位置來精確移動特定目標。
 
-Case count: **1**.
+案例數量：**1**。
 
 <a id="case-13"></a>
 
-### Case 13: Grid-position object movement
+### Case 13: 網格位置物件移動
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**Before:**
+**編輯前：**
 
-<img src="assets/media/015-Feishu-Docs-Image.png" width="420" alt="Grid-position object movement before">
+<img src="assets/media/015-Feishu-Docs-Image.png" width="420" alt="網格位置物件移動編輯前">
 
 </td>
 <td width="50%" valign="top">
 
-**After:**
+**編輯後：**
 
-<img src="assets/media/016-Feishu-Docs-Image.png" width="420" alt="Grid-position object movement after">
+<img src="assets/media/016-Feishu-Docs-Image.png" width="420" alt="網格位置物件移動編輯後">
 
 </td>
 </tr>
@@ -284,59 +282,57 @@ Move the red car in the lower-left corner one grid cell to the right, and move t
 
 <a id="layer-separation"></a>
 
-## 🧩 Layer Separation
+## 🧩 圖層分離
 
-Separate foreground, background, and reusable components for downstream editing.
+分離前景、背景和可複用元件，以便後續編輯。
 
-Case count: **3**.
+案例數量：**1**。
 
 <a id="case-14"></a>
 
-### Case 14: Foreground/person layer separation
+### Case 14: 前景 / 人物圖層分離
 
-<img src="assets/media/017-Feishu-Docs-Image.png" width="720" alt="Foreground/person layer separation">
-
-> [!NOTE]
-> Separate a foreground subject from a poster-like background for later reuse.
-
----
-
-<a id="case-15"></a>
-
-### Case 15: Scene component layers for object reuse
-
-<img src="assets/media/018-Feishu-Docs-Image.png" width="720" alt="Scene component layers for object reuse">
+<img src="assets/media/017-Feishu-Docs-Image.png" width="720" alt="前景 / 人物圖層分離">
 
 > [!NOTE]
-> Expose independently editable scene components for drag, scale, and recomposition workflows.
-
----
-
-<a id="case-16"></a>
-
-### Case 16: Recombined layered scene output
-
-<img src="assets/media/019-Feishu-Docs-Image.png" width="720" alt="Recombined layered scene output">
-
-> [!NOTE]
-> Use separated assets to rebuild a coherent scene after component-level editing.
+> 從海報式背景中分離前景主體，以便後續複用。
 
 ---
 
 <a id="multi-image-fusion-editing"></a>
 
-## 🖼️ Multi-image Fusion Editing
+## 🖼️ 多圖融合編輯
 
-Combine multiple reference images into one coherent composition under a single instruction.
+將多張參考圖融合成一個連貫構圖，並遵循單條指令完成編輯。
 
-Case count: **1**.
+案例數量：**1**。
 
-<a id="case-17"></a>
+<a id="case-15"></a>
 
-### Case 17: Seven-reference still-life composition
+### Case 15: 七張參考圖輸入/輸出靜物構圖
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**輸入：**
+
+<img src="assets/media/018-Feishu-Docs-Image.png" width="420" alt="七張參考圖靜物構圖輸入">
+
+</td>
+<td width="50%" valign="top">
+
+**輸出：**
+
+<img src="assets/media/019-Feishu-Docs-Image.png" width="420" alt="七張參考圖靜物構圖輸出">
+
+</td>
+</tr>
+</table>
 
 > [!NOTE]
-> Official material provides the prompt for this case without a paired public output image in the export used for this repository.
+> 將七張白底參考圖作為輸入組，並在同一個成對 case 中生成靜物攝影輸出。
+
 
 **Prompt:**
 
@@ -348,127 +344,127 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 <a id="visual-quality-narrative"></a>
 
-## 🎬 Visual Quality & Narrative
+## 🎬 視覺品質與敘事
 
-Group the effect samples by cinematic action, 3D/animation, concept art, and game-scene output.
+按電影動作、3D / 動畫、概念藝術和遊戲場景輸出組織效果樣例。
 
-Case count: **5**.
+案例數量：**5**。
+
+<a id="case-16"></a>
+
+### Case 16: 電影感網球玻璃碎裂
+
+<img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" width="720" alt="電影感網球玻璃碎裂">
+
+> [!NOTE]
+> 生成包含玻璃碎片、動作節奏和電影感光照的高動態場景。
+
+---
+
+<a id="case-17"></a>
+
+### Case 17: 電影感拳擊動作
+
+<img src="assets/media/021-Cinematic-narrative-action-boxing.png" width="720" alt="電影感拳擊動作">
+
+> [!NOTE]
+> 渲染具有更強運動感、衝擊感和場景縱深的動作場景。
+
+---
 
 <a id="case-18"></a>
 
-### Case 18: Cinematic tennis glass shatter
+### Case 18: 3D 動畫風格場景
 
-<img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" width="720" alt="Cinematic tennis glass shatter">
+<img src="assets/media/022-Cinematic-narrative-3D-animation.png" width="720" alt="3D 動畫風格場景">
 
 > [!NOTE]
-> High-motion scene generation with glass fragments, action timing, and cinematic lighting.
+> 用於角色或娛樂視覺的風格化 3D / 動畫輸出。
 
 ---
 
 <a id="case-19"></a>
 
-### Case 19: Cinematic boxing action
+### Case 19: 視覺概念藝術
 
-<img src="assets/media/021-Cinematic-narrative-action-boxing.png" width="720" alt="Cinematic boxing action">
+<img src="assets/media/023-Cinematic-narrative-visual-concept.png" width="720" alt="視覺概念藝術">
 
 > [!NOTE]
-> Action-scene rendering with a stronger sense of motion, impact, and scene depth.
+> 用於氛圍、視覺方向和情緒探索的概念藝術風格生成。
 
 ---
 
 <a id="case-20"></a>
 
-### Case 20: 3D animation style scene
+### Case 20: 遊戲場景視覺
 
-<img src="assets/media/022-Cinematic-narrative-3D-animation.png" width="720" alt="3D animation style scene">
-
-> [!NOTE]
-> Stylized 3D/animation output for character or entertainment visuals.
-
----
-
-<a id="case-21"></a>
-
-### Case 21: Visual concept art
-
-<img src="assets/media/023-Cinematic-narrative-visual-concept.png" width="720" alt="Visual concept art">
+<img src="assets/media/024-Cinematic-narrative-game-scene.png" width="720" alt="遊戲場景視覺">
 
 > [!NOTE]
-> Concept-art style generation for atmosphere, visual direction, and mood exploration.
-
----
-
-<a id="case-22"></a>
-
-### Case 22: Game scene visual
-
-<img src="assets/media/024-Cinematic-narrative-game-scene.png" width="720" alt="Game scene visual">
-
-> [!NOTE]
-> Game-like scene generation for environment, set, or key-art exploration.
+> 用於環境、佈景或 key art 探索的遊戲化場景生成。
 
 ---
 
 <a id="multilingual-text-rendering"></a>
 
-## 🌐 Multilingual Text Rendering
+## 🌐 多語言文字渲染
 
-Group the multilingual samples by rendered language and local-text use case.
+按渲染語言和本地文字使用場景組織多語言樣例。
 
-Case count: **5**.
+案例數量：**5**。
+
+<a id="case-21"></a>
+
+### Case 21: 阿拉伯語與英語歡迎牌
+
+<img src="assets/media/025-Welcome.png" width="720" alt="阿拉伯語與英語歡迎牌">
+
+> [!NOTE]
+> 在同一畫面中原生渲染阿拉伯語和英語文字。
+
+---
+
+<a id="case-22"></a>
+
+### Case 22: 韓語 24 小時營業標牌
+
+<img src="assets/media/026-24-Open-24-hours.png" width="720" alt="韓語 24 小時營業標牌">
+
+> [!NOTE]
+> 面向本地化店面或標牌內容的韓語文字渲染。
+
+---
 
 <a id="case-23"></a>
 
-### Case 23: Arabic and English welcome sign
+### Case 23: 泰語清潔提示標牌
 
-<img src="assets/media/025-Welcome.png" width="720" alt="Arabic and English welcome sign">
+<img src="assets/media/027-Please-help-keep-the-place-clean-together.png" width="720" alt="泰語清潔提示標牌">
 
 > [!NOTE]
-> Native multilingual rendering with Arabic and English text in the same visual.
+> 面向本地公共空間或活動視覺的泰語文字渲染。
 
 ---
 
 <a id="case-24"></a>
 
-### Case 24: Korean open-24-hours sign
+### Case 24: 法語創作海報
 
-<img src="assets/media/026-24-Open-24-hours.png" width="720" alt="Korean open-24-hours sign">
+<img src="assets/media/028-CREATION-FRANCAISE-Made-in-France.png" width="720" alt="法語創作海報">
 
 > [!NOTE]
-> Korean text rendering for localized storefront or signage content.
+> 面向產品、時尚和活動資產的法語文字渲染。
 
 ---
 
 <a id="case-25"></a>
 
-### Case 25: Thai cleanliness sign
+### Case 25: 俄語未來海報
 
-<img src="assets/media/027-Please-help-keep-the-place-clean-together.png" width="720" alt="Thai cleanliness sign">
-
-> [!NOTE]
-> Thai text rendering for local public-space or campaign visuals.
-
----
-
-<a id="case-26"></a>
-
-### Case 26: French creation poster
-
-<img src="assets/media/028-CREATION-FRANCAISE-Made-in-France.png" width="720" alt="French creation poster">
+<img src="assets/media/029-Future.png" width="720" alt="俄語未來海報">
 
 > [!NOTE]
-> French text rendering for product, fashion, and campaign assets.
-
----
-
-<a id="case-27"></a>
-
-### Case 27: Russian future poster
-
-<img src="assets/media/029-Future.png" width="720" alt="Russian future poster">
-
-> [!NOTE]
-> Russian text rendering with clear character structure for localized visual concepts.
+> 為本地化視覺概念渲染字元結構清晰的俄語文字。
 
 ---
 
@@ -476,22 +472,22 @@ Case count: **5**.
 
 ## 🧩 模型備註
 
-| Area | Source-backed note |
+| 領域 | 有來源支撐的備註 |
 |---|---|
-| Model ID | Official material lists `dola-seedream-5-0-pro-260628`; EvoLink runtime verification is still required before this becomes first-run evidence. |
-| Input images | Official material says Seedream 5.0 Pro supports up to 10 input images. |
-| Output resolution | Do not claim 4K for Pro; the source material describes output tiers around `<= 2.36M` pixels and `> 2.36M` pixels. |
-| Native prompt languages | Official material lists Arabic, English, Russian, Indonesian, Spanish, German, Turkish, Portuguese, Malay, Vietnamese, French, Japanese, Korean, Tagalog, and Thai. |
-| Seedream to Seedance path | Official material says Seedream 5.0 Pro/Lite outputs can become trusted inputs for Seedance-family image-to-video workflows, with account and moderation conditions. |
+| 模型 ID | 官方材料列出 `dola-seedream-5-0-pro-260628`；在它成為首次運行證據之前，仍需要 EvoLink runtime 驗證。 |
+| 輸入圖像 | 官方材料說明 Seedream 5.0 Pro 最多支援 10 張輸入圖像。 |
+| 輸出解析度 | 不要聲稱 Pro 支援 4K；來源材料描述的輸出檔位圍繞 `<= 2.36M` 像素和 `> 2.36M` 像素。 |
+| 原生 prompt 語言 | 官方材料列出阿拉伯語、英語、俄語、印尼語、西班牙語、德語、土耳其語、葡萄牙語、馬來語、越南語、法語、日語、韓語、他加祿語和泰語。 |
+| Seedream 到 Seedance 路徑 | 官方材料說明，在滿足帳號和審核條件時，Seedream 5.0 Pro/Lite 輸出可以成為 Seedance 系列圖生影片流程的可信輸入。 |
 
 <a id="acknowledge"></a>
 
 ## 🙏 致謝
 
-This repository was created from official Seedream 5.0 Pro launch material exported on July 8, 2026 and from owner corrections about the case inventory.
+本倉庫基於 2026 年 7 月 8 日匯出的 Seedream 5.0 Pro 官方發布材料，以及官方對 case 清單的修正建立。
 
-- Official private source URLs are retained only in local audit evidence.
-- Prompt blocks are included only where the official material provides prompt text.
-- Media-only cases remain media-only; missing prompts are not invented.
+- 官方私有來源 URL 只保留在本地審計證據中。
+- 只有官方材料提供 prompt 文本的地方才包含 prompt 程式碼區塊。
+- 只有媒體的 case 保持為純媒體展示；不會編造缺失的 prompt。
 
-*If any public case boundary needs correction, open an issue or send a patch with concrete source evidence.*
+*如果任何公開 case 邊界需要修正，請帶著具體來源證據提交 issue 或 patch。*

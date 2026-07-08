@@ -31,12 +31,12 @@ EXPECTED_CATEGORY_COUNTS = {
     "sketch-editing": 4,
     "layer-editing": 6,
     "anchor-position-editing": 1,
-    "layer-separation": 3,
+    "layer-separation": 1,
     "multi-image-fusion-editing": 1,
     "visual-quality-narrative": 5,
     "multilingual-text-rendering": 5,
 }
-EXPECTED_PROMPT_CASES = {2, 13, 17}
+EXPECTED_PROMPT_CASES = {2, 13, 15}
 EXPECTED_GIF_STEMS = {
     "003-arrows-annotation-boxes",
     "004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex",
@@ -90,8 +90,8 @@ def verify_readme(rel: str, source_case_numbers: list[int], source_media_refs: s
     numbers = case_numbers(text)
     if numbers != source_case_numbers:
         fail(f"{rel} case numbers differ from README.md: {numbers}", failures)
-    if len(numbers) != 27:
-        fail(f"{rel} must contain exactly 27 public cases, found {len(numbers)}.", failures)
+    if len(numbers) != 25:
+        fail(f"{rel} must contain exactly 25 public cases, found {len(numbers)}.", failures)
 
     forbidden = [
         "**Source mapping:**",
@@ -173,8 +173,8 @@ def main() -> int:
         fail("First screen must reference the owner-provided banner image.", failures)
 
     source_numbers = case_numbers(readme)
-    if source_numbers != list(range(1, 28)):
-        fail(f"README case numbers must be contiguous 1..27: {source_numbers}", failures)
+    if source_numbers != list(range(1, 26)):
+        fail(f"README case numbers must be contiguous 1..25: {source_numbers}", failures)
     if readme.count("**Prompt:**") != len(EXPECTED_PROMPT_CASES):
         fail("README prompt block count must match official prompt-bearing cases only.")
 
@@ -183,8 +183,8 @@ def main() -> int:
     actual_counts = {item.get("id"): len(item.get("case_numbers", [])) for item in categories}
     if actual_counts != EXPECTED_CATEGORY_COUNTS:
         fail(f"Inventory category counts do not match expected menu: {actual_counts}", failures)
-    if len(cases) != 27:
-        fail(f"Inventory must list 27 public cases, found {len(cases)}.", failures)
+    if len(cases) != 25:
+        fail(f"Inventory must list 25 public cases, found {len(cases)}.", failures)
     prompt_cases = {item.get("case") for item in cases if item.get("has_prompt")}
     if prompt_cases != EXPECTED_PROMPT_CASES:
         fail(f"Inventory prompt-bearing cases must be {sorted(EXPECTED_PROMPT_CASES)}, found {sorted(prompt_cases)}.", failures)
@@ -197,10 +197,21 @@ def main() -> int:
 
     if '<td width="50%" valign="top">' not in readme.split('### Case 13:', 1)[1].split('---', 1)[0]:
         fail("Case 13 before/after comparison must display both images in one row.")
+    layer_section = readme.split('<a id="layer-separation"></a>', 1)[1].split('<a id="multi-image-fusion-editing"></a>', 1)[0]
+    if "Case count: **1**." not in layer_section:
+        fail("Layer Separation section must visibly declare exactly 1 case; former media 018/019 belong to Multi-image Fusion.")
+    if "#case-15" in layer_section or '<a id="case-15"></a>' in layer_section or "assets/media/018-Feishu-Docs-Image.png" in layer_section or "assets/media/019-Feishu-Docs-Image.png" in layer_section:
+        fail("Layer Separation must not list Case 15 or media 018/019; those form the Multi-image Fusion input-output case.")
+    case15 = readme.split("### Case 15:", 1)[1].split("---", 1)[0] if "### Case 15:" in readme else ""
+    if "assets/media/018-Feishu-Docs-Image.png" not in case15 or "assets/media/019-Feishu-Docs-Image.png" not in case15:
+        fail("Case 15 must merge former media 018/019 as one Multi-image Fusion input-output pair.")
+    if "**Prompt:**" not in case15:
+        fail("Case 15 must keep the official seven-reference prompt with the input-output media pair.")
     if "assets/media/014-Feishu-Docs-Image.gif" not in readme:
         fail("Material editing GIF must be represented as its own layer-editing case.")
-    if "Multi-image Fusion Editing" not in readme or "paired public output image" not in readme:
-        fail("Multi-image fusion must remain prompt-only when no paired public output image is available.")
+    multi_section = readme.split('<a id="multi-image-fusion-editing"></a>', 1)[1].split('<a id="visual-quality-narrative"></a>', 1)[0]
+    if "Case count: **1**." not in multi_section or "### Case 15:" not in multi_section:
+        fail("Multi-image Fusion must contain exactly Case 15 after merging former cases 15/16.")
 
     source_refs = set(media_refs(readme))
     for rel in LOCALIZED_READMES:

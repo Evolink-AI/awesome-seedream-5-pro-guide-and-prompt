@@ -1,14 +1,14 @@
 <div align="center">
 
-<a href="https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=banner&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=readme_banner"><img src="assets/banner.png" alt="Awesome Seedream 5.0 Pro EvoLink banner"></a>
+<a href="https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=banner&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=readme_banner"><img src="assets/banner.png" alt="Awesome Seedream 5.0 Pro EvoLink 배너"></a>
 
-# Awesome Seedream 5.0 Pro Guide and Prompt
+# Awesome Seedream 5.0 Pro 가이드와 프롬프트
 
-Source-backed guide, prompt patterns, and visual examples for evaluating Seedream 5.0 Pro image generation and editing workflows.
+Seedream 5.0 Pro 이미지 생성 및 편집 워크플로를 평가하기 위한 출처 기반 가이드, 프롬프트 패턴, 시각 예시입니다.
 
 [![License: MIT](assets/badges/license-mit.svg)](LICENSE)
-[![Use on EvoLink](assets/badges/use-on-evolink.svg)](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=badge&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=top_badge)
-[![Get API Key](assets/badges/get-api-key.svg)](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=api_key)
+[![EvoLink에서 사용](assets/badges/use-on-evolink.svg)](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=badge&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=top_badge)
+[![API 키 받기](assets/badges/get-api-key.svg)](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=api_key)
 
 [🇺🇸 English](README.md) · [🇪🇸 Español](README_es.md) · [🇵🇹 Português](README_pt.md) · [🇯🇵 日本語](README_ja.md) · [🇰🇷 한국어](README_ko.md) · [🇩🇪 Deutsch](README_de.md) · [🇫🇷 Français](README_fr.md) · [🇹🇷 Türkçe](README_tr.md) · [🇹🇼 繁體中文](README_zh-TW.md) · [🇨🇳 简体中文](README_zh-CN.md) · [🇷🇺 Русский](README_ru.md)
 
@@ -16,98 +16,96 @@ Source-backed guide, prompt patterns, and visual examples for evaluating Seedrea
 
 <a id="introduction"></a>
 
-## 🍌 Introduction
+## 🍌 소개
 
 Seedream 5.0 Pro는 공식 출시 자료에서 제어 가능한 이미지 생성 및 편집 모델로 설명됩니다. 이 가이드는 상호작용 제어, 스케치 편집, 레이어 편집, 앵커 위치 편집, 레이어 분리, 다중 이미지 융합, 시각 효과 샘플, 다국어 텍스트 렌더링이라는 공식 능력 메뉴에 README를 맞춥니다.
 
-**이 저장소에서 공식 자료 기반 예시를 확인하고, 공식 자료에 실제로 있는 prompt만 복사하며, 각 능력 범주가 어떤 visible case와 연결되는지 볼 수 있습니다.**
+**이 저장소에서 공식 자료 기반 예시를 확인하고, 공식 자료에 실제로 있는 prompt만 복사하며, 각 능력 범주가 어떤 공개 case와 연결되는지 볼 수 있습니다.**
 
-Try the model entry point on EvoLink: [Open Seedream 5.0 Pro on EvoLink](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=top_text_cta).
+EvoLink 모델 진입점 사용해 보기: [EvoLink에서 Seedream 5.0 Pro 열기](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=top_text_cta).
 
-**빠른 시작:** 이 저장소는 EvoLink에서 Seedream 5.0 Pro 첫 실행 API 경로가 검증되었다고 주장하지 않습니다. runtime 증거가 기록되기 전까지는 공개 모델 진입점, API 키 대시보드, 공식 기술 레퍼런스를 사용하세요.
+**빠른 시작:** 이 저장소는 EvoLink에서 Seedream 5.0 Pro 첫 실행 API 경로가 검증되었다고 주장하지 않습니다. 실행 증거가 기록되기 전까지는 공개 모델 진입점, API 키 대시보드, 공식 기술 레퍼런스를 사용하세요.
 
-1. [Open the Seedream 5.0 Pro EvoLink path](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=model_link).
-2. [Get your EvoLink API key](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=api_key).
-3. [Read the official ModelArk technical reference](https://docs.byteplus.com/en/docs/ModelArk/1541523).
+1. [Seedream 5.0 Pro EvoLink 경로 열기](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=model_link).
+2. [EvoLink API 키 받기](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=api_key).
+3. [공식 ModelArk 기술 레퍼런스 읽기](https://docs.byteplus.com/en/docs/ModelArk/1541523).
 
 > [!NOTE]
-> 출처 정책: owner가 제공한 공식 출시 자료를 사용합니다. 비공개 Lark/Feishu URL은 로컬 감사 증거에만 보관하며 README의 공개 source page로 노출하지 않습니다.
+> 출처 정책: 공식 출시 자료를 사용합니다. 비공개 Lark/Feishu URL은 로컬 감사 증거에만 보관하며 README의 공개 출처 페이지로 노출하지 않습니다.
 
 <a id="news"></a>
 
-## 📰 News
+## 📰 업데이트
 
-- **July 8, 2026:** 공식 메뉴와 owner가 수정한 case inventory를 기준으로 초기 가이드를 다시 구성했습니다.
+- **July 8, 2026:** 공식 메뉴와 공식 수정된 case 목록을 기준으로 초기 가이드를 다시 구성했습니다.
 
 <a id="menu"></a>
 
 ## 📑 메뉴
 
-- [🍌 Introduction](#introduction)
-- [📰 News](#news)
+- [🍌 소개](#introduction)
+- [📰 업데이트](#news)
 - [📑 메뉴](#menu)
-- [🎛️ Interaction Control](#interaction-control)
-  - [Case 1: Arrows and annotation boxes for spatial intent](#case-1)
-  - [Case 2: Region-box object description for targeted editing](#case-2)
-- [✏️ Sketch Editing](#sketch-editing)
-  - [Case 3: Doodle-guided object generation](#case-3)
-  - [Case 4: Color-block guided editing](#case-4)
-  - [Case 5: Line-guided detail editing](#case-5)
-  - [Case 6: Simple sketch to refined image](#case-6)
-- [🧱 Layer Editing](#layer-editing)
-  - [Case 7: Poster text and graphic layer edit: Avery Turns](#case-7)
-  - [Case 8: Poster offer layer edit: Happy Hour](#case-8)
-  - [Case 9: Fashion image layer edit inside a design layout](#case-9)
-  - [Case 10: Sports poster graphic layer edit](#case-10)
-  - [Case 11: Poster element edit: Public Joy](#case-11)
-  - [Case 12: Material surface swap with precise texture response](#case-12)
-- [📍 Anchor / Position Editing](#anchor-position-editing)
-  - [Case 13: Grid-position object movement](#case-13)
-- [🧩 Layer Separation](#layer-separation)
-  - [Case 14: Foreground/person layer separation](#case-14)
-  - [Case 15: Scene component layers for object reuse](#case-15)
-  - [Case 16: Recombined layered scene output](#case-16)
-- [🖼️ Multi-image Fusion Editing](#multi-image-fusion-editing)
-  - [Case 17: Seven-reference still-life composition](#case-17)
-- [🎬 Visual Quality & Narrative](#visual-quality-narrative)
-  - [Case 18: Cinematic tennis glass shatter](#case-18)
-  - [Case 19: Cinematic boxing action](#case-19)
-  - [Case 20: 3D animation style scene](#case-20)
-  - [Case 21: Visual concept art](#case-21)
-  - [Case 22: Game scene visual](#case-22)
-- [🌐 Multilingual Text Rendering](#multilingual-text-rendering)
-  - [Case 23: Arabic and English welcome sign](#case-23)
-  - [Case 24: Korean open-24-hours sign](#case-24)
-  - [Case 25: Thai cleanliness sign](#case-25)
-  - [Case 26: French creation poster](#case-26)
-  - [Case 27: Russian future poster](#case-27)
+- [🎛️ 상호작용 제어](#interaction-control)
+  - [Case 1: 공간 의도를 나타내는 화살표와 주석 박스](#case-1)
+  - [Case 2: 대상 편집을 위한 영역 박스별 객체 설명](#case-2)
+- [✏️ 스케치 편집](#sketch-editing)
+  - [Case 3: 낙서 가이드 기반 객체 생성](#case-3)
+  - [Case 4: 색 블록으로 가이드하는 편집](#case-4)
+  - [Case 5: 선으로 가이드하는 디테일 편집](#case-5)
+  - [Case 6: 간단한 스케치에서 정교한 이미지로](#case-6)
+- [🧱 레이어 편집](#layer-editing)
+  - [Case 7: 포스터 텍스트와 그래픽 레이어 편집: Avery Turns](#case-7)
+  - [Case 8: 포스터 오퍼 레이어 편집: Happy Hour](#case-8)
+  - [Case 9: 디자인 레이아웃 안의 패션 이미지 레이어 편집](#case-9)
+  - [Case 10: 스포츠 포스터 그래픽 레이어 편집](#case-10)
+  - [Case 11: 포스터 요소 편집: Public Joy](#case-11)
+  - [Case 12: 정확한 텍스처 반응을 통한 소재 표면 교체](#case-12)
+- [📍 앵커 / 위치 편집](#anchor-position-editing)
+  - [Case 13: 그리드 위치 기반 객체 이동](#case-13)
+- [🧩 레이어 분리](#layer-separation)
+  - [Case 14: 전경 / 인물 레이어 분리](#case-14)
+- [🖼️ 다중 이미지 융합 편집](#multi-image-fusion-editing)
+  - [Case 15: 7장 참조 이미지 입력/출력 정물 구성](#case-15)
+- [🎬 시각 품질과 내러티브](#visual-quality-narrative)
+  - [Case 16: 유리가 깨지는 시네마틱 테니스 장면](#case-16)
+  - [Case 17: 시네마틱 복싱 액션](#case-17)
+  - [Case 18: 3D 애니메이션 스타일 장면](#case-18)
+  - [Case 19: 시각 콘셉트 아트](#case-19)
+  - [Case 20: 게임 장면 비주얼](#case-20)
+- [🌐 다국어 텍스트 렌더링](#multilingual-text-rendering)
+  - [Case 21: 아랍어와 영어 환영 표지](#case-21)
+  - [Case 22: 한국어 24시간 영업 표지](#case-22)
+  - [Case 23: 태국어 청결 유지 표지](#case-23)
+  - [Case 24: 프랑스어 창작 포스터](#case-24)
+  - [Case 25: 러시아어 미래 포스터](#case-25)
 - [🧩 모델 노트](#model-notes)
 - [🙏 감사의 말](#acknowledge)
 
 <a id="interaction-control"></a>
 
-## 🎛️ Interaction Control
+## 🎛️ 상호작용 제어
 
-Use boxes, points, arrows, annotation marks, or coordinates to specify the target region.
+박스, 점, 화살표, 주석 표시, 좌표를 사용해 대상 영역을 지정합니다.
 
-Case count: **2**.
+케이스 수: **2**.
 
 <a id="case-1"></a>
 
-### Case 1: Arrows and annotation boxes for spatial intent
+### Case 1: 공간 의도를 나타내는 화살표와 주석 박스
 
-<img src="assets/media/003-arrows-annotation-boxes.gif" width="720" alt="Arrows and annotation boxes for spatial intent">
+<img src="assets/media/003-arrows-annotation-boxes.gif" width="720" alt="공간 의도를 나타내는 화살표와 주석 박스">
 
 > [!NOTE]
-> Use arrows, boxes, and annotations to make the target area explicit before editing.
+> 편집 전에 화살표, 박스, 주석으로 대상 영역을 명확히 표시합니다.
 
 ---
 
 <a id="case-2"></a>
 
-### Case 2: Region-box object description for targeted editing
+### Case 2: 대상 편집을 위한 영역 박스별 객체 설명
 
-<img src="assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif" width="720" alt="Region-box object description for targeted editing">
+<img src="assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif" width="720" alt="대상 편집을 위한 영역 박스별 객체 설명">
 
 **Prompt:**
 
@@ -119,156 +117,156 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 <a id="sketch-editing"></a>
 
-## ✏️ Sketch Editing
+## ✏️ 스케치 편집
 
-Use doodles, color blocks, lines, or simple sketches as visual guidance.
+낙서, 색 블록, 선, 간단한 스케치를 시각 가이드로 사용합니다.
 
-Case count: **4**.
+케이스 수: **4**.
 
 <a id="case-3"></a>
 
-### Case 3: Doodle-guided object generation
+### Case 3: 낙서 가이드 기반 객체 생성
 
-<img src="assets/media/005-doodles.gif" width="720" alt="Doodle-guided object generation">
+<img src="assets/media/005-doodles.gif" width="720" alt="낙서 가이드 기반 객체 생성">
 
 > [!NOTE]
-> Use loose doodles as the visual control signal and let the model render the intended object.
+> 느슨한 낙서를 시각 제어 신호로 사용해 모델이 의도한 객체를 렌더링하게 합니다.
 
 ---
 
 <a id="case-4"></a>
 
-### Case 4: Color-block guided editing
+### Case 4: 색 블록으로 가이드하는 편집
 
-<img src="assets/media/006-color-block.gif" width="720" alt="Color-block guided editing">
+<img src="assets/media/006-color-block.gif" width="720" alt="색 블록으로 가이드하는 편집">
 
 > [!NOTE]
-> Use broad color blocks to specify rough composition, color zones, or object placement.
+> 넓은 색 블록으로 대략적인 구성, 색 영역, 객체 배치를 지정합니다.
 
 ---
 
 <a id="case-5"></a>
 
-### Case 5: Line-guided detail editing
+### Case 5: 선으로 가이드하는 디테일 편집
 
-<img src="assets/media/007-lines.gif" width="720" alt="Line-guided detail editing">
+<img src="assets/media/007-lines.gif" width="720" alt="선으로 가이드하는 디테일 편집">
 
 > [!NOTE]
-> Use simple line guidance when the shape boundary matters more than a long text description.
+> 긴 텍스트 설명보다 형태 경계가 중요할 때 간단한 선 가이드를 사용합니다.
 
 ---
 
 <a id="case-6"></a>
 
-### Case 6: Simple sketch to refined image
+### Case 6: 간단한 스케치에서 정교한 이미지로
 
-<img src="assets/media/008-simple-sketches.gif" width="720" alt="Simple sketch to refined image">
+<img src="assets/media/008-simple-sketches.gif" width="720" alt="간단한 스케치에서 정교한 이미지로">
 
 > [!NOTE]
-> Turn a minimal sketch into a more complete rendered image while preserving the sketch intent.
+> 스케치의 의도를 유지하면서 최소한의 스케치를 더 완성도 높은 렌더링 이미지로 바꿉니다.
 
 ---
 
 <a id="layer-editing"></a>
 
-## 🧱 Layer Editing
+## 🧱 레이어 편집
 
-Edit poster, graphic, text, material, or surface layers while preserving the broader composition.
+포스터, 그래픽, 텍스트, 소재, 표면 레이어를 전체 구성을 유지한 채 편집합니다.
 
-Case count: **6**.
+케이스 수: **6**.
 
 <a id="case-7"></a>
 
-### Case 7: Poster text and graphic layer edit: Avery Turns
+### Case 7: 포스터 텍스트와 그래픽 레이어 편집: Avery Turns
 
-<img src="assets/media/009-Feishu-Docs-Image.gif" width="720" alt="Poster text and graphic layer edit: Avery Turns">
+<img src="assets/media/009-Feishu-Docs-Image.gif" width="720" alt="포스터 텍스트와 그래픽 레이어 편집: Avery Turns">
 
 > [!NOTE]
-> Edit visible poster elements while preserving the overall design structure.
+> 전체 디자인 구조를 유지하면서 포스터의 보이는 요소를 편집합니다.
 
 ---
 
 <a id="case-8"></a>
 
-### Case 8: Poster offer layer edit: Happy Hour
+### Case 8: 포스터 오퍼 레이어 편집: Happy Hour
 
-<img src="assets/media/010-Feishu-Docs-Image.gif" width="720" alt="Poster offer layer edit: Happy Hour">
+<img src="assets/media/010-Feishu-Docs-Image.gif" width="720" alt="포스터 오퍼 레이어 편집: Happy Hour">
 
 > [!NOTE]
-> Change a promotion badge or graphic element without rebuilding the whole poster.
+> 포스터 전체를 다시 만들지 않고 프로모션 배지나 그래픽 요소를 변경합니다.
 
 ---
 
 <a id="case-9"></a>
 
-### Case 9: Fashion image layer edit inside a design layout
+### Case 9: 디자인 레이아웃 안의 패션 이미지 레이어 편집
 
-<img src="assets/media/011-Feishu-Docs-Image.gif" width="720" alt="Fashion image layer edit inside a design layout">
+<img src="assets/media/011-Feishu-Docs-Image.gif" width="720" alt="디자인 레이아웃 안의 패션 이미지 레이어 편집">
 
 > [!NOTE]
-> Adjust a layered subject inside a composed visual layout.
+> 구성된 시각 레이아웃 안의 레이어화된 피사체를 조정합니다.
 
 ---
 
 <a id="case-10"></a>
 
-### Case 10: Sports poster graphic layer edit
+### Case 10: 스포츠 포스터 그래픽 레이어 편집
 
-<img src="assets/media/012-Feishu-Docs-Image.gif" width="720" alt="Sports poster graphic layer edit">
+<img src="assets/media/012-Feishu-Docs-Image.gif" width="720" alt="스포츠 포스터 그래픽 레이어 편집">
 
 > [!NOTE]
-> Edit a racing poster graphic while keeping typography and composition aligned.
+> 타이포그래피와 구성을 맞춘 상태로 레이싱 포스터 그래픽을 편집합니다.
 
 ---
 
 <a id="case-11"></a>
 
-### Case 11: Poster element edit: Public Joy
+### Case 11: 포스터 요소 편집: Public Joy
 
-<img src="assets/media/013-Feishu-Docs-Image.gif" width="720" alt="Poster element edit: Public Joy">
+<img src="assets/media/013-Feishu-Docs-Image.gif" width="720" alt="포스터 요소 편집: Public Joy">
 
 > [!NOTE]
-> Modify poster elements while preserving the source design language.
+> 원본 디자인 언어를 유지하면서 포스터 요소를 수정합니다.
 
 ---
 
 <a id="case-12"></a>
 
-### Case 12: Material surface swap with precise texture response
+### Case 12: 정확한 텍스처 반응을 통한 소재 표면 교체
 
-<img src="assets/media/014-Feishu-Docs-Image.gif" width="720" alt="Material surface swap with precise texture response">
+<img src="assets/media/014-Feishu-Docs-Image.gif" width="720" alt="정확한 텍스처 반응을 통한 소재 표면 교체">
 
 > [!NOTE]
-> Swap material and color targets while keeping the object structure intact.
+> 객체 구조를 유지한 채 소재와 색상 대상을 교체합니다.
 
 ---
 
 <a id="anchor-position-editing"></a>
 
-## 📍 Anchor / Position Editing
+## 📍 앵커 / 위치 편집
 
-Use grid-like anchors or relative positions to move a specific target precisely.
+그리드형 앵커나 상대 위치를 사용해 특정 대상을 정확히 이동합니다.
 
-Case count: **1**.
+케이스 수: **1**.
 
 <a id="case-13"></a>
 
-### Case 13: Grid-position object movement
+### Case 13: 그리드 위치 기반 객체 이동
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**Before:**
+**변경 전:**
 
-<img src="assets/media/015-Feishu-Docs-Image.png" width="420" alt="Grid-position object movement before">
+<img src="assets/media/015-Feishu-Docs-Image.png" width="420" alt="그리드 위치 기반 객체 이동 변경 전">
 
 </td>
 <td width="50%" valign="top">
 
-**After:**
+**변경 후:**
 
-<img src="assets/media/016-Feishu-Docs-Image.png" width="420" alt="Grid-position object movement after">
+<img src="assets/media/016-Feishu-Docs-Image.png" width="420" alt="그리드 위치 기반 객체 이동 변경 후">
 
 </td>
 </tr>
@@ -284,59 +282,57 @@ Move the red car in the lower-left corner one grid cell to the right, and move t
 
 <a id="layer-separation"></a>
 
-## 🧩 Layer Separation
+## 🧩 레이어 분리
 
-Separate foreground, background, and reusable components for downstream editing.
+전경, 배경, 재사용 가능한 구성 요소를 분리해 후속 편집에 사용합니다.
 
-Case count: **3**.
+케이스 수: **1**.
 
 <a id="case-14"></a>
 
-### Case 14: Foreground/person layer separation
+### Case 14: 전경 / 인물 레이어 분리
 
-<img src="assets/media/017-Feishu-Docs-Image.png" width="720" alt="Foreground/person layer separation">
-
-> [!NOTE]
-> Separate a foreground subject from a poster-like background for later reuse.
-
----
-
-<a id="case-15"></a>
-
-### Case 15: Scene component layers for object reuse
-
-<img src="assets/media/018-Feishu-Docs-Image.png" width="720" alt="Scene component layers for object reuse">
+<img src="assets/media/017-Feishu-Docs-Image.png" width="720" alt="전경 / 인물 레이어 분리">
 
 > [!NOTE]
-> Expose independently editable scene components for drag, scale, and recomposition workflows.
-
----
-
-<a id="case-16"></a>
-
-### Case 16: Recombined layered scene output
-
-<img src="assets/media/019-Feishu-Docs-Image.png" width="720" alt="Recombined layered scene output">
-
-> [!NOTE]
-> Use separated assets to rebuild a coherent scene after component-level editing.
+> 나중에 재사용할 수 있도록 포스터형 배경에서 전경 피사체를 분리합니다.
 
 ---
 
 <a id="multi-image-fusion-editing"></a>
 
-## 🖼️ Multi-image Fusion Editing
+## 🖼️ 다중 이미지 융합 편집
 
-Combine multiple reference images into one coherent composition under a single instruction.
+여러 참조 이미지를 하나의 지시에 따라 일관된 구성으로 결합합니다.
 
-Case count: **1**.
+케이스 수: **1**.
 
-<a id="case-17"></a>
+<a id="case-15"></a>
 
-### Case 17: Seven-reference still-life composition
+### Case 15: 7장 참조 이미지 입력/출력 정물 구성
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**입력:**
+
+<img src="assets/media/018-Feishu-Docs-Image.png" width="420" alt="7장 참조 이미지 정물 구성 입력">
+
+</td>
+<td width="50%" valign="top">
+
+**출력:**
+
+<img src="assets/media/019-Feishu-Docs-Image.png" width="420" alt="7장 참조 이미지 정물 구성 출력">
+
+</td>
+</tr>
+</table>
 
 > [!NOTE]
-> Official material provides the prompt for this case without a paired public output image in the export used for this repository.
+> 흰 배경의 7장 참조 이미지를 입력 그룹으로 사용하고, 같은 짝지어진 case 안에서 정물 사진 출력을 생성합니다.
+
 
 **Prompt:**
 
@@ -348,127 +344,127 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 <a id="visual-quality-narrative"></a>
 
-## 🎬 Visual Quality & Narrative
+## 🎬 시각 품질과 내러티브
 
-Group the effect samples by cinematic action, 3D/animation, concept art, and game-scene output.
+효과 샘플을 시네마틱 액션, 3D / 애니메이션, 콘셉트 아트, 게임 장면 출력으로 분류합니다.
 
-Case count: **5**.
+케이스 수: **5**.
+
+<a id="case-16"></a>
+
+### Case 16: 유리가 깨지는 시네마틱 테니스 장면
+
+<img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" width="720" alt="유리가 깨지는 시네마틱 테니스 장면">
+
+> [!NOTE]
+> 유리 파편, 액션 타이밍, 영화적 조명을 포함한 고동작 장면 생성.
+
+---
+
+<a id="case-17"></a>
+
+### Case 17: 시네마틱 복싱 액션
+
+<img src="assets/media/021-Cinematic-narrative-action-boxing.png" width="720" alt="시네마틱 복싱 액션">
+
+> [!NOTE]
+> 움직임, 충격감, 장면 깊이가 더 강한 액션 장면 렌더링.
+
+---
 
 <a id="case-18"></a>
 
-### Case 18: Cinematic tennis glass shatter
+### Case 18: 3D 애니메이션 스타일 장면
 
-<img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" width="720" alt="Cinematic tennis glass shatter">
+<img src="assets/media/022-Cinematic-narrative-3D-animation.png" width="720" alt="3D 애니메이션 스타일 장면">
 
 > [!NOTE]
-> High-motion scene generation with glass fragments, action timing, and cinematic lighting.
+> 캐릭터나 엔터테인먼트 비주얼을 위한 스타일화된 3D / 애니메이션 출력.
 
 ---
 
 <a id="case-19"></a>
 
-### Case 19: Cinematic boxing action
+### Case 19: 시각 콘셉트 아트
 
-<img src="assets/media/021-Cinematic-narrative-action-boxing.png" width="720" alt="Cinematic boxing action">
+<img src="assets/media/023-Cinematic-narrative-visual-concept.png" width="720" alt="시각 콘셉트 아트">
 
 > [!NOTE]
-> Action-scene rendering with a stronger sense of motion, impact, and scene depth.
+> 분위기, 시각 방향성, 무드 탐색을 위한 콘셉트 아트 스타일 생성.
 
 ---
 
 <a id="case-20"></a>
 
-### Case 20: 3D animation style scene
+### Case 20: 게임 장면 비주얼
 
-<img src="assets/media/022-Cinematic-narrative-3D-animation.png" width="720" alt="3D animation style scene">
-
-> [!NOTE]
-> Stylized 3D/animation output for character or entertainment visuals.
-
----
-
-<a id="case-21"></a>
-
-### Case 21: Visual concept art
-
-<img src="assets/media/023-Cinematic-narrative-visual-concept.png" width="720" alt="Visual concept art">
+<img src="assets/media/024-Cinematic-narrative-game-scene.png" width="720" alt="게임 장면 비주얼">
 
 > [!NOTE]
-> Concept-art style generation for atmosphere, visual direction, and mood exploration.
-
----
-
-<a id="case-22"></a>
-
-### Case 22: Game scene visual
-
-<img src="assets/media/024-Cinematic-narrative-game-scene.png" width="720" alt="Game scene visual">
-
-> [!NOTE]
-> Game-like scene generation for environment, set, or key-art exploration.
+> 환경, 세트, 키아트 탐색을 위한 게임형 장면 생성.
 
 ---
 
 <a id="multilingual-text-rendering"></a>
 
-## 🌐 Multilingual Text Rendering
+## 🌐 다국어 텍스트 렌더링
 
-Group the multilingual samples by rendered language and local-text use case.
+다국어 샘플을 렌더링 언어와 로컬 텍스트 사용 사례별로 분류합니다.
 
-Case count: **5**.
+케이스 수: **5**.
+
+<a id="case-21"></a>
+
+### Case 21: 아랍어와 영어 환영 표지
+
+<img src="assets/media/025-Welcome.png" width="720" alt="아랍어와 영어 환영 표지">
+
+> [!NOTE]
+> 같은 비주얼 안에서 아랍어와 영어 텍스트를 네이티브하게 다국어 렌더링합니다.
+
+---
+
+<a id="case-22"></a>
+
+### Case 22: 한국어 24시간 영업 표지
+
+<img src="assets/media/026-24-Open-24-hours.png" width="720" alt="한국어 24시간 영업 표지">
+
+> [!NOTE]
+> 현지화된 매장이나 표지 콘텐츠를 위한 한국어 텍스트 렌더링.
+
+---
 
 <a id="case-23"></a>
 
-### Case 23: Arabic and English welcome sign
+### Case 23: 태국어 청결 유지 표지
 
-<img src="assets/media/025-Welcome.png" width="720" alt="Arabic and English welcome sign">
+<img src="assets/media/027-Please-help-keep-the-place-clean-together.png" width="720" alt="태국어 청결 유지 표지">
 
 > [!NOTE]
-> Native multilingual rendering with Arabic and English text in the same visual.
+> 지역 공공 공간이나 캠페인 비주얼을 위한 태국어 텍스트 렌더링.
 
 ---
 
 <a id="case-24"></a>
 
-### Case 24: Korean open-24-hours sign
+### Case 24: 프랑스어 창작 포스터
 
-<img src="assets/media/026-24-Open-24-hours.png" width="720" alt="Korean open-24-hours sign">
+<img src="assets/media/028-CREATION-FRANCAISE-Made-in-France.png" width="720" alt="프랑스어 창작 포스터">
 
 > [!NOTE]
-> Korean text rendering for localized storefront or signage content.
+> 제품, 패션, 캠페인 자산을 위한 프랑스어 텍스트 렌더링.
 
 ---
 
 <a id="case-25"></a>
 
-### Case 25: Thai cleanliness sign
+### Case 25: 러시아어 미래 포스터
 
-<img src="assets/media/027-Please-help-keep-the-place-clean-together.png" width="720" alt="Thai cleanliness sign">
-
-> [!NOTE]
-> Thai text rendering for local public-space or campaign visuals.
-
----
-
-<a id="case-26"></a>
-
-### Case 26: French creation poster
-
-<img src="assets/media/028-CREATION-FRANCAISE-Made-in-France.png" width="720" alt="French creation poster">
+<img src="assets/media/029-Future.png" width="720" alt="러시아어 미래 포스터">
 
 > [!NOTE]
-> French text rendering for product, fashion, and campaign assets.
-
----
-
-<a id="case-27"></a>
-
-### Case 27: Russian future poster
-
-<img src="assets/media/029-Future.png" width="720" alt="Russian future poster">
-
-> [!NOTE]
-> Russian text rendering with clear character structure for localized visual concepts.
+> 현지화된 비주얼 콘셉트를 위해 명확한 문자 구조로 러시아어를 렌더링합니다.
 
 ---
 
@@ -476,22 +472,22 @@ Case count: **5**.
 
 ## 🧩 모델 노트
 
-| Area | Source-backed note |
+| 항목 | 출처 기반 메모 |
 |---|---|
-| Model ID | Official material lists `dola-seedream-5-0-pro-260628`; EvoLink runtime verification is still required before this becomes first-run evidence. |
-| Input images | Official material says Seedream 5.0 Pro supports up to 10 input images. |
-| Output resolution | Do not claim 4K for Pro; the source material describes output tiers around `<= 2.36M` pixels and `> 2.36M` pixels. |
-| Native prompt languages | Official material lists Arabic, English, Russian, Indonesian, Spanish, German, Turkish, Portuguese, Malay, Vietnamese, French, Japanese, Korean, Tagalog, and Thai. |
-| Seedream to Seedance path | Official material says Seedream 5.0 Pro/Lite outputs can become trusted inputs for Seedance-family image-to-video workflows, with account and moderation conditions. |
+| 모델 ID | 공식 자료에는 `dola-seedream-5-0-pro-260628`가 기재되어 있습니다. 이것이 첫 실행 증거가 되려면 EvoLink runtime 검증이 아직 필요합니다. |
+| 입력 이미지 | 공식 자료에 따르면 Seedream 5.0 Pro는 최대 10장의 입력 이미지를 지원합니다. |
+| 출력 해상도 | Pro에 대해 4K를 주장하지 마세요. 소스 자료는 `<= 2.36M` 픽셀 및 `> 2.36M` 픽셀 부근의 출력 티어를 설명합니다. |
+| 네이티브 prompt 언어 | 공식 자료는 아랍어, 영어, 러시아어, 인도네시아어, 스페인어, 독일어, 터키어, 포르투갈어, 말레이어, 베트남어, 프랑스어, 일본어, 한국어, 타갈로그어, 태국어를 나열합니다. |
+| Seedream에서 Seedance로의 경로 | 공식 자료에 따르면 Seedream 5.0 Pro/Lite 출력은 계정 및 모더레이션 조건하에서 Seedance 계열 이미지-투-비디오 워크플로의 신뢰 입력이 될 수 있습니다. |
 
 <a id="acknowledge"></a>
 
 ## 🙏 감사의 말
 
-This repository was created from official Seedream 5.0 Pro launch material exported on July 8, 2026 and from owner corrections about the case inventory.
+이 저장소는 2026년 7월 8일에 내보낸 Seedream 5.0 Pro 공식 출시 자료와 case 목록에 대한 공식 수정 사항을 기반으로 만들어졌습니다.
 
-- Official private source URLs are retained only in local audit evidence.
-- Prompt blocks are included only where the official material provides prompt text.
-- Media-only cases remain media-only; missing prompts are not invented.
+- 공식 비공개 출처 URL은 로컬 감사 증거에만 보관합니다.
+- prompt 블록은 공식 자료가 prompt 텍스트를 제공하는 경우에만 포함합니다.
+- 미디어만 있는 case는 그대로 미디어만 유지하며, 누락된 prompt를 만들어내지 않습니다.
 
-*If any public case boundary needs correction, open an issue or send a patch with concrete source evidence.*
+*공개 case 경계를 수정해야 한다면 구체적인 소스 증거와 함께 issue를 열거나 patch를 보내 주세요.*
