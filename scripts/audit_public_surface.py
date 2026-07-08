@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import re
 import sys
+import time
 import urllib.error
 import urllib.request
 from dataclasses import dataclass
@@ -67,19 +68,24 @@ def extract_targets(text: str) -> list[tuple[str, str]]:
 
 def check_http(url: str, timeout: int) -> tuple[bool, str]:
     request = urllib.request.Request(url, method="GET", headers={"User-Agent": "model-repo-link-audit/1.0"})
-    try:
-        with urllib.request.urlopen(request, timeout=timeout) as response:
-            status = response.getcode()
-            final_url = response.geturl()
-            if 200 <= status < 400:
-                if final_url != url:
-                    return True, f"{status}, redirected to {final_url}"
-                return True, str(status)
-            return False, f"HTTP {status}"
-    except urllib.error.HTTPError as exc:
-        return False, f"HTTP {exc.code}"
-    except Exception as exc:
-        return False, exc.__class__.__name__
+    last_error = ""
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(request, timeout=timeout) as response:
+                status = response.getcode()
+                final_url = response.geturl()
+                if 200 <= status < 400:
+                    if final_url != url:
+                        return True, f"{status}, redirected to {final_url}"
+                    return True, str(status)
+                return False, f"HTTP {status}"
+        except urllib.error.HTTPError as exc:
+            return False, f"HTTP {exc.code}"
+        except Exception as exc:
+            last_error = exc.__class__.__name__
+            if attempt < 2:
+                time.sleep(1.5 * (attempt + 1))
+    return False, last_error
 
 
 def is_evolink_owned(url: str) -> bool:

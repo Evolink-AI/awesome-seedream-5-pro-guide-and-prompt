@@ -63,7 +63,7 @@ Os casos abaixo não são exemplos inventados. Eles foram copiados ou traduzidos
 
 ### Case 1: [Descrição de objetos por caixas de região para edição direcionada](docs/source-notes.md#included-public-cases)
 
-![Region-box annotation example](assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.png)
+![Region-box annotation example](assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif)
 
 **Prompt:**
 
@@ -96,7 +96,7 @@ Source: Official.
 
 ### Case 3: [Composição de natureza-morta com múltiplas referências](docs/source-notes.md#included-public-cases)
 
-![Multi-reference material example](assets/media/014-Feishu-Docs-Image.png)
+![Multi-reference material example](assets/media/014-Feishu-Docs-Image.gif)
 
 **Prompt:**
 
@@ -114,12 +114,12 @@ O material oficial inclui amostras visuais adicionais de edição guiada por esb
 
 <table>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Rabiscos guiados por esboço</a></strong><br><img src="assets/media/005-doodles.png" alt="Rabiscos guiados por esboço example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Bloco de cor guiado por esboço</a></strong><br><img src="assets/media/006-color-block.png" alt="Bloco de cor guiado por esboço example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Rabiscos guiados por esboço</a></strong><br><img src="assets/media/005-doodles.gif" alt="Rabiscos guiados por esboço example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Bloco de cor guiado por esboço</a></strong><br><img src="assets/media/006-color-block.gif" alt="Bloco de cor guiado por esboço example"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Linhas guiadas por esboço</a></strong><br><img src="assets/media/007-lines.png" alt="Linhas guiadas por esboço example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Controle por esboço simples</a></strong><br><img src="assets/media/008-simple-sketches.png" alt="Controle por esboço simples example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Linhas guiadas por esboço</a></strong><br><img src="assets/media/007-lines.gif" alt="Linhas guiadas por esboço example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Controle por esboço simples</a></strong><br><img src="assets/media/008-simple-sketches.gif" alt="Controle por esboço simples example"></td>
   </tr>
   <tr>
     <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Exemplo de separação em camadas</a></strong><br><img src="assets/media/017-Feishu-Docs-Image.png" alt="Exemplo de separação em camadas"></td>

@@ -12,9 +12,9 @@ This repository was built from official Seedream 5.0 Pro launch material exporte
 
 | Case | Official source section | Public media |
 |---|---|---|
-| Region-box object description | `3.1.1 Interactive control` | `assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.png` |
+| Region-box object description | `3.1.1 Interactive control` | `assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif` |
 | Anchor-position edit | `3.1.3 Anchor editing (position editing)` | `assets/media/015-Feishu-Docs-Image.png`, `assets/media/016-Feishu-Docs-Image.png` |
-| Multi-reference still-life composition | `3.1.6 Multi-image fusion editing` | `assets/media/014-Feishu-Docs-Image.png` |
+| Multi-reference still-life composition | `3.1.6 Multi-image fusion editing` | `assets/media/014-Feishu-Docs-Image.gif` |
 
 ## Public Technical Reference
 

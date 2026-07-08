@@ -63,7 +63,7 @@ Los casos siguientes no son ejemplos inventados. Se copiaron o tradujeron del ma
 
 ### Case 1: [Descripción de objetos por cajas de región para edición dirigida](docs/source-notes.md#included-public-cases)
 
-![Region-box annotation example](assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.png)
+![Region-box annotation example](assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif)
 
 **Prompt:**
 
@@ -96,7 +96,7 @@ Source: Official.
 
 ### Case 3: [Composición de bodegón con múltiples referencias](docs/source-notes.md#included-public-cases)
 
-![Multi-reference material example](assets/media/014-Feishu-Docs-Image.png)
+![Multi-reference material example](assets/media/014-Feishu-Docs-Image.gif)
 
 **Prompt:**
 
@@ -114,12 +114,12 @@ El material oficial incluye muestras visuales adicionales de edición guiada por
 
 <table>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Garabatos guiados por boceto</a></strong><br><img src="assets/media/005-doodles.png" alt="Sketch-guided doodles example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Bloque de color guiado por boceto</a></strong><br><img src="assets/media/006-color-block.png" alt="Sketch-guided color block example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Garabatos guiados por boceto</a></strong><br><img src="assets/media/005-doodles.gif" alt="Sketch-guided doodles example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Bloque de color guiado por boceto</a></strong><br><img src="assets/media/006-color-block.gif" alt="Sketch-guided color block example"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Líneas guiadas por boceto</a></strong><br><img src="assets/media/007-lines.png" alt="Sketch-guided lines example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Control con boceto simple</a></strong><br><img src="assets/media/008-simple-sketches.png" alt="Simple sketch control example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Líneas guiadas por boceto</a></strong><br><img src="assets/media/007-lines.gif" alt="Sketch-guided lines example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Control con boceto simple</a></strong><br><img src="assets/media/008-simple-sketches.gif" alt="Simple sketch control example"></td>
   </tr>
   <tr>
     <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Ejemplo de separación de capas</a></strong><br><img src="assets/media/017-Feishu-Docs-Image.png" alt="Layer separation example"></td>

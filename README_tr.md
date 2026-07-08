@@ -63,7 +63,7 @@ Aşağıdaki case’ler uydurulmuş örnekler değildir. `docs/source-notes.md` 
 
 ### Case 1: [Hedefli düzenleme için bölge kutusu nesne açıklaması](docs/source-notes.md#included-public-cases)
 
-![Region-box annotation example](assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.png)
+![Region-box annotation example](assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif)
 
 **Prompt:**
 
@@ -96,7 +96,7 @@ Source: Official.
 
 ### Case 3: [Çok referanslı natürmort kompozisyonu](docs/source-notes.md#included-public-cases)
 
-![Multi-reference material example](assets/media/014-Feishu-Docs-Image.png)
+![Multi-reference material example](assets/media/014-Feishu-Docs-Image.gif)
 
 **Prompt:**
 
@@ -114,12 +114,12 @@ Resmi materyal; eskiz rehberli düzenleme, katman ayrımı, sinematik anlatı g�
 
 <table>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Eskiz rehberli karalamalar</a></strong><br><img src="assets/media/005-doodles.png" alt="Eskiz rehberli karalamalar example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Eskiz rehberli renk bloğu</a></strong><br><img src="assets/media/006-color-block.png" alt="Eskiz rehberli renk bloğu example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Eskiz rehberli karalamalar</a></strong><br><img src="assets/media/005-doodles.gif" alt="Eskiz rehberli karalamalar example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Eskiz rehberli renk bloğu</a></strong><br><img src="assets/media/006-color-block.gif" alt="Eskiz rehberli renk bloğu example"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Eskiz rehberli çizgiler</a></strong><br><img src="assets/media/007-lines.png" alt="Eskiz rehberli çizgiler example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Basit eskiz kontrolü</a></strong><br><img src="assets/media/008-simple-sketches.png" alt="Basit eskiz kontrolü example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Eskiz rehberli çizgiler</a></strong><br><img src="assets/media/007-lines.gif" alt="Eskiz rehberli çizgiler example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Basit eskiz kontrolü</a></strong><br><img src="assets/media/008-simple-sketches.gif" alt="Basit eskiz kontrolü example"></td>
   </tr>
   <tr>
     <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Katman ayrımı örneği</a></strong><br><img src="assets/media/017-Feishu-Docs-Image.png" alt="Katman ayrımı örneği"></td>

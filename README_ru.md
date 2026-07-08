@@ -63,7 +63,7 @@
 
 ### Case 1: [Описание объектов по региональным рамкам для целевого редактирования](docs/source-notes.md#included-public-cases)
 
-![Region-box annotation example](assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.png)
+![Region-box annotation example](assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif)
 
 **Prompt:**
 
@@ -96,7 +96,7 @@ Source: Official.
 
 ### Case 3: [Натюрмортная композиция с несколькими референсами](docs/source-notes.md#included-public-cases)
 
-![Multi-reference material example](assets/media/014-Feishu-Docs-Image.png)
+![Multi-reference material example](assets/media/014-Feishu-Docs-Image.gif)
 
 **Prompt:**
 
@@ -114,12 +114,12 @@ Source: Official.
 
 <table>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Каракули по эскизу</a></strong><br><img src="assets/media/005-doodles.png" alt="Каракули по эскизу example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Цветовой блок по эскизу</a></strong><br><img src="assets/media/006-color-block.png" alt="Цветовой блок по эскизу example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Каракули по эскизу</a></strong><br><img src="assets/media/005-doodles.gif" alt="Каракули по эскизу example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Цветовой блок по эскизу</a></strong><br><img src="assets/media/006-color-block.gif" alt="Цветовой блок по эскизу example"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Линии по эскизу</a></strong><br><img src="assets/media/007-lines.png" alt="Линии по эскизу example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Управление простым эскизом</a></strong><br><img src="assets/media/008-simple-sketches.png" alt="Управление простым эскизом example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Линии по эскизу</a></strong><br><img src="assets/media/007-lines.gif" alt="Линии по эскизу example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Управление простым эскизом</a></strong><br><img src="assets/media/008-simple-sketches.gif" alt="Управление простым эскизом example"></td>
   </tr>
   <tr>
     <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Пример разделения слоев</a></strong><br><img src="assets/media/017-Feishu-Docs-Image.png" alt="Пример разделения слоев"></td>

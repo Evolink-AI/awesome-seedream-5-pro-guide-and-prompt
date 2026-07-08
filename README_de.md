@@ -63,7 +63,7 @@ Die folgenden Fälle sind keine erfundenen Beispiele. Sie wurden aus offiziellem
 
 ### Case 1: [Objektbeschreibung per Regionsbox für gezielte Bearbeitung](docs/source-notes.md#included-public-cases)
 
-![Region-box annotation example](assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.png)
+![Region-box annotation example](assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif)
 
 **Prompt:**
 
@@ -96,7 +96,7 @@ Source: Official.
 
 ### Case 3: [Stillleben-Komposition mit mehreren Referenzen](docs/source-notes.md#included-public-cases)
 
-![Multi-reference material example](assets/media/014-Feishu-Docs-Image.png)
+![Multi-reference material example](assets/media/014-Feishu-Docs-Image.gif)
 
 **Prompt:**
 
@@ -114,12 +114,12 @@ Das offizielle Material enthält zusätzliche visuelle Beispiele für skizzengef
 
 <table>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Skizzengeführte Kritzeleien</a></strong><br><img src="assets/media/005-doodles.png" alt="Skizzengeführte Kritzeleien example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Skizzengeführter Farbblock</a></strong><br><img src="assets/media/006-color-block.png" alt="Skizzengeführter Farbblock example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Skizzengeführte Kritzeleien</a></strong><br><img src="assets/media/005-doodles.gif" alt="Skizzengeführte Kritzeleien example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Skizzengeführter Farbblock</a></strong><br><img src="assets/media/006-color-block.gif" alt="Skizzengeführter Farbblock example"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Skizzengeführte Linien</a></strong><br><img src="assets/media/007-lines.png" alt="Skizzengeführte Linien example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Einfache Skizzensteuerung</a></strong><br><img src="assets/media/008-simple-sketches.png" alt="Einfache Skizzensteuerung example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Skizzengeführte Linien</a></strong><br><img src="assets/media/007-lines.gif" alt="Skizzengeführte Linien example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Einfache Skizzensteuerung</a></strong><br><img src="assets/media/008-simple-sketches.gif" alt="Einfache Skizzensteuerung example"></td>
   </tr>
   <tr>
     <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Beispiel für Ebenentrennung</a></strong><br><img src="assets/media/017-Feishu-Docs-Image.png" alt="Beispiel für Ebenentrennung"></td>

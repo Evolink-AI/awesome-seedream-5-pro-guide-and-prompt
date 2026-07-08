@@ -63,7 +63,7 @@
 
 ### Case 1: [用区域框物体描述进行定向编辑](docs/source-notes.md#included-public-cases)
 
-![Region-box annotation example](assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.png)
+![Region-box annotation example](assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif)
 
 **Prompt:**
 
@@ -96,7 +96,7 @@ Source: Official.
 
 ### Case 3: [多参考图静物构图](docs/source-notes.md#included-public-cases)
 
-![Multi-reference material example](assets/media/014-Feishu-Docs-Image.png)
+![Multi-reference material example](assets/media/014-Feishu-Docs-Image.gif)
 
 **Prompt:**
 
@@ -114,12 +114,12 @@ Source: Official.
 
 <table>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">草图引导涂鸦</a></strong><br><img src="assets/media/005-doodles.png" alt="Sketch-guided doodles example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">草图引导色块</a></strong><br><img src="assets/media/006-color-block.png" alt="Sketch-guided color block example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">草图引导涂鸦</a></strong><br><img src="assets/media/005-doodles.gif" alt="Sketch-guided doodles example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">草图引导色块</a></strong><br><img src="assets/media/006-color-block.gif" alt="Sketch-guided color block example"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">草图引导线条</a></strong><br><img src="assets/media/007-lines.png" alt="Sketch-guided lines example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">简单草图控制</a></strong><br><img src="assets/media/008-simple-sketches.png" alt="Simple sketch control example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">草图引导线条</a></strong><br><img src="assets/media/007-lines.gif" alt="Sketch-guided lines example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">简单草图控制</a></strong><br><img src="assets/media/008-simple-sketches.gif" alt="Simple sketch control example"></td>
   </tr>
   <tr>
     <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">图层分离示例</a></strong><br><img src="assets/media/017-Feishu-Docs-Image.png" alt="Layer separation example"></td>

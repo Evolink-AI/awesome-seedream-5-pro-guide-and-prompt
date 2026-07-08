@@ -63,7 +63,7 @@ The cases below are not invented examples. They are copied or translated from of
 
 ### Case 1: [Region-box object description for targeted editing](docs/source-notes.md#included-public-cases)
 
-![Region-box annotation example](assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.png)
+![Region-box annotation example](assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif)
 
 **Prompt:**
 
@@ -96,7 +96,7 @@ Source: Official.
 
 ### Case 3: [Multi-reference still-life composition](docs/source-notes.md#included-public-cases)
 
-![Multi-reference material example](assets/media/014-Feishu-Docs-Image.png)
+![Multi-reference material example](assets/media/014-Feishu-Docs-Image.gif)
 
 **Prompt:**
 
@@ -114,12 +114,12 @@ The official material includes additional visual samples for sketch-guided editi
 
 <table>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Sketch-guided doodles</a></strong><br><img src="assets/media/005-doodles.png" alt="Sketch-guided doodles example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Sketch-guided color block</a></strong><br><img src="assets/media/006-color-block.png" alt="Sketch-guided color block example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Sketch-guided doodles</a></strong><br><img src="assets/media/005-doodles.gif" alt="Sketch-guided doodles example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Sketch-guided color block</a></strong><br><img src="assets/media/006-color-block.gif" alt="Sketch-guided color block example"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Sketch-guided lines</a></strong><br><img src="assets/media/007-lines.png" alt="Sketch-guided lines example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Simple sketch control</a></strong><br><img src="assets/media/008-simple-sketches.png" alt="Simple sketch control example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Sketch-guided lines</a></strong><br><img src="assets/media/007-lines.gif" alt="Sketch-guided lines example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Simple sketch control</a></strong><br><img src="assets/media/008-simple-sketches.gif" alt="Simple sketch control example"></td>
   </tr>
   <tr>
     <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Layer separation example</a></strong><br><img src="assets/media/017-Feishu-Docs-Image.png" alt="Layer separation example"></td>

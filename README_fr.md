@@ -63,7 +63,7 @@ Les cas ci-dessous ne sont pas des exemples inventés. Ils sont copiés ou tradu
 
 ### Case 1: [Description d’objets par cadres de région pour édition ciblée](docs/source-notes.md#included-public-cases)
 
-![Region-box annotation example](assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.png)
+![Region-box annotation example](assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif)
 
 **Prompt:**
 
@@ -96,7 +96,7 @@ Source: Official.
 
 ### Case 3: [Composition de nature morte multi-références](docs/source-notes.md#included-public-cases)
 
-![Multi-reference material example](assets/media/014-Feishu-Docs-Image.png)
+![Multi-reference material example](assets/media/014-Feishu-Docs-Image.gif)
 
 **Prompt:**
 
@@ -114,12 +114,12 @@ Le matériel officiel inclut des échantillons visuels supplémentaires pour l�
 
 <table>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Gribouillages guidés par croquis</a></strong><br><img src="assets/media/005-doodles.png" alt="Gribouillages guidés par croquis example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Bloc de couleur guidé par croquis</a></strong><br><img src="assets/media/006-color-block.png" alt="Bloc de couleur guidé par croquis example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Gribouillages guidés par croquis</a></strong><br><img src="assets/media/005-doodles.gif" alt="Gribouillages guidés par croquis example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Bloc de couleur guidé par croquis</a></strong><br><img src="assets/media/006-color-block.gif" alt="Bloc de couleur guidé par croquis example"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Lignes guidées par croquis</a></strong><br><img src="assets/media/007-lines.png" alt="Lignes guidées par croquis example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Contrôle par croquis simple</a></strong><br><img src="assets/media/008-simple-sketches.png" alt="Contrôle par croquis simple example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Lignes guidées par croquis</a></strong><br><img src="assets/media/007-lines.gif" alt="Lignes guidées par croquis example"></td>
+    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Contrôle par croquis simple</a></strong><br><img src="assets/media/008-simple-sketches.gif" alt="Contrôle par croquis simple example"></td>
   </tr>
   <tr>
     <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Exemple de séparation de calques</a></strong><br><img src="assets/media/017-Feishu-Docs-Image.png" alt="Exemple de séparation de calques"></td>

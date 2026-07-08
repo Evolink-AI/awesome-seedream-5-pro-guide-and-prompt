@@ -23,6 +23,14 @@ LOCALIZED_READMES = [
     "README_zh-CN.md",
     "README_ru.md",
 ]
+SOURCE_GIF_MEDIA = [
+    "004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex",
+    "005-doodles",
+    "006-color-block",
+    "007-lines",
+    "008-simple-sketches",
+    "014-Feishu-Docs-Image",
+]
 
 
 def fail(message: str, failures: list[str]) -> None:
@@ -36,6 +44,7 @@ def heading_index(text: str, heading: str) -> int:
 def main() -> int:
     failures: list[str] = []
     readme = README.read_text(encoding="utf-8")
+    source_notes = (ROOT / "docs/source-notes.md").read_text(encoding="utf-8")
     first_screen = "\n".join(readme.splitlines()[:120])
 
     required_files = [
@@ -119,6 +128,17 @@ def main() -> int:
     for rel in media_refs:
         if not (ROOT / rel).is_file():
             fail(f"Missing media file referenced by README: {rel}", failures)
+    for media_stem in SOURCE_GIF_MEDIA:
+        gif_ref = f"assets/media/{media_stem}.gif"
+        png_ref = f"assets/media/{media_stem}.png"
+        if gif_ref not in readme:
+            fail(f"README must preserve source GIF media reference: {gif_ref}", failures)
+        if png_ref in readme:
+            fail(f"README must not use static PNG fallback for source GIF media: {png_ref}", failures)
+        if media_stem in source_notes and gif_ref not in source_notes:
+            fail(f"docs/source-notes.md must preserve source GIF media reference: {gif_ref}", failures)
+        if png_ref in source_notes:
+            fail(f"docs/source-notes.md must not use static PNG fallback for source GIF media: {png_ref}", failures)
 
     oversized = [
         str(path.relative_to(ROOT))
@@ -157,6 +177,13 @@ def main() -> int:
         for media_ref in re.findall(r"(?:src=|\]\()(?:\"|')?(assets/[^\"')]+)", localized):
             if not (ROOT / media_ref).is_file():
                 fail(f"{rel} references missing media file: {media_ref}", failures)
+        for media_stem in SOURCE_GIF_MEDIA:
+            gif_ref = f"assets/media/{media_stem}.gif"
+            png_ref = f"assets/media/{media_stem}.png"
+            if gif_ref not in localized:
+                fail(f"{rel} must preserve source GIF media reference: {gif_ref}", failures)
+            if png_ref in localized:
+                fail(f"{rel} must not use static PNG fallback for source GIF media: {png_ref}", failures)
 
     print("# Local Repo Verification")
     print()
