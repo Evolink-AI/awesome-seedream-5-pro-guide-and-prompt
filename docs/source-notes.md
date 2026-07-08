@@ -1,6 +1,6 @@
 # Source Notes
 
-This repository was built from owner-provided Seedream 5.0 Pro launch material exported from Lark on 2026-07-08.
+This repository was built from official Seedream 5.0 Pro launch material exported on 2026-07-08.
 
 ## Public Source Boundary
 
@@ -10,7 +10,7 @@ This repository was built from owner-provided Seedream 5.0 Pro launch material e
 
 ## Included Public Cases
 
-| Case | Source section in owner export | Public media |
+| Case | Official source section | Public media |
 |---|---|---|
 | Region-box object description | `3.1.1 交互控制` | `assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.png` |
 | Anchor-position edit | `3.1.3 锚点编辑（位置编辑）` | `assets/media/015-Feishu-Docs-Image.png`, `assets/media/016-Feishu-Docs-Image.png` |
@@ -19,5 +19,5 @@ This repository was built from owner-provided Seedream 5.0 Pro launch material e
 ## Public Technical Reference
 
 - Seedream 5.0 Pro ModelArk reference: <https://docs.byteplus.com/en/docs/ModelArk/1541523>
-- EvoLink access path: <https://evolink.ai/seedream-5-0?utm_source=github&utm_medium=docs&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=source_notes_model_link>
+- EvoLink access path: <https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=docs&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=source_notes_model_link>
 - EvoLink API key dashboard: <https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=docs&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=source_notes_api_key>

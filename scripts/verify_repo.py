@@ -52,7 +52,7 @@ def main() -> int:
         if snippet not in readme:
             fail(f"README missing required snippet: {snippet}", failures)
 
-    if "assets/media/002-performance.jpg" not in first_screen:
+    if not re.search(r"<img\s+[^>]*src=[\"']assets/(?:banner\.png|media/002-performance\.jpg)[\"']", first_screen):
         fail("First screen does not reference the banner/media image.", failures)
 
     ordered = [
@@ -74,11 +74,12 @@ def main() -> int:
     if case_numbers != list(range(1, len(case_numbers) + 1)) or len(case_numbers) < 3:
         fail(f"Case numbers are not contiguous from 1 or too few cases: {case_numbers}", failures)
 
-    prompt_blocks = re.findall(r"\*\*Prompt:\*\*\n\n```text\n.+?\n```", readme, flags=re.DOTALL)
+    prompt_blocks = re.findall(r"\*\*Prompt:\*\*\n\n```\n.+?\n```", readme, flags=re.DOTALL)
     if len(prompt_blocks) != len(case_numbers):
         fail("Every case must have one visible text prompt block.", failures)
 
     media_refs = re.findall(r"\]\((assets/media/[^)]+)\)", readme)
+    media_refs.extend(re.findall(r"<img\s+[^>]*src=[\"'](assets/[^\"']+)[\"']", readme))
     for rel in media_refs:
         if not (ROOT / rel).is_file():
             fail(f"Missing media file referenced by README: {rel}", failures)
