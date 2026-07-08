@@ -57,11 +57,10 @@ Runtime status: the official material names `dola-seedream-5-0-pro-260628` as th
 
 ## 🎛️ Controlled Editing Prompt Patterns
 
-The cases below are not invented examples. They are copied or translated from official Seedream 5.0 Pro source material summarized in `docs/source-notes.md`.
 
 <a id="case-1"></a>
 
-### Case 1: [Region-box object description for targeted editing](docs/source-notes.md#included-public-cases)
+### Case 1: Region-box object description for targeted editing
 
 <table>
   <tr>
@@ -80,7 +79,7 @@ Source: Official.
 
 <a id="case-2"></a>
 
-### Case 2: [Anchor-position edit on a grid-like scene](docs/source-notes.md#included-public-cases)
+### Case 2: Anchor-position edit on a grid-like scene
 
 <table>
   <tr>
@@ -99,7 +98,7 @@ Source: Official.
 
 <a id="case-3"></a>
 
-### Case 3: [Multi-reference still-life composition](docs/source-notes.md#included-public-cases)
+### Case 3: Multi-reference still-life composition
 
 ![Multi-reference material example](assets/media/014-Feishu-Docs-Image.gif)
 
@@ -119,24 +118,24 @@ The official material includes additional visual samples for sketch-guided editi
 
 <table>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Sketch-guided doodles</a></strong><br><img src="assets/media/005-doodles.gif" alt="Sketch-guided doodles example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Sketch-guided color block</a></strong><br><img src="assets/media/006-color-block.gif" alt="Sketch-guided color block example"></td>
+    <td width="50%" valign="top"><strong>Sketch-guided doodles</strong><br><img src="assets/media/005-doodles.gif" alt="Sketch-guided doodles example"></td>
+    <td width="50%" valign="top"><strong>Sketch-guided color block</strong><br><img src="assets/media/006-color-block.gif" alt="Sketch-guided color block example"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Sketch-guided lines</a></strong><br><img src="assets/media/007-lines.gif" alt="Sketch-guided lines example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Simple sketch control</a></strong><br><img src="assets/media/008-simple-sketches.gif" alt="Simple sketch control example"></td>
+    <td width="50%" valign="top"><strong>Sketch-guided lines</strong><br><img src="assets/media/007-lines.gif" alt="Sketch-guided lines example"></td>
+    <td width="50%" valign="top"><strong>Simple sketch control</strong><br><img src="assets/media/008-simple-sketches.gif" alt="Simple sketch control example"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Layer separation example</a></strong><br><img src="assets/media/017-Feishu-Docs-Image.png" alt="Layer separation example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Layer separation variant</a></strong><br><img src="assets/media/018-Feishu-Docs-Image.png" alt="Layer separation variant"></td>
+    <td width="50%" valign="top"><strong>Layer separation example</strong><br><img src="assets/media/017-Feishu-Docs-Image.png" alt="Layer separation example"></td>
+    <td width="50%" valign="top"><strong>Layer separation variant</strong><br><img src="assets/media/018-Feishu-Docs-Image.png" alt="Layer separation variant"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Cinematic tennis glass shatter</a></strong><br><img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" alt="Cinematic tennis glass shatter"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Cinematic action boxing</a></strong><br><img src="assets/media/021-Cinematic-narrative-action-boxing.png" alt="Cinematic action boxing"></td>
+    <td width="50%" valign="top"><strong>Cinematic tennis glass shatter</strong><br><img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" alt="Cinematic tennis glass shatter"></td>
+    <td width="50%" valign="top"><strong>Cinematic action boxing</strong><br><img src="assets/media/021-Cinematic-narrative-action-boxing.png" alt="Cinematic action boxing"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Arabic and English text rendering</a></strong><br><img src="assets/media/025-Welcome.png" alt="Arabic and English welcome text rendering"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Korean text rendering</a></strong><br><img src="assets/media/026-24-Open-24-hours.png" alt="Korean open 24 hours text rendering"></td>
+    <td width="50%" valign="top"><strong>Arabic and English text rendering</strong><br><img src="assets/media/025-Welcome.png" alt="Arabic and English welcome text rendering"></td>
+    <td width="50%" valign="top"><strong>Korean text rendering</strong><br><img src="assets/media/026-24-Open-24-hours.png" alt="Korean open 24 hours text rendering"></td>
   </tr>
 </table>
 
@@ -158,6 +157,5 @@ The official material includes additional visual samples for sketch-guided editi
 
 This repository was created from official Seedream 5.0 Pro launch material exported on 2026-07-08.
 
-- Public provenance note: `docs/source-notes.md`
 - Private source URL: recorded in local audit evidence, not exposed as a public README link.
 - Runtime note: a credit-consuming EvoLink API smoke test has not been run in this repository audit.

@@ -57,11 +57,10 @@ Laufzeitstatus: Das offizielle Material nennt `dola-seedream-5-0-pro-260628` als
 
 ## 🎛️ Prompt-Muster für kontrollierte Bearbeitung
 
-Die folgenden Fälle sind keine erfundenen Beispiele. Sie wurden aus offiziellem Seedream 5.0 Pro Quellenmaterial kopiert oder übersetzt, das in `docs/source-notes.md` zusammengefasst ist.
 
 <a id="case-1"></a>
 
-### Case 1: [Objektbeschreibung per Regionsbox für gezielte Bearbeitung](docs/source-notes.md#included-public-cases)
+### Case 1: Objektbeschreibung per Regionsbox für gezielte Bearbeitung
 
 <table>
   <tr>
@@ -80,7 +79,7 @@ Source: Official.
 
 <a id="case-2"></a>
 
-### Case 2: [Ankerpositionsbearbeitung in einer rasterartigen Szene](docs/source-notes.md#included-public-cases)
+### Case 2: Ankerpositionsbearbeitung in einer rasterartigen Szene
 
 <table>
   <tr>
@@ -99,7 +98,7 @@ Source: Official.
 
 <a id="case-3"></a>
 
-### Case 3: [Stillleben-Komposition mit mehreren Referenzen](docs/source-notes.md#included-public-cases)
+### Case 3: Stillleben-Komposition mit mehreren Referenzen
 
 ![Multi-reference material example](assets/media/014-Feishu-Docs-Image.gif)
 
@@ -119,24 +118,24 @@ Das offizielle Material enthält zusätzliche visuelle Beispiele für skizzengef
 
 <table>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Skizzengeführte Kritzeleien</a></strong><br><img src="assets/media/005-doodles.gif" alt="Skizzengeführte Kritzeleien example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Skizzengeführter Farbblock</a></strong><br><img src="assets/media/006-color-block.gif" alt="Skizzengeführter Farbblock example"></td>
+    <td width="50%" valign="top"><strong>Skizzengeführte Kritzeleien</strong><br><img src="assets/media/005-doodles.gif" alt="Skizzengeführte Kritzeleien example"></td>
+    <td width="50%" valign="top"><strong>Skizzengeführter Farbblock</strong><br><img src="assets/media/006-color-block.gif" alt="Skizzengeführter Farbblock example"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Skizzengeführte Linien</a></strong><br><img src="assets/media/007-lines.gif" alt="Skizzengeführte Linien example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Einfache Skizzensteuerung</a></strong><br><img src="assets/media/008-simple-sketches.gif" alt="Einfache Skizzensteuerung example"></td>
+    <td width="50%" valign="top"><strong>Skizzengeführte Linien</strong><br><img src="assets/media/007-lines.gif" alt="Skizzengeführte Linien example"></td>
+    <td width="50%" valign="top"><strong>Einfache Skizzensteuerung</strong><br><img src="assets/media/008-simple-sketches.gif" alt="Einfache Skizzensteuerung example"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Beispiel für Ebenentrennung</a></strong><br><img src="assets/media/017-Feishu-Docs-Image.png" alt="Beispiel für Ebenentrennung"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Variante der Ebenentrennung</a></strong><br><img src="assets/media/018-Feishu-Docs-Image.png" alt="Variante der Ebenentrennung"></td>
+    <td width="50%" valign="top"><strong>Beispiel für Ebenentrennung</strong><br><img src="assets/media/017-Feishu-Docs-Image.png" alt="Beispiel für Ebenentrennung"></td>
+    <td width="50%" valign="top"><strong>Variante der Ebenentrennung</strong><br><img src="assets/media/018-Feishu-Docs-Image.png" alt="Variante der Ebenentrennung"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Filmische Tennis-Glaszertrümmerung</a></strong><br><img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" alt="Filmische Tennis-Glaszertrümmerung"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Filmische Box-Action</a></strong><br><img src="assets/media/021-Cinematic-narrative-action-boxing.png" alt="Filmische Box-Action"></td>
+    <td width="50%" valign="top"><strong>Filmische Tennis-Glaszertrümmerung</strong><br><img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" alt="Filmische Tennis-Glaszertrümmerung"></td>
+    <td width="50%" valign="top"><strong>Filmische Box-Action</strong><br><img src="assets/media/021-Cinematic-narrative-action-boxing.png" alt="Filmische Box-Action"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Arabische und englische Textdarstellung</a></strong><br><img src="assets/media/025-Welcome.png" alt="Arabic and English welcome text rendering"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Koreanische Textdarstellung</a></strong><br><img src="assets/media/026-24-Open-24-hours.png" alt="Korean open 24 hours text rendering"></td>
+    <td width="50%" valign="top"><strong>Arabische und englische Textdarstellung</strong><br><img src="assets/media/025-Welcome.png" alt="Arabic and English welcome text rendering"></td>
+    <td width="50%" valign="top"><strong>Koreanische Textdarstellung</strong><br><img src="assets/media/026-24-Open-24-hours.png" alt="Korean open 24 hours text rendering"></td>
   </tr>
 </table>
 
@@ -158,6 +157,5 @@ Das offizielle Material enthält zusätzliche visuelle Beispiele für skizzengef
 
 Dieses Repository wurde aus offiziellem Seedream 5.0 Pro Launch-Material erstellt, das am 2026-07-08 exportiert wurde.
 
-- Öffentliche Herkunftsnotiz: `docs/source-notes.md`
 - Private Quell-URL: in lokalen Audit-Nachweisen erfasst, nicht als öffentlicher README-Link offengelegt.
 - Laufzeitnotiz: In diesem Repository-Audit wurde kein kreditverbrauchender EvoLink API-Smoke-Test ausgeführt.

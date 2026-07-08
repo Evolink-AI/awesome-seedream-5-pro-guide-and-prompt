@@ -57,11 +57,10 @@ Model giriş noktasını EvoLink üzerinde dene: [EvoLink Seedream 5.0 Pro yolun
 
 ## 🎛️ Kontrollü düzenleme prompt kalıpları
 
-Aşağıdaki case’ler uydurulmuş örnekler değildir. `docs/source-notes.md` içinde özetlenen resmi Seedream 5.0 Pro kaynak materyalinden kopyalanmış veya çevrilmiştir.
 
 <a id="case-1"></a>
 
-### Case 1: [Hedefli düzenleme için bölge kutusu nesne açıklaması](docs/source-notes.md#included-public-cases)
+### Case 1: Hedefli düzenleme için bölge kutusu nesne açıklaması
 
 <table>
   <tr>
@@ -80,7 +79,7 @@ Source: Official.
 
 <a id="case-2"></a>
 
-### Case 2: [Izgara benzeri sahnede çapa konumu düzenleme](docs/source-notes.md#included-public-cases)
+### Case 2: Izgara benzeri sahnede çapa konumu düzenleme
 
 <table>
   <tr>
@@ -99,7 +98,7 @@ Source: Official.
 
 <a id="case-3"></a>
 
-### Case 3: [Çok referanslı natürmort kompozisyonu](docs/source-notes.md#included-public-cases)
+### Case 3: Çok referanslı natürmort kompozisyonu
 
 ![Multi-reference material example](assets/media/014-Feishu-Docs-Image.gif)
 
@@ -119,24 +118,24 @@ Resmi materyal; eskiz rehberli düzenleme, katman ayrımı, sinematik anlatı g�
 
 <table>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Eskiz rehberli karalamalar</a></strong><br><img src="assets/media/005-doodles.gif" alt="Eskiz rehberli karalamalar example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Eskiz rehberli renk bloğu</a></strong><br><img src="assets/media/006-color-block.gif" alt="Eskiz rehberli renk bloğu example"></td>
+    <td width="50%" valign="top"><strong>Eskiz rehberli karalamalar</strong><br><img src="assets/media/005-doodles.gif" alt="Eskiz rehberli karalamalar example"></td>
+    <td width="50%" valign="top"><strong>Eskiz rehberli renk bloğu</strong><br><img src="assets/media/006-color-block.gif" alt="Eskiz rehberli renk bloğu example"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Eskiz rehberli çizgiler</a></strong><br><img src="assets/media/007-lines.gif" alt="Eskiz rehberli çizgiler example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Basit eskiz kontrolü</a></strong><br><img src="assets/media/008-simple-sketches.gif" alt="Basit eskiz kontrolü example"></td>
+    <td width="50%" valign="top"><strong>Eskiz rehberli çizgiler</strong><br><img src="assets/media/007-lines.gif" alt="Eskiz rehberli çizgiler example"></td>
+    <td width="50%" valign="top"><strong>Basit eskiz kontrolü</strong><br><img src="assets/media/008-simple-sketches.gif" alt="Basit eskiz kontrolü example"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Katman ayrımı örneği</a></strong><br><img src="assets/media/017-Feishu-Docs-Image.png" alt="Katman ayrımı örneği"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Katman ayrımı varyantı</a></strong><br><img src="assets/media/018-Feishu-Docs-Image.png" alt="Katman ayrımı varyantı"></td>
+    <td width="50%" valign="top"><strong>Katman ayrımı örneği</strong><br><img src="assets/media/017-Feishu-Docs-Image.png" alt="Katman ayrımı örneği"></td>
+    <td width="50%" valign="top"><strong>Katman ayrımı varyantı</strong><br><img src="assets/media/018-Feishu-Docs-Image.png" alt="Katman ayrımı varyantı"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Sinematik tenis cam kırılması</a></strong><br><img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" alt="Sinematik tenis cam kırılması"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Sinematik boks aksiyonu</a></strong><br><img src="assets/media/021-Cinematic-narrative-action-boxing.png" alt="Sinematik boks aksiyonu"></td>
+    <td width="50%" valign="top"><strong>Sinematik tenis cam kırılması</strong><br><img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" alt="Sinematik tenis cam kırılması"></td>
+    <td width="50%" valign="top"><strong>Sinematik boks aksiyonu</strong><br><img src="assets/media/021-Cinematic-narrative-action-boxing.png" alt="Sinematik boks aksiyonu"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Arapça ve İngilizce metin işleme</a></strong><br><img src="assets/media/025-Welcome.png" alt="Arabic and English welcome text rendering"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Korece metin işleme</a></strong><br><img src="assets/media/026-24-Open-24-hours.png" alt="Korean open 24 hours text rendering"></td>
+    <td width="50%" valign="top"><strong>Arapça ve İngilizce metin işleme</strong><br><img src="assets/media/025-Welcome.png" alt="Arabic and English welcome text rendering"></td>
+    <td width="50%" valign="top"><strong>Korece metin işleme</strong><br><img src="assets/media/026-24-Open-24-hours.png" alt="Korean open 24 hours text rendering"></td>
   </tr>
 </table>
 
@@ -158,6 +157,5 @@ Resmi materyal; eskiz rehberli düzenleme, katman ayrımı, sinematik anlatı g�
 
 Bu depo, 2026-07-08 tarihinde dışa aktarılan resmi Seedream 5.0 Pro lansman materyalinden oluşturuldu.
 
-- Herkese açık kaynak notu: `docs/source-notes.md`
 - Özel kaynak URL: yerel denetim kanıtında kayıtlıdır, README içinde herkese açık bağlantı olarak gösterilmez.
 - Çalışma notu: Bu depo denetiminde kredi tüketen bir EvoLink API smoke testi çalıştırılmadı.

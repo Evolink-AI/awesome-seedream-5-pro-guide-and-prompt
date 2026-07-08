@@ -57,11 +57,10 @@
 
 ## 🎛️ Шаблоны промптов для управляемого редактирования
 
-Приведенные ниже кейсы не являются выдуманными примерами. Они скопированы или переведены из официальных исходных материалов Seedream 5.0 Pro, кратко описанных в `docs/source-notes.md`.
 
 <a id="case-1"></a>
 
-### Case 1: [Описание объектов по региональным рамкам для целевого редактирования](docs/source-notes.md#included-public-cases)
+### Case 1: Описание объектов по региональным рамкам для целевого редактирования
 
 <table>
   <tr>
@@ -80,7 +79,7 @@ Source: Official.
 
 <a id="case-2"></a>
 
-### Case 2: [Редактирование позиции якоря в сцене, похожей на сетку](docs/source-notes.md#included-public-cases)
+### Case 2: Редактирование позиции якоря в сцене, похожей на сетку
 
 <table>
   <tr>
@@ -99,7 +98,7 @@ Source: Official.
 
 <a id="case-3"></a>
 
-### Case 3: [Натюрмортная композиция с несколькими референсами](docs/source-notes.md#included-public-cases)
+### Case 3: Натюрмортная композиция с несколькими референсами
 
 ![Multi-reference material example](assets/media/014-Feishu-Docs-Image.gif)
 
@@ -119,24 +118,24 @@ Source: Official.
 
 <table>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Каракули по эскизу</a></strong><br><img src="assets/media/005-doodles.gif" alt="Каракули по эскизу example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Цветовой блок по эскизу</a></strong><br><img src="assets/media/006-color-block.gif" alt="Цветовой блок по эскизу example"></td>
+    <td width="50%" valign="top"><strong>Каракули по эскизу</strong><br><img src="assets/media/005-doodles.gif" alt="Каракули по эскизу example"></td>
+    <td width="50%" valign="top"><strong>Цветовой блок по эскизу</strong><br><img src="assets/media/006-color-block.gif" alt="Цветовой блок по эскизу example"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Линии по эскизу</a></strong><br><img src="assets/media/007-lines.gif" alt="Линии по эскизу example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Управление простым эскизом</a></strong><br><img src="assets/media/008-simple-sketches.gif" alt="Управление простым эскизом example"></td>
+    <td width="50%" valign="top"><strong>Линии по эскизу</strong><br><img src="assets/media/007-lines.gif" alt="Линии по эскизу example"></td>
+    <td width="50%" valign="top"><strong>Управление простым эскизом</strong><br><img src="assets/media/008-simple-sketches.gif" alt="Управление простым эскизом example"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Пример разделения слоев</a></strong><br><img src="assets/media/017-Feishu-Docs-Image.png" alt="Пример разделения слоев"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Вариант разделения слоев</a></strong><br><img src="assets/media/018-Feishu-Docs-Image.png" alt="Вариант разделения слоев"></td>
+    <td width="50%" valign="top"><strong>Пример разделения слоев</strong><br><img src="assets/media/017-Feishu-Docs-Image.png" alt="Пример разделения слоев"></td>
+    <td width="50%" valign="top"><strong>Вариант разделения слоев</strong><br><img src="assets/media/018-Feishu-Docs-Image.png" alt="Вариант разделения слоев"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Кинематографичный теннис с разбитым стеклом</a></strong><br><img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" alt="Кинематографичный теннис с разбитым стеклом"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Кинематографичный боксерский экшен</a></strong><br><img src="assets/media/021-Cinematic-narrative-action-boxing.png" alt="Кинематографичный боксерский экшен"></td>
+    <td width="50%" valign="top"><strong>Кинематографичный теннис с разбитым стеклом</strong><br><img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" alt="Кинематографичный теннис с разбитым стеклом"></td>
+    <td width="50%" valign="top"><strong>Кинематографичный боксерский экшен</strong><br><img src="assets/media/021-Cinematic-narrative-action-boxing.png" alt="Кинематографичный боксерский экшен"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Рендеринг арабского и английского текста</a></strong><br><img src="assets/media/025-Welcome.png" alt="Arabic and English welcome text rendering"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Рендеринг корейского текста</a></strong><br><img src="assets/media/026-24-Open-24-hours.png" alt="Korean open 24 hours text rendering"></td>
+    <td width="50%" valign="top"><strong>Рендеринг арабского и английского текста</strong><br><img src="assets/media/025-Welcome.png" alt="Arabic and English welcome text rendering"></td>
+    <td width="50%" valign="top"><strong>Рендеринг корейского текста</strong><br><img src="assets/media/026-24-Open-24-hours.png" alt="Korean open 24 hours text rendering"></td>
   </tr>
 </table>
 
@@ -158,6 +157,5 @@ Source: Official.
 
 Этот репозиторий создан на основе официальных материалов запуска Seedream 5.0 Pro, экспортированных 2026-07-08.
 
-- Публичная заметка о происхождении: `docs/source-notes.md`
 - Приватный URL источника: записан в локальных аудиторских доказательствах и не раскрыт как публичная ссылка README.
 - Заметка о запуске: в этом аудите репозитория не выполнялся EvoLink API smoke test с расходом кредитов.

@@ -57,11 +57,10 @@ Estado de execução: o material oficial nomeia `dola-seedream-5-0-pro-260628` c
 
 ## 🎛️ Padrões de prompts para edição controlada
 
-Os casos abaixo não são exemplos inventados. Eles foram copiados ou traduzidos do material oficial de origem do Seedream 5.0 Pro resumido em `docs/source-notes.md`.
 
 <a id="case-1"></a>
 
-### Case 1: [Descrição de objetos por caixas de região para edição direcionada](docs/source-notes.md#included-public-cases)
+### Case 1: Descrição de objetos por caixas de região para edição direcionada
 
 <table>
   <tr>
@@ -80,7 +79,7 @@ Source: Official.
 
 <a id="case-2"></a>
 
-### Case 2: [Edição por posição de âncora em uma cena em grade](docs/source-notes.md#included-public-cases)
+### Case 2: Edição por posição de âncora em uma cena em grade
 
 <table>
   <tr>
@@ -99,7 +98,7 @@ Source: Official.
 
 <a id="case-3"></a>
 
-### Case 3: [Composição de natureza-morta com múltiplas referências](docs/source-notes.md#included-public-cases)
+### Case 3: Composição de natureza-morta com múltiplas referências
 
 ![Multi-reference material example](assets/media/014-Feishu-Docs-Image.gif)
 
@@ -119,24 +118,24 @@ O material oficial inclui amostras visuais adicionais de edição guiada por esb
 
 <table>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Rabiscos guiados por esboço</a></strong><br><img src="assets/media/005-doodles.gif" alt="Rabiscos guiados por esboço example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Bloco de cor guiado por esboço</a></strong><br><img src="assets/media/006-color-block.gif" alt="Bloco de cor guiado por esboço example"></td>
+    <td width="50%" valign="top"><strong>Rabiscos guiados por esboço</strong><br><img src="assets/media/005-doodles.gif" alt="Rabiscos guiados por esboço example"></td>
+    <td width="50%" valign="top"><strong>Bloco de cor guiado por esboço</strong><br><img src="assets/media/006-color-block.gif" alt="Bloco de cor guiado por esboço example"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Linhas guiadas por esboço</a></strong><br><img src="assets/media/007-lines.gif" alt="Linhas guiadas por esboço example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Controle por esboço simples</a></strong><br><img src="assets/media/008-simple-sketches.gif" alt="Controle por esboço simples example"></td>
+    <td width="50%" valign="top"><strong>Linhas guiadas por esboço</strong><br><img src="assets/media/007-lines.gif" alt="Linhas guiadas por esboço example"></td>
+    <td width="50%" valign="top"><strong>Controle por esboço simples</strong><br><img src="assets/media/008-simple-sketches.gif" alt="Controle por esboço simples example"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Exemplo de separação em camadas</a></strong><br><img src="assets/media/017-Feishu-Docs-Image.png" alt="Exemplo de separação em camadas"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Variante de separação em camadas</a></strong><br><img src="assets/media/018-Feishu-Docs-Image.png" alt="Variante de separação em camadas"></td>
+    <td width="50%" valign="top"><strong>Exemplo de separação em camadas</strong><br><img src="assets/media/017-Feishu-Docs-Image.png" alt="Exemplo de separação em camadas"></td>
+    <td width="50%" valign="top"><strong>Variante de separação em camadas</strong><br><img src="assets/media/018-Feishu-Docs-Image.png" alt="Variante de separação em camadas"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Tênis cinematográfico com vidro estilhaçado</a></strong><br><img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" alt="Tênis cinematográfico com vidro estilhaçado"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Ação cinematográfica de boxe</a></strong><br><img src="assets/media/021-Cinematic-narrative-action-boxing.png" alt="Ação cinematográfica de boxe"></td>
+    <td width="50%" valign="top"><strong>Tênis cinematográfico com vidro estilhaçado</strong><br><img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" alt="Tênis cinematográfico com vidro estilhaçado"></td>
+    <td width="50%" valign="top"><strong>Ação cinematográfica de boxe</strong><br><img src="assets/media/021-Cinematic-narrative-action-boxing.png" alt="Ação cinematográfica de boxe"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Renderização de texto em árabe e inglês</a></strong><br><img src="assets/media/025-Welcome.png" alt="Arabic and English welcome text rendering"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Renderização de texto em coreano</a></strong><br><img src="assets/media/026-24-Open-24-hours.png" alt="Korean open 24 hours text rendering"></td>
+    <td width="50%" valign="top"><strong>Renderização de texto em árabe e inglês</strong><br><img src="assets/media/025-Welcome.png" alt="Arabic and English welcome text rendering"></td>
+    <td width="50%" valign="top"><strong>Renderização de texto em coreano</strong><br><img src="assets/media/026-24-Open-24-hours.png" alt="Korean open 24 hours text rendering"></td>
   </tr>
 </table>
 
@@ -158,6 +157,5 @@ O material oficial inclui amostras visuais adicionais de edição guiada por esb
 
 Este repositório foi criado a partir do material oficial de lançamento do Seedream 5.0 Pro exportado em 2026-07-08.
 
-- Nota pública de procedência: `docs/source-notes.md`
 - URL fonte privada: registrada na evidência local de auditoria, não exposta como link público do README.
 - Nota de execução: uma prova de API do EvoLink que consome créditos ainda não foi executada nesta auditoria do repositório.

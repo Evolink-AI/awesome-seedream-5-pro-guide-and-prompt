@@ -59,7 +59,6 @@ def heading_index(text: str, heading: str) -> int:
 def main() -> int:
     failures: list[str] = []
     readme = README.read_text(encoding="utf-8")
-    source_notes = (ROOT / "docs/source-notes.md").read_text(encoding="utf-8")
     first_screen = "\n".join(readme.splitlines()[:120])
 
     required_files = [
@@ -69,7 +68,6 @@ def main() -> int:
         "data/ingested_tweets.json",
         "docs/update-log.md",
         "docs/maintenance.md",
-        "docs/source-notes.md",
     ]
     for rel in required_files:
         if not (ROOT / rel).is_file():
@@ -113,8 +111,8 @@ def main() -> int:
     if "Quick start:" not in readme or "Get your EvoLink API key" not in readme:
         fail("README does not show a visible conversion path before the first case section.", failures)
 
-    case_heading_re = re.compile(r"^### Case ([0-9]+): \[.+\]\(.+\)$", re.MULTILINE)
-    case_numbers = [int(match[0]) for match in case_heading_re.findall(readme)]
+    case_heading_re = re.compile(r"^### Case ([0-9]+): .+$", re.MULTILINE)
+    case_numbers = [int(match) for match in case_heading_re.findall(readme)]
     if case_numbers != list(range(1, len(case_numbers) + 1)) or len(case_numbers) < 3:
         fail(f"Case headings are not template-compliant or case numbers are not contiguous: {case_numbers}", failures)
     for number in case_numbers:
@@ -148,8 +146,6 @@ def main() -> int:
         png_ref = f"assets/media/{media_stem}.png"
         if not (ROOT / gif_ref).is_file():
             fail(f"Missing collected source GIF media file: {gif_ref}", failures)
-        if gif_ref not in source_notes:
-            fail(f"docs/source-notes.md must include collected source GIF media: {gif_ref}", failures)
     for media_stem in README_SOURCE_GIF_MEDIA:
         gif_ref = f"assets/media/{media_stem}.gif"
         png_ref = f"assets/media/{media_stem}.png"
@@ -157,10 +153,6 @@ def main() -> int:
             fail(f"README must preserve source GIF media reference: {gif_ref}", failures)
         if png_ref in readme:
             fail(f"README must not use static PNG fallback for source GIF media: {png_ref}", failures)
-        if media_stem in source_notes and gif_ref not in source_notes:
-            fail(f"docs/source-notes.md must preserve source GIF media reference: {gif_ref}", failures)
-        if png_ref in source_notes:
-            fail(f"docs/source-notes.md must not use static PNG fallback for source GIF media: {png_ref}", failures)
 
     oversized = [
         str(path.relative_to(ROOT))

@@ -57,11 +57,10 @@
 
 ## 🎛️ 受控编辑提示词模式
 
-以下案例不是编造示例。它们来自 `docs/source-notes.md` 摘要的 Seedream 5.0 Pro 官方来源材料，经复制或翻译而成。
 
 <a id="case-1"></a>
 
-### Case 1: [用区域框物体描述进行定向编辑](docs/source-notes.md#included-public-cases)
+### Case 1: 用区域框物体描述进行定向编辑
 
 <table>
   <tr>
@@ -80,7 +79,7 @@ Source: Official.
 
 <a id="case-2"></a>
 
-### Case 2: [在网格状场景中进行锚点位置编辑](docs/source-notes.md#included-public-cases)
+### Case 2: 在网格状场景中进行锚点位置编辑
 
 <table>
   <tr>
@@ -99,7 +98,7 @@ Source: Official.
 
 <a id="case-3"></a>
 
-### Case 3: [多参考图静物构图](docs/source-notes.md#included-public-cases)
+### Case 3: 多参考图静物构图
 
 ![Multi-reference material example](assets/media/014-Feishu-Docs-Image.gif)
 
@@ -119,24 +118,24 @@ Source: Official.
 
 <table>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">草图引导涂鸦</a></strong><br><img src="assets/media/005-doodles.gif" alt="Sketch-guided doodles example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">草图引导色块</a></strong><br><img src="assets/media/006-color-block.gif" alt="Sketch-guided color block example"></td>
+    <td width="50%" valign="top"><strong>草图引导涂鸦</strong><br><img src="assets/media/005-doodles.gif" alt="Sketch-guided doodles example"></td>
+    <td width="50%" valign="top"><strong>草图引导色块</strong><br><img src="assets/media/006-color-block.gif" alt="Sketch-guided color block example"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">草图引导线条</a></strong><br><img src="assets/media/007-lines.gif" alt="Sketch-guided lines example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">简单草图控制</a></strong><br><img src="assets/media/008-simple-sketches.gif" alt="Simple sketch control example"></td>
+    <td width="50%" valign="top"><strong>草图引导线条</strong><br><img src="assets/media/007-lines.gif" alt="Sketch-guided lines example"></td>
+    <td width="50%" valign="top"><strong>简单草图控制</strong><br><img src="assets/media/008-simple-sketches.gif" alt="Simple sketch control example"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">图层分离示例</a></strong><br><img src="assets/media/017-Feishu-Docs-Image.png" alt="Layer separation example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">图层分离变体</a></strong><br><img src="assets/media/018-Feishu-Docs-Image.png" alt="Layer separation variant"></td>
+    <td width="50%" valign="top"><strong>图层分离示例</strong><br><img src="assets/media/017-Feishu-Docs-Image.png" alt="Layer separation example"></td>
+    <td width="50%" valign="top"><strong>图层分离变体</strong><br><img src="assets/media/018-Feishu-Docs-Image.png" alt="Layer separation variant"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">电影感网球玻璃碎裂</a></strong><br><img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" alt="Cinematic tennis glass shatter"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">电影感拳击动作</a></strong><br><img src="assets/media/021-Cinematic-narrative-action-boxing.png" alt="Cinematic action boxing"></td>
+    <td width="50%" valign="top"><strong>电影感网球玻璃碎裂</strong><br><img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" alt="Cinematic tennis glass shatter"></td>
+    <td width="50%" valign="top"><strong>电影感拳击动作</strong><br><img src="assets/media/021-Cinematic-narrative-action-boxing.png" alt="Cinematic action boxing"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">阿拉伯语与英语文字渲染</a></strong><br><img src="assets/media/025-Welcome.png" alt="Arabic and English welcome text rendering"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">韩语文字渲染</a></strong><br><img src="assets/media/026-24-Open-24-hours.png" alt="Korean open 24 hours text rendering"></td>
+    <td width="50%" valign="top"><strong>阿拉伯语与英语文字渲染</strong><br><img src="assets/media/025-Welcome.png" alt="Arabic and English welcome text rendering"></td>
+    <td width="50%" valign="top"><strong>韩语文字渲染</strong><br><img src="assets/media/026-24-Open-24-hours.png" alt="Korean open 24 hours text rendering"></td>
   </tr>
 </table>
 
@@ -158,6 +157,5 @@ Source: Official.
 
 本仓库由 2026-07-08 导出的 Seedream 5.0 Pro 官方发布材料建立。
 
-- 公开来源备注: `docs/source-notes.md`
 - 私有来源 URL：记录在本地审计证据中，不作为 README 公开链接暴露。
 - 运行备注：本仓库审计尚未执行会消耗额度的 EvoLink API smoke test。

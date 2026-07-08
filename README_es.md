@@ -57,11 +57,10 @@ Estado de ejecución: el material oficial nombra `dola-seedream-5-0-pro-260628` 
 
 ## 🎛️ Patrones de prompts para edición controlada
 
-Los casos siguientes no son ejemplos inventados. Se copiaron o tradujeron del material fuente oficial de Seedream 5.0 Pro resumido en `docs/source-notes.md`.
 
 <a id="case-1"></a>
 
-### Case 1: [Descripción de objetos por cajas de región para edición dirigida](docs/source-notes.md#included-public-cases)
+### Case 1: Descripción de objetos por cajas de región para edición dirigida
 
 <table>
   <tr>
@@ -80,7 +79,7 @@ Source: Official.
 
 <a id="case-2"></a>
 
-### Case 2: [Edición por posición de anclas en una escena tipo cuadrícula](docs/source-notes.md#included-public-cases)
+### Case 2: Edición por posición de anclas en una escena tipo cuadrícula
 
 <table>
   <tr>
@@ -99,7 +98,7 @@ Source: Official.
 
 <a id="case-3"></a>
 
-### Case 3: [Composición de bodegón con múltiples referencias](docs/source-notes.md#included-public-cases)
+### Case 3: Composición de bodegón con múltiples referencias
 
 ![Multi-reference material example](assets/media/014-Feishu-Docs-Image.gif)
 
@@ -119,24 +118,24 @@ El material oficial incluye muestras visuales adicionales de edición guiada por
 
 <table>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Garabatos guiados por boceto</a></strong><br><img src="assets/media/005-doodles.gif" alt="Sketch-guided doodles example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Bloque de color guiado por boceto</a></strong><br><img src="assets/media/006-color-block.gif" alt="Sketch-guided color block example"></td>
+    <td width="50%" valign="top"><strong>Garabatos guiados por boceto</strong><br><img src="assets/media/005-doodles.gif" alt="Sketch-guided doodles example"></td>
+    <td width="50%" valign="top"><strong>Bloque de color guiado por boceto</strong><br><img src="assets/media/006-color-block.gif" alt="Sketch-guided color block example"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Líneas guiadas por boceto</a></strong><br><img src="assets/media/007-lines.gif" alt="Sketch-guided lines example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Control con boceto simple</a></strong><br><img src="assets/media/008-simple-sketches.gif" alt="Simple sketch control example"></td>
+    <td width="50%" valign="top"><strong>Líneas guiadas por boceto</strong><br><img src="assets/media/007-lines.gif" alt="Sketch-guided lines example"></td>
+    <td width="50%" valign="top"><strong>Control con boceto simple</strong><br><img src="assets/media/008-simple-sketches.gif" alt="Simple sketch control example"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Ejemplo de separación de capas</a></strong><br><img src="assets/media/017-Feishu-Docs-Image.png" alt="Layer separation example"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Variante de separación de capas</a></strong><br><img src="assets/media/018-Feishu-Docs-Image.png" alt="Layer separation variant"></td>
+    <td width="50%" valign="top"><strong>Ejemplo de separación de capas</strong><br><img src="assets/media/017-Feishu-Docs-Image.png" alt="Layer separation example"></td>
+    <td width="50%" valign="top"><strong>Variante de separación de capas</strong><br><img src="assets/media/018-Feishu-Docs-Image.png" alt="Layer separation variant"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Tenis cinematográfico con cristal roto</a></strong><br><img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" alt="Cinematic tennis glass shatter"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Acción cinematográfica de boxeo</a></strong><br><img src="assets/media/021-Cinematic-narrative-action-boxing.png" alt="Cinematic action boxing"></td>
+    <td width="50%" valign="top"><strong>Tenis cinematográfico con cristal roto</strong><br><img src="assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" alt="Cinematic tennis glass shatter"></td>
+    <td width="50%" valign="top"><strong>Acción cinematográfica de boxeo</strong><br><img src="assets/media/021-Cinematic-narrative-action-boxing.png" alt="Cinematic action boxing"></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Renderizado de texto árabe e inglés</a></strong><br><img src="assets/media/025-Welcome.png" alt="Arabic and English welcome text rendering"></td>
-    <td width="50%" valign="top"><strong><a href="docs/source-notes.md#included-public-cases">Renderizado de texto coreano</a></strong><br><img src="assets/media/026-24-Open-24-hours.png" alt="Korean open 24 hours text rendering"></td>
+    <td width="50%" valign="top"><strong>Renderizado de texto árabe e inglés</strong><br><img src="assets/media/025-Welcome.png" alt="Arabic and English welcome text rendering"></td>
+    <td width="50%" valign="top"><strong>Renderizado de texto coreano</strong><br><img src="assets/media/026-24-Open-24-hours.png" alt="Korean open 24 hours text rendering"></td>
   </tr>
 </table>
 
@@ -158,6 +157,5 @@ El material oficial incluye muestras visuales adicionales de edición guiada por
 
 Este repositorio se creó a partir del material oficial de lanzamiento de Seedream 5.0 Pro exportado el 2026-07-08.
 
-- Nota pública de procedencia: `docs/source-notes.md`
 - URL fuente privada: registrada en evidencia local de auditoría, no expuesta como enlace público del README.
 - Nota de ejecución: no se ha realizado una prueba de API de EvoLink que consuma créditos en esta auditoría del repositorio.
