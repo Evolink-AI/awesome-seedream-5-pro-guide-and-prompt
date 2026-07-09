@@ -1,0 +1,1550 @@
+{
+  "metadata": {
+    "source": "curated from downloaded-media/items.json",
+    "item_count": 35,
+    "media_file_count": 75,
+    "selection_policy": "Only high-confidence public community use cases selected for README publication are included."
+  },
+  "items": [
+    {
+      "number": "001",
+      "id": "2074862226905948549",
+      "url": "https://x.com/op7418/status/2074862226905948549",
+      "author": "op7418",
+      "created_at_iso": "2026-07-08T14:24:38+00:00",
+      "view_count": 34642,
+      "like_count": 145,
+      "input_mode": "text_prompt_or_text_input",
+      "input_mode_note": "当前记录中有可逐字定位的文本 prompt/input。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "text",
+          "type": "direct_generation_inputs",
+          "content": "1. 一句话让它生成《黑神话：水浒传》的一个游戏截图 2. 让他生成一张茶叶制作和品种的科普图 3. 给它一个参考图，让它基于这个参考图的组件生成一个 Web 的 UI 设计稿 4. 让他用一张图介绍《凡人修仙传：人界篇》的剧情",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "",
+      "media_folder": "media/001",
+      "media_files": [
+        "media/001/01.jpg",
+        "media/001/02.jpg",
+        "media/001/03.jpg",
+        "media/001/04.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMtkFfdagAACZeu.jpg",
+        "https://pbs.twimg.com/media/HMtkF8WbcAApQud.jpg",
+        "https://pbs.twimg.com/media/HMtkGTGbsAAKEpC.jpg",
+        "https://pbs.twimg.com/media/HMtkGkabkAA4-ab.jpg"
+      ],
+      "media_group": {
+        "group_id": "same_as_001_user_marked",
+        "group_numbers": [
+          "001",
+          "007",
+          "016",
+          "027",
+          "036",
+          "067",
+          "069"
+        ],
+        "source": "user_confirmed",
+        "note": "用户指出 001、007、016、027、036、067、069 是同一类多图案例。"
+      },
+      "is_model_comparison": false,
+      "model_comparison": null,
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。",
+        "known_pattern": "user_marked_same_as_001"
+      },
+      "original_number_before_same_group_dedup": "001"
+    },
+    {
+      "number": "003",
+      "id": "2074862867442962667",
+      "url": "https://x.com/LiamEtherson/status/2074862867442962667",
+      "author": "LiamEtherson",
+      "created_at_iso": "2026-07-08T14:27:11+00:00",
+      "view_count": 14254,
+      "like_count": 88,
+      "input_mode": "text_prompt_or_text_input",
+      "input_mode_note": "当前记录中有可逐字定位的文本 prompt/input。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "text",
+          "type": "direct_prompt_fragment",
+          "content": "technical blueprint with abundant measurement values",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "",
+      "media_folder": "media/003",
+      "media_files": [
+        "media/003/01.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMtkx9vWQAAjtnW.jpg"
+      ],
+      "media_group": null,
+      "is_model_comparison": false,
+      "model_comparison": null,
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。"
+      },
+      "original_number_before_same_group_dedup": "003"
+    },
+    {
+      "number": "004",
+      "id": "2074879603446026333",
+      "url": "https://x.com/MishikaAI/status/2074879603446026333",
+      "author": "MishikaAI",
+      "created_at_iso": "2026-07-08T15:33:41+00:00",
+      "view_count": 12426,
+      "like_count": 69,
+      "input_mode": "text_prompt_or_text_input",
+      "input_mode_note": "当前记录中有可逐字定位的文本 prompt/input。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "text",
+          "type": "direct_prompt_fragment",
+          "content": "a full trading terminal — K-lines, order book, bid/ask, volume, timestamps",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "",
+      "media_folder": "media/004",
+      "media_files": [
+        "media/004/01.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMtz5GxbkAA5mQT.jpg"
+      ],
+      "media_group": null,
+      "is_model_comparison": false,
+      "model_comparison": null,
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。"
+      },
+      "original_number_before_same_group_dedup": "004"
+    },
+    {
+      "number": "005",
+      "id": "2074880584107909602",
+      "url": "https://x.com/AiwithZohaib/status/2074880584107909602",
+      "author": "AiwithZohaib",
+      "created_at_iso": "2026-07-08T15:37:35+00:00",
+      "view_count": 10682,
+      "like_count": 111,
+      "input_mode": "text_prompt_or_text_input",
+      "input_mode_note": "当前记录中有可逐字定位的文本 prompt/input。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "text",
+          "type": "direct_prompt_fragment",
+          "content": "a blueprint-style technical drawing of a concept car: front/side/rear views, exploded parts, measurements everywhere",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "",
+      "media_folder": "media/005",
+      "media_files": [
+        "media/005/01.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMt04sObUAAqAIx.jpg"
+      ],
+      "media_group": null,
+      "is_model_comparison": false,
+      "model_comparison": null,
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。"
+      },
+      "original_number_before_same_group_dedup": "005"
+    },
+    {
+      "number": "006",
+      "id": "2074870910469677387",
+      "url": "https://x.com/johnAGI168/status/2074870910469677387",
+      "author": "johnAGI168",
+      "created_at_iso": "2026-07-08T14:59:08+00:00",
+      "view_count": 8186,
+      "like_count": 32,
+      "input_mode": "text_prompt_or_text_input",
+      "input_mode_note": "当前记录中有可逐字定位的文本 prompt/input。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "text_after_marker",
+          "type": "direct_prompt",
+          "content": "生成一张真实感车内自拍视频首帧照片，横屏 16:9。画面像固定在副驾驶前方或中控台附近的小型广角相机拍摄，轻微广角，近距离车内第一视角，像社交媒体短视频截图。 主角是一位成年女性，气质清冷、安静、精致，整体像日常车内自拍视频里的主角。她脸型小巧偏鹅蛋脸，五官自然精致，鼻梁挺，嘴唇自然，表情平静、淡淡的，有一点冷感但不夸张。她正面面向镜头或略微看向前方，能清楚看到完整正脸，不低头，不侧脸。她戴细框透明或浅银色眼镜，长直发偏浅棕色，带轻微空气刘海，头发自然垂落在肩侧。穿简洁灰色无袖针织连衣裙或灰色无袖上衣搭配同色下装，造型干净日常、端庄自然。 她坐在驾驶位，安全带已经插好并固定完成：黑色安全带清楚地从肩膀斜跨过上身到腰侧，状态自然贴合身体，不是在拉安全带，也不是正在插卡扣。她一只手自然放在方向盘附近或轻扶方向盘，另一只手放低在座椅边或腿侧，姿态像准备开车前刚坐正的一瞬间。表情专注平静，眼神可以看向镜头，也可以略微看向前方道路。 车内是红棕色真皮座椅和红棕色门板，方向盘在画面右前方形成明显前景，仪表台、车窗边缘和后排座椅可见。车窗外是白天城市道路旁的绿化、树木和轻微模糊的街景，但车子此刻看起来还没有启动，背景相对静止。自然日光从车窗照进来，皮肤质感真实，头发有自然光泽。 整体风格：真实摄影，高质量手机或运动相机车内自拍视频首帧，清晰自然，轻微广角畸变，真实车内空间，社交媒体短视频质感，不像棚拍写真。 避免：低头、侧脸、正在插安全带、正在拉安全带、字幕、文字、水印、多余人物、夸张姿势、夸张摆拍、安全带消失、方向盘变形、手指畸形、眼镜变形、车内结构错乱、背景高速运动、夜景、动漫风、CG 感、塑料皮肤、过度美颜。",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "",
+      "media_folder": "media/006",
+      "media_files": [
+        "media/006/01.jpg",
+        "media/006/02.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMtrgDTW0AA0-jH.jpg",
+        "https://pbs.twimg.com/media/HMtrgDYXwAArOU6.jpg"
+      ],
+      "media_group": null,
+      "is_model_comparison": true,
+      "model_comparison": {
+        "models": [
+          "GPT Image 2",
+          "Seedream 5.0 Pro"
+        ],
+        "evidence": "GPT- image 2 🆚 Seedream 5.0 Pro",
+        "layout_note": "原文明确模型对比，但未完整标注所有 media 顺序。"
+      },
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。",
+        "known_pattern": "model_comparison",
+        "evidence": "GPT- image 2 🆚 Seedream 5.0 Pro"
+      },
+      "original_number_before_same_group_dedup": "006"
+    },
+    {
+      "number": "007",
+      "id": "2074865454485483885",
+      "url": "https://x.com/munzxsdv/status/2074865454485483885",
+      "author": "munzxsdv",
+      "created_at_iso": "2026-07-08T14:37:28+00:00",
+      "view_count": 6501,
+      "like_count": 72,
+      "input_mode": "text_prompt_or_text_input",
+      "input_mode_note": "当前记录中有可逐字定位的文本 prompt/input。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "text",
+          "type": "direct_prompt_description",
+          "content": "a shot list — panel-by-panel direction, camera moves, grayscale spec",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "",
+      "media_folder": "media/007",
+      "media_files": [
+        "media/007/01.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMtnIPHa8AAbWpG.jpg"
+      ],
+      "media_group": null,
+      "is_model_comparison": false,
+      "model_comparison": null,
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。"
+      },
+      "original_number_before_same_group_dedup": "008"
+    },
+    {
+      "number": "008",
+      "id": "2074872903938846900",
+      "url": "https://x.com/magnific/status/2074872903938846900",
+      "author": "magnific",
+      "created_at_iso": "2026-07-08T15:07:04+00:00",
+      "view_count": 6401,
+      "like_count": 54,
+      "input_mode": "text_prompt_or_text_input",
+      "input_mode_note": "当前记录中有可逐字定位的文本 prompt/input。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "alt",
+          "type": "direct_prompt",
+          "content": "Shot on cinema camera with subtle halation effect, 35mm film grain, fashion editorial photography in the style of Y2K revival magazine covers. Extreme fisheye lens, distorted wide perspective pulling the scene toward the curved edges, low camera angle from the street. A young man around 20 years old with messy dark hair with soft curtain bangs, smooth youthful skin with natural texture and a few freckles, wearing small oval sunglasses with pink tinted lenses, a colorful beaded necklace, silver hoop earring, an oversized light blue and white varsity-style jacket over a plain white tee and baggy jeans, walking across a zebra crossing looking straight into the camera with a deadpan expression. Peeking out of his jacket chest pocket is his identical 15cm miniature clone, same messy hair, same pink tinted oval sunglasses, same light blue jacket, arms resting on the pocket edge, also deadpan at camera. Background: washed pale blue sky, bright clean daylight, yellow taxis, glass office towers",
+          "preserves_original_text": true
+        },
+        {
+          "source": "alt",
+          "type": "direct_prompt",
+          "content": "Unretouched natural photograph, shot on cinema camera with subtle halation, fine 35mm film grain, soft honest realism like an analog editorial photo. Extreme fisheye lens inside a retro neighborhood hair salon, the row of vintage hooded dryer chairs, mirrored wall and checkered floor curving with the distortion, warm tungsten light mixed with pale fluorescent, muted palette of dusty pink, mint green, cream and chrome, faded posters without readable text. An elderly woman in her early seventies photographed like a real person: silver grey hair set in rollers under a vintage hooded dryer, authentic aged skin with deep natural wrinkles, soft jowls, visible pores and gentle age spots, kind tired eyes, thin lips with no lipstick, no smoothing, no doll-like features, wearing large round glasses with gold frames, a floral blouse in muted tones under a dusty pink salon cape, a colorful beaded necklace and clip-on earrings. She and her 15cm miniature clone wear the exact same identical outfit. ",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "",
+      "media_folder": "media/008",
+      "media_files": [
+        "media/008/01.jpg",
+        "media/008/02.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMtt5zzbIAAJiVB.jpg",
+        "https://pbs.twimg.com/media/HMtt6PUbgAAhYwo.jpg"
+      ],
+      "media_group": null,
+      "is_model_comparison": false,
+      "model_comparison": null,
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。"
+      },
+      "original_number_before_same_group_dedup": "009"
+    },
+    {
+      "number": "011",
+      "id": "2074918700709523881",
+      "url": "https://x.com/magnific/status/2074918700709523881",
+      "author": "magnific",
+      "created_at_iso": "2026-07-08T18:09:03+00:00",
+      "view_count": 4764,
+      "like_count": 42,
+      "input_mode": "text_prompt_or_text_input",
+      "input_mode_note": "当前记录中有可逐字定位的文本 prompt/input。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "text",
+          "type": "direct_concept_prompt",
+          "content": "world's landmarks, melting like wax",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "",
+      "media_folder": "media/011",
+      "media_files": [
+        "media/011/01.jpg",
+        "media/011/02.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMuXjuJbYAApbP8.jpg",
+        "https://pbs.twimg.com/media/HMuXj8mbMAAP0Jm.jpg"
+      ],
+      "media_group": null,
+      "is_model_comparison": false,
+      "model_comparison": null,
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。"
+      },
+      "original_number_before_same_group_dedup": "012"
+    },
+    {
+      "number": "012",
+      "id": "2074890690686005590",
+      "url": "https://x.com/liyue_ai/status/2074890690686005590",
+      "author": "liyue_ai",
+      "created_at_iso": "2026-07-08T16:17:44+00:00",
+      "view_count": 3926,
+      "like_count": 32,
+      "input_mode": "text_prompt_or_text_input",
+      "input_mode_note": "当前记录中有可逐字定位的文本 prompt/input。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "text_after_marker",
+          "type": "direct_prompt",
+          "content": "摄影风格：冷白清透CCD生活照风 写真方向：轻熟生活照 场景方向：酒店泳池外步道 / 白色躺椅 / 浅蓝池水 / 简洁遮阳伞 服装方向：浅鼠尾草色修身无袖针织短裙 气质标签：温柔、清透、轻熟、安静、有吸引力 五官方向：真实清透自然脸，安静干净，不网红 五官细节：柔和鹅蛋脸，面部轮廓自然；清亮杏眼，眼神温柔安静；鼻型流畅小巧；唇形柔软克制，低饱和裸粉唇色；整体是安静、通透、舒服的生活感美人脸 发型方向：自然黑长发或低扎发，发丝顺滑，额前少量碎发，带一点微风感 身形方向：轻盈纤细，上围饱满自然 线条强调：强 镜头方向：大腿及上半身 姿态动作：站在泳池步道边，身体轻微侧向镜头，一只手自然垂落，另一只手轻扶裙侧 光线氛围：高色温晴天自然光 + 水面反射光 + 冷白极弱柔闪 滤镜效果：冷白高光 + 蓝白清透生活照色彩 + 轻颗粒 + 轻数码噪点 + 轻微过曝 画幅比例：9:16 补充要求：连衣裙贴身柔软，突出胸部轮廓、腰线和整体修长感，人物五官要安静耐看，整体要冷白清爽，不要商业泳池大片感",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "",
+      "media_folder": "media/012",
+      "media_files": [
+        "media/012/01.jpg",
+        "media/012/02.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMt9I5-aMAAeyVy.jpg",
+        "https://pbs.twimg.com/media/HMt9NQkaoAAbk2M.jpg"
+      ],
+      "media_group": null,
+      "is_model_comparison": true,
+      "model_comparison": {
+        "models": [
+          "GPT Image 2",
+          "Seedream 5.0 Pro"
+        ],
+        "evidence": "同样的提示词，GPT Image 2 vs Seedream 5.0 Pro",
+        "layout_note": "同提示词模型对比。"
+      },
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。",
+        "known_pattern": "model_comparison",
+        "evidence": "同样的提示词，GPT Image 2 vs Seedream 5.0 Pro"
+      },
+      "original_number_before_same_group_dedup": "013"
+    },
+    {
+      "number": "017",
+      "id": "2074856963591290979",
+      "url": "https://x.com/BubbleBrain/status/2074856963591290979",
+      "author": "BubbleBrain",
+      "created_at_iso": "2026-07-08T14:03:43+00:00",
+      "view_count": 2239,
+      "like_count": 81,
+      "input_mode": "text_prompt_or_text_input",
+      "input_mode_note": "当前记录中有可逐字定位的文本 prompt/input。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "text_after_marker",
+          "type": "direct_prompt",
+          "content": "This is a highly photorealistic, high-fashion full-body portrait with an overall dark-toned, dreamy, and hazy atmosphere, filled with the flowing beauty of light and shadow. The scene uses refined artificial lighting that is soft yet richly layered, with sparkling highlights, crystal-clear reflections, and a subtle lomo film texture in certain areas, creating a surreal and luxurious fashion mood that feels both realistic and dreamlike. The subject is a young adult Taiwanese woman with short pink-and-white blended hair and side-swept bangs. She has delicate, beautiful features, a well-defined bone structure, and facial lines that are both soft and sculptural. She has a naturally curvy, elegant, and well-proportioned figure, with an overall presence that feels mature, confident, and relaxed. Her skin has a cool fair matte quality, looking smooth and translucent while still preserving realistic skin texture. Her makeup is refined and soft, with rosy cheeks, moist dreamy eyes, and an expression that carries a hint of laziness, aloofness, and world-weary indifference, giving her an aura that feels both sophisticated and mysterious. Her face features intricate decorative makeup details, including a huadian ornament on the forehead, floral ornaments at the outer corners of the eyes, heart-shaped facial decorations, and small artistic pig-pattern facial elements. These embellishments are naturally integrated into the overall high-end makeup look, with delicate shimmer and pearlescent textures. They should feel refined, luxurious, and elegant, never cheap or cartoonish. The composition is shot from a low angle, with the subject’s full body visible and facing the camera directly. She extends one hand toward the lens, with long slender fingers and delicately manicured long nails, creating a strong foreground blur and a clear sense of perspective, making the image more visually dynamic. Her pose is elegant and confident, with the visual language of a high-end fashion editorial. The overall color palette is dominated by rich, dark tones, accented with nude pink, skin-tone hues, pearlescent highlights, silvery-white reflections, and sparkling details. The image has a low-contrast tonal range, with soft focus, haze, luminosity, and a luxurious finish, resembling a meticulously retouched fashion editorial. The photo should feel highly realistic, rich in detail, with natural skin texture, in 8K ultra-high definition, with a trendy high-end internet aesthetic, vertical 9:16.",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "",
+      "media_folder": "media/017",
+      "media_files": [
+        "media/017/01.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMtfQqPbwAA3iSv.jpg"
+      ],
+      "media_group": null,
+      "is_model_comparison": false,
+      "model_comparison": null,
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。"
+      },
+      "original_number_before_same_group_dedup": "019"
+    },
+    {
+      "number": "018",
+      "id": "2074850550349222210",
+      "url": "https://x.com/mattworkman/status/2074850550349222210",
+      "author": "mattworkman",
+      "created_at_iso": "2026-07-08T13:38:14+00:00",
+      "view_count": 2191,
+      "like_count": 18,
+      "input_mode": "text_prompt_or_text_input",
+      "input_mode_note": "当前记录中有可逐字定位的文本 prompt/input。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "text",
+          "type": "direct_prompt",
+          "content": "a Korean girl in her twenties on her iPhone in San Francisco at sunset",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "",
+      "media_folder": "media/018",
+      "media_files": [
+        "media/018/01.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMtZW-oWcAAFcs5.jpg"
+      ],
+      "media_group": null,
+      "is_model_comparison": false,
+      "model_comparison": null,
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。"
+      },
+      "original_number_before_same_group_dedup": "020"
+    },
+    {
+      "number": "019",
+      "id": "2074866077499105416",
+      "url": "https://x.com/marmaduke091/status/2074866077499105416",
+      "author": "marmaduke091",
+      "created_at_iso": "2026-07-08T14:39:56+00:00",
+      "view_count": 2069,
+      "like_count": 34,
+      "input_mode": "text_prompt_or_text_input",
+      "input_mode_note": "当前记录中有可逐字定位的文本 prompt/input。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "text_after_marker",
+          "type": "direct_prompt",
+          "content": "A technical drawing of a futuristic sports car in blueprint style. Include line drawings of the sports car from the front, side, and rear views, exploded parts sketches, parts assembly diagrams, and structural diagrams of disassembled components. Use abundant lines and measurement values to indicate the dimensions of each part, with grayscale tones expressing the overall sketch relationship. In addition to the main design, also show scattered thumbnails from different angles.",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "",
+      "media_folder": "media/019",
+      "media_files": [
+        "media/019/01.jpg",
+        "media/019/02.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMtm9puWcAAhwvJ.jpg",
+        "https://pbs.twimg.com/media/HMtnjzTXUAAa9x8.jpg"
+      ],
+      "media_group": null,
+      "is_model_comparison": true,
+      "model_comparison": {
+        "models": [
+          "Seedream 5.0 Pro",
+          "GPT Image 2.0"
+        ],
+        "evidence": "Left: Seedream 5.0 Pro ➡️ Right: GPT Image 2.0",
+        "layout_note": "原文明确 left/right。"
+      },
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。",
+        "known_pattern": "model_comparison",
+        "evidence": "Left: Seedream 5.0 Pro ➡️ Right: GPT Image 2.0"
+      },
+      "original_number_before_same_group_dedup": "021"
+    },
+    {
+      "number": "021",
+      "id": "2074915677815886071",
+      "url": "https://x.com/ashen_one/status/2074915677815886071",
+      "author": "ashen_one",
+      "created_at_iso": "2026-07-08T17:57:02+00:00",
+      "view_count": 1868,
+      "like_count": 16,
+      "input_mode": "text_prompt_or_text_input",
+      "input_mode_note": "当前记录中有可逐字定位的文本 prompt/input。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "alt",
+          "type": "direct_prompt",
+          "content": "A solar-powered research station in a desert, featuring domed structures, solar panels, and various equipment for energy and research management.",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "",
+      "media_folder": "media/021",
+      "media_files": [
+        "media/021/01.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMuUz-gbUAAvKWr.jpg"
+      ],
+      "media_group": null,
+      "is_model_comparison": false,
+      "model_comparison": null,
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。"
+      },
+      "original_number_before_same_group_dedup": "023"
+    },
+    {
+      "number": "022",
+      "id": "2075052934409375918",
+      "url": "https://x.com/hasamaru_studio/status/2075052934409375918",
+      "author": "hasamaru_studio",
+      "created_at_iso": "2026-07-09T03:02:26+00:00",
+      "view_count": 1710,
+      "like_count": 26,
+      "input_mode": "reference_image_with_text_instruction",
+      "input_mode_note": "输入包含 reference image 和文本编辑指令。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "text",
+          "type": "direct_edit_instruction",
+          "content": "リファレンス画像のスタイルを保ったまま、もう少し高い位置からの画角に変更してもらいました。",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "这条更准确地说是视觉输入/图片编辑/标记修改任务，不应强行当作纯文本 prompt。",
+      "media_folder": "media/022",
+      "media_files": [
+        "media/022/01.jpg",
+        "media/022/02.jpg",
+        "media/022/03.jpg",
+        "media/022/04.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMuX1nNaIAAkR1Q.jpg",
+        "https://pbs.twimg.com/media/HMuX3cRbIAAsM8B.jpg",
+        "https://pbs.twimg.com/media/HMuX4tra0AAknaG.jpg",
+        "https://pbs.twimg.com/media/HMuX5uIaYAA7Teh.jpg"
+      ],
+      "media_group": null,
+      "is_model_comparison": true,
+      "model_comparison": {
+        "models": [
+          "Seedream 5.0 Pro",
+          "GPT Image 2",
+          "Nano Banana Pro"
+        ],
+        "evidence": "1枚目：Seedream 5.0 Pro 2枚目：GPT Image 2 3枚目：Nano Banana Pro 4枚目：リファレンス画像",
+        "layout_note": "media/024/01=Seedream, 02=GPT Image 2, 03=Nano Banana Pro, 04=reference image。"
+      },
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。",
+        "known_pattern": "model_comparison",
+        "evidence": "1枚目：Seedream 5.0 Pro 2枚目：GPT Image 2 3枚目：Nano Banana Pro 4枚目：リファレンス画像"
+      },
+      "original_number_before_same_group_dedup": "024"
+    },
+    {
+      "number": "023",
+      "id": "2075000101362131350",
+      "url": "https://x.com/emmanuel_2m/status/2075000101362131350",
+      "author": "emmanuel_2m",
+      "created_at_iso": "2026-07-08T23:32:30+00:00",
+      "view_count": 1688,
+      "like_count": 8,
+      "input_mode": "text_prompt_or_text_input",
+      "input_mode_note": "当前记录中有可逐字定位的文本 prompt/input。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "quoted_text",
+          "type": "direct_prompt",
+          "content": "A premium infographic-style advertisement featuring an oversized Pepsi can placed beside a young woman. The can is scaled to be nearly the same size as her entire seated body, creating a striking surreal proportion. The woman sits casually leaning against the giant can, one arm resting on it, interacting naturally. The Pepsi can is ultra-detailed with crisp branding, condensation droplets, realistic reflections, and metallic texture. The logo is clean, sharp, and properly proportioned. Composition is modern and minimal, set in a clean studio with a soft gradient background. Subtle infographic-style annotation lines highlight features like 'refreshment', 'carbonation', 'chilled texture'. Lighting is soft studio with controlled highlights. The model wears minimal contemporary clothing that complements the red white and blue tones of the can. Color grading crisp and slightly vibrant, commercial ad aesthetic. High-end product infographic, commercial beverage advertisement, ultra high resolution, 4K, photorealistic.",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "",
+      "media_folder": "media/023",
+      "media_files": [
+        "media/023/01.jpg",
+        "media/023/02.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMvg7FkXgAAz_F8.jpg",
+        "https://pbs.twimg.com/media/HMvg734W8AAiM_K.jpg"
+      ],
+      "media_group": null,
+      "is_model_comparison": true,
+      "model_comparison": {
+        "models": [
+          "GPT Image 2",
+          "Seedream 5.0 Pro"
+        ],
+        "evidence": "GPT Image 2 (left) vs. Seedream 5.0 Pro (right)",
+        "layout_note": "原文明确 left/right。"
+      },
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。",
+        "known_pattern": "model_comparison",
+        "evidence": "GPT Image 2 (left) vs. Seedream 5.0 Pro (right)"
+      },
+      "original_number_before_same_group_dedup": "025"
+    },
+    {
+      "number": "027",
+      "id": "2075036565147906511",
+      "url": "https://x.com/AllaAisling/status/2075036565147906511",
+      "author": "AllaAisling",
+      "created_at_iso": "2026-07-09T01:57:24+00:00",
+      "view_count": 1224,
+      "like_count": 16,
+      "input_mode": "text_prompt_or_text_input",
+      "input_mode_note": "当前记录中有可逐字定位的文本 prompt/input。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "alt",
+          "type": "direct_prompt",
+          "content": "An industrial civilization is constructing an entire planet inside an enormous orbital shipyard. Giant robotic arms hold continents in place while molten oceans are poured into gigantic basins. Thousands of spacecraft weld mountain ranges together. The unfinished world glows from its molten core. Unreal scale, NASA realism, cinematic science fiction.",
+          "preserves_original_text": true
+        },
+        {
+          "source": "alt",
+          "type": "direct_prompt",
+          "content": "Gigantic floating whales drift above endless wheat fields while enormous wind-powered harvesting machines extend hundreds of meters into the sky to collect glowing crystals that grow beneath the creatures. Farmers below appear tiny. Warm sunset, golden dust, beautiful atmospheric perspective, ultra-realistic, cinematic masterpiece.",
+          "preserves_original_text": true
+        },
+        {
+          "source": "alt",
+          "type": "direct_prompt",
+          "content": "A massive ocean wave nearly one kilometer high has frozen in time just before crashing into a coastal city. Emergency helicopters fly through tunnels inside the transparent wall of water. Every droplet is perfectly suspended. Cold blue lighting mixed with sunrise reflections, photorealistic, impossible but believable physics.",
+          "preserves_original_text": true
+        },
+        {
+          "source": "alt",
+          "type": "direct_prompt",
+          "content": "A mountain village built on impossibly tall stone pillars extends far above Earth's weather. Massive thunderstorms rage thousands of meters below while peaceful gardens, waterfalls and wooden bridges sit in bright sunshine above the clouds. Eagles glide beneath the village instead of above it. Ultra realistic, breathtaking scale.",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "",
+      "media_folder": "media/027",
+      "media_files": [
+        "media/027/01.jpg",
+        "media/027/02.jpg",
+        "media/027/03.jpg",
+        "media/027/04.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMwCSVCWUAA0CRa.jpg",
+        "https://pbs.twimg.com/media/HMwCjxSW0AAaZFu.jpg",
+        "https://pbs.twimg.com/media/HMwCm1rWEAA4RnN.jpg",
+        "https://pbs.twimg.com/media/HMwCqVmW8AAhP1u.jpg"
+      ],
+      "media_group": null,
+      "is_model_comparison": false,
+      "model_comparison": null,
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。"
+      },
+      "original_number_before_same_group_dedup": "030"
+    },
+    {
+      "number": "028",
+      "id": "2074900816662774189",
+      "url": "https://x.com/SimplyAnnisa/status/2074900816662774189",
+      "author": "SimplyAnnisa",
+      "created_at_iso": "2026-07-08T16:57:59+00:00",
+      "view_count": 1088,
+      "like_count": 37,
+      "input_mode": "text_prompt_or_text_input",
+      "input_mode_note": "当前记录中有可逐字定位的文本 prompt/input。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "text_after_marker",
+          "type": "direct_prompt",
+          "content": "A divine fallen angel warrior kneeling in the center of an ancient celestial temple, thrusting a massive flaming holy sword into a cracked white marble floor, the impact creating glowing lava-like fractures and flying debris. Gigantic pure white feathered wings spread wide behind the warrior, wearing ornate gold and crimson medieval armor with intricate engravings, a flowing dark red cape, and ram-like curled white horns. Glowing crimson eyes stare downward with an intense, wrathful expression. A colossal circular celestial halo filled with sacred runes, geometric symbols, and ancient inscriptions dominates the background. Powerful golden volumetric sunlight pours from the upper right, illuminating the wings and armor while dramatic shadows fill the environment. Dust, smoke, ash, and embers swirl around the impact point. Hyper-detailed feathers, realistic metal reflections, cinematic fantasy atmosphere, epic dark fantasy, divine judgment, ultra-realistic, photorealistic, Unreal Engine 5, Octane Render, ray-traced global illumination, volumetric fog, HDR lighting, 8K,",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "",
+      "media_folder": "media/028",
+      "media_files": [
+        "media/028/01.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMuHS8ha4AA-xra.jpg"
+      ],
+      "media_group": null,
+      "is_model_comparison": false,
+      "model_comparison": null,
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。"
+      },
+      "original_number_before_same_group_dedup": "031"
+    },
+    {
+      "number": "029",
+      "id": "2075033845032993261",
+      "url": "https://x.com/Cia0_exe/status/2075033845032993261",
+      "author": "Cia0_exe",
+      "created_at_iso": "2026-07-09T01:46:35+00:00",
+      "view_count": 1029,
+      "like_count": 9,
+      "input_mode": "text_prompt_or_text_input",
+      "input_mode_note": "当前记录中有可逐字定位的文本 prompt/input。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "text_after_marker",
+          "type": "direct_prompt",
+          "content": "A beautiful young Japanese woman, natural and effortless beauty, soft glowing skin, wearing a fitted black tank top layered under an oversized cool white shirt worn open, casual chic styling. Cinematic movie-grade shot, anamorphic lens flare, shallow depth of field with creamy bokeh, slow dolly-in camera movement, dramatic rim lighting from golden hour sun, subtle film grain, volumetric light rays through window, color graded like a Denis Villeneuve film teal and warm amber tones, 35mm anamorphic lens, motion blur on hair strands from gentle breeze, realistic skin texture, ultra-detailed, photorealistic, --ar 16:9",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "",
+      "media_folder": "media/029",
+      "media_files": [
+        "media/029/01.jpg",
+        "media/029/02.jpg",
+        "media/029/03.jpg",
+        "media/029/04.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMwAQvbagAAoDu7.jpg",
+        "https://pbs.twimg.com/media/HMwARKtaMAE1QXc.jpg",
+        "https://pbs.twimg.com/media/HMwARljbgAA0tO3.jpg",
+        "https://pbs.twimg.com/media/HMwAR9YaAAApRf7.jpg"
+      ],
+      "media_group": null,
+      "is_model_comparison": false,
+      "model_comparison": null,
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。"
+      },
+      "original_number_before_same_group_dedup": "032"
+    },
+    {
+      "number": "031",
+      "id": "2074872447229419956",
+      "url": "https://x.com/DeepBlueAIX/status/2074872447229419956",
+      "author": "DeepBlueAIX",
+      "created_at_iso": "2026-07-08T15:05:15+00:00",
+      "view_count": 838,
+      "like_count": 0,
+      "input_mode": "text_prompt_or_text_input",
+      "input_mode_note": "当前记录中有可逐字定位的文本 prompt/input。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "alt",
+          "type": "direct_prompt",
+          "content": "成都旅游 · 小红书手帐风海报\n\n一张竖版 9:16 的小红书风格拼贴海报，主题为**「成都旅游城市漫游计划」**。整体采用手帐风设计，像旅行日记一样丰富、有生活感和轻松氛围。\n\n画面以成都城市旅行为核心内容，包含宽窄巷子、锦里古街、春熙路、IFS熊猫、成都大熊猫繁育研究基地、东郊记忆、都江堰、青城山等真实场景照片，以拼贴方式散落在画面中，搭配撕纸边框与胶带装饰。画面中穿插熊猫元素、茶馆、人民公园、盖碗茶、街头巷尾、夜市、美食街、城市天际线等真实旅行场景，充分展现成都悠闲惬意的慢生活氛围。\n\n整体视觉使用天蓝色作为主色调，并点缀粉色、浅黄色与柔和绿色，营造清新明亮又富有烟火气的城市旅行氛围。\n\n画面中加入大量手帐元素，例如手绘箭头、涂鸦星星、对话气泡、便签标签、贴纸装饰、旅行地图、定位图标、拍立得照片、胶带、旅行印章、熊猫贴纸、相机、咖啡杯、小花、云朵、笑脸图标等，使画面具有强烈的小红书「种草笔记」视觉风格。\n\n主标题为**「成都达人计划 / Chengdu City Guide」，采用手写感或涂鸦字体，具有明显的年轻化社交媒体风格。画面中穿插中英文混排文字，如「City Walk Chengdu」「探索成都旅行路线」「熊猫打卡推荐」「成都美食地图」「Travel Notes」「Weekend Trip」**等，增强旅行攻略的真实感。\n\n局部可以加入旅行时间标签**「最佳旅行时间：3月～6月｜9月～11月」**，做成便签或贴纸形式，增强真实旅行计划感。\n\n画面中还可加入成都火锅、串串香、担担面、钟水饺、兔头、盖碗茶等特色美食照片，以拼贴方式自然分布在画面四周，与景点照片共同构成丰富的旅行内容。\n\n整体构图为非对称拼贴布局，中心突出成都城市主题，但四周元素丰富散落，呈现出活泼、松弛、像真实旅行手帐一样的视觉体验，适合小红书旅行种草海报风格。",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "",
+      "media_folder": "media/031",
+      "media_files": [
+        "media/031/01.jpg",
+        "media/031/02.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMttO7-acAA2e0c.jpg",
+        "https://pbs.twimg.com/media/HMttSn8agAETxRS.jpg"
+      ],
+      "media_group": null,
+      "is_model_comparison": true,
+      "model_comparison": {
+        "models": [
+          "Seedream 5.0",
+          "GPT Image 2"
+        ],
+        "evidence": "Seedream 5.0 对比 GPT image 2",
+        "layout_note": "原文明确对比；media 顺序未在正文中标注。"
+      },
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。",
+        "known_pattern": "model_comparison",
+        "evidence": "Seedream 5.0 对比 GPT image 2"
+      },
+      "original_number_before_same_group_dedup": "034"
+    },
+    {
+      "number": "034",
+      "id": "2074890020260094137",
+      "url": "https://x.com/roco_kn_roco/status/2074890020260094137",
+      "author": "roco_kn_roco",
+      "created_at_iso": "2026-07-08T16:15:05+00:00",
+      "view_count": 663,
+      "like_count": 27,
+      "input_mode": "text_prompt_or_text_input",
+      "input_mode_note": "当前记录中有可逐字定位的文本 prompt/input。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "text",
+          "type": "direct_prompt",
+          "content": "新作アニメのキービジュアルを作って下さい",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "",
+      "media_folder": "media/034",
+      "media_files": [
+        "media/034/01.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMt9SH6bsAAJ_A1.jpg"
+      ],
+      "media_group": null,
+      "is_model_comparison": true,
+      "model_comparison": {
+        "models": [
+          "Seedream 5.0 Pro",
+          "GPT Image 2"
+        ],
+        "evidence": "GPTimage 2同等、もしくはそれ以上",
+        "layout_note": "提到与 GPT Image 2 能力对比，但不是明确逐图模型输出对照。"
+      },
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。",
+        "known_pattern": "model_comparison",
+        "evidence": "GPTimage 2同等、もしくはそれ以上"
+      },
+      "original_number_before_same_group_dedup": "038"
+    },
+    {
+      "number": "035",
+      "id": "2075055332452106476",
+      "url": "https://x.com/df_reno/status/2075055332452106476",
+      "author": "df_reno",
+      "created_at_iso": "2026-07-09T03:11:58+00:00",
+      "view_count": 648,
+      "like_count": 5,
+      "input_mode": "text_prompt_or_text_input",
+      "input_mode_note": "当前记录中有可逐字定位的文本 prompt/input。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "alt",
+          "type": "direct_prompt",
+          "content": "超写实电影剧照，一位女性在昏暗的都市环境中仰望天空，画面极具感染力。使用 ARRI Alexa Mini LF 摄影机和 Panavision C 系列 50mm 变形镜头拍摄，光圈 T2，加装 Black Pro-Mist 1/8 滤镜，采用 2.39:1 变形宽银幕构图。低角度特写镜头，镜头略低于女性面部，营造出亲密的电影视角。女性位于画面右侧，左侧留出大片空白。\n右上角背景中存在强烈的人工光源，产生强烈的变形镜头水平光晕、蓝白色的光晕、镜头内部反射、电影光晕效果以及柔和的高光。\n光源并非阳光，而是远处城市路灯或工业灯光，并因浅景深而呈现出模糊效果。柔和的青色环境光部分照亮了女性的脸庞，展现出逼真的肌肤纹理、自然的毛孔、细微的瑕疵，嘴唇微张，眼神充满情感地向上凝视。前景包含模糊的暗色调环境元素。中景是女性的脸部和头发。背景是高度虚化的城市建筑，点缀着抽象的光影。深邃的阴影、低对比度的黑色、冷色调的蓝色调、逼真的夜景电影感、柯达胶片质感、细腻的颗粒感、变形光晕、朦胧的氛围，以及真实的电影画面。",
+          "preserves_original_text": true
+        },
+        {
+          "source": "alt",
+          "type": "direct_prompt",
+          "content": "A vast grassy field filled with several large sci-fi spaceships and scattered cargo. Two people walk across the field toward the center of the landed fleet. 30s ambiguous male, average build, short dark hair, tan skin, stubble., wearing metallic silver helmet, dark armored chest plate, leather cape., neutral expression; 30s white female, average build, reddish-brown hair, tan skin., wearing blue and gray tactical jumpsuit, leather belt, holsters., neutral expression. Small_group, walking across a grassy field toward a large spaceship., facing from_back. Set in landing field, day. Even, diffused natural sunlight illuminates the field with minimal shadows. Naturalistic color palette with muted greens and grays reflecting daylight. Live_action style with a neutral mood.",
+          "preserves_original_text": true
+        },
+        {
+          "source": "alt",
+          "type": "direct_prompt",
+          "content": "A teenager stands behind a metal chain-link fence in a grassy outdoor area. She looks toward the camera while the fence is in the foreground. Teen white female, slim build, long straight brown hair, pale skin, light features., wearing dark blue puffy jacket over a reddish zip-up hoodie., neutral expression. Solo, A young woman stands behind a chain-link fence looking forward., facing frontal. Set in fence, day. Diffused natural overcast daylight provides even, shadowless illumination. The image features a cool, desaturated color grade with muted greens and grays. Live_action style with a neutral mood.",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "",
+      "media_folder": "media/035",
+      "media_files": [
+        "media/035/01.jpg",
+        "media/035/02.jpg",
+        "media/035/03.jpg",
+        "media/035/04.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMwSc30bAAAhMpu.jpg",
+        "https://pbs.twimg.com/media/HMwSSnObEAAobBH.jpg",
+        "https://pbs.twimg.com/media/HMwSk_wacAAHVki.jpg",
+        "https://pbs.twimg.com/media/HMwSrIEbEAEv_3I.jpg"
+      ],
+      "media_group": null,
+      "is_model_comparison": false,
+      "model_comparison": null,
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。"
+      },
+      "original_number_before_same_group_dedup": "039"
+    },
+    {
+      "number": "038",
+      "id": "2075071088137208063",
+      "url": "https://x.com/ChillaiKalan__/status/2075071088137208063",
+      "author": "ChillaiKalan__",
+      "created_at_iso": "2026-07-09T04:14:35+00:00",
+      "view_count": 568,
+      "like_count": 30,
+      "input_mode": "text_prompt_or_text_input",
+      "input_mode_note": "当前记录中有可逐字定位的文本 prompt/input。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "text_after_marker",
+          "type": "direct_prompt",
+          "content": "A stylish young woman with long layered black hair and soft curtain bangs, wearing sleek black rectangular sunglasses, an oversized chocolate-brown tailored blazer with matching wide-leg trousers, and a fitted mocha-brown camisole. She carries a large structured ivory leather tote bag with gold hardware over one shoulder. Standing confidently with one hand in her pocket, looking back over her shoulder. Shot in a modern open-air parking structure beneath a concrete overpass, with parked cars softly blurred in the background. Natural midday sunlight creates soft shadows and clean highlights. Minimalist luxury aesthetic, quiet luxury fashion, effortless street style, neutral earth-tone color palette, premium editorial photography, shallow depth of field, ultra-realistic skin texture, subtle makeup with glossy nude lips, high-end fashion campaign, cinematic composition, 85mm lens, f/2.0, soft bokeh, crisp focus, HDR, RAW, 8K, Vogue-style luxury editorial.",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "",
+      "media_folder": "media/038",
+      "media_files": [
+        "media/038/01.jpg",
+        "media/038/02.jpg",
+        "media/038/03.jpg",
+        "media/038/04.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMwiJaNa0AA7gx7.jpg",
+        "https://pbs.twimg.com/media/HMwiJadbEAAlAYV.jpg",
+        "https://pbs.twimg.com/media/HMwiJaca0AAMG-v.jpg",
+        "https://pbs.twimg.com/media/HMwiJaYbsAAy_Za.jpg"
+      ],
+      "media_group": null,
+      "is_model_comparison": false,
+      "model_comparison": null,
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。"
+      },
+      "original_number_before_same_group_dedup": "042"
+    },
+    {
+      "number": "042",
+      "id": "2075027793491226677",
+      "url": "https://x.com/ComfyUI/status/2075027793491226677",
+      "author": "ComfyUI",
+      "created_at_iso": "2026-07-09T01:22:32+00:00",
+      "view_count": 472,
+      "like_count": 4,
+      "input_mode": "text_prompt_or_text_input",
+      "input_mode_note": "当前记录中有可逐字定位的文本 prompt/input。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "text_after_marker",
+          "type": "direct_prompt",
+          "content": "A sci-fi cyberpunk graphic design poster. In the center, a striking portrait of a female android with glossy, liquid chrome skin. A vivid swirling streak of neon orange, yellow, and pink liquid paint brush stroke horizontally covers her eyes, soft smudged color overlay with smooth flowing pigment texture, no cracks or broken facial surfaces. The background is a dark, textured charcoal gray. Behind the central figure, large bold white futuristic typography reads \"Seedream 5.0 Pro\" with a subtle digital glitch and halftone texture. The composition is decorated with technical HUD elements, thin white lines, geometric wireframe diagrams, barcodes, and small sci-fi text boxes. Semi-transparent glassy spheres with grid textures overlap the foreground, creating depth. The overall mood is high-tech, dystopian, and avant-garde.",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "",
+      "media_folder": "media/042",
+      "media_files": [
+        "media/042/01.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMv6yDTawAAyhoW.jpg"
+      ],
+      "media_group": null,
+      "is_model_comparison": false,
+      "model_comparison": null,
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。"
+      },
+      "original_number_before_same_group_dedup": "046"
+    },
+    {
+      "number": "043",
+      "id": "2075059699112652908",
+      "url": "https://x.com/renataro9/status/2075059699112652908",
+      "author": "renataro9",
+      "created_at_iso": "2026-07-09T03:29:19+00:00",
+      "view_count": 465,
+      "like_count": 18,
+      "input_mode": "image_edit_with_text_instruction",
+      "input_mode_note": "输入是 before image + 简短编辑指令。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "text",
+          "type": "direct_edit_instruction",
+          "content": "すっぴんメイクにして",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "这条更准确地说是视觉输入/图片编辑/标记修改任务，不应强行当作纯文本 prompt。",
+      "media_folder": "media/043",
+      "media_files": [
+        "media/043/01.jpg",
+        "media/043/02.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMwXj5aaAAAacEs.jpg",
+        "https://pbs.twimg.com/media/HMwXkyDaEAAeX23.jpg"
+      ],
+      "media_group": null,
+      "is_model_comparison": false,
+      "model_comparison": null,
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。"
+      },
+      "original_number_before_same_group_dedup": "047"
+    },
+    {
+      "number": "044",
+      "id": "2075027810666914062",
+      "url": "https://x.com/ComfyUI/status/2075027810666914062",
+      "author": "ComfyUI",
+      "created_at_iso": "2026-07-09T01:22:36+00:00",
+      "view_count": 436,
+      "like_count": 4,
+      "input_mode": "text_prompt_or_text_input",
+      "input_mode_note": "当前记录中有可逐字定位的文本 prompt/input。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "text_after_marker",
+          "type": "direct_prompt",
+          "content": "An editorial graphic design poster on a solid black background. The central elements are exquisite, translucent 3D glass flowers with iridescent, holographic petals in shades of electric blue, violet, and soft purple. In the background, large, bold white sans-serif typography reads \"Seedream 5.0 Pro\", elegantly layered behind and interwoven with the glass petals. The layout is filled with clean blocks of small white placeholder body text and delicate thin white vector lines, creating a futuristic, tech-organic informational poster. High-contrast, sharp details, refractive glass textures, glossy finish, professional UI/UX design aesthetic.",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "",
+      "media_folder": "media/044",
+      "media_files": [
+        "media/044/01.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMv6y_ubcAAfVrP.jpg"
+      ],
+      "media_group": null,
+      "is_model_comparison": false,
+      "model_comparison": null,
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。"
+      },
+      "original_number_before_same_group_dedup": "048"
+    },
+    {
+      "number": "047",
+      "id": "2075063569486598281",
+      "url": "https://x.com/iamrealsnow/status/2075063569486598281",
+      "author": "iamrealsnow",
+      "created_at_iso": "2026-07-09T03:44:42+00:00",
+      "view_count": 357,
+      "like_count": 28,
+      "input_mode": "text_prompt_or_text_input",
+      "input_mode_note": "当前记录中有可逐字定位的文本 prompt/input。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "text_after_marker",
+          "type": "direct_prompt",
+          "content": "Ultra-realistic premium sports footwear commercial advertisement featuring a modern running shoe floating horizontally at the center of a futuristic cyan and deep blue gradient background. The sneaker is displayed in a clean side profile with ultra-detailed breathable knit mesh texture, glossy air-cushion sole, realistic stitching, premium materials, and crisp branding. Soft cinematic studio lighting creates realistic reflections, shadows, and depth. The composition is designed as a futuristic e-commerce product showcase inside a rounded glass-inspired interface with glowing white borders and translucent frosted panels. Large semi-transparent typography spelling the shoe model fills the background, creating depth without overpowering the product. Minimal modern UI elements surround the shoe, including elegant category labels, product title, search icon, shopping bag icon, menu icon, zoom percentage indicator connected by thin curved lines, price tag, size selector, color option, and a glowing rounded “BUY NOW” button. Add subtle neon cyan highlights, holographic interface accents, floating particles, soft bloom, and glassmorphism effects. Use a premium blue color palette with turquoise gradients, high-end sports branding aesthetics, luxury product presentation, Apple-inspired minimalism, futuristic web UI, perfect spacing, clean typography, ultra-sharp details, cinematic lighting, soft ambient glow, 3D depth, photorealistic textures, commercial advertising quality, Behance award-winning layout, 8K, HDR, octane render, Unreal Engine, global illumination, ray-traced reflections, ultra-realistic product photography.",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "",
+      "media_folder": "media/047",
+      "media_files": [
+        "media/047/01.jpg",
+        "media/047/02.jpg",
+        "media/047/03.jpg",
+        "media/047/04.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMwbTL0bcAAvtse.jpg",
+        "https://pbs.twimg.com/media/HMwbTM4aAAIV59s.jpg",
+        "https://pbs.twimg.com/media/HMwbTMbaIAAXsyD.jpg",
+        "https://pbs.twimg.com/media/HMwbTLZb0AAUI1X.jpg"
+      ],
+      "media_group": null,
+      "is_model_comparison": false,
+      "model_comparison": null,
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。"
+      },
+      "original_number_before_same_group_dedup": "051"
+    },
+    {
+      "number": "050",
+      "id": "2075063250656621054",
+      "url": "https://x.com/Strength04_X/status/2075063250656621054",
+      "author": "Strength04_X",
+      "created_at_iso": "2026-07-09T03:43:26+00:00",
+      "view_count": 333,
+      "like_count": 19,
+      "input_mode": "text_prompt_or_text_input",
+      "input_mode_note": "当前记录中有可逐字定位的文本 prompt/input。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "text_after_marker",
+          "type": "direct_prompt",
+          "content": "A messy fun kids advertisement poster. A laughing young girl age 6 with clay all over her hands proudly shows a lumpy clay sculpture beside a giant colorful clay set box 3x her height overflowing with clay blocks in every color, \"SQUISHCRAFT\" written in big squishy letters on the box. Bright cheerful craft room background with clay sculptures tools and colorful handprints on the walls. Big squishy rounded typography \"SQUISHCRAFT\" in rainbow colors filling the background. Tagline bottom: \"Get your hands messy.\" Small text top-right corner reads \"Designed with Seedream 5.0 Pro \" in grey. Photorealistic, fun kids craft product commercial, bright warm playroom lighting.",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "",
+      "media_folder": "media/050",
+      "media_files": [
+        "media/050/01.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMwbBLLasAAPnLu.jpg"
+      ],
+      "media_group": null,
+      "is_model_comparison": false,
+      "model_comparison": null,
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。"
+      },
+      "original_number_before_same_group_dedup": "054"
+    },
+    {
+      "number": "052",
+      "id": "2075035201391255593",
+      "url": "https://x.com/haruuraeadss/status/2075035201391255593",
+      "author": "haruuraeadss",
+      "created_at_iso": "2026-07-09T01:51:58+00:00",
+      "view_count": 293,
+      "like_count": 8,
+      "input_mode": "text_prompt_or_text_input",
+      "input_mode_note": "当前记录中有可逐字定位的文本 prompt/input。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "text_after_marker",
+          "type": "direct_prompt",
+          "content": "元画像の構図、人物の横顔、顔の輪郭、髪型、花飾り、白いドレス、藤の花の背景、全体の淡いピンクとラベンダーの幻想的な雰囲気はそのまま維持してください。 局所的に、少女の視線の先にいる紫の蝶を、より美しく印象的な「光をまとった宝石のような蝶」に変更してください。蝶の羽は透明感のある紫、水晶、ラベンダー、淡いピンクのグラデーションで、細かな発光粒子と繊細な羽脈を持たせてください。 蝶から少女の瞳へ向かって、細い光の粒子と柔らかな魔法の軌跡を追加してください。光は強すぎず、白飛びさせず、既存の明るく儚い花園の空気感に自然に溶け込ませてください。 少女の紫色の瞳には、蝶の光が小さく反射しているような宝石風のハイライトを少しだけ追加してください。瞳の形、顔立ち、表情、年齢感は変えないでください。 前髪の一部にも、蝶の淡い紫光がわずかに反射しているようにしてください。ただし髪色全体は変えず、ピンクブロンドの柔らかさを維持してください。 全体は高品質な日本アニメイラスト、幻想的、透明感、春の花園、上品、繊細、儚い美しさ。過度な発光、派手な魔法陣、強いコントラスト、顔の変形、衣装変更、背景変更は避けてください。 顔を変えない、横顔を変えない、鼻を変えない、口を変えない、顎を変えない、髪型を変えない、花飾りを変えない、服を変えない、背景全体を変えない、暗くしない、ホラーにしない、強すぎる発光にしない、魔法陣を追加しない、羽を大きくしすぎない、蝶を主役にしすぎない、白飛びさせない、彩度を上げすぎない",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "",
+      "media_folder": "media/052",
+      "media_files": [
+        "media/052/01.jpg",
+        "media/052/02.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMv_Xn3bAAAiHQ2.jpg",
+        "https://pbs.twimg.com/media/HMv_cFLawAAxkFT.jpg"
+      ],
+      "media_group": null,
+      "is_model_comparison": false,
+      "model_comparison": null,
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。"
+      },
+      "original_number_before_same_group_dedup": "056"
+    },
+    {
+      "number": "056",
+      "id": "2074959714366922857",
+      "url": "https://x.com/Bic_Revelation/status/2074959714366922857",
+      "author": "Bic_Revelation",
+      "created_at_iso": "2026-07-08T20:52:01+00:00",
+      "view_count": 206,
+      "like_count": 8,
+      "input_mode": "text_prompt_or_text_input",
+      "input_mode_note": "当前记录中有可逐字定位的文本 prompt/input。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "alt",
+          "type": "direct_prompt",
+          "content": "With its crystal-clear waters, white sandy beaches, and vibrant coral reefs, the Maldives is a tropical paradise perfect for exotic and tranquil visuals. SIGNATURE: 'BicRevelation' cursive script lower-left.",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "",
+      "media_folder": "media/056",
+      "media_files": [
+        "media/056/01.jpg",
+        "media/056/02.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMu8AX3WMAAquvx.jpg",
+        "https://pbs.twimg.com/media/HMu8AkwWMAAUGz4.jpg"
+      ],
+      "media_group": null,
+      "is_model_comparison": true,
+      "model_comparison": {
+        "models": [
+          "Previous model",
+          "Seedream 5.0 Pro"
+        ],
+        "evidence": "Right: Previous model Left: Seedream 5.0 Pro",
+        "layout_note": "原文明确 left/right。"
+      },
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。",
+        "known_pattern": "model_comparison",
+        "evidence": "Right: Previous model Left: Seedream 5.0 Pro"
+      },
+      "original_number_before_same_group_dedup": "060"
+    },
+    {
+      "number": "058",
+      "id": "2074870477651398972",
+      "url": "https://x.com/JennyAITech/status/2074870477651398972",
+      "author": "JennyAITech",
+      "created_at_iso": "2026-07-08T14:57:25+00:00",
+      "view_count": 179,
+      "like_count": 6,
+      "input_mode": "image_input_with_text_instruction",
+      "input_mode_note": "输入是 cat photo + mecha version 指令。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "text",
+          "type": "direct_prompt_fragment",
+          "content": "a pic of my cat, asked for a mecha version",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "这条更准确地说是视觉输入/图片编辑/标记修改任务，不应强行当作纯文本 prompt。",
+      "media_folder": "media/058",
+      "media_files": [
+        "media/058/01.jpg",
+        "media/058/02.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMtqwoYbMAE7yRn.jpg",
+        "https://pbs.twimg.com/media/HMtrDP3bYAAhgnM.jpg"
+      ],
+      "media_group": null,
+      "is_model_comparison": false,
+      "model_comparison": null,
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。"
+      },
+      "original_number_before_same_group_dedup": "062"
+    },
+    {
+      "number": "061",
+      "id": "2074866317484794131",
+      "url": "https://x.com/FloraTechAI/status/2074866317484794131",
+      "author": "FloraTechAI",
+      "created_at_iso": "2026-07-08T14:40:53+00:00",
+      "view_count": 153,
+      "like_count": 2,
+      "input_mode": "text_prompt_or_text_input",
+      "input_mode_note": "当前记录中有可逐字定位的文本 prompt/input。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "text",
+          "type": "direct_prompt_fragment",
+          "content": "design a bedroom for each MBTI type",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "",
+      "media_folder": "media/061",
+      "media_files": [
+        "media/061/01.jpg",
+        "media/061/02.jpg",
+        "media/061/03.jpg",
+        "media/061/04.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMtn4mDbIAAyuem.jpg",
+        "https://pbs.twimg.com/media/HMtn5X9bIAA8D0R.jpg",
+        "https://pbs.twimg.com/media/HMtn6E5aYAAQouz.jpg",
+        "https://pbs.twimg.com/media/HMtn6j5bMAARiMl.jpg"
+      ],
+      "media_group": null,
+      "is_model_comparison": false,
+      "model_comparison": null,
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。"
+      },
+      "original_number_before_same_group_dedup": "065"
+    },
+    {
+      "number": "062",
+      "id": "2074966196563431636",
+      "url": "https://x.com/sulekhat95/status/2074966196563431636",
+      "author": "sulekhat95",
+      "created_at_iso": "2026-07-08T21:17:46+00:00",
+      "view_count": 152,
+      "like_count": 0,
+      "input_mode": "text_prompt_or_text_input",
+      "input_mode_note": "当前记录中有可逐字定位的文本 prompt/input。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "text",
+          "type": "direct_prompt_description",
+          "content": "16-panel storyboard from ONE prompt: numbered frames, consistent characters, coherent camera logic across a whole cavalry charge",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "",
+      "media_folder": "media/062",
+      "media_files": [
+        "media/062/01.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMvCvu5aYAAEhFf.jpg"
+      ],
+      "media_group": null,
+      "is_model_comparison": false,
+      "model_comparison": null,
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。"
+      },
+      "original_number_before_same_group_dedup": "066"
+    },
+    {
+      "number": "065",
+      "id": "2075000114427375742",
+      "url": "https://x.com/emmanuel_2m/status/2075000114427375742",
+      "author": "emmanuel_2m",
+      "created_at_iso": "2026-07-08T23:32:33+00:00",
+      "view_count": 115,
+      "like_count": 1,
+      "input_mode": "text_prompt_or_text_input",
+      "input_mode_note": "当前记录中有可逐字定位的文本 prompt/input。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "quoted_text",
+          "type": "direct_prompt",
+          "content": "stylized stylized fantasy village watermill, two-story half-timbered red-clay tower w/ thatched conical roof, big wooden water-wheel, attached small thatched cottage, wooden walkways and stairs, lush green meadow w/ stones, painterly Genshin-Impact / Studio Ghibli env art, fluffy cumulus clouds, sunny midday",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "",
+      "media_folder": "media/065",
+      "media_files": [
+        "media/065/01.jpg",
+        "media/065/02.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMvhgeBXkAABXjq.jpg",
+        "https://pbs.twimg.com/media/HMvhhLhXMAA5p3E.jpg"
+      ],
+      "media_group": null,
+      "is_model_comparison": true,
+      "model_comparison": {
+        "models": [
+          "GPT Image 2",
+          "Seedream 5.0 Pro"
+        ],
+        "evidence": "GPT Image 2 (left) vs. Seedream 5.0 Pro (right)",
+        "layout_note": "原文明确 left/right。"
+      },
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。",
+        "known_pattern": "model_comparison",
+        "evidence": "GPT Image 2 (left) vs. Seedream 5.0 Pro (right)"
+      },
+      "original_number_before_same_group_dedup": "071"
+    },
+    {
+      "number": "066",
+      "id": "2075046425277399261",
+      "url": "https://x.com/cso6709/status/2075046425277399261",
+      "author": "cso6709",
+      "created_at_iso": "2026-07-09T02:36:34+00:00",
+      "view_count": 114,
+      "like_count": 1,
+      "input_mode": "text_prompt_or_text_input",
+      "input_mode_note": "当前记录中有可逐字定位的文本 prompt/input。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "text_after_marker",
+          "type": "direct_prompt",
+          "content": "A straight-on medium-wide cinematic shot at eye-level, static locked frame, 4:5 vertical, captures a sun-bright late-morning inside a Lake Como villa courtyard room, camera perpendicular to the wall plane with no tilt, the atmosphere crisp and alive like the minute before heading out for gelato, the wall behind the scene a warm hand-troweled sable butter-yellow lime plaster slightly uneven with soft sun-bleach along the upper right edge, the floor matte burnt-terracotta chili tile grounding the frame, grout lines aged and dusty. Centered lower in the frame, a fully restored 1965 Vespa Primavera in glossy melon-orange lacquer parked on its side stand parallel to the camera, full profile visible, polished chrome Vespa badge on the legshield catching light, round chrome headlamp glinting, chrome handlebars and mirrors, aged cognac brown leather saddle, a silk twill scarf in marine navy, chili orange, cream and cognac pattern loosely tied around the right handlebar with tails cascading down, a small wicker basket bag on the left handlebar spilling a baguette and green grapes. The subject is a stunning World Cup beauty in her mid-twenties, with radiant sun-kissed skin and natural healthy glow, long silky dark chestnut brown hair loosely pulled into a soft low bun with gentle face-framing waves, striking hazel eyes with bright lively spark looking directly into the camera, high cheekbones, full lips in a soft warm cognac-rose shade with corners gently lifted in quiet joy. She is seated sideways on the Vespa saddle, body in a bright open three-quarter twist toward the camera, both legs crossed at the ankles on the same side, knees angled toward the lens, one hand resting lightly on the chrome handlebar, the other arm relaxed behind her on the rear of the saddle. Shoulders open and relaxed, natural breathing pose. She wears a fitted cream football jersey with subtle gold embroidery and thin spaghetti straps, tucked into a flowing cream bias-cut midi skirt that falls mid-calf, a slim cognac leather belt at the waist, flat cognac leather Roman sandals with ankle ties, stack of thin gold bangles on one wrist, delicate gold chain with small gold-and-coral pendant, small gold hoop earrings. Miu Miu oval sunglasses with thin gold frames and warm cognac lenses pushed up on her head. A cream quilted Miu Miu matelassé crossbody bag with gold chain slung across her torso. Natural skin texture with soft luminosity, gentle sheen on nose and lips, crisp morning sunlight, cinematic color grading, highly detailed, photorealistic, Slim Aarons style with modern World Cup energy.",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "",
+      "media_folder": "media/066",
+      "media_files": [
+        "media/066/01.jpg",
+        "media/066/02.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMwLnEra4AAp63F.jpg",
+        "https://pbs.twimg.com/media/HMwLpZlbYAAHMMi.jpg"
+      ],
+      "media_group": null,
+      "is_model_comparison": true,
+      "model_comparison": {
+        "models": [
+          "Banana Pro",
+          "Seedream 5.0 Pro"
+        ],
+        "evidence": "Banana Pro(Left) vs Seedream 5.0 Pro(Right)",
+        "layout_note": "原文明确 left/right。"
+      },
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。",
+        "known_pattern": "model_comparison",
+        "evidence": "Banana Pro(Left) vs Seedream 5.0 Pro(Right)"
+      },
+      "original_number_before_same_group_dedup": "072"
+    },
+    {
+      "number": "069",
+      "id": "2075060881067769903",
+      "url": "https://x.com/asatoucan/status/2075060881067769903",
+      "author": "asatoucan",
+      "created_at_iso": "2026-07-09T03:34:01+00:00",
+      "view_count": 106,
+      "like_count": 1,
+      "input_mode": "text_prompt_or_text_input",
+      "input_mode_note": "当前记录中有可逐字定位的文本 prompt/input。",
+      "prompt_extraction_status": "extracted",
+      "prompt_extracts": [
+        {
+          "source": "text_after_marker",
+          "type": "direct_prompt",
+          "content": "A girl with a sharp bob cut, purple hair with black accent strands, stylized layered hair flowing in the wind, wearing layered cloth with black accents, riding a skateboard through a vibrant concrete skate park, captured from a dramatic high angle looking down at the front profile, dynamic action pose, body leaning into a turn, skate park ramps, rails, and colorful graffiti walls sprawling below, cel shaded, toon shading, hard shadows, bold outlines, anime style, vibrant flat colors, crisp line art, key visual quality, bright late afternoon sunlight casting strong contrast, warm orange and purple sky, energetic youthful vibe, 8K detail, slight motion blur on wheels, dynamic perspective looking down #lovart #lovartpartner",
+          "preserves_original_text": true
+        },
+        {
+          "source": "alt",
+          "type": "direct_prompt",
+          "content": "A girl with a sharp bob cut, purple hair with black accent strands, stylized layered hair flowing in the wind, wearing layered cloth with black accents, riding a skateboard through a vibrant concrete skate park, captured from a dramatic high angle looking down at the front profile, dynamic action pose, body leaning into a turn, skate park ramps, rails, and colorful graffiti walls sprawling below, cel shaded, toon shading, hard shadows, bold outlines, anime style, vibrant flat colors, crisp line art, key visual quality, bright late afternoon sunlight casting strong contrast, warm orange and purple sky, energetic youthful vibe, 8K detail, slight motion blur on wheels, dynamic perspective looking down",
+          "preserves_original_text": true
+        },
+        {
+          "source": "alt",
+          "type": "direct_prompt",
+          "content": "A girl with a sharp bob cut, purple hair with black accent strands, stylized layered hair swept back by the wind, wearing layered cloth with black accents, cruising on a skateboard through a colorful skate park, captured from a medium shot side profile, one foot on the board the other pushing off the ground, relaxed confident posture, skate park ramps, rails, and vibrant graffiti walls passing in the background, high-quality cartoon animation, stylized cel-shaded rendering, bold clean outlines, flat vibrant colors, expressive character design, smooth animated aesthetic, warm golden-hour glow, playful energetic mood, strong silhouette, clear readable pose",
+          "preserves_original_text": true
+        },
+        {
+          "source": "alt",
+          "type": "direct_prompt",
+          "content": "A girl with a sharp bob cut, purple hair with black accent strands, stylized layered hair, wearing layered cloth with black accents, standing at the corner edge of a skate park ramp, skateboard positioned underfoot, poised and ready to launch, captured from a cinematic over-the-shoulder shot from the corner side, peering past her shoulder toward the same corner direction she's facing, tense anticipation in the posture, knees bent, weight shifted forward, concrete skate park ramps and rails stretching out below, cinematic still, anamorphic lens, film grain, rich contrast, cinematic color grading, dramatic shadows, low golden-hour sun casting a long shadow forward, warm rim light on the shoulder and hair, 8K resolution, shallow depth of field, motion blur creeping at the edges, suspenseful action moment",
+          "preserves_original_text": true
+        },
+        {
+          "source": "alt",
+          "type": "direct_prompt",
+          "content": "A girl with a sharp bob cut, purple hair with black accent strands, stylized layered hair slightly tousled, wearing layered cloth with black accents, standing at a concrete skate park holding her skateboard under one arm, captured from a medium shot, casual confident pose, one hand flashing a peace sign, tongue playfully sticking out, skateboard tucked at her side, skate park ramps and graffiti walls in the softly blurred background, cinematic still, anamorphic lens, film grain, rich contrast, cinematic color grading, soft natural afternoon light, warm golden tones, playful rebellious attitude, 8K resolution, shallow depth of field, sharp focus on the face and peace sign, editorial finish",
+          "preserves_original_text": true
+        }
+      ],
+      "prompt_references": [],
+      "prompt_extraction_notes": "",
+      "media_folder": "media/069",
+      "media_files": [
+        "media/069/01.jpg",
+        "media/069/02.jpg",
+        "media/069/03.jpg",
+        "media/069/04.jpg"
+      ],
+      "image_source_urls": [
+        "https://pbs.twimg.com/media/HMwYFuAawAE2BGw.jpg",
+        "https://pbs.twimg.com/media/HMwYbvbbkAA2FiX.jpg",
+        "https://pbs.twimg.com/media/HMwYnSObYAE5NCe.jpg",
+        "https://pbs.twimg.com/media/HMwXqEoacAAPqx8.jpg"
+      ],
+      "media_group": null,
+      "is_model_comparison": false,
+      "model_comparison": null,
+      "media_role_review": {
+        "status": "needs_manual_per_image_review",
+        "note": "当前只标注条目级别的同组/模型对比信息；每张图片的 input/output/model 角色需要根据图像和原文进一步人工确认。"
+      },
+      "original_number_before_same_group_dedup": "075"
+    }
+  ]
+}

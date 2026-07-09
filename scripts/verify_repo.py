@@ -37,6 +37,14 @@ EXPECTED_CATEGORY_COUNTS = {
     "visual-quality-narrative": 5,
     "multilingual-text-rendering": 5,
 }
+EXPECTED_COMMUNITY_CATEGORY_COUNTS = {
+    "community-editing-control": 3,
+    "community-product-interface-design": 4,
+    "community-technical-structured-visuals": 4,
+    "community-cinematic-character-visuals": 10,
+    "community-concept-environment-worldbuilding": 3,
+    "community-model-comparisons": 11,
+}
 EXPECTED_PROMPT_CASES = {2, 13, 15}
 EXPECTED_GIF_STEMS = {
     "003-arrows-annotation-boxes",
@@ -64,6 +72,10 @@ def read_text(path: Path) -> str:
 
 def case_numbers(text: str) -> list[int]:
     return [int(match) for match in re.findall(r"^### Case ([0-9]+):", text, re.MULTILINE)]
+
+
+def community_case_numbers(text: str) -> list[int]:
+    return [int(match) for match in re.findall(r"^### Community Use Case ([0-9]+):", text, re.MULTILINE)]
 
 
 def media_refs(text: str, *, local_only: bool = True) -> list[str]:
@@ -109,12 +121,12 @@ def verify_readme(rel: str, source_case_numbers: list[int], source_media_refs: s
     if len(numbers) != 25:
         fail(f"{rel} must contain exactly 25 public cases, found {len(numbers)}.", failures)
 
+    public_official_text = text.split('<a id="community-use-cases"></a>', 1)[0]
     forbidden = [
         "**Source mapping:**",
         REMOVED_SOURCE_NOTE_TOKEN,
         "docs/" + REMOVED_SOURCE_NOTE_TOKEN + ".md",
         "@官方",
-        "(by [@",
         "owner-provided launch export, section",
         "official section 3.1.1",
         "official section 3.1.3",
@@ -123,6 +135,8 @@ def verify_readme(rel: str, source_case_numbers: list[int], source_media_refs: s
     for token in forbidden:
         if token in text:
             fail(f"{rel} contains forbidden public provenance/source-mapping token: {token}", failures)
+    if "(by [@" in public_official_text:
+        fail(f"{rel} official gallery contains community-style author attribution.", failures)
 
     prompt_count = text.count("**Prompt:**")
     if prompt_count != len(EXPECTED_PROMPT_CASES):
@@ -130,6 +144,19 @@ def verify_readme(rel: str, source_case_numbers: list[int], source_media_refs: s
     for number in source_case_numbers:
         if f'<a id="case-{number}"></a>' not in text:
             fail(f"{rel} is missing explicit anchor for case {number}.", failures)
+    community_numbers = community_case_numbers(text)
+    if community_numbers != list(range(1, 36)):
+        fail(f"{rel} community use case numbers must be contiguous 1..35: {community_numbers}", failures)
+    if '<a id="community-use-cases"></a>' not in text:
+        fail(f"{rel} is missing Community Use Cases section.", failures)
+    if '<a id="prompt-library"></a>' not in text:
+        fail(f"{rel} is missing Prompt Library section.", failures)
+    for slug, expected in EXPECTED_COMMUNITY_CATEGORY_COUNTS.items():
+        if f'<a id="{slug}"></a>' not in text:
+            fail(f"{rel} is missing community category anchor: {slug}", failures)
+        category_section = text.split(f'<a id="{slug}"></a>', 1)[1].split("<a id=", 1)[0] if f'<a id="{slug}"></a>' in text else ""
+        if f"**{expected}**" not in category_section:
+            fail(f"{rel} community category {slug} must visibly declare {expected} items.", failures)
 
     refs = set(media_refs(text))
     all_refs = set(media_refs(text, local_only=False))
@@ -217,6 +244,27 @@ def main() -> int:
             fail(f"README missing category anchor: {cat_id}", failures)
         if f"Case count: **{expected}**." not in readme:
             fail(f"README missing visible case count for {cat_id}: {expected}", failures)
+
+    use_cases_path = ROOT / "data" / "use-cases.json"
+    try:
+        use_cases = json.loads(read_text(use_cases_path))
+    except (OSError, json.JSONDecodeError) as exc:
+        fail(f"Cannot read valid use case JSON: {exc}", failures)
+        use_cases = {"items": []}
+    if use_cases.get("official_case_count") != 25:
+        fail("data/use-cases.json must record official_case_count=25.")
+    if use_cases.get("community_usecase_count") != 35:
+        fail("data/use-cases.json must record community_usecase_count=35.")
+    community_items = use_cases.get("items", [])
+    if len(community_items) != 35:
+        fail(f"data/use-cases.json must contain 35 community items, found {len(community_items)}.")
+    for item in community_items:
+        for key in ["source_url", "author_url", "title", "date", "type", "category", "category_label", "tags", "takeaway", "dedup_key", "local_media_files", "prompt_text"]:
+            if key not in item:
+                fail(f"Community use case item missing key {key}: {item.get('number')}", failures)
+        for rel_media in item.get("local_media_files", []):
+            if not (ROOT / rel_media).is_file():
+                fail(f"Community use case media file is missing: {rel_media}", failures)
 
     if '<td width="50%" valign="top">' not in readme.split('### Case 13:', 1)[1].split('---', 1)[0]:
         fail("Case 13 before/after comparison must display both images in one row.")

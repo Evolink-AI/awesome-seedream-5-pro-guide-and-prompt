@@ -22,5 +22,18 @@
       "multilingual-text-rendering": 5
     },
     "dropped_reason": null
+  },
+  {
+    "id": "x-seedream5pro-community-2026-07-09",
+    "source_type": "x_community_usecase_package",
+    "source_url": null,
+    "public_source_label": "X community posts",
+    "exported_at": "2026-07-09",
+    "model": "Seedream 5.0 Pro",
+    "decision": "selected",
+    "reason": "First community usecase update from downloaded-media/selected-items.json; selected high-confidence items have source URL, author, date, extracted prompt/input, and local media.",
+    "selected_case_count": 35,
+    "source_package": "downloaded-media/selected-items.json",
+    "private_source_policy": "Raw X export path is retained only in local run evidence; public repository data uses per-case public source URLs."
   }
 ]

@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import re
+import subprocess
 import sys
 import time
 import urllib.error
@@ -106,8 +107,48 @@ def check_http(url: str, timeout: int) -> tuple[bool, str]:
     except urllib.error.HTTPError as exc:
         return False, f"HTTP {exc.code}"
     except Exception as exc:
-        return False, f"{last_error}; range GET {exc.__class__.__name__}"
-    return False, last_error
+        curl_ok, curl_detail = check_http_with_curl(url, timeout)
+        if curl_ok:
+            return True, f"{curl_detail} via curl after HEAD {last_error}; range GET {exc.__class__.__name__}"
+        return False, f"{last_error}; range GET {exc.__class__.__name__}; curl {curl_detail}"
+    curl_ok, curl_detail = check_http_with_curl(url, timeout)
+    if curl_ok:
+        return True, f"{curl_detail} via curl after HEAD {last_error}"
+    return False, f"{last_error}; curl {curl_detail}"
+
+
+def check_http_with_curl(url: str, timeout: int) -> tuple[bool, str]:
+    try:
+        result = subprocess.run(
+            [
+                "curl",
+                "-L",
+                "--range",
+                "0-0",
+                "--max-time",
+                str(timeout),
+                "-o",
+                "/dev/null",
+                "-w",
+                "%{http_code} %{content_type}",
+                url,
+            ],
+            check=False,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True,
+        )
+    except FileNotFoundError:
+        return False, "curl not available"
+    output = result.stdout.strip()
+    status_text = output.split(" ", 1)[0] if output else ""
+    try:
+        status = int(status_text)
+    except ValueError:
+        return False, output or result.stderr.strip() or "curl produced no status"
+    if 200 <= status < 400:
+        return True, f"HTTP {status} {output.split(' ', 1)[1] if ' ' in output else ''}".strip()
+    return False, f"HTTP {status} {result.stderr.strip()}".strip()
 
 
 def is_evolink_owned(url: str) -> bool:
