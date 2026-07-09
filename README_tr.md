@@ -88,7 +88,6 @@ EvoLink model girişini deneyin: [Seedream 5.0 Pro’yu EvoLink’te açın](htt
   - [Konsept sanat, ortam ve dünya kurma](#community-concept-environment-worldbuilding)
   - [Model karşılaştırmaları ve değerlendirmeleri](#community-model-comparisons)
 - [🧾 Prompt Kitaplığı](#prompt-library)
-- [🧩 Model notları](#model-notes)
 - [🙏 Teşekkür](#acknowledge)
 
 <a id="official-capability-gallery"></a>
@@ -1530,26 +1529,20 @@ Prompt-bearing community entries: **35**.
 - [Community Use Case 35: Lake Como fashion scene comparison against Banana Pro](#community-usecase-35)
   - Source: [post](https://x.com/cso6709/status/2075046425277399261) by [@cso6709](https://x.com/cso6709)
 
-<a id="model-notes"></a>
-
-## 🧩 Model notları
-
-| Alan | Kaynak destekli not |
-|---|---|
-| Model ID | Resmi materyalde `dola-seedream-5-0-pro-260628` listelenir; bunun ilk çalıştırma kanıtı olabilmesi için EvoLink runtime doğrulaması hâlâ gereklidir. |
-| Giriş görüntüleri | Resmi materyal, Seedream 5.0 Pro’nun en fazla 10 giriş görüntüsünü desteklediğini belirtir. |
-| Çıkış çözünürlüğü | Pro için 4K iddia etmeyin; kaynak materyal `<= 2.36M` piksel ve `> 2.36M` piksel civarında çıkış katmanlarını açıklar. |
-| Yerel prompt dilleri | Resmi materyal Arapça, İngilizce, Rusça, Endonezce, İspanyolca, Almanca, Türkçe, Portekizce, Malayca, Vietnamca, Fransızca, Japonca, Korece, Tagalogca ve Taycayı listeler. |
-| Seedream’den Seedance’e yol | Resmi materyal, Seedream 5.0 Pro/Lite çıktılarının hesap ve moderasyon koşulları altında Seedance ailesi image-to-video iş akışları için güvenilir girdiler olabileceğini belirtir. |
 
 <a id="acknowledge"></a>
 
 ## 🙏 Teşekkür
 
-Bu depo, 8 Temmuz 2026’da dışa aktarılan resmi Seedream 5.0 Pro lansman materyalinden ve case envanteri hakkındaki resmi düzeltmelerden oluşturuldu.
+Bu depo, 8 Temmuz 2026’da dışa aktarılan resmi Seedream 5.0 Pro lansman materyaline ve kullanım örneği galerisi ile prompt kitaplığında alıntılanan herkese açık topluluk gönderilerine dayanır.
 
-- Resmi özel kaynak URL’leri yalnızca yerel denetim kanıtlarında saklanır.
-- Prompt blokları yalnızca resmi materyalin prompt metni sağladığı yerlerde eklenir.
-- Yalnızca medya içeren case’ler yalnızca medya olarak kalır; eksik promptlar uydurulmaz.
+Resmi örnekler, ürün materyalleri ve teknik referanslar için Seedream ekibine teşekkürler.
 
-*Herhangi bir public case sınırının düzeltilmesi gerekiyorsa, somut kaynak kanıtıyla bir issue açın veya patch gönderin.*
+Bu depoda herkese açık gönderileri alıntılanan topluluk yazarlarına teşekkürler:
+
+- [@renataro9](https://x.com/renataro9), [@haruuraeadss](https://x.com/haruuraeadss), [@JennyAITech](https://x.com/JennyAITech), [@MishikaAI](https://x.com/MishikaAI), [@ComfyUI](https://x.com/ComfyUI), [@iamrealsnow](https://x.com/iamrealsnow), [@Strength04_X](https://x.com/Strength04_X), [@LiamEtherson](https://x.com/LiamEtherson)
+- [@AiwithZohaib](https://x.com/AiwithZohaib), [@munzxsdv](https://x.com/munzxsdv), [@sulekhat95](https://x.com/sulekhat95), [@magnific](https://x.com/magnific), [@BubbleBrain](https://x.com/BubbleBrain), [@mattworkman](https://x.com/mattworkman), [@SimplyAnnisa](https://x.com/SimplyAnnisa), [@Cia0_exe](https://x.com/Cia0_exe)
+- [@df_reno](https://x.com/df_reno), [@ChillaiKalan__](https://x.com/ChillaiKalan__), [@ashen_one](https://x.com/ashen_one), [@AllaAisling](https://x.com/AllaAisling), [@FloraTechAI](https://x.com/FloraTechAI), [@asatoucan](https://x.com/asatoucan), [@op7418](https://x.com/op7418), [@johnAGI168](https://x.com/johnAGI168)
+- [@liyue_ai](https://x.com/liyue_ai), [@marmaduke091](https://x.com/marmaduke091), [@hasamaru_studio](https://x.com/hasamaru_studio), [@emmanuel_2m](https://x.com/emmanuel_2m), [@DeepBlueAIX](https://x.com/DeepBlueAIX), [@roco_kn_roco](https://x.com/roco_kn_roco), [@Bic_Revelation](https://x.com/Bic_Revelation), [@cso6709](https://x.com/cso6709)
+
+Bir yazar attribution bilgisinin değiştirilmesini veya kaldırılmasını isterse, ilgili herkese açık gönderi bağlantısıyla issue açabilir.

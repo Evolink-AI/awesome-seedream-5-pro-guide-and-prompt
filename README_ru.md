@@ -88,7 +88,6 @@
   - [Концепт-арт, среда и worldbuilding](#community-concept-environment-worldbuilding)
   - [Сравнения и оценки моделей](#community-model-comparisons)
 - [🧾 Библиотека промптов](#prompt-library)
-- [🧩 Заметки о модели](#model-notes)
 - [🙏 Благодарности](#acknowledge)
 
 <a id="official-capability-gallery"></a>
@@ -1530,26 +1529,20 @@ Prompt-bearing community entries: **35**.
 - [Community Use Case 35: Lake Como fashion scene comparison against Banana Pro](#community-usecase-35)
   - Source: [post](https://x.com/cso6709/status/2075046425277399261) by [@cso6709](https://x.com/cso6709)
 
-<a id="model-notes"></a>
-
-## 🧩 Заметки о модели
-
-| Раздел | Заметка на основе источника |
-|---|---|
-| ID модели | В официальном материале указан `dola-seedream-5-0-pro-260628`; перед тем как считать это evidence первого запуска, всё ещё нужна runtime-проверка EvoLink. |
-| Входные изображения | Официальный материал указывает, что Seedream 5.0 Pro поддерживает до 10 входных изображений. |
-| Разрешение вывода | Не заявляйте 4K для Pro; исходный материал описывает уровни вывода около `<= 2.36M` пикселей и `> 2.36M` пикселей. |
-| Нативные языки prompt | Официальный материал перечисляет арабский, английский, русский, индонезийский, испанский, немецкий, турецкий, португальский, малайский, вьетнамский, французский, японский, корейский, тагальский и тайский. |
-| Путь Seedream к Seedance | Официальный материал указывает, что outputs Seedream 5.0 Pro/Lite могут быть доверенными inputs для workflows image-to-video семейства Seedance при соблюдении условий аккаунта и модерации. |
 
 <a id="acknowledge"></a>
 
 ## 🙏 Благодарности
 
-Этот репозиторий создан на основе официального материала запуска Seedream 5.0 Pro, экспортированного 8 июля 2026 года, и официальных исправлений списка кейсов.
+Этот репозиторий основан на официальных материалах запуска Seedream 5.0 Pro, экспортированных 8 июля 2026 года, а также на публичных постах сообщества, процитированных в галерее кейсов и библиотеке промптов.
 
-- Официальные приватные URL источников сохраняются только в локальных доказательствах аудита.
-- Блоки prompt включаются только там, где официальный материал предоставляет текст prompt.
-- Кейсы только с медиа остаются кейсами только с медиа; отсутствующие промпты не придумываются.
+Спасибо команде Seedream за официальные примеры, продуктовые материалы и технические ссылки.
 
-*Если границу публичного case нужно исправить, откройте issue или отправьте patch с конкретной source evidence.*
+Спасибо авторам сообщества, чьи публичные посты цитируются в этом репозитории:
+
+- [@renataro9](https://x.com/renataro9), [@haruuraeadss](https://x.com/haruuraeadss), [@JennyAITech](https://x.com/JennyAITech), [@MishikaAI](https://x.com/MishikaAI), [@ComfyUI](https://x.com/ComfyUI), [@iamrealsnow](https://x.com/iamrealsnow), [@Strength04_X](https://x.com/Strength04_X), [@LiamEtherson](https://x.com/LiamEtherson)
+- [@AiwithZohaib](https://x.com/AiwithZohaib), [@munzxsdv](https://x.com/munzxsdv), [@sulekhat95](https://x.com/sulekhat95), [@magnific](https://x.com/magnific), [@BubbleBrain](https://x.com/BubbleBrain), [@mattworkman](https://x.com/mattworkman), [@SimplyAnnisa](https://x.com/SimplyAnnisa), [@Cia0_exe](https://x.com/Cia0_exe)
+- [@df_reno](https://x.com/df_reno), [@ChillaiKalan__](https://x.com/ChillaiKalan__), [@ashen_one](https://x.com/ashen_one), [@AllaAisling](https://x.com/AllaAisling), [@FloraTechAI](https://x.com/FloraTechAI), [@asatoucan](https://x.com/asatoucan), [@op7418](https://x.com/op7418), [@johnAGI168](https://x.com/johnAGI168)
+- [@liyue_ai](https://x.com/liyue_ai), [@marmaduke091](https://x.com/marmaduke091), [@hasamaru_studio](https://x.com/hasamaru_studio), [@emmanuel_2m](https://x.com/emmanuel_2m), [@DeepBlueAIX](https://x.com/DeepBlueAIX), [@roco_kn_roco](https://x.com/roco_kn_roco), [@Bic_Revelation](https://x.com/Bic_Revelation), [@cso6709](https://x.com/cso6709)
+
+Если автор хочет изменить или удалить атрибуцию, откройте issue со ссылкой на соответствующий публичный пост.

@@ -88,7 +88,6 @@ Essayez le point d’entrée du modèle sur EvoLink : [ouvrir Seedream 5.0 Pro s
   - [Concept art, environnement et worldbuilding](#community-concept-environment-worldbuilding)
   - [Comparaisons et évaluations de modèles](#community-model-comparisons)
 - [🧾 Bibliothèque de prompts](#prompt-library)
-- [🧩 Notes du modèle](#model-notes)
 - [🙏 Remerciements](#acknowledge)
 
 <a id="official-capability-gallery"></a>
@@ -1530,26 +1529,20 @@ Prompt-bearing community entries: **35**.
 - [Community Use Case 35: Lake Como fashion scene comparison against Banana Pro](#community-usecase-35)
   - Source: [post](https://x.com/cso6709/status/2075046425277399261) by [@cso6709](https://x.com/cso6709)
 
-<a id="model-notes"></a>
-
-## 🧩 Notes du modèle
-
-| Élément | Note fondée sur la source |
-|---|---|
-| ID du modèle | Le matériel officiel mentionne `dola-seedream-5-0-pro-260628`; une vérification runtime EvoLink reste nécessaire avant d’en faire une preuve de première exécution. |
-| Images d’entrée | Le matériel officiel indique que Seedream 5.0 Pro prend en charge jusqu’à 10 images d’entrée. |
-| Résolution de sortie | Ne revendiquez pas la 4K pour Pro ; la source décrit des paliers de sortie autour de `<= 2.36M` pixels et `> 2.36M` pixels. |
-| Langues natives de prompt | Le matériel officiel cite l’arabe, l’anglais, le russe, l’indonésien, l’espagnol, l’allemand, le turc, le portugais, le malais, le vietnamien, le français, le japonais, le coréen, le tagalog et le thaï. |
-| Chemin Seedream vers Seedance | Le matériel officiel indique que les sorties Seedream 5.0 Pro/Lite peuvent devenir des entrées fiables pour les workflows image-vers-vidéo de la famille Seedance, sous conditions de compte et de modération. |
 
 <a id="acknowledge"></a>
 
 ## 🙏 Remerciements
 
-Ce dépôt a été créé à partir du matériel officiel de lancement Seedream 5.0 Pro exporté le 8 juillet 2026 et des corrections officielles concernant l’inventaire des cas.
+Ce dépôt s’appuie sur le matériel officiel de lancement Seedream 5.0 Pro exporté le 8 juillet 2026, ainsi que sur les publications publiques de la communauté citées dans la galerie de cas d’usage et la bibliothèque de prompts.
 
-- Les URL privées de source officielle sont conservées uniquement dans les preuves locales d’audit.
-- Les blocs de prompt ne sont inclus que lorsque le matériel officiel fournit le texte du prompt.
-- Les cas avec média uniquement restent média uniquement ; les prompts manquants ne sont pas inventés.
+Merci à l’équipe Seedream pour les exemples officiels, les supports produit et les références techniques.
 
-*Si une frontière de cas public doit être corrigée, ouvrez une issue ou envoyez un patch avec une preuve source concrète.*
+Merci aux auteurs de la communauté dont les publications publiques sont citées dans ce dépôt :
+
+- [@renataro9](https://x.com/renataro9), [@haruuraeadss](https://x.com/haruuraeadss), [@JennyAITech](https://x.com/JennyAITech), [@MishikaAI](https://x.com/MishikaAI), [@ComfyUI](https://x.com/ComfyUI), [@iamrealsnow](https://x.com/iamrealsnow), [@Strength04_X](https://x.com/Strength04_X), [@LiamEtherson](https://x.com/LiamEtherson)
+- [@AiwithZohaib](https://x.com/AiwithZohaib), [@munzxsdv](https://x.com/munzxsdv), [@sulekhat95](https://x.com/sulekhat95), [@magnific](https://x.com/magnific), [@BubbleBrain](https://x.com/BubbleBrain), [@mattworkman](https://x.com/mattworkman), [@SimplyAnnisa](https://x.com/SimplyAnnisa), [@Cia0_exe](https://x.com/Cia0_exe)
+- [@df_reno](https://x.com/df_reno), [@ChillaiKalan__](https://x.com/ChillaiKalan__), [@ashen_one](https://x.com/ashen_one), [@AllaAisling](https://x.com/AllaAisling), [@FloraTechAI](https://x.com/FloraTechAI), [@asatoucan](https://x.com/asatoucan), [@op7418](https://x.com/op7418), [@johnAGI168](https://x.com/johnAGI168)
+- [@liyue_ai](https://x.com/liyue_ai), [@marmaduke091](https://x.com/marmaduke091), [@hasamaru_studio](https://x.com/hasamaru_studio), [@emmanuel_2m](https://x.com/emmanuel_2m), [@DeepBlueAIX](https://x.com/DeepBlueAIX), [@roco_kn_roco](https://x.com/roco_kn_roco), [@Bic_Revelation](https://x.com/Bic_Revelation), [@cso6709](https://x.com/cso6709)
+
+Si un auteur souhaite modifier ou retirer son attribution, il peut ouvrir une issue avec le lien de la publication publique concernée.

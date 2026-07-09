@@ -88,7 +88,6 @@ EvoLink のモデル入口を試す: [EvoLink で Seedream 5.0 Pro を開く](ht
   - [コンセプトアート・環境・世界構築](#community-concept-environment-worldbuilding)
   - [モデル比較と評価](#community-model-comparisons)
 - [🧾 プロンプトライブラリ](#prompt-library)
-- [🧩 モデルメモ](#model-notes)
 - [🙏 謝辞](#acknowledge)
 
 <a id="official-capability-gallery"></a>
@@ -1529,26 +1528,20 @@ Prompt-bearing community entries: **35**.
 - [Community Use Case 35: Lake Como fashion scene comparison against Banana Pro](#community-usecase-35)
   - Source: [post](https://x.com/cso6709/status/2075046425277399261) by [@cso6709](https://x.com/cso6709)
 
-<a id="model-notes"></a>
-
-## 🧩 モデルメモ
-
-| 項目 | 出典に基づくメモ |
-|---|---|
-| モデルID | 公式資料は `dola-seedream-5-0-pro-260628` を記載しています。これを初回実行証拠とするには、EvoLink runtime 検証がまだ必要です。 |
-| 入力画像 | 公式資料では Seedream 5.0 Pro が最大10枚の入力画像をサポートすると説明されています。 |
-| 出力解像度 | Pro で 4K を主張しないでください。ソース資料は `<= 2.36M` ピクセルと `> 2.36M` ピクセル付近の出力階層を説明しています。 |
-| ネイティブ prompt 言語 | 公式資料はアラビア語、英語、ロシア語、インドネシア語、スペイン語、ドイツ語、トルコ語、ポルトガル語、マレー語、ベトナム語、フランス語、日本語、韓国語、タガログ語、タイ語を挙げています。 |
-| Seedream から Seedance への経路 | 公式資料では、Seedream 5.0 Pro/Lite の出力が、アカウントとモデレーション条件のもとで Seedance 系の画像から動画へのワークフローの信頼済み入力になり得ると説明されています。 |
 
 <a id="acknowledge"></a>
 
 ## 🙏 謝辞
 
-このリポジトリは、2026年7月8日にエクスポートされた Seedream 5.0 Pro の公式ローンチ資料と、ケース一覧に関する公式修正から作成されました。
+このリポジトリは、2026年7月8日にエクスポートされた Seedream 5.0 Pro の公式ローンチ資料と、ユースケースギャラリーおよびプロンプトライブラリで引用している公開コミュニティ投稿をもとに作成されています。
 
-- 公式の非公開ソース URL はローカル監査証拠にのみ保持します。
-- prompt ブロックは、公式資料が prompt テキストを提供している場合にのみ含めます。
-- メディアのみのケースはメディアのみのままにし、不足する prompt は作りません。
+公式サンプル、製品資料、技術リファレンスを提供してくれた Seedream チームに感謝します。
 
-*公開ケースの境界に修正が必要な場合は、具体的なソース証拠を添えて issue または patch を送ってください。*
+このリポジトリで引用している公開投稿のコミュニティ作者に感謝します：
+
+- [@renataro9](https://x.com/renataro9), [@haruuraeadss](https://x.com/haruuraeadss), [@JennyAITech](https://x.com/JennyAITech), [@MishikaAI](https://x.com/MishikaAI), [@ComfyUI](https://x.com/ComfyUI), [@iamrealsnow](https://x.com/iamrealsnow), [@Strength04_X](https://x.com/Strength04_X), [@LiamEtherson](https://x.com/LiamEtherson)
+- [@AiwithZohaib](https://x.com/AiwithZohaib), [@munzxsdv](https://x.com/munzxsdv), [@sulekhat95](https://x.com/sulekhat95), [@magnific](https://x.com/magnific), [@BubbleBrain](https://x.com/BubbleBrain), [@mattworkman](https://x.com/mattworkman), [@SimplyAnnisa](https://x.com/SimplyAnnisa), [@Cia0_exe](https://x.com/Cia0_exe)
+- [@df_reno](https://x.com/df_reno), [@ChillaiKalan__](https://x.com/ChillaiKalan__), [@ashen_one](https://x.com/ashen_one), [@AllaAisling](https://x.com/AllaAisling), [@FloraTechAI](https://x.com/FloraTechAI), [@asatoucan](https://x.com/asatoucan), [@op7418](https://x.com/op7418), [@johnAGI168](https://x.com/johnAGI168)
+- [@liyue_ai](https://x.com/liyue_ai), [@marmaduke091](https://x.com/marmaduke091), [@hasamaru_studio](https://x.com/hasamaru_studio), [@emmanuel_2m](https://x.com/emmanuel_2m), [@DeepBlueAIX](https://x.com/DeepBlueAIX), [@roco_kn_roco](https://x.com/roco_kn_roco), [@Bic_Revelation](https://x.com/Bic_Revelation), [@cso6709](https://x.com/cso6709)
+
+作者が attribution の変更または削除を希望する場合は、該当する公開投稿リンクを添えて issue を開いてください。

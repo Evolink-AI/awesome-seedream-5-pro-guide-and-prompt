@@ -88,7 +88,6 @@ Seedream 5.0 Pro 在官方发布材料中被定位为可控的图像生成与编
   - [概念艺术、环境与世界构建](#community-concept-environment-worldbuilding)
   - [模型对比与评估](#community-model-comparisons)
 - [🧾 Prompt Library](#prompt-library)
-- [🧩 模型备注](#model-notes)
 - [🙏 致谢](#acknowledge)
 
 <a id="official-capability-gallery"></a>
@@ -1530,26 +1529,20 @@ Prompt-bearing community entries: **35**.
 - [Community Use Case 35: Lake Como fashion scene comparison against Banana Pro](#community-usecase-35)
   - Source: [post](https://x.com/cso6709/status/2075046425277399261) by [@cso6709](https://x.com/cso6709)
 
-<a id="model-notes"></a>
-
-## 🧩 模型备注
-
-| 领域 | 有来源支撑的备注 |
-|---|---|
-| 模型 ID | 官方材料列出 `dola-seedream-5-0-pro-260628`；在它成为首次运行证据之前，仍需要 EvoLink runtime 验证。 |
-| 输入图像 | 官方材料说明 Seedream 5.0 Pro 最多支持 10 张输入图像。 |
-| 输出分辨率 | 不要声称 Pro 支持 4K；来源材料描述的输出档位围绕 `<= 2.36M` 像素和 `> 2.36M` 像素。 |
-| 原生 prompt 语言 | 官方材料列出阿拉伯语、英语、俄语、印尼语、西班牙语、德语、土耳其语、葡萄牙语、马来语、越南语、法语、日语、韩语、他加禄语和泰语。 |
-| Seedream 到 Seedance 路径 | 官方材料说明，在满足账号和审核条件时，Seedream 5.0 Pro/Lite 输出可以成为 Seedance 系列图生视频流程的可信输入。 |
 
 <a id="acknowledge"></a>
 
 ## 🙏 致谢
 
-本仓库基于 2026 年 7 月 8 日导出的 Seedream 5.0 Pro 官方发布材料，以及官方对 case 清单的修正创建。
+本仓库基于 2026 年 7 月 8 日导出的 Seedream 5.0 Pro 官方发布材料，以及 use case gallery 和 Prompt Library 中引用的公开社区帖子整理。
 
-- 官方私有来源 URL 只保留在本地审计证据中。
-- 只有官方材料提供 prompt 文本的地方才包含 prompt 代码块。
-- 只有媒体的 case 保持为纯媒体展示；不会编造缺失的 prompt。
+感谢 Seedream 团队提供官方案例、产品材料和技术参考，让这份基础 guide 能够成立。
 
-*如果任何公开 case 边界需要修正，请带着具体来源证据提交 issue 或 patch。*
+感谢以下社区作者的公开帖子，本仓库中的社区案例和 Prompt Library 均基于这些公开引用整理：
+
+- [@renataro9](https://x.com/renataro9), [@haruuraeadss](https://x.com/haruuraeadss), [@JennyAITech](https://x.com/JennyAITech), [@MishikaAI](https://x.com/MishikaAI), [@ComfyUI](https://x.com/ComfyUI), [@iamrealsnow](https://x.com/iamrealsnow), [@Strength04_X](https://x.com/Strength04_X), [@LiamEtherson](https://x.com/LiamEtherson)
+- [@AiwithZohaib](https://x.com/AiwithZohaib), [@munzxsdv](https://x.com/munzxsdv), [@sulekhat95](https://x.com/sulekhat95), [@magnific](https://x.com/magnific), [@BubbleBrain](https://x.com/BubbleBrain), [@mattworkman](https://x.com/mattworkman), [@SimplyAnnisa](https://x.com/SimplyAnnisa), [@Cia0_exe](https://x.com/Cia0_exe)
+- [@df_reno](https://x.com/df_reno), [@ChillaiKalan__](https://x.com/ChillaiKalan__), [@ashen_one](https://x.com/ashen_one), [@AllaAisling](https://x.com/AllaAisling), [@FloraTechAI](https://x.com/FloraTechAI), [@asatoucan](https://x.com/asatoucan), [@op7418](https://x.com/op7418), [@johnAGI168](https://x.com/johnAGI168)
+- [@liyue_ai](https://x.com/liyue_ai), [@marmaduke091](https://x.com/marmaduke091), [@hasamaru_studio](https://x.com/hasamaru_studio), [@emmanuel_2m](https://x.com/emmanuel_2m), [@DeepBlueAIX](https://x.com/DeepBlueAIX), [@roco_kn_roco](https://x.com/roco_kn_roco), [@Bic_Revelation](https://x.com/Bic_Revelation), [@cso6709](https://x.com/cso6709)
+
+如果作者希望调整或移除署名，请带上对应公开帖子链接提交 issue。

@@ -89,7 +89,6 @@ Try the model entry point on EvoLink: [Open Seedream 5.0 Pro on EvoLink](https:/
   - [Concept Art, Environment & Worldbuilding](#community-concept-environment-worldbuilding)
   - [Model Comparisons & Evaluations](#community-model-comparisons)
 - [🧾 Prompt Library](#prompt-library)
-- [🧩 Model Notes](#model-notes)
 - [🙏 Acknowledge](#acknowledge)
 
 <a id="official-capability-gallery"></a>
@@ -1915,26 +1914,20 @@ Prompt-bearing community entries: **35**.
 
   </details>
 
-<a id="model-notes"></a>
-
-## 🧩 Model Notes
-
-| Area | Source-backed note |
-|---|---|
-| Model ID | Official material lists `dola-seedream-5-0-pro-260628`; EvoLink runtime verification is still required before this becomes first-run evidence. |
-| Input images | Official material says Seedream 5.0 Pro supports up to 10 input images. |
-| Output resolution | Do not claim 4K for Pro; the source material describes output tiers around `<= 2.36M` pixels and `> 2.36M` pixels. |
-| Native prompt languages | Official material lists Arabic, English, Russian, Indonesian, Spanish, German, Turkish, Portuguese, Malay, Vietnamese, French, Japanese, Korean, Tagalog, and Thai. |
-| Seedream to Seedance path | Official material says Seedream 5.0 Pro/Lite outputs can become trusted inputs for Seedance-family image-to-video workflows, with account and moderation conditions. |
 
 <a id="acknowledge"></a>
 
 ## 🙏 Acknowledge
 
-This repository was created from official Seedream 5.0 Pro launch material exported on July 8, 2026 and from owner corrections about the case inventory.
+This repository builds on official Seedream 5.0 Pro launch material exported on July 8, 2026, plus public community posts cited in the use-case gallery and Prompt Library.
 
-- Official private source URLs are retained only in local audit evidence.
-- Prompt blocks are included only where the official material provides prompt text.
-- Media-only cases remain media-only; missing prompts are not invented.
+Thanks to the Seedream team for the official examples, product material, and technical references that made the baseline guide possible.
 
-*If any public case boundary needs correction, open an issue or send a patch with concrete source evidence.*
+Thanks to the community authors whose public posts are cited in this repository:
+
+- [@renataro9](https://x.com/renataro9), [@haruuraeadss](https://x.com/haruuraeadss), [@JennyAITech](https://x.com/JennyAITech), [@MishikaAI](https://x.com/MishikaAI), [@ComfyUI](https://x.com/ComfyUI), [@iamrealsnow](https://x.com/iamrealsnow), [@Strength04_X](https://x.com/Strength04_X), [@LiamEtherson](https://x.com/LiamEtherson)
+- [@AiwithZohaib](https://x.com/AiwithZohaib), [@munzxsdv](https://x.com/munzxsdv), [@sulekhat95](https://x.com/sulekhat95), [@magnific](https://x.com/magnific), [@BubbleBrain](https://x.com/BubbleBrain), [@mattworkman](https://x.com/mattworkman), [@SimplyAnnisa](https://x.com/SimplyAnnisa), [@Cia0_exe](https://x.com/Cia0_exe)
+- [@df_reno](https://x.com/df_reno), [@ChillaiKalan__](https://x.com/ChillaiKalan__), [@ashen_one](https://x.com/ashen_one), [@AllaAisling](https://x.com/AllaAisling), [@FloraTechAI](https://x.com/FloraTechAI), [@asatoucan](https://x.com/asatoucan), [@op7418](https://x.com/op7418), [@johnAGI168](https://x.com/johnAGI168)
+- [@liyue_ai](https://x.com/liyue_ai), [@marmaduke091](https://x.com/marmaduke091), [@hasamaru_studio](https://x.com/hasamaru_studio), [@emmanuel_2m](https://x.com/emmanuel_2m), [@DeepBlueAIX](https://x.com/DeepBlueAIX), [@roco_kn_roco](https://x.com/roco_kn_roco), [@Bic_Revelation](https://x.com/Bic_Revelation), [@cso6709](https://x.com/cso6709)
+
+If an author wants attribution changed or removed, please open an issue with the relevant public post link.

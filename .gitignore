@@ -7,5 +7,5 @@ __pycache__/
 local-audits/
 raw_export.json
 .codex/usecase-update-loop/
-downloaded-media/items.json
-downloaded-media/media/
+docs/
+downloaded-media/

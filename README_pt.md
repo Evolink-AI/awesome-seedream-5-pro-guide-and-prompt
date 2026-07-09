@@ -88,7 +88,6 @@ Experimente o ponto de entrada do modelo no EvoLink: [abrir Seedream 5.0 Pro no 
   - [Arte conceitual, ambiente e worldbuilding](#community-concept-environment-worldbuilding)
   - [Comparações e avaliações de modelos](#community-model-comparisons)
 - [🧾 Biblioteca de prompts](#prompt-library)
-- [🧩 Notas do modelo](#model-notes)
 - [🙏 Agradecimentos](#acknowledge)
 
 <a id="official-capability-gallery"></a>
@@ -1530,26 +1529,20 @@ Prompt-bearing community entries: **35**.
 - [Community Use Case 35: Lake Como fashion scene comparison against Banana Pro](#community-usecase-35)
   - Source: [post](https://x.com/cso6709/status/2075046425277399261) by [@cso6709](https://x.com/cso6709)
 
-<a id="model-notes"></a>
-
-## 🧩 Notas do modelo
-
-| Área | Nota com base na fonte |
-|---|---|
-| ID do modelo | O material oficial lista `dola-seedream-5-0-pro-260628`; a verificação de runtime na EvoLink ainda é necessária antes que isso se torne evidência de primeira execução. |
-| Imagens de entrada | O material oficial diz que Seedream 5.0 Pro suporta até 10 imagens de entrada. |
-| Resolução de saída | Não afirme que o Pro oferece 4K; o material fonte descreve níveis de saída em torno de `<= 2.36M` pixels e `> 2.36M` pixels. |
-| Idiomas nativos de prompt | O material oficial lista árabe, inglês, russo, indonésio, espanhol, alemão, turco, português, malaio, vietnamita, francês, japonês, coreano, tagalo e tailandês. |
-| Caminho de Seedream para Seedance | O material oficial diz que saídas do Seedream 5.0 Pro/Lite podem se tornar entradas confiáveis para fluxos imagem-para-vídeo da família Seedance, com condições de conta e moderação. |
 
 <a id="acknowledge"></a>
 
 ## 🙏 Agradecimentos
 
-Este repositório foi criado a partir do material oficial de lançamento do Seedream 5.0 Pro exportado em 8 de julho de 2026 e de correções oficiais sobre o inventário de casos.
+Este repositório se baseia no material oficial de lançamento do Seedream 5.0 Pro exportado em 8 de julho de 2026 e nas publicações públicas da comunidade citadas na galeria de casos de uso e na biblioteca de prompts.
 
-- URLs privadas da fonte oficial são mantidas apenas em evidência local de auditoria.
-- Blocos de prompt são incluídos apenas quando o material oficial fornece texto de prompt.
-- Casos somente com mídia permanecem somente com mídia; prompts ausentes não são inventados.
+Obrigado à equipe Seedream pelos exemplos oficiais, materiais de produto e referências técnicas.
 
-*Se algum limite de case público precisar de correção, abra uma issue ou envie um patch com evidência concreta da fonte.*
+Obrigado aos autores da comunidade cujas publicações públicas são citadas neste repositório:
+
+- [@renataro9](https://x.com/renataro9), [@haruuraeadss](https://x.com/haruuraeadss), [@JennyAITech](https://x.com/JennyAITech), [@MishikaAI](https://x.com/MishikaAI), [@ComfyUI](https://x.com/ComfyUI), [@iamrealsnow](https://x.com/iamrealsnow), [@Strength04_X](https://x.com/Strength04_X), [@LiamEtherson](https://x.com/LiamEtherson)
+- [@AiwithZohaib](https://x.com/AiwithZohaib), [@munzxsdv](https://x.com/munzxsdv), [@sulekhat95](https://x.com/sulekhat95), [@magnific](https://x.com/magnific), [@BubbleBrain](https://x.com/BubbleBrain), [@mattworkman](https://x.com/mattworkman), [@SimplyAnnisa](https://x.com/SimplyAnnisa), [@Cia0_exe](https://x.com/Cia0_exe)
+- [@df_reno](https://x.com/df_reno), [@ChillaiKalan__](https://x.com/ChillaiKalan__), [@ashen_one](https://x.com/ashen_one), [@AllaAisling](https://x.com/AllaAisling), [@FloraTechAI](https://x.com/FloraTechAI), [@asatoucan](https://x.com/asatoucan), [@op7418](https://x.com/op7418), [@johnAGI168](https://x.com/johnAGI168)
+- [@liyue_ai](https://x.com/liyue_ai), [@marmaduke091](https://x.com/marmaduke091), [@hasamaru_studio](https://x.com/hasamaru_studio), [@emmanuel_2m](https://x.com/emmanuel_2m), [@DeepBlueAIX](https://x.com/DeepBlueAIX), [@roco_kn_roco](https://x.com/roco_kn_roco), [@Bic_Revelation](https://x.com/Bic_Revelation), [@cso6709](https://x.com/cso6709)
+
+Se algum autor quiser alterar ou remover a atribuição, abra uma issue com o link da publicação pública correspondente.

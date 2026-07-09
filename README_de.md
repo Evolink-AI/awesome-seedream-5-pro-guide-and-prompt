@@ -88,7 +88,6 @@ Teste den Modelleinstieg auf EvoLink: [Seedream 5.0 Pro auf EvoLink öffnen](htt
   - [Concept Art, Environment und Worldbuilding](#community-concept-environment-worldbuilding)
   - [Modellvergleiche und Bewertungen](#community-model-comparisons)
 - [🧾 Prompt-Bibliothek](#prompt-library)
-- [🧩 Modellnotizen](#model-notes)
 - [🙏 Danksagung](#acknowledge)
 
 <a id="official-capability-gallery"></a>
@@ -1530,26 +1529,20 @@ Prompt-bearing community entries: **35**.
 - [Community Use Case 35: Lake Como fashion scene comparison against Banana Pro](#community-usecase-35)
   - Source: [post](https://x.com/cso6709/status/2075046425277399261) by [@cso6709](https://x.com/cso6709)
 
-<a id="model-notes"></a>
-
-## 🧩 Modellnotizen
-
-| Bereich | Quellenbasierte Notiz |
-|---|---|
-| Modell-ID | Das offizielle Material nennt `dola-seedream-5-0-pro-260628`; eine EvoLink Runtime-Verifizierung ist noch erforderlich, bevor dies als First-Run-Evidenz gilt. |
-| Eingabebilder | Laut offiziellem Material unterstützt Seedream 5.0 Pro bis zu 10 Eingabebilder. |
-| Ausgabeauflösung | Für Pro nicht 4K behaupten; das Quellmaterial beschreibt Ausgabe-Tiers um `<= 2.36M` Pixel und `> 2.36M` Pixel. |
-| Native Prompt-Sprachen | Das offizielle Material nennt Arabisch, Englisch, Russisch, Indonesisch, Spanisch, Deutsch, Türkisch, Portugiesisch, Malaiisch, Vietnamesisch, Französisch, Japanisch, Koreanisch, Tagalog und Thai. |
-| Seedream-zu-Seedance-Pfad | Laut offiziellem Material können Ausgaben von Seedream 5.0 Pro/Lite unter Account- und Moderationsbedingungen zu vertrauenswürdigen Inputs für Seedance-Image-to-Video-Workflows werden. |
 
 <a id="acknowledge"></a>
 
 ## 🙏 Danksagung
 
-Dieses Repository wurde aus offiziellem Seedream 5.0 Pro Einführungsmaterial, exportiert am 8. Juli 2026, sowie aus offiziellen Korrekturen zum Case-Inventar erstellt.
+Dieses Repository basiert auf dem offiziellen Seedream 5.0 Pro Einführungsmaterial, exportiert am 8. Juli 2026, sowie auf den öffentlichen Community-Posts, die in der Use-Case-Galerie und Prompt-Bibliothek zitiert werden.
 
-- Offizielle private Quell-URLs werden nur in lokalen Prüfnachweisen aufbewahrt.
-- Prompt-Blöcke werden nur dort aufgenommen, wo das offizielle Material Prompt-Text liefert.
-- Nur-Media-Cases bleiben Nur-Media-Cases; fehlende Prompts werden nicht erfunden.
+Danke an das Seedream-Team für die offiziellen Beispiele, Produktmaterialien und technischen Referenzen.
 
-*Wenn eine öffentliche Case-Grenze korrigiert werden muss, öffne ein Issue oder sende einen Patch mit konkreter Quellen-Evidenz.*
+Danke an die Community-Autorinnen und -Autoren, deren öffentliche Posts in diesem Repository zitiert werden:
+
+- [@renataro9](https://x.com/renataro9), [@haruuraeadss](https://x.com/haruuraeadss), [@JennyAITech](https://x.com/JennyAITech), [@MishikaAI](https://x.com/MishikaAI), [@ComfyUI](https://x.com/ComfyUI), [@iamrealsnow](https://x.com/iamrealsnow), [@Strength04_X](https://x.com/Strength04_X), [@LiamEtherson](https://x.com/LiamEtherson)
+- [@AiwithZohaib](https://x.com/AiwithZohaib), [@munzxsdv](https://x.com/munzxsdv), [@sulekhat95](https://x.com/sulekhat95), [@magnific](https://x.com/magnific), [@BubbleBrain](https://x.com/BubbleBrain), [@mattworkman](https://x.com/mattworkman), [@SimplyAnnisa](https://x.com/SimplyAnnisa), [@Cia0_exe](https://x.com/Cia0_exe)
+- [@df_reno](https://x.com/df_reno), [@ChillaiKalan__](https://x.com/ChillaiKalan__), [@ashen_one](https://x.com/ashen_one), [@AllaAisling](https://x.com/AllaAisling), [@FloraTechAI](https://x.com/FloraTechAI), [@asatoucan](https://x.com/asatoucan), [@op7418](https://x.com/op7418), [@johnAGI168](https://x.com/johnAGI168)
+- [@liyue_ai](https://x.com/liyue_ai), [@marmaduke091](https://x.com/marmaduke091), [@hasamaru_studio](https://x.com/hasamaru_studio), [@emmanuel_2m](https://x.com/emmanuel_2m), [@DeepBlueAIX](https://x.com/DeepBlueAIX), [@roco_kn_roco](https://x.com/roco_kn_roco), [@Bic_Revelation](https://x.com/Bic_Revelation), [@cso6709](https://x.com/cso6709)
+
+Wenn eine Autorin oder ein Autor eine Änderung oder Entfernung der Zuschreibung wünscht, bitte ein Issue mit dem entsprechenden öffentlichen Post-Link öffnen.
