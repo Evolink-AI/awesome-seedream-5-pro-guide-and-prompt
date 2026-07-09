@@ -87,7 +87,6 @@ EvoLink のモデル入口を試す: [EvoLink で Seedream 5.0 Pro を開く](ht
   - [映画的・キャラクター・スタイル表現](#community-cinematic-character-visuals)
   - [コンセプトアート・環境・世界構築](#community-concept-environment-worldbuilding)
   - [モデル比較と評価](#community-model-comparisons)
-- [🧾 プロンプトライブラリ](#prompt-library)
 - [🙏 謝辞](#acknowledge)
 
 <a id="official-capability-gallery"></a>
@@ -1206,125 +1205,12 @@ A straight-on medium-wide cinematic shot at eye-level, static locked frame, 4:5 
 
 ---
 
-<a id="prompt-library"></a>
-
-## 🧾 プロンプトライブラリ
-
-プロンプトと入力テキストは、ユースケース分類とは分けて掲載します。
-
-Prompt-bearing community entries: **35**.
-
-- [Community Use Case 1: Japanese no-makeup image edit instruction](#community-usecase-1)
-  - Source: [post](https://x.com/renataro9/status/2075059699112652908) by [@renataro9](https://x.com/renataro9)
-
-- [Community Use Case 2: Localized anime edit preserving composition while changing one subject](#community-usecase-2)
-  - Source: [post](https://x.com/haruuraeadss/status/2075035201391255593) by [@haruuraeadss](https://x.com/haruuraeadss)
-
-- [Community Use Case 3: Image-input cat-to-mecha transformation](#community-usecase-3)
-  - Source: [post](https://x.com/JennyAITech/status/2074870477651398972) by [@JennyAITech](https://x.com/JennyAITech)
-
-- [Community Use Case 4: Trading terminal interface with market microstructure detail](#community-usecase-4)
-  - Source: [post](https://x.com/MishikaAI/status/2074879603446026333) by [@MishikaAI](https://x.com/MishikaAI)
-
-- [Community Use Case 5: Cyberpunk android graphic poster](#community-usecase-5)
-  - Source: [post](https://x.com/ComfyUI/status/2075027793491226677) by [@ComfyUI](https://x.com/ComfyUI)
-
-- [Community Use Case 6: Premium sports footwear commercial ad set](#community-usecase-6)
-  - Source: [post](https://x.com/iamrealsnow/status/2075063569486598281) by [@iamrealsnow](https://x.com/iamrealsnow)
-
-- [Community Use Case 7: Kids clay craft advertisement poster](#community-usecase-7)
-  - Source: [post](https://x.com/Strength04_X/status/2075063250656621054) by [@Strength04_X](https://x.com/Strength04_X)
-
-- [Community Use Case 8: Measurement-heavy technical blueprint rendering](#community-usecase-8)
-  - Source: [post](https://x.com/LiamEtherson/status/2074862867442962667) by [@LiamEtherson](https://x.com/LiamEtherson)
-
-- [Community Use Case 9: Concept car blueprint with exploded technical views](#community-usecase-9)
-  - Source: [post](https://x.com/AiwithZohaib/status/2074880584107909602) by [@AiwithZohaib](https://x.com/AiwithZohaib)
-
-- [Community Use Case 10: Shot-list driven grayscale scene planning](#community-usecase-10)
-  - Source: [post](https://x.com/munzxsdv/status/2074865454485483885) by [@munzxsdv](https://x.com/munzxsdv)
-
-- [Community Use Case 11: Single-prompt 16-panel cavalry storyboard](#community-usecase-11)
-  - Source: [post](https://x.com/sulekhat95/status/2074966196563431636) by [@sulekhat95](https://x.com/sulekhat95)
-
-- [Community Use Case 12: Fisheye editorial portraits with miniature clone motif](#community-usecase-12)
-  - Source: [post](https://x.com/magnific/status/2074872903938846900) by [@magnific](https://x.com/magnific)
-
-- [Community Use Case 13: Melting-world-landmarks concept generation](#community-usecase-13)
-  - Source: [post](https://x.com/magnific/status/2074918700709523881) by [@magnific](https://x.com/magnific)
-
-- [Community Use Case 14: Photorealistic high-fashion portrait lighting](#community-usecase-14)
-  - Source: [post](https://x.com/BubbleBrain/status/2074856963591290979) by [@BubbleBrain](https://x.com/BubbleBrain)
-
-- [Community Use Case 15: Natural phone-photo scene at San Francisco sunset](#community-usecase-15)
-  - Source: [post](https://x.com/mattworkman/status/2074850550349222210) by [@mattworkman](https://x.com/mattworkman)
-
-- [Community Use Case 16: Fantasy fallen-angel warrior key visual](#community-usecase-16)
-  - Source: [post](https://x.com/SimplyAnnisa/status/2074900816662774189) by [@SimplyAnnisa](https://x.com/SimplyAnnisa)
-
-- [Community Use Case 17: Japanese casual portrait styling set](#community-usecase-17)
-  - Source: [post](https://x.com/Cia0_exe/status/2075033845032993261) by [@Cia0_exe](https://x.com/Cia0_exe)
-
-- [Community Use Case 18: ARRI-style cinematic city close-up](#community-usecase-18)
-  - Source: [post](https://x.com/df_reno/status/2075055332452106476) by [@df_reno](https://x.com/df_reno)
-
-- [Community Use Case 19: Fashion outfit editorial set in a parking structure](#community-usecase-19)
-  - Source: [post](https://x.com/ChillaiKalan__/status/2075071088137208063) by [@ChillaiKalan__](https://x.com/ChillaiKalan__)
-
-- [Community Use Case 20: Iridescent glass-flower editorial poster](#community-usecase-20)
-  - Source: [post](https://x.com/ComfyUI/status/2075027810666914062) by [@ComfyUI](https://x.com/ComfyUI)
-
-- [Community Use Case 21: Anime skateboard sequence with multiple shot prompts](#community-usecase-21)
-  - Source: [post](https://x.com/asatoucan/status/2075060881067769903) by [@asatoucan](https://x.com/asatoucan)
-
-- [Community Use Case 22: Solar-powered desert research station concept](#community-usecase-22)
-  - Source: [post](https://x.com/ashen_one/status/2074915677815886071) by [@ashen_one](https://x.com/ashen_one)
-
-- [Community Use Case 23: Impossible-scale cinematic sci-fi worldbuilding set](#community-usecase-23)
-  - Source: [post](https://x.com/AllaAisling/status/2075036565147906511) by [@AllaAisling](https://x.com/AllaAisling)
-
-- [Community Use Case 24: Bedroom design variations for MBTI types](#community-usecase-24)
-  - Source: [post](https://x.com/FloraTechAI/status/2074866317484794131) by [@FloraTechAI](https://x.com/FloraTechAI)
-
-- [Community Use Case 25: Multi-task Seedream capability sampling from four Chinese prompts](#community-usecase-25)
-  - Source: [post](https://x.com/op7418/status/2074862226905948549) by [@op7418](https://x.com/op7418)
-
-- [Community Use Case 26: Seedream vs GPT Image 2 in realistic car selfie framing](#community-usecase-26)
-  - Source: [post](https://x.com/johnAGI168/status/2074870910469677387) by [@johnAGI168](https://x.com/johnAGI168)
-
-- [Community Use Case 27: Seedream vs GPT Image 2 for clean lifestyle portrait styling](#community-usecase-27)
-  - Source: [post](https://x.com/liyue_ai/status/2074890690686005590) by [@liyue_ai](https://x.com/liyue_ai)
-
-- [Community Use Case 28: Blueprint sports car comparison against GPT Image 2](#community-usecase-28)
-  - Source: [post](https://x.com/marmaduke091/status/2074866077499105416) by [@marmaduke091](https://x.com/marmaduke091)
-
-- [Community Use Case 29: Reference-image camera-angle change comparison](#community-usecase-29)
-  - Source: [post](https://x.com/hasamaru_studio/status/2075052934409375918) by [@hasamaru_studio](https://x.com/hasamaru_studio)
-
-- [Community Use Case 30: Oversized beverage-can advertising composition comparison](#community-usecase-30)
-  - Source: [post](https://x.com/emmanuel_2m/status/2075000101362131350) by [@emmanuel_2m](https://x.com/emmanuel_2m)
-
-- [Community Use Case 31: Chengdu travel scrapbook poster comparison](#community-usecase-31)
-  - Source: [post](https://x.com/DeepBlueAIX/status/2074872447229419956) by [@DeepBlueAIX](https://x.com/DeepBlueAIX)
-
-- [Community Use Case 32: Anime key-visual comparison](#community-usecase-32)
-  - Source: [post](https://x.com/roco_kn_roco/status/2074890020260094137) by [@roco_kn_roco](https://x.com/roco_kn_roco)
-
-- [Community Use Case 33: Travel-poster comparison with signature constraint](#community-usecase-33)
-  - Source: [post](https://x.com/Bic_Revelation/status/2074959714366922857) by [@Bic_Revelation](https://x.com/Bic_Revelation)
-
-- [Community Use Case 34: Fantasy village watermill comparison against GPT Image 2](#community-usecase-34)
-  - Source: [post](https://x.com/emmanuel_2m/status/2075000114427375742) by [@emmanuel_2m](https://x.com/emmanuel_2m)
-
-- [Community Use Case 35: Lake Como fashion scene comparison against Banana Pro](#community-usecase-35)
-  - Source: [post](https://x.com/cso6709/status/2075046425277399261) by [@cso6709](https://x.com/cso6709)
-
 
 <a id="acknowledge"></a>
 
 ## 🙏 謝辞
 
-このリポジトリは、2026年7月8日にエクスポートされた Seedream 5.0 Pro の公式ローンチ資料と、ユースケースギャラリーおよびプロンプトライブラリで引用している公開コミュニティ投稿をもとに作成されています。
+このリポジトリは、2026年7月8日にエクスポートされた Seedream 5.0 Pro の公式ローンチ資料と、ユースケースギャラリーで引用している公開コミュニティ投稿をもとに作成されています。
 
 公式サンプル、製品資料、技術リファレンスを提供してくれた Seedream チームに感謝します。
 

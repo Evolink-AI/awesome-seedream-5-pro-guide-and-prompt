@@ -153,8 +153,6 @@ def verify_readme(rel: str, source_case_numbers: list[int], source_media_refs: s
         fail(f"{rel} community use case numbers must be contiguous 1..35: {community_numbers}", failures)
     if '<a id="community-use-cases"></a>' not in text:
         fail(f"{rel} is missing Community Use Cases section.", failures)
-    if '<a id="prompt-library"></a>' not in text:
-        fail(f"{rel} is missing Prompt Library section.", failures)
     community_text = text.split('<a id="community-use-cases"></a>', 1)[1]
     if 'src="downloaded-media/' in community_text or "src='downloaded-media/" in community_text:
         fail(f"{rel} community use cases must reference R2 media URLs, not downloaded-media local paths.", failures)
