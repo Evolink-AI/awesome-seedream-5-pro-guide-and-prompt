@@ -190,7 +190,7 @@ Case-Anzahl: **6**.
 
 ### Case 8: Angebots-Ebene im Poster bearbeiten: Happy Hour
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/010-Feishu-Docs-Image.gif" width="720" alt="Angebots-Ebene im Poster bearbeiten: Happy Hour">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/010-Feishu-Docs-Image.gif?v=20260709-camo2" width="720" alt="Angebots-Ebene im Poster bearbeiten: Happy Hour">
 
 > [!NOTE]
 > Ändere ein Promotion-Badge oder Grafikelement, ohne das ganze Poster neu aufzubauen.
@@ -212,7 +212,7 @@ Case-Anzahl: **6**.
 
 ### Case 10: Grafikebene eines Sportposters bearbeiten
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/012-Feishu-Docs-Image.gif" width="720" alt="Grafikebene eines Sportposters bearbeiten">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/012-Feishu-Docs-Image.gif?v=20260709-camo2" width="720" alt="Grafikebene eines Sportposters bearbeiten">
 
 > [!NOTE]
 > Bearbeite eine Racing-Poster-Grafik, während Typografie und Komposition ausgerichtet bleiben.
@@ -223,7 +223,7 @@ Case-Anzahl: **6**.
 
 ### Case 11: Posterelement bearbeiten: Public Joy
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/013-Feishu-Docs-Image.gif" width="720" alt="Posterelement bearbeiten: Public Joy">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/013-Feishu-Docs-Image.gif?v=20260709-camo2" width="720" alt="Posterelement bearbeiten: Public Joy">
 
 > [!NOTE]
 > Ändere Posterelemente, während die ursprüngliche Designsprache erhalten bleibt.
@@ -234,7 +234,7 @@ Case-Anzahl: **6**.
 
 ### Case 12: Materialoberfläche mit präziser Texturreaktion austauschen
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/014-Feishu-Docs-Image.gif" width="720" alt="Materialoberfläche mit präziser Texturreaktion austauschen">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/014-Feishu-Docs-Image.gif?v=20260709-camo2" width="720" alt="Materialoberfläche mit präziser Texturreaktion austauschen">
 
 > [!NOTE]
 > Tausche Material- und Farbziele aus, während die Objektstruktur intakt bleibt.

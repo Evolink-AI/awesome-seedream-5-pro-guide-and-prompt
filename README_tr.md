@@ -190,7 +190,7 @@ Case sayısı: **6**.
 
 ### Case 8: Poster teklif katmanı düzenleme: Happy Hour
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/010-Feishu-Docs-Image.gif" width="720" alt="Poster teklif katmanı düzenleme: Happy Hour">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/010-Feishu-Docs-Image.gif?v=20260709-camo2" width="720" alt="Poster teklif katmanı düzenleme: Happy Hour">
 
 > [!NOTE]
 > Tüm posteri yeniden oluşturmadan promosyon rozeti veya grafik öğesini değiştirin.
@@ -212,7 +212,7 @@ Case sayısı: **6**.
 
 ### Case 10: Spor posteri grafik katmanı düzenleme
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/012-Feishu-Docs-Image.gif" width="720" alt="Spor posteri grafik katmanı düzenleme">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/012-Feishu-Docs-Image.gif?v=20260709-camo2" width="720" alt="Spor posteri grafik katmanı düzenleme">
 
 > [!NOTE]
 > Tipografi ve kompozisyon hizasını koruyarak yarış posteri grafiğini düzenleyin.
@@ -223,7 +223,7 @@ Case sayısı: **6**.
 
 ### Case 11: Poster öğesi düzenleme: Public Joy
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/013-Feishu-Docs-Image.gif" width="720" alt="Poster öğesi düzenleme: Public Joy">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/013-Feishu-Docs-Image.gif?v=20260709-camo2" width="720" alt="Poster öğesi düzenleme: Public Joy">
 
 > [!NOTE]
 > Kaynak tasarım dilini koruyarak poster öğelerini değiştirin.
@@ -234,7 +234,7 @@ Case sayısı: **6**.
 
 ### Case 12: Hassas doku yanıtıyla malzeme yüzeyi değiştirme
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/014-Feishu-Docs-Image.gif" width="720" alt="Hassas doku yanıtıyla malzeme yüzeyi değiştirme">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/014-Feishu-Docs-Image.gif?v=20260709-camo2" width="720" alt="Hassas doku yanıtıyla malzeme yüzeyi değiştirme">
 
 > [!NOTE]
 > Nesne yapısını bozmadan malzeme ve renk hedeflerini değiştirin.

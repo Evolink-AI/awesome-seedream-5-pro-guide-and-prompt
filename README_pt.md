@@ -190,7 +190,7 @@ Número de casos: **6**.
 
 ### Case 8: Edição de camada de oferta em pôster: Happy Hour
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/010-Feishu-Docs-Image.gif" width="720" alt="Edição de camada de oferta em pôster: Happy Hour">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/010-Feishu-Docs-Image.gif?v=20260709-camo2" width="720" alt="Edição de camada de oferta em pôster: Happy Hour">
 
 > [!NOTE]
 > Altere um selo promocional ou elemento gráfico sem reconstruir todo o pôster.
@@ -212,7 +212,7 @@ Número de casos: **6**.
 
 ### Case 10: Edição de camada gráfica em pôster esportivo
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/012-Feishu-Docs-Image.gif" width="720" alt="Edição de camada gráfica em pôster esportivo">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/012-Feishu-Docs-Image.gif?v=20260709-camo2" width="720" alt="Edição de camada gráfica em pôster esportivo">
 
 > [!NOTE]
 > Edite um gráfico de corrida mantendo tipografia e composição alinhadas.
@@ -223,7 +223,7 @@ Número de casos: **6**.
 
 ### Case 11: Edição de elemento de pôster: Public Joy
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/013-Feishu-Docs-Image.gif" width="720" alt="Edição de elemento de pôster: Public Joy">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/013-Feishu-Docs-Image.gif?v=20260709-camo2" width="720" alt="Edição de elemento de pôster: Public Joy">
 
 > [!NOTE]
 > Modifique elementos do pôster preservando a linguagem de design original.
@@ -234,7 +234,7 @@ Número de casos: **6**.
 
 ### Case 12: Troca de superfície material com resposta precisa de textura
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/014-Feishu-Docs-Image.gif" width="720" alt="Troca de superfície material com resposta precisa de textura">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/014-Feishu-Docs-Image.gif?v=20260709-camo2" width="720" alt="Troca de superfície material com resposta precisa de textura">
 
 > [!NOTE]
 > Troque alvos de material e cor mantendo intacta a estrutura do objeto.

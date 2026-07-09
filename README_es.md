@@ -190,7 +190,7 @@ Número de casos: **6**.
 
 ### Case 8: Edición de capa de oferta de póster: Happy Hour
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/010-Feishu-Docs-Image.gif" width="720" alt="Edición de capa de oferta de póster: Happy Hour">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/010-Feishu-Docs-Image.gif?v=20260709-camo2" width="720" alt="Edición de capa de oferta de póster: Happy Hour">
 
 > [!NOTE]
 > Cambia una insignia promocional o un elemento gráfico sin reconstruir todo el póster.
@@ -212,7 +212,7 @@ Número de casos: **6**.
 
 ### Case 10: Edición de capa gráfica de póster deportivo
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/012-Feishu-Docs-Image.gif" width="720" alt="Edición de capa gráfica de póster deportivo">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/012-Feishu-Docs-Image.gif?v=20260709-camo2" width="720" alt="Edición de capa gráfica de póster deportivo">
 
 > [!NOTE]
 > Edita un gráfico de carreras manteniendo alineadas la tipografía y la composición.
@@ -223,7 +223,7 @@ Número de casos: **6**.
 
 ### Case 11: Edición de elemento de póster: Public Joy
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/013-Feishu-Docs-Image.gif" width="720" alt="Edición de elemento de póster: Public Joy">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/013-Feishu-Docs-Image.gif?v=20260709-camo2" width="720" alt="Edición de elemento de póster: Public Joy">
 
 > [!NOTE]
 > Modifica elementos del póster preservando el lenguaje visual de origen.
@@ -234,7 +234,7 @@ Número de casos: **6**.
 
 ### Case 12: Cambio de superficie material con respuesta de textura precisa
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/014-Feishu-Docs-Image.gif" width="720" alt="Cambio de superficie material con respuesta de textura precisa">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/014-Feishu-Docs-Image.gif?v=20260709-camo2" width="720" alt="Cambio de superficie material con respuesta de textura precisa">
 
 > [!NOTE]
 > Cambia objetivos de material y color manteniendo intacta la estructura del objeto.

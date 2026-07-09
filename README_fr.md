@@ -190,7 +190,7 @@ Nombre de cas : **6**.
 
 ### Case 8: Édition du calque d’offre d’un poster : Happy Hour
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/010-Feishu-Docs-Image.gif" width="720" alt="Édition du calque d’offre d’un poster : Happy Hour">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/010-Feishu-Docs-Image.gif?v=20260709-camo2" width="720" alt="Édition du calque d’offre d’un poster : Happy Hour">
 
 > [!NOTE]
 > Changez un badge promotionnel ou un élément graphique sans reconstruire tout le poster.
@@ -212,7 +212,7 @@ Nombre de cas : **6**.
 
 ### Case 10: Édition du calque graphique d’un poster sportif
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/012-Feishu-Docs-Image.gif" width="720" alt="Édition du calque graphique d’un poster sportif">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/012-Feishu-Docs-Image.gif?v=20260709-camo2" width="720" alt="Édition du calque graphique d’un poster sportif">
 
 > [!NOTE]
 > Modifiez le graphique d’un poster de course tout en gardant typographie et composition alignées.
@@ -223,7 +223,7 @@ Nombre de cas : **6**.
 
 ### Case 11: Édition d’élément de poster : Public Joy
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/013-Feishu-Docs-Image.gif" width="720" alt="Édition d’élément de poster : Public Joy">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/013-Feishu-Docs-Image.gif?v=20260709-camo2" width="720" alt="Édition d’élément de poster : Public Joy">
 
 > [!NOTE]
 > Modifiez des éléments du poster tout en conservant le langage visuel source.
@@ -234,7 +234,7 @@ Nombre de cas : **6**.
 
 ### Case 12: Remplacement de surface matière avec réponse de texture précise
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/014-Feishu-Docs-Image.gif" width="720" alt="Remplacement de surface matière avec réponse de texture précise">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/014-Feishu-Docs-Image.gif?v=20260709-camo2" width="720" alt="Remplacement de surface matière avec réponse de texture précise">
 
 > [!NOTE]
 > Remplacez les cibles de matière et de couleur tout en conservant la structure de l’objet.
