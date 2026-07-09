@@ -110,9 +110,6 @@ Seedream 5.0 Pro 在官方发布材料中被定位为可控的图像生成与编
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/003-arrows-annotation-boxes.gif?v=20260709-camo" width="720" alt="用于空间意图的箭头和标注框">
 
-> [!NOTE]
-> 在编辑前使用箭头、框和标注明确目标区域。
-
 ---
 
 <a id="case-2"></a>
@@ -143,9 +140,6 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/005-doodles.gif?v=20260709-camo" width="720" alt="涂鸦引导的对象生成">
 
-> [!NOTE]
-> 使用松散涂鸦作为视觉控制信号，让模型渲染目标对象。
-
 ---
 
 <a id="case-4"></a>
@@ -153,9 +147,6 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 ### Case 4: 色块引导的编辑
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/006-color-block.gif?v=20260709-camo" width="720" alt="色块引导的编辑">
-
-> [!NOTE]
-> 使用大块色块指定粗略构图、颜色区域或对象位置。
 
 ---
 
@@ -165,9 +156,6 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/007-lines.gif?v=20260709-camo" width="720" alt="线条引导的细节编辑">
 
-> [!NOTE]
-> 当形状边界比长文本描述更重要时，使用简单线条进行引导。
-
 ---
 
 <a id="case-6"></a>
@@ -175,9 +163,6 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 ### Case 6: 从简单草图到精细图像
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/008-simple-sketches.gif?v=20260709-camo" width="720" alt="从简单草图到精细图像">
-
-> [!NOTE]
-> 在保留草图意图的同时，把极简草图转成更完整的渲染图。
 
 ---
 
@@ -195,9 +180,6 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/009-Feishu-Docs-Image.gif" width="720" alt="海报文字与图形图层编辑：Avery Turns">
 
-> [!NOTE]
-> 在保留整体设计结构的同时编辑可见海报元素。
-
 ---
 
 <a id="case-8"></a>
@@ -205,9 +187,6 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 ### Case 8: 海报优惠图层编辑：Happy Hour
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/010-Feishu-Docs-Image.gif?v=20260709-camo2" width="720" alt="海报优惠图层编辑：Happy Hour">
-
-> [!NOTE]
-> 无需重建整张海报即可修改促销标识或图形元素。
 
 ---
 
@@ -217,9 +196,6 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/011-Feishu-Docs-Image.gif" width="720" alt="设计版式中的时尚图像图层编辑">
 
-> [!NOTE]
-> 在已构成的视觉版式中调整分层主体。
-
 ---
 
 <a id="case-10"></a>
@@ -227,9 +203,6 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 ### Case 10: 运动海报图形图层编辑
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/012-Feishu-Docs-Image.gif?v=20260709-camo2" width="720" alt="运动海报图形图层编辑">
-
-> [!NOTE]
-> 在保持文字排版和构图对齐的同时编辑赛车海报图形。
 
 ---
 
@@ -239,9 +212,6 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/013-Feishu-Docs-Image.gif?v=20260709-camo2" width="720" alt="海报元素编辑：Public Joy">
 
-> [!NOTE]
-> 在保留原始设计语言的同时修改海报元素。
-
 ---
 
 <a id="case-12"></a>
@@ -249,9 +219,6 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 ### Case 12: 具备精确纹理响应的材质表面替换
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/014-Feishu-Docs-Image.gif?v=20260709-camo2" width="720" alt="具备精确纹理响应的材质表面替换">
-
-> [!NOTE]
-> 在保持对象结构完整的同时替换材质和颜色目标。
 
 ---
 
@@ -308,9 +275,6 @@ Move the red car in the lower-left corner one grid cell to the right, and move t
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/017-Feishu-Docs-Image.png" width="720" alt="前景 / 人物图层分离">
 
-> [!NOTE]
-> 从海报式背景中分离前景主体，以便后续复用。
-
 ---
 
 <a id="multi-image-fusion-editing"></a>
@@ -344,9 +308,6 @@ Move the red car in the lower-left corner one grid cell to the right, and move t
 </tr>
 </table>
 
-> [!NOTE]
-> 将七张白底参考图作为输入组，并在同一个成对 case 中生成静物摄影输出。
-
 
 **Prompt:**
 
@@ -370,9 +331,6 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" width="720" alt="电影感网球玻璃碎裂">
 
-> [!NOTE]
-> 生成包含玻璃碎片、动作节奏和电影感光照的高动态场景。
-
 ---
 
 <a id="case-17"></a>
@@ -380,9 +338,6 @@ Precisely cut out the objects from my seven white-background reference photos an
 ### Case 17: 电影感拳击动作
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/021-Cinematic-narrative-action-boxing.png" width="720" alt="电影感拳击动作">
-
-> [!NOTE]
-> 渲染具有更强运动感、冲击感和场景纵深的动作场景。
 
 ---
 
@@ -392,9 +347,6 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/022-Cinematic-narrative-3D-animation.png" width="720" alt="3D 动画风格场景">
 
-> [!NOTE]
-> 用于角色或娱乐视觉的风格化 3D / 动画输出。
-
 ---
 
 <a id="case-19"></a>
@@ -403,9 +355,6 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/023-Cinematic-narrative-visual-concept.png" width="720" alt="视觉概念艺术">
 
-> [!NOTE]
-> 用于氛围、视觉方向和情绪探索的概念艺术风格生成。
-
 ---
 
 <a id="case-20"></a>
@@ -413,9 +362,6 @@ Precisely cut out the objects from my seven white-background reference photos an
 ### Case 20: 游戏场景视觉
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/024-Cinematic-narrative-game-scene.png" width="720" alt="游戏场景视觉">
-
-> [!NOTE]
-> 用于环境、布景或 key art 探索的游戏化场景生成。
 
 ---
 
@@ -433,9 +379,6 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/025-Welcome.png" width="720" alt="阿拉伯语与英语欢迎牌">
 
-> [!NOTE]
-> 在同一画面中原生渲染阿拉伯语和英语文字。
-
 ---
 
 <a id="case-22"></a>
@@ -443,9 +386,6 @@ Precisely cut out the objects from my seven white-background reference photos an
 ### Case 22: 韩语 24 小时营业标牌
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/026-24-Open-24-hours.png" width="720" alt="韩语 24 小时营业标牌">
-
-> [!NOTE]
-> 面向本地化店面或标牌内容的韩语文字渲染。
 
 ---
 
@@ -455,9 +395,6 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/027-Please-help-keep-the-place-clean-together.png" width="720" alt="泰语清洁提示标牌">
 
-> [!NOTE]
-> 面向本地公共空间或活动视觉的泰语文字渲染。
-
 ---
 
 <a id="case-24"></a>
@@ -466,9 +403,6 @@ Precisely cut out the objects from my seven white-background reference photos an
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/028-CREATION-FRANCAISE-Made-in-France.png" width="720" alt="法语创作海报">
 
-> [!NOTE]
-> 面向产品、时尚和活动资产的法语文字渲染。
-
 ---
 
 <a id="case-25"></a>
@@ -476,9 +410,6 @@ Precisely cut out the objects from my seven white-background reference photos an
 ### Case 25: 俄语未来海报
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/029-Future.png" width="720" alt="俄语未来海报">
-
-> [!NOTE]
-> 为本地化视觉概念渲染字符结构清晰的俄语文字。
 
 ---
 
@@ -509,9 +440,6 @@ Tags: `image-input` `multi-image` `prompt-available` `tutorial`
 <td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/043/02.jpg" width="240" alt="Japanese no-makeup image edit instruction media"></td>
 </tr></table>
 
-> [!NOTE]
-> The source post demonstrates an image-editing or input-control workflow where the input relationship matters as much as the final image.
-
 <details open>
 <summary>Prompt</summary>
 ```text
@@ -534,9 +462,6 @@ Tags: `multi-image` `prompt-available` `tutorial`
 <td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/052/02.jpg" width="240" alt="Localized anime edit preserving composition while changing one subject media"></td>
 </tr></table>
 
-> [!NOTE]
-> The source post demonstrates an image-editing or input-control workflow where the input relationship matters as much as the final image.
-
 <details open>
 <summary>Prompt</summary>
 ```text
@@ -558,9 +483,6 @@ Tags: `image-input` `multi-image` `prompt-available`
 <td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/058/01.jpg" width="240" alt="Image-input cat-to-mecha transformation media"></td>
 <td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/058/02.jpg" width="240" alt="Image-input cat-to-mecha transformation media"></td>
 </tr></table>
-
-> [!NOTE]
-> The source post demonstrates an image-editing or input-control workflow where the input relationship matters as much as the final image.
 
 <details open>
 <summary>Prompt</summary>
@@ -587,9 +509,6 @@ Tags: `prompt-available`
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/004/01.jpg" width="520" alt="Trading terminal interface with market microstructure detail media">
 
-> [!NOTE]
-> The source post tests whether Seedream can produce a usable commercial visual, interface, product ad, or poster-style output.
-
 <details open>
 <summary>Prompt</summary>
 ```text
@@ -608,9 +527,6 @@ Type: Demo | Date: 2026-07-09 | Category: Product, Interface & Poster Design
 Tags: `prompt-available`
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/042/01.jpg" width="520" alt="Cyberpunk android graphic poster media">
-
-> [!NOTE]
-> The source post tests whether Seedream can produce a usable commercial visual, interface, product ad, or poster-style output.
 
 <details open>
 <summary>Prompt</summary>
@@ -636,9 +552,6 @@ Tags: `multi-image` `prompt-available`
 <td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/047/04.jpg" width="240" alt="Premium sports footwear commercial ad set media"></td>
 </tr></table>
 
-> [!NOTE]
-> The source post tests whether Seedream can produce a usable commercial visual, interface, product ad, or poster-style output.
-
 <details open>
 <summary>Prompt</summary>
 ```text
@@ -657,9 +570,6 @@ Type: Demo | Date: 2026-07-09 | Category: Product, Interface & Poster Design
 Tags: `prompt-available`
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/050/01.jpg" width="520" alt="Kids clay craft advertisement poster media">
-
-> [!NOTE]
-> The source post tests whether Seedream can produce a usable commercial visual, interface, product ad, or poster-style output.
 
 <details open>
 <summary>Prompt</summary>
@@ -686,9 +596,6 @@ Tags: `prompt-available`
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/003/01.jpg" width="520" alt="Measurement-heavy technical blueprint rendering media">
 
-> [!NOTE]
-> The source post tests cinematic, character, fashion, style, structured, or worldbuilding visual quality with visible media output.
-
 <details open>
 <summary>Prompt</summary>
 ```text
@@ -707,9 +614,6 @@ Type: Demo | Date: 2026-07-08 | Category: Technical, Diagram & Sequence Prompts
 Tags: `prompt-available`
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/005/01.jpg" width="520" alt="Concept car blueprint with exploded technical views media">
-
-> [!NOTE]
-> The source post tests cinematic, character, fashion, style, structured, or worldbuilding visual quality with visible media output.
 
 <details open>
 <summary>Prompt</summary>
@@ -730,9 +634,6 @@ Tags: `prompt-available`
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/007/01.jpg" width="520" alt="Shot-list driven grayscale scene planning media">
 
-> [!NOTE]
-> The source post tests cinematic, character, fashion, style, structured, or worldbuilding visual quality with visible media output.
-
 <details open>
 <summary>Prompt</summary>
 ```text
@@ -751,9 +652,6 @@ Type: Demo | Date: 2026-07-08 | Category: Technical, Diagram & Sequence Prompts
 Tags: `prompt-available`
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/062/01.jpg" width="520" alt="Single-prompt 16-panel cavalry storyboard media">
-
-> [!NOTE]
-> The source post tests cinematic, character, fashion, style, structured, or worldbuilding visual quality with visible media output.
 
 <details open>
 <summary>Prompt</summary>
@@ -783,9 +681,6 @@ Tags: `multi-image` `prompt-available`
 <td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/008/02.jpg" width="240" alt="Fisheye editorial portraits with miniature clone motif media"></td>
 </tr></table>
 
-> [!NOTE]
-> The source post tests cinematic, character, fashion, style, structured, or worldbuilding visual quality with visible media output.
-
 <details open>
 <summary>Prompt</summary>
 ```text
@@ -808,9 +703,6 @@ Tags: `multi-image` `prompt-available`
 <td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/011/02.jpg" width="240" alt="Melting-world-landmarks concept generation media"></td>
 </tr></table>
 
-> [!NOTE]
-> The source post tests cinematic, character, fashion, style, structured, or worldbuilding visual quality with visible media output.
-
 <details open>
 <summary>Prompt</summary>
 ```text
@@ -829,9 +721,6 @@ Type: Demo | Date: 2026-07-08 | Category: Cinematic, Character & Style Visuals
 Tags: `prompt-available`
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/017/01.jpg" width="520" alt="Photorealistic high-fashion portrait lighting media">
-
-> [!NOTE]
-> The source post tests cinematic, character, fashion, style, structured, or worldbuilding visual quality with visible media output.
 
 <details open>
 <summary>Prompt</summary>
@@ -852,9 +741,6 @@ Tags: `prompt-available`
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/018/01.jpg" width="520" alt="Natural phone-photo scene at San Francisco sunset media">
 
-> [!NOTE]
-> The source post tests cinematic, character, fashion, style, structured, or worldbuilding visual quality with visible media output.
-
 <details open>
 <summary>Prompt</summary>
 ```text
@@ -873,9 +759,6 @@ Type: Demo | Date: 2026-07-08 | Category: Cinematic, Character & Style Visuals
 Tags: `prompt-available`
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/028/01.jpg" width="520" alt="Fantasy fallen-angel warrior key visual media">
-
-> [!NOTE]
-> The source post tests cinematic, character, fashion, style, structured, or worldbuilding visual quality with visible media output.
 
 <details open>
 <summary>Prompt</summary>
@@ -901,9 +784,6 @@ Tags: `multi-image` `prompt-available`
 <td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/029/04.jpg" width="240" alt="Japanese casual portrait styling set media"></td>
 </tr></table>
 
-> [!NOTE]
-> The source post tests cinematic, character, fashion, style, structured, or worldbuilding visual quality with visible media output.
-
 <details open>
 <summary>Prompt</summary>
 ```text
@@ -927,9 +807,6 @@ Tags: `multi-image` `prompt-available`
 <td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/035/03.jpg" width="240" alt="ARRI-style cinematic city close-up media"></td>
 <td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/035/04.jpg" width="240" alt="ARRI-style cinematic city close-up media"></td>
 </tr></table>
-
-> [!NOTE]
-> The source post tests cinematic, character, fashion, style, structured, or worldbuilding visual quality with visible media output.
 
 <details open>
 <summary>Prompt</summary>
@@ -955,9 +832,6 @@ Tags: `multi-image` `prompt-available`
 <td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/038/04.jpg" width="240" alt="Fashion outfit editorial set in a parking structure media"></td>
 </tr></table>
 
-> [!NOTE]
-> The source post tests cinematic, character, fashion, style, structured, or worldbuilding visual quality with visible media output.
-
 <details open>
 <summary>Prompt</summary>
 ```text
@@ -976,9 +850,6 @@ Type: Demo | Date: 2026-07-09 | Category: Cinematic, Character & Style Visuals
 Tags: `prompt-available`
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/044/01.jpg" width="520" alt="Iridescent glass-flower editorial poster media">
-
-> [!NOTE]
-> The source post tests cinematic, character, fashion, style, structured, or worldbuilding visual quality with visible media output.
 
 <details open>
 <summary>Prompt</summary>
@@ -1003,9 +874,6 @@ Tags: `multi-image` `prompt-available`
 <td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/069/03.jpg" width="240" alt="Anime skateboard sequence with multiple shot prompts media"></td>
 <td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/069/04.jpg" width="240" alt="Anime skateboard sequence with multiple shot prompts media"></td>
 </tr></table>
-
-> [!NOTE]
-> The source post tests cinematic, character, fashion, style, structured, or worldbuilding visual quality with visible media output.
 
 <details open>
 <summary>Prompt</summary>
@@ -1032,9 +900,6 @@ Tags: `prompt-available`
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/021/01.jpg" width="520" alt="Solar-powered desert research station concept media">
 
-> [!NOTE]
-> The source post tests cinematic, character, fashion, style, structured, or worldbuilding visual quality with visible media output.
-
 <details open>
 <summary>Prompt</summary>
 ```text
@@ -1059,9 +924,6 @@ Tags: `multi-image` `prompt-available`
 <td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/027/04.jpg" width="240" alt="Impossible-scale cinematic sci-fi worldbuilding set media"></td>
 </tr></table>
 
-> [!NOTE]
-> The source post tests cinematic, character, fashion, style, structured, or worldbuilding visual quality with visible media output.
-
 <details open>
 <summary>Prompt</summary>
 ```text
@@ -1085,9 +947,6 @@ Tags: `multi-image` `prompt-available`
 <td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/061/03.jpg" width="240" alt="Bedroom design variations for MBTI types media"></td>
 <td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/061/04.jpg" width="240" alt="Bedroom design variations for MBTI types media"></td>
 </tr></table>
-
-> [!NOTE]
-> The source post tests cinematic, character, fashion, style, structured, or worldbuilding visual quality with visible media output.
 
 <details open>
 <summary>Prompt</summary>
@@ -1119,9 +978,6 @@ Tags: `capability-sampling` `model-comparison` `multi-image` `prompt-available`
 <td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/001/04.jpg" width="240" alt="Multi-task Seedream capability sampling from four Chinese prompts media"></td>
 </tr></table>
 
-> [!NOTE]
-> The source post samples several task types in one thread, so it works best as a broad capability check rather than a single-purpose case.
-
 <details open>
 <summary>Prompt</summary>
 ```text
@@ -1143,9 +999,6 @@ Tags: `model-comparison` `multi-image` `prompt-available`
 <td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/006/01.jpg" width="240" alt="Seedream vs GPT Image 2 in realistic car selfie framing media"></td>
 <td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/006/02.jpg" width="240" alt="Seedream vs GPT Image 2 in realistic car selfie framing media"></td>
 </tr></table>
-
-> [!NOTE]
-> The source post compares Seedream 5.0 Pro with another model on the same or closely related visual task.
 
 <details open>
 <summary>Prompt</summary>
@@ -1169,9 +1022,6 @@ Tags: `model-comparison` `multi-image` `prompt-available`
 <td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/012/02.jpg" width="240" alt="Seedream vs GPT Image 2 for clean lifestyle portrait styling media"></td>
 </tr></table>
 
-> [!NOTE]
-> The source post compares Seedream 5.0 Pro with another model on the same or closely related visual task.
-
 <details open>
 <summary>Prompt</summary>
 ```text
@@ -1193,9 +1043,6 @@ Tags: `model-comparison` `multi-image` `prompt-available`
 <td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/019/01.jpg" width="240" alt="Blueprint sports car comparison against GPT Image 2 media"></td>
 <td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/019/02.jpg" width="240" alt="Blueprint sports car comparison against GPT Image 2 media"></td>
 </tr></table>
-
-> [!NOTE]
-> The source post compares Seedream 5.0 Pro with another model on the same or closely related visual task.
 
 <details open>
 <summary>Prompt</summary>
@@ -1221,9 +1068,6 @@ Tags: `image-input` `model-comparison` `multi-image` `prompt-available`
 <td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/022/04.jpg" width="240" alt="Reference-image camera-angle change comparison media"></td>
 </tr></table>
 
-> [!NOTE]
-> The source post compares Seedream 5.0 Pro with another model on the same or closely related visual task.
-
 <details open>
 <summary>Prompt</summary>
 ```text
@@ -1245,9 +1089,6 @@ Tags: `model-comparison` `multi-image` `prompt-available`
 <td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/023/01.jpg" width="240" alt="Oversized beverage-can advertising composition comparison media"></td>
 <td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/023/02.jpg" width="240" alt="Oversized beverage-can advertising composition comparison media"></td>
 </tr></table>
-
-> [!NOTE]
-> The source post compares Seedream 5.0 Pro with another model on the same or closely related visual task.
 
 <details open>
 <summary>Prompt</summary>
@@ -1271,9 +1112,6 @@ Tags: `model-comparison` `multi-image` `prompt-available`
 <td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/031/02.jpg" width="240" alt="Chengdu travel scrapbook poster comparison media"></td>
 </tr></table>
 
-> [!NOTE]
-> The source post compares Seedream 5.0 Pro with another model on the same or closely related visual task.
-
 <details open>
 <summary>Prompt</summary>
 ```text
@@ -1292,9 +1130,6 @@ Type: Evaluation | Date: 2026-07-08 | Category: Model Comparisons & Evaluations
 Tags: `model-comparison` `prompt-available`
 
 <img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/034/01.jpg" width="520" alt="Anime key-visual comparison media">
-
-> [!NOTE]
-> The source post compares Seedream 5.0 Pro with another model on the same or closely related visual task.
 
 <details open>
 <summary>Prompt</summary>
@@ -1318,9 +1153,6 @@ Tags: `model-comparison` `multi-image` `prompt-available`
 <td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/056/02.jpg" width="240" alt="Travel-poster comparison with signature constraint media"></td>
 </tr></table>
 
-> [!NOTE]
-> The source post compares Seedream 5.0 Pro with another model on the same or closely related visual task.
-
 <details open>
 <summary>Prompt</summary>
 ```text
@@ -1343,9 +1175,6 @@ Tags: `model-comparison` `multi-image` `prompt-available`
 <td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/065/02.jpg" width="240" alt="Fantasy village watermill comparison against GPT Image 2 media"></td>
 </tr></table>
 
-> [!NOTE]
-> The source post compares Seedream 5.0 Pro with another model on the same or closely related visual task.
-
 <details open>
 <summary>Prompt</summary>
 ```text
@@ -1367,9 +1196,6 @@ Tags: `model-comparison` `multi-image` `prompt-available`
 <td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/066/01.jpg" width="240" alt="Lake Como fashion scene comparison against Banana Pro media"></td>
 <td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/066/02.jpg" width="240" alt="Lake Como fashion scene comparison against Banana Pro media"></td>
 </tr></table>
-
-> [!NOTE]
-> The source post compares Seedream 5.0 Pro with another model on the same or closely related visual task.
 
 <details open>
 <summary>Prompt</summary>

@@ -158,12 +158,9 @@ def verify_readme(rel: str, source_case_numbers: list[int], source_media_refs: s
     community_text = text.split('<a id="community-use-cases"></a>', 1)[1]
     if 'src="downloaded-media/' in community_text or "src='downloaded-media/" in community_text:
         fail(f"{rel} community use cases must reference R2 media URLs, not downloaded-media local paths.", failures)
-    for slug, expected in EXPECTED_COMMUNITY_CATEGORY_COUNTS.items():
+    for slug in EXPECTED_COMMUNITY_CATEGORY_COUNTS:
         if f'<a id="{slug}"></a>' not in text:
             fail(f"{rel} is missing community category anchor: {slug}", failures)
-        category_section = text.split(f'<a id="{slug}"></a>', 1)[1].split("<a id=", 1)[0] if f'<a id="{slug}"></a>' in text else ""
-        if f"**{expected}**" not in category_section:
-            fail(f"{rel} community category {slug} must visibly declare {expected} items.", failures)
 
     refs = set(media_refs(text))
     all_refs = set(media_refs(text, local_only=False))
@@ -233,7 +230,7 @@ def main() -> int:
     if source_numbers != list(range(1, 26)):
         fail(f"README case numbers must be contiguous 1..25: {source_numbers}", failures)
     if readme.count("**Prompt:**") != len(EXPECTED_PROMPT_CASES):
-        fail("README prompt block count must match official prompt-bearing cases only.")
+        fail("README prompt block count must match official prompt-bearing cases only.", failures)
 
     categories = inventory.get("case_categories", [])
     cases = inventory.get("cases", [])
@@ -249,8 +246,6 @@ def main() -> int:
     for cat_id, expected in EXPECTED_CATEGORY_COUNTS.items():
         if f'<a id="{cat_id}"></a>' not in readme:
             fail(f"README missing category anchor: {cat_id}", failures)
-        if f"Case count: **{expected}**." not in readme:
-            fail(f"README missing visible case count for {cat_id}: {expected}", failures)
 
     use_cases_path = ROOT / "data" / "use-cases.json"
     try:
@@ -259,12 +254,12 @@ def main() -> int:
         fail(f"Cannot read valid use case JSON: {exc}", failures)
         use_cases = {"items": []}
     if use_cases.get("official_case_count") != 25:
-        fail("data/use-cases.json must record official_case_count=25.")
+        fail("data/use-cases.json must record official_case_count=25.", failures)
     if use_cases.get("community_usecase_count") != 35:
-        fail("data/use-cases.json must record community_usecase_count=35.")
+        fail("data/use-cases.json must record community_usecase_count=35.", failures)
     community_items = use_cases.get("items", [])
     if len(community_items) != 35:
-        fail(f"data/use-cases.json must contain 35 community items, found {len(community_items)}.")
+        fail(f"data/use-cases.json must contain 35 community items, found {len(community_items)}.", failures)
     for item in community_items:
         for key in ["source_url", "author_url", "title", "date", "type", "category", "category_label", "tags", "takeaway", "dedup_key", "local_media_files", "r2_media_urls", "prompt_text"]:
             if key not in item:
@@ -283,22 +278,20 @@ def main() -> int:
                 fail(f"README does not reference uploaded community media: {rel_media}", failures)
 
     if '<td width="50%" valign="top">' not in readme.split('### Case 13:', 1)[1].split('---', 1)[0]:
-        fail("Case 13 before/after comparison must display both images in one row.")
+        fail("Case 13 before/after comparison must display both images in one row.", failures)
     layer_section = readme.split('<a id="layer-separation"></a>', 1)[1].split('<a id="multi-image-fusion-editing"></a>', 1)[0]
-    if "Case count: **1**." not in layer_section:
-        fail("Layer Separation section must visibly declare exactly 1 case; former media 018/019 belong to Multi-image Fusion.")
     if "#case-15" in layer_section or '<a id="case-15"></a>' in layer_section or "assets/media/018-Feishu-Docs-Image.png" in layer_section or "assets/media/019-Feishu-Docs-Image.png" in layer_section:
-        fail("Layer Separation must not list Case 15 or media 018/019; those form the Multi-image Fusion input-output case.")
+        fail("Layer Separation must not list Case 15 or media 018/019; those form the Multi-image Fusion input-output case.", failures)
     case15 = readme.split("### Case 15:", 1)[1].split("---", 1)[0] if "### Case 15:" in readme else ""
     if not text_mentions_media(case15, "assets/media/018-Feishu-Docs-Image.png") or not text_mentions_media(case15, "assets/media/019-Feishu-Docs-Image.png"):
-        fail("Case 15 must merge former media 018/019 as one Multi-image Fusion input-output pair.")
+        fail("Case 15 must merge former media 018/019 as one Multi-image Fusion input-output pair.", failures)
     if "**Prompt:**" not in case15:
-        fail("Case 15 must keep the official seven-reference prompt with the input-output media pair.")
+        fail("Case 15 must keep the official seven-reference prompt with the input-output media pair.", failures)
     if not text_mentions_media(readme, "assets/media/014-Feishu-Docs-Image.gif"):
-        fail("Material editing GIF must be represented as its own layer-editing case.")
+        fail("Material editing GIF must be represented as its own layer-editing case.", failures)
     multi_section = readme.split('<a id="multi-image-fusion-editing"></a>', 1)[1].split('<a id="visual-quality-narrative"></a>', 1)[0]
-    if "Case count: **1**." not in multi_section or "### Case 15:" not in multi_section:
-        fail("Multi-image Fusion must contain exactly Case 15 after merging former cases 15/16.")
+    if "### Case 15:" not in multi_section:
+        fail("Multi-image Fusion must contain exactly Case 15 after merging former cases 15/16.", failures)
 
     source_refs = set(media_refs(readme))
     for rel in LOCALIZED_READMES:
