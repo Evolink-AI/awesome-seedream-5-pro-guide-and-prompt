@@ -94,7 +94,7 @@ Número de casos: **2**.
 
 ### Case 1: Flechas y cuadros de anotación para intención espacial
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/003-arrows-annotation-boxes.gif" width="720" alt="Flechas y cuadros de anotación para intención espacial">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/003-arrows-annotation-boxes.gif?v=20260709-camo" width="720" alt="Flechas y cuadros de anotación para intención espacial">
 
 > [!NOTE]
 > Usa flechas, cuadros y anotaciones para hacer explícita la zona objetivo antes de editar.
@@ -127,7 +127,7 @@ Número de casos: **4**.
 
 ### Case 3: Generación de objetos guiada por garabatos
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/005-doodles.gif" width="720" alt="Generación de objetos guiada por garabatos">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/005-doodles.gif?v=20260709-camo" width="720" alt="Generación de objetos guiada por garabatos">
 
 > [!NOTE]
 > Usa garabatos sueltos como señal de control visual y deja que el modelo renderice el objeto previsto.
@@ -138,7 +138,7 @@ Número de casos: **4**.
 
 ### Case 4: Edición guiada por bloques de color
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/006-color-block.gif" width="720" alt="Edición guiada por bloques de color">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/006-color-block.gif?v=20260709-camo" width="720" alt="Edición guiada por bloques de color">
 
 > [!NOTE]
 > Usa bloques de color amplios para indicar composición aproximada, zonas de color o ubicación de objetos.
@@ -149,7 +149,7 @@ Número de casos: **4**.
 
 ### Case 5: Edición de detalles guiada por líneas
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/007-lines.gif" width="720" alt="Edición de detalles guiada por líneas">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/007-lines.gif?v=20260709-camo" width="720" alt="Edición de detalles guiada por líneas">
 
 > [!NOTE]
 > Usa guía de líneas simples cuando el contorno de la forma importa más que una descripción larga.
@@ -160,7 +160,7 @@ Número de casos: **4**.
 
 ### Case 6: De boceto simple a imagen refinada
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/008-simple-sketches.gif" width="720" alt="De boceto simple a imagen refinada">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/008-simple-sketches.gif?v=20260709-camo" width="720" alt="De boceto simple a imagen refinada">
 
 > [!NOTE]
 > Convierte un boceto mínimo en una imagen renderizada más completa sin perder la intención del boceto.

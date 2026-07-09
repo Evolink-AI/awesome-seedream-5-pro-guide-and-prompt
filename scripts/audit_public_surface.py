@@ -100,6 +100,13 @@ def check_http(url: str, timeout: int) -> tuple[bool, str]:
             last_error = exc.__class__.__name__
             if attempt < 2:
                 time.sleep(1.5 * (attempt + 1))
+    try:
+        ok, detail = request_http(url, timeout, "GET")
+        return ok, f"{detail} via range GET after HEAD {last_error}"
+    except urllib.error.HTTPError as exc:
+        return False, f"HTTP {exc.code}"
+    except Exception as exc:
+        return False, f"{last_error}; range GET {exc.__class__.__name__}"
     return False, last_error
 
 

@@ -94,7 +94,7 @@ Número de casos: **2**.
 
 ### Case 1: Setas e caixas de anotação para intenção espacial
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/003-arrows-annotation-boxes.gif" width="720" alt="Setas e caixas de anotação para intenção espacial">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/003-arrows-annotation-boxes.gif?v=20260709-camo" width="720" alt="Setas e caixas de anotação para intenção espacial">
 
 > [!NOTE]
 > Use setas, caixas e anotações para explicitar a área-alvo antes da edição.
@@ -127,7 +127,7 @@ Número de casos: **4**.
 
 ### Case 3: Geração de objetos guiada por rabiscos
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/005-doodles.gif" width="720" alt="Geração de objetos guiada por rabiscos">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/005-doodles.gif?v=20260709-camo" width="720" alt="Geração de objetos guiada por rabiscos">
 
 > [!NOTE]
 > Use rabiscos soltos como sinal de controle visual e deixe o modelo renderizar o objeto pretendido.
@@ -138,7 +138,7 @@ Número de casos: **4**.
 
 ### Case 4: Edição guiada por blocos de cor
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/006-color-block.gif" width="720" alt="Edição guiada por blocos de cor">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/006-color-block.gif?v=20260709-camo" width="720" alt="Edição guiada por blocos de cor">
 
 > [!NOTE]
 > Use blocos amplos de cor para indicar composição aproximada, zonas de cor ou posicionamento de objetos.
@@ -149,7 +149,7 @@ Número de casos: **4**.
 
 ### Case 5: Edição de detalhes guiada por linhas
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/007-lines.gif" width="720" alt="Edição de detalhes guiada por linhas">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/007-lines.gif?v=20260709-camo" width="720" alt="Edição de detalhes guiada por linhas">
 
 > [!NOTE]
 > Use linhas simples quando o contorno da forma importar mais que uma descrição longa.
@@ -160,7 +160,7 @@ Número de casos: **4**.
 
 ### Case 6: De esboço simples a imagem refinada
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/008-simple-sketches.gif" width="720" alt="De esboço simples a imagem refinada">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/008-simple-sketches.gif?v=20260709-camo" width="720" alt="De esboço simples a imagem refinada">
 
 > [!NOTE]
 > Transforme um esboço mínimo em uma imagem renderizada mais completa preservando a intenção do esboço.

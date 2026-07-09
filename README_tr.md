@@ -94,7 +94,7 @@ Case sayısı: **2**.
 
 ### Case 1: Mekânsal niyet için oklar ve açıklama kutuları
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/003-arrows-annotation-boxes.gif" width="720" alt="Mekânsal niyet için oklar ve açıklama kutuları">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/003-arrows-annotation-boxes.gif?v=20260709-camo" width="720" alt="Mekânsal niyet için oklar ve açıklama kutuları">
 
 > [!NOTE]
 > Düzenlemeden önce hedef alanı açık hale getirmek için oklar, kutular ve açıklamalar kullanın.
@@ -127,7 +127,7 @@ Case sayısı: **4**.
 
 ### Case 3: Karalama rehberli nesne üretimi
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/005-doodles.gif" width="720" alt="Karalama rehberli nesne üretimi">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/005-doodles.gif?v=20260709-camo" width="720" alt="Karalama rehberli nesne üretimi">
 
 > [!NOTE]
 > Gevşek karalamaları görsel kontrol sinyali olarak kullanın ve modelin amaçlanan nesneyi işlemesini sağlayın.
@@ -138,7 +138,7 @@ Case sayısı: **4**.
 
 ### Case 4: Renk bloğu rehberli düzenleme
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/006-color-block.gif" width="720" alt="Renk bloğu rehberli düzenleme">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/006-color-block.gif?v=20260709-camo" width="720" alt="Renk bloğu rehberli düzenleme">
 
 > [!NOTE]
 > Kabaca kompozisyonu, renk bölgelerini veya nesne yerleşimini belirtmek için geniş renk blokları kullanın.
@@ -149,7 +149,7 @@ Case sayısı: **4**.
 
 ### Case 5: Çizgi rehberli detay düzenleme
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/007-lines.gif" width="720" alt="Çizgi rehberli detay düzenleme">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/007-lines.gif?v=20260709-camo" width="720" alt="Çizgi rehberli detay düzenleme">
 
 > [!NOTE]
 > Şekil sınırı uzun metin açıklamasından daha önemli olduğunda basit çizgi rehberliği kullanın.
@@ -160,7 +160,7 @@ Case sayısı: **4**.
 
 ### Case 6: Basit eskizden rafine görüntüye
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/008-simple-sketches.gif" width="720" alt="Basit eskizden rafine görüntüye">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/008-simple-sketches.gif?v=20260709-camo" width="720" alt="Basit eskizden rafine görüntüye">
 
 > [!NOTE]
 > Eskizin niyetini korurken minimal bir eskizi daha tamamlanmış bir render görüntüsüne dönüştürün.

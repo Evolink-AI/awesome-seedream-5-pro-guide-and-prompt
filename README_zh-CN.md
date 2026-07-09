@@ -94,7 +94,7 @@ Seedream 5.0 Pro 在官方发布材料中被定位为可控的图像生成与编
 
 ### Case 1: 用于空间意图的箭头和标注框
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/003-arrows-annotation-boxes.gif" width="720" alt="用于空间意图的箭头和标注框">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/003-arrows-annotation-boxes.gif?v=20260709-camo" width="720" alt="用于空间意图的箭头和标注框">
 
 > [!NOTE]
 > 在编辑前使用箭头、框和标注明确目标区域。
@@ -127,7 +127,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 3: 涂鸦引导的对象生成
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/005-doodles.gif" width="720" alt="涂鸦引导的对象生成">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/005-doodles.gif?v=20260709-camo" width="720" alt="涂鸦引导的对象生成">
 
 > [!NOTE]
 > 使用松散涂鸦作为视觉控制信号，让模型渲染目标对象。
@@ -138,7 +138,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 4: 色块引导的编辑
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/006-color-block.gif" width="720" alt="色块引导的编辑">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/006-color-block.gif?v=20260709-camo" width="720" alt="色块引导的编辑">
 
 > [!NOTE]
 > 使用大块色块指定粗略构图、颜色区域或对象位置。
@@ -149,7 +149,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 5: 线条引导的细节编辑
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/007-lines.gif" width="720" alt="线条引导的细节编辑">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/007-lines.gif?v=20260709-camo" width="720" alt="线条引导的细节编辑">
 
 > [!NOTE]
 > 当形状边界比长文本描述更重要时，使用简单线条进行引导。
@@ -160,7 +160,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 6: 从简单草图到精细图像
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/008-simple-sketches.gif" width="720" alt="从简单草图到精细图像">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/008-simple-sketches.gif?v=20260709-camo" width="720" alt="从简单草图到精细图像">
 
 > [!NOTE]
 > 在保留草图意图的同时，把极简草图转成更完整的渲染图。

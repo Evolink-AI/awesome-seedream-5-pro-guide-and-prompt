@@ -94,7 +94,7 @@ Case-Anzahl: **2**.
 
 ### Case 1: Pfeile und Anmerkungsboxen für räumliche Absicht
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/003-arrows-annotation-boxes.gif" width="720" alt="Pfeile und Anmerkungsboxen für räumliche Absicht">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/003-arrows-annotation-boxes.gif?v=20260709-camo" width="720" alt="Pfeile und Anmerkungsboxen für räumliche Absicht">
 
 > [!NOTE]
 > Markiere den Zielbereich vor der Bearbeitung explizit mit Pfeilen, Boxen und Anmerkungen.
@@ -127,7 +127,7 @@ Case-Anzahl: **4**.
 
 ### Case 3: Objektgenerierung mit Doodle-Vorgabe
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/005-doodles.gif" width="720" alt="Objektgenerierung mit Doodle-Vorgabe">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/005-doodles.gif?v=20260709-camo" width="720" alt="Objektgenerierung mit Doodle-Vorgabe">
 
 > [!NOTE]
 > Verwende grobe Doodles als visuelles Steuersignal und lasse das Modell das beabsichtigte Objekt rendern.
@@ -138,7 +138,7 @@ Case-Anzahl: **4**.
 
 ### Case 4: Bearbeitung mit Farbblock-Vorgabe
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/006-color-block.gif" width="720" alt="Bearbeitung mit Farbblock-Vorgabe">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/006-color-block.gif?v=20260709-camo" width="720" alt="Bearbeitung mit Farbblock-Vorgabe">
 
 > [!NOTE]
 > Nutze breite Farbblöcke, um grobe Komposition, Farbzonen oder Objektplatzierung festzulegen.
@@ -149,7 +149,7 @@ Case-Anzahl: **4**.
 
 ### Case 5: Detailbearbeitung mit Linienvorgabe
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/007-lines.gif" width="720" alt="Detailbearbeitung mit Linienvorgabe">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/007-lines.gif?v=20260709-camo" width="720" alt="Detailbearbeitung mit Linienvorgabe">
 
 > [!NOTE]
 > Verwende einfache Linienvorgaben, wenn die Formgrenze wichtiger ist als eine lange Textbeschreibung.
@@ -160,7 +160,7 @@ Case-Anzahl: **4**.
 
 ### Case 6: Von einfacher Skizze zu verfeinertem Bild
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/008-simple-sketches.gif" width="720" alt="Von einfacher Skizze zu verfeinertem Bild">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/008-simple-sketches.gif?v=20260709-camo" width="720" alt="Von einfacher Skizze zu verfeinertem Bild">
 
 > [!NOTE]
 > Wandle eine minimale Skizze in ein vollständiger gerendertes Bild um, ohne die Skizzenabsicht zu verlieren.

@@ -94,7 +94,7 @@ Nombre de cas : **2**.
 
 ### Case 1: Flèches et boîtes d’annotation pour l’intention spatiale
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/003-arrows-annotation-boxes.gif" width="720" alt="Flèches et boîtes d’annotation pour l’intention spatiale">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/003-arrows-annotation-boxes.gif?v=20260709-camo" width="720" alt="Flèches et boîtes d’annotation pour l’intention spatiale">
 
 > [!NOTE]
 > Utilisez flèches, boîtes et annotations pour rendre la zone cible explicite avant l’édition.
@@ -127,7 +127,7 @@ Nombre de cas : **4**.
 
 ### Case 3: Génération d’objet guidée par un gribouillage
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/005-doodles.gif" width="720" alt="Génération d’objet guidée par un gribouillage">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/005-doodles.gif?v=20260709-camo" width="720" alt="Génération d’objet guidée par un gribouillage">
 
 > [!NOTE]
 > Utilisez des gribouillages libres comme signal de contrôle visuel et laissez le modèle rendre l’objet voulu.
@@ -138,7 +138,7 @@ Nombre de cas : **4**.
 
 ### Case 4: Édition guidée par blocs de couleur
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/006-color-block.gif" width="720" alt="Édition guidée par blocs de couleur">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/006-color-block.gif?v=20260709-camo" width="720" alt="Édition guidée par blocs de couleur">
 
 > [!NOTE]
 > Utilisez de grands blocs de couleur pour préciser la composition générale, les zones de couleur ou le placement des objets.
@@ -149,7 +149,7 @@ Nombre de cas : **4**.
 
 ### Case 5: Édition de détail guidée par des lignes
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/007-lines.gif" width="720" alt="Édition de détail guidée par des lignes">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/007-lines.gif?v=20260709-camo" width="720" alt="Édition de détail guidée par des lignes">
 
 > [!NOTE]
 > Utilisez un guidage par lignes simples lorsque la limite de forme compte plus qu’une longue description textuelle.
@@ -160,7 +160,7 @@ Nombre de cas : **4**.
 
 ### Case 6: Du croquis simple à l’image affinée
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/008-simple-sketches.gif" width="720" alt="Du croquis simple à l’image affinée">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/008-simple-sketches.gif?v=20260709-camo" width="720" alt="Du croquis simple à l’image affinée">
 
 > [!NOTE]
 > Transformez un croquis minimal en image rendue plus complète tout en conservant son intention.

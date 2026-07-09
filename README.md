@@ -94,7 +94,7 @@ Case count: **2**.
 
 ### Case 1: Arrows and annotation boxes for spatial intent
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/003-arrows-annotation-boxes.gif" width="720" alt="Arrows and annotation boxes for spatial intent">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/003-arrows-annotation-boxes.gif?v=20260709-camo" width="720" alt="Arrows and annotation boxes for spatial intent">
 
 > [!NOTE]
 > Use arrows, boxes, and annotations to make the target area explicit before editing.
@@ -127,7 +127,7 @@ Case count: **4**.
 
 ### Case 3: Doodle-guided object generation
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/005-doodles.gif" width="720" alt="Doodle-guided object generation">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/005-doodles.gif?v=20260709-camo" width="720" alt="Doodle-guided object generation">
 
 > [!NOTE]
 > Use loose doodles as the visual control signal and let the model render the intended object.
@@ -138,7 +138,7 @@ Case count: **4**.
 
 ### Case 4: Color-block guided editing
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/006-color-block.gif" width="720" alt="Color-block guided editing">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/006-color-block.gif?v=20260709-camo" width="720" alt="Color-block guided editing">
 
 > [!NOTE]
 > Use broad color blocks to specify rough composition, color zones, or object placement.
@@ -149,7 +149,7 @@ Case count: **4**.
 
 ### Case 5: Line-guided detail editing
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/007-lines.gif" width="720" alt="Line-guided detail editing">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/007-lines.gif?v=20260709-camo" width="720" alt="Line-guided detail editing">
 
 > [!NOTE]
 > Use simple line guidance when the shape boundary matters more than a long text description.
@@ -160,7 +160,7 @@ Case count: **4**.
 
 ### Case 6: Simple sketch to refined image
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/008-simple-sketches.gif" width="720" alt="Simple sketch to refined image">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/008-simple-sketches.gif?v=20260709-camo" width="720" alt="Simple sketch to refined image">
 
 > [!NOTE]
 > Turn a minimal sketch into a more complete rendered image while preserving the sketch intent.

@@ -94,7 +94,7 @@ EvoLink のモデル入口を試す: [EvoLink で Seedream 5.0 Pro を開く](ht
 
 ### Case 1: 空間意図を示す矢印と注釈ボックス
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/003-arrows-annotation-boxes.gif" width="720" alt="空間意図を示す矢印と注釈ボックス">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/003-arrows-annotation-boxes.gif?v=20260709-camo" width="720" alt="空間意図を示す矢印と注釈ボックス">
 
 > [!NOTE]
 > 編集前に矢印、ボックス、注釈で対象エリアを明確にします。
@@ -127,7 +127,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 3: 落書きガイドによるオブジェクト生成
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/005-doodles.gif" width="720" alt="落書きガイドによるオブジェクト生成">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/005-doodles.gif?v=20260709-camo" width="720" alt="落書きガイドによるオブジェクト生成">
 
 > [!NOTE]
 > ラフな落書きを視覚制御信号として使い、意図したオブジェクトをモデルに描画させます。
@@ -138,7 +138,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 4: 色ブロックでガイドする編集
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/006-color-block.gif" width="720" alt="色ブロックでガイドする編集">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/006-color-block.gif?v=20260709-camo" width="720" alt="色ブロックでガイドする編集">
 
 > [!NOTE]
 > 大きな色ブロックで大まかな構図、色領域、オブジェクト配置を指定します。
@@ -149,7 +149,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 5: 線でガイドするディテール編集
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/007-lines.gif" width="720" alt="線でガイドするディテール編集">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/007-lines.gif?v=20260709-camo" width="720" alt="線でガイドするディテール編集">
 
 > [!NOTE]
 > 形状の輪郭が長い説明より重要なとき、シンプルな線ガイドを使います。
@@ -160,7 +160,7 @@ Red box: A huge blue-furred head with a ferocious squished expression, gazing at
 
 ### Case 6: 簡単なスケッチから洗練された画像へ
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/008-simple-sketches.gif" width="720" alt="簡単なスケッチから洗練された画像へ">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/008-simple-sketches.gif?v=20260709-camo" width="720" alt="簡単なスケッチから洗練された画像へ">
 
 > [!NOTE]
 > 最小限のスケッチを、意図を保ったままより完成度の高い画像にします。
