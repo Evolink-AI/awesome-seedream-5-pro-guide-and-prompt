@@ -14,6 +14,10 @@ ROOT = Path(__file__).resolve().parents[1]
 README = ROOT / "README.md"
 INVENTORY = ROOT / "data" / "official_case_inventory.json"
 REMOVED_SOURCE_NOTE_TOKEN = "source" + "-notes"
+COMMUNITY_R2_PREFIX = (
+    "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/"
+    "github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/"
+)
 LOCALIZED_READMES = [
     "README.md",
     "README_es.md",
@@ -151,6 +155,9 @@ def verify_readme(rel: str, source_case_numbers: list[int], source_media_refs: s
         fail(f"{rel} is missing Community Use Cases section.", failures)
     if '<a id="prompt-library"></a>' not in text:
         fail(f"{rel} is missing Prompt Library section.", failures)
+    community_text = text.split('<a id="community-use-cases"></a>', 1)[1]
+    if 'src="downloaded-media/' in community_text or "src='downloaded-media/" in community_text:
+        fail(f"{rel} community use cases must reference R2 media URLs, not downloaded-media local paths.", failures)
     for slug, expected in EXPECTED_COMMUNITY_CATEGORY_COUNTS.items():
         if f'<a id="{slug}"></a>' not in text:
             fail(f"{rel} is missing community category anchor: {slug}", failures)
@@ -259,12 +266,21 @@ def main() -> int:
     if len(community_items) != 35:
         fail(f"data/use-cases.json must contain 35 community items, found {len(community_items)}.")
     for item in community_items:
-        for key in ["source_url", "author_url", "title", "date", "type", "category", "category_label", "tags", "takeaway", "dedup_key", "local_media_files", "prompt_text"]:
+        for key in ["source_url", "author_url", "title", "date", "type", "category", "category_label", "tags", "takeaway", "dedup_key", "local_media_files", "r2_media_urls", "prompt_text"]:
             if key not in item:
                 fail(f"Community use case item missing key {key}: {item.get('number')}", failures)
-        for rel_media in item.get("local_media_files", []):
+        local_media_files = item.get("local_media_files", [])
+        r2_media_urls = item.get("r2_media_urls", [])
+        if len(r2_media_urls) != len(local_media_files):
+            fail(f"Community use case item {item.get('number')} must have one R2 URL per local media file.", failures)
+        for rel_media, r2_url in zip(local_media_files, r2_media_urls):
             if not (ROOT / rel_media).is_file():
                 fail(f"Community use case media file is missing: {rel_media}", failures)
+            expected_url = COMMUNITY_R2_PREFIX + rel_media.rsplit("downloaded-media/media/", 1)[-1]
+            if r2_url != expected_url:
+                fail(f"Community use case item {item.get('number')} has unexpected R2 media URL: {r2_url}", failures)
+            if not text_mentions_media(readme, rel_media):
+                fail(f"README does not reference uploaded community media: {rel_media}", failures)
 
     if '<td width="50%" valign="top">' not in readme.split('### Case 13:', 1)[1].split('---', 1)[0]:
         fail("Case 13 before/after comparison must display both images in one row.")
