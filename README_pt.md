@@ -37,6 +37,7 @@ Experimente o ponto de entrada do modelo no EvoLink: [abrir Seedream 5.0 Pro no 
 
 ## 📰 Novidades
 
+- **10 de julho de 2026:** Foram adicionados 4 casos com fontes públicas, localizados os títulos e aprendizados dos 39 casos e incluído um pôster de vídeo clicável.
 - **July 8, 2026:** Guia inicial reconstruído em torno do menu oficial e do inventário de casos corrigido oficialmente.
 
 <a id="menu"></a>
@@ -416,27 +417,25 @@ Número de casos: **5**.
 
 ## 🧪 Casos de uso da comunidade
 
-Estes 35 casos da comunidade são agrupados pela tarefa do usuário e pelo propósito de saída. As tags registram atributos secundários como comparação de modelos, prompt disponível, entrada de imagem e saída multi-imagem.
-
-Contagem de casos de uso: **35**.
+Estes 39 casos da comunidade com fontes públicas estão agrupados por tarefa e objetivo de saída. As tags indicam atributos secundários como comparação de modelos, disponibilidade do prompt, entrada de imagem e saída com várias imagens.
 
 <a id="community-editing-control"></a>
 
 ### Fluxos de edição e controle de entrada
 
-Contagem de casos de uso: **3**.
-
 <a id="community-usecase-1"></a>
 
-### Community Use Case 1: [Japanese no-makeup image edit instruction](https://x.com/renataro9/status/2075059699112652908) (by [@renataro9](https://x.com/renataro9))
+### Community Use Case 1: [Instrução em japonês para edição de imagem sem maquiagem](https://x.com/renataro9/status/2075059699112652908) (by [@renataro9](https://x.com/renataro9))
 
-Type: Tutorial | Date: 2026-07-09 | Category: Editing & Input-Control Workflows
+**A publicação de origem mostra um fluxo de edição ou controle de entrada em que a relação entre as entradas importa tanto quanto a imagem final.**
+
+Type: Tutorial | Date: 2026-07-09 | Category: Fluxos de edição e controle de entrada
 
 Tags: `image-input` `multi-image` `prompt-available` `tutorial`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/043/01.jpg" height="180" alt="Japanese no-makeup image edit instruction media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/043/02.jpg" height="180" alt="Japanese no-makeup image edit instruction media"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/043/01.jpg" height="180" alt="Instrução em japonês para edição de imagem sem maquiagem mídia"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/043/02.jpg" height="180" alt="Instrução em japonês para edição de imagem sem maquiagem mídia"></td>
 </tr></table>
 
 <details open>
@@ -449,17 +448,20 @@ Tags: `image-input` `multi-image` `prompt-available` `tutorial`
 </details>
 
 ---
+
 <a id="community-usecase-2"></a>
 
-### Community Use Case 2: [Localized anime edit preserving composition while changing one subject](https://x.com/haruuraeadss/status/2075035201391255593) (by [@haruuraeadss](https://x.com/haruuraeadss))
+### Community Use Case 2: [Edição de anime localizada que preserva a composição e altera um único sujeito](https://x.com/haruuraeadss/status/2075035201391255593) (by [@haruuraeadss](https://x.com/haruuraeadss))
 
-Type: Tutorial | Date: 2026-07-09 | Category: Editing & Input-Control Workflows
+**A publicação de origem mostra um fluxo de edição ou controle de entrada em que a relação entre as entradas importa tanto quanto a imagem final.**
+
+Type: Tutorial | Date: 2026-07-09 | Category: Fluxos de edição e controle de entrada
 
 Tags: `multi-image` `prompt-available` `tutorial`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/052/01.jpg" height="180" alt="Localized anime edit preserving composition while changing one subject media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/052/02.jpg" height="180" alt="Localized anime edit preserving composition while changing one subject media"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/052/01.jpg" height="180" alt="Edição de anime localizada que preserva a composição e altera um único sujeito mídia"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/052/02.jpg" height="180" alt="Edição de anime localizada que preserva a composição e altera um único sujeito mídia"></td>
 </tr></table>
 
 <details open>
@@ -472,17 +474,20 @@ Tags: `multi-image` `prompt-available` `tutorial`
 </details>
 
 ---
+
 <a id="community-usecase-3"></a>
 
-### Community Use Case 3: [Image-input cat-to-mecha transformation](https://x.com/JennyAITech/status/2074870477651398972) (by [@JennyAITech](https://x.com/JennyAITech))
+### Community Use Case 3: [Transformação de gato em mecha por entrada de imagem](https://x.com/JennyAITech/status/2074870477651398972) (by [@JennyAITech](https://x.com/JennyAITech))
 
-Type: Demo | Date: 2026-07-08 | Category: Editing & Input-Control Workflows
+**A publicação de origem mostra um fluxo de edição ou controle de entrada em que a relação entre as entradas importa tanto quanto a imagem final.**
+
+Type: Demo | Date: 2026-07-08 | Category: Fluxos de edição e controle de entrada
 
 Tags: `image-input` `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/058/01.jpg" height="180" alt="Image-input cat-to-mecha transformation media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/058/02.jpg" height="180" alt="Image-input cat-to-mecha transformation media"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/058/01.jpg" height="180" alt="Transformação de gato em mecha por entrada de imagem mídia"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/058/02.jpg" height="180" alt="Transformação de gato em mecha por entrada de imagem mídia"></td>
 </tr></table>
 
 <details open>
@@ -495,21 +500,59 @@ a pic of my cat, asked for a mecha version
 </details>
 
 ---
+
+<a id="community-usecase-36"></a>
+
+### Community Use Case 36: [Variação de imagem de referência a partir de uma fonte Niji7](https://x.com/Naonekozamurai/status/2075407158129353026) (by [@Naonekozamurai](https://x.com/Naonekozamurai))
+
+**Use uma ilustração existente como base visual e gere no Seedream uma variação controlada.**
+
+Type: Demo | Date: 2026-07-10 | Category: Fluxos de edição e controle de entrada
+
+Tags: `image-input` `multi-image` `reference-variation`
+
+<table><tr>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/071/01.jpg" height="180" alt="Variação de imagem de referência a partir de uma fonte Niji7 mídia"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/071/02.jpg" height="180" alt="Variação de imagem de referência a partir de uma fonte Niji7 mídia"></td>
+</tr></table>
+
+---
+
+<a id="community-usecase-38"></a>
+
+### Community Use Case 38: [Transferência de maquiagem preservando a identidade](https://x.com/YaZoraiz/status/2075189150127726801) (by [@YaZoraiz](https://x.com/YaZoraiz))
+
+**Transfira a maquiagem de uma referência mantendo intacta a identidade da pessoa de destino.**
+
+Type: Evaluation | Date: 2026-07-09 | Category: Fluxos de edição e controle de entrada
+
+Tags: `identity-preservation` `image-input` `model-comparison` `multi-image`
+
+<table><tr>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/073/01.jpg" height="180" alt="Transferência de maquiagem preservando a identidade mídia"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/073/02.jpg" height="180" alt="Transferência de maquiagem preservando a identidade mídia"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/073/03.jpg" height="180" alt="Transferência de maquiagem preservando a identidade mídia"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/073/04.jpg" height="180" alt="Transferência de maquiagem preservando a identidade mídia"></td>
+</tr></table>
+
+---
+
+
 <a id="community-product-interface-design"></a>
 
 ### Design de produto, interface e pôster
 
-Contagem de casos de uso: **4**.
-
 <a id="community-usecase-4"></a>
 
-### Community Use Case 4: [Trading terminal interface with market microstructure detail](https://x.com/MishikaAI/status/2074879603446026333) (by [@MishikaAI](https://x.com/MishikaAI))
+### Community Use Case 4: [Interface de terminal de trading com detalhes da microestrutura do mercado](https://x.com/MishikaAI/status/2074879603446026333) (by [@MishikaAI](https://x.com/MishikaAI))
 
-Type: Demo | Date: 2026-07-08 | Category: Product, Interface & Poster Design
+**A publicação de origem testa se o Seedream produz um visual comercial, uma interface, um anúncio de produto ou uma saída em formato de pôster que seja utilizável.**
+
+Type: Demo | Date: 2026-07-08 | Category: Design de produto, interface e pôster
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/004/01.jpg" height="340" alt="Trading terminal interface with market microstructure detail media">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/004/01.jpg" height="340" alt="Interface de terminal de trading com detalhes da microestrutura do mercado mídia">
 
 <details open>
 <summary>Prompt</summary>
@@ -521,15 +564,18 @@ a full trading terminal — K-lines, order book, bid/ask, volume, timestamps
 </details>
 
 ---
+
 <a id="community-usecase-5"></a>
 
-### Community Use Case 5: [Cyberpunk android graphic poster](https://x.com/ComfyUI/status/2075027793491226677) (by [@ComfyUI](https://x.com/ComfyUI))
+### Community Use Case 5: [Pôster gráfico de androide cyberpunk](https://x.com/ComfyUI/status/2075027793491226677) (by [@ComfyUI](https://x.com/ComfyUI))
 
-Type: Demo | Date: 2026-07-09 | Category: Product, Interface & Poster Design
+**A publicação de origem testa se o Seedream produz um visual comercial, uma interface, um anúncio de produto ou uma saída em formato de pôster que seja utilizável.**
+
+Type: Demo | Date: 2026-07-09 | Category: Design de produto, interface e pôster
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/042/01.jpg" height="340" alt="Cyberpunk android graphic poster media">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/042/01.jpg" height="340" alt="Pôster gráfico de androide cyberpunk mídia">
 
 <details open>
 <summary>Prompt</summary>
@@ -541,19 +587,22 @@ A sci-fi cyberpunk graphic design poster. In the center, a striking portrait of 
 </details>
 
 ---
+
 <a id="community-usecase-6"></a>
 
-### Community Use Case 6: [Premium sports footwear commercial ad set](https://x.com/iamrealsnow/status/2075063569486598281) (by [@iamrealsnow](https://x.com/iamrealsnow))
+### Community Use Case 6: [Conjunto de anúncios para calçados esportivos premium](https://x.com/iamrealsnow/status/2075063569486598281) (by [@iamrealsnow](https://x.com/iamrealsnow))
 
-Type: Demo | Date: 2026-07-09 | Category: Product, Interface & Poster Design
+**A publicação de origem testa se o Seedream produz um visual comercial, uma interface, um anúncio de produto ou uma saída em formato de pôster que seja utilizável.**
+
+Type: Demo | Date: 2026-07-09 | Category: Design de produto, interface e pôster
 
 Tags: `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/047/01.jpg" height="180" alt="Premium sports footwear commercial ad set media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/047/02.jpg" height="180" alt="Premium sports footwear commercial ad set media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/047/03.jpg" height="180" alt="Premium sports footwear commercial ad set media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/047/04.jpg" height="180" alt="Premium sports footwear commercial ad set media"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/047/01.jpg" height="180" alt="Conjunto de anúncios para calçados esportivos premium mídia"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/047/02.jpg" height="180" alt="Conjunto de anúncios para calçados esportivos premium mídia"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/047/03.jpg" height="180" alt="Conjunto de anúncios para calçados esportivos premium mídia"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/047/04.jpg" height="180" alt="Conjunto de anúncios para calçados esportivos premium mídia"></td>
 </tr></table>
 
 <details open>
@@ -566,15 +615,18 @@ Ultra-realistic premium sports footwear commercial advertisement featuring a mod
 </details>
 
 ---
+
 <a id="community-usecase-7"></a>
 
-### Community Use Case 7: [Kids clay craft advertisement poster](https://x.com/Strength04_X/status/2075063250656621054) (by [@Strength04_X](https://x.com/Strength04_X))
+### Community Use Case 7: [Pôster publicitário de artesanato infantil com argila](https://x.com/Strength04_X/status/2075063250656621054) (by [@Strength04_X](https://x.com/Strength04_X))
 
-Type: Demo | Date: 2026-07-09 | Category: Product, Interface & Poster Design
+**A publicação de origem testa se o Seedream produz um visual comercial, uma interface, um anúncio de produto ou uma saída em formato de pôster que seja utilizável.**
+
+Type: Demo | Date: 2026-07-09 | Category: Design de produto, interface e pôster
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/050/01.jpg" height="340" alt="Kids clay craft advertisement poster media">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/050/01.jpg" height="340" alt="Pôster publicitário de artesanato infantil com argila mídia">
 
 <details open>
 <summary>Prompt</summary>
@@ -586,21 +638,23 @@ A messy fun kids advertisement poster. A laughing young girl age 6 with clay all
 </details>
 
 ---
+
+
 <a id="community-technical-structured-visuals"></a>
 
 ### Prompts técnicos, diagramas e sequências
 
-Contagem de casos de uso: **4**.
-
 <a id="community-usecase-8"></a>
 
-### Community Use Case 8: [Measurement-heavy technical blueprint rendering](https://x.com/LiamEtherson/status/2074862867442962667) (by [@LiamEtherson](https://x.com/LiamEtherson))
+### Community Use Case 8: [Renderização de planta técnica com muitas medidas](https://x.com/LiamEtherson/status/2074862867442962667) (by [@LiamEtherson](https://x.com/LiamEtherson))
 
-Type: Demo | Date: 2026-07-08 | Category: Technical, Diagram & Sequence Prompts
+**A publicação de origem testa o seguimento de prompts estruturados, incluindo diagramas, layouts técnicos, listas de planos e lógica de sequência com vários quadros.**
+
+Type: Demo | Date: 2026-07-08 | Category: Prompts técnicos, diagramas e sequências
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/003/01.jpg" height="340" alt="Measurement-heavy technical blueprint rendering media">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/003/01.jpg" height="340" alt="Renderização de planta técnica com muitas medidas mídia">
 
 <details open>
 <summary>Prompt</summary>
@@ -612,15 +666,18 @@ technical blueprint with abundant measurement values
 </details>
 
 ---
+
 <a id="community-usecase-9"></a>
 
-### Community Use Case 9: [Concept car blueprint with exploded technical views](https://x.com/AiwithZohaib/status/2074880584107909602) (by [@AiwithZohaib](https://x.com/AiwithZohaib))
+### Community Use Case 9: [Planta de carro conceitual com vistas técnicas explodidas](https://x.com/AiwithZohaib/status/2074880584107909602) (by [@AiwithZohaib](https://x.com/AiwithZohaib))
 
-Type: Demo | Date: 2026-07-08 | Category: Technical, Diagram & Sequence Prompts
+**A publicação de origem testa o seguimento de prompts estruturados, incluindo diagramas, layouts técnicos, listas de planos e lógica de sequência com vários quadros.**
+
+Type: Demo | Date: 2026-07-08 | Category: Prompts técnicos, diagramas e sequências
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/005/01.jpg" height="340" alt="Concept car blueprint with exploded technical views media">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/005/01.jpg" height="340" alt="Planta de carro conceitual com vistas técnicas explodidas mídia">
 
 <details open>
 <summary>Prompt</summary>
@@ -632,15 +689,18 @@ a blueprint-style technical drawing of a concept car: front/side/rear views, exp
 </details>
 
 ---
+
 <a id="community-usecase-10"></a>
 
-### Community Use Case 10: [Shot-list driven grayscale scene planning](https://x.com/munzxsdv/status/2074865454485483885) (by [@munzxsdv](https://x.com/munzxsdv))
+### Community Use Case 10: [Planejamento de cena em tons de cinza orientado por lista de planos](https://x.com/munzxsdv/status/2074865454485483885) (by [@munzxsdv](https://x.com/munzxsdv))
 
-Type: Demo | Date: 2026-07-08 | Category: Technical, Diagram & Sequence Prompts
+**A publicação de origem testa o seguimento de prompts estruturados, incluindo diagramas, layouts técnicos, listas de planos e lógica de sequência com vários quadros.**
+
+Type: Demo | Date: 2026-07-08 | Category: Prompts técnicos, diagramas e sequências
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/007/01.jpg" height="340" alt="Shot-list driven grayscale scene planning media">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/007/01.jpg" height="340" alt="Planejamento de cena em tons de cinza orientado por lista de planos mídia">
 
 <details open>
 <summary>Prompt</summary>
@@ -652,15 +712,18 @@ a shot list — panel-by-panel direction, camera moves, grayscale spec
 </details>
 
 ---
+
 <a id="community-usecase-11"></a>
 
-### Community Use Case 11: [Single-prompt 16-panel cavalry storyboard](https://x.com/sulekhat95/status/2074966196563431636) (by [@sulekhat95](https://x.com/sulekhat95))
+### Community Use Case 11: [Storyboard de cavalaria com 16 quadros a partir de um único prompt](https://x.com/sulekhat95/status/2074966196563431636) (by [@sulekhat95](https://x.com/sulekhat95))
 
-Type: Demo | Date: 2026-07-08 | Category: Technical, Diagram & Sequence Prompts
+**A publicação de origem testa o seguimento de prompts estruturados, incluindo diagramas, layouts técnicos, listas de planos e lógica de sequência com vários quadros.**
+
+Type: Demo | Date: 2026-07-08 | Category: Prompts técnicos, diagramas e sequências
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/062/01.jpg" height="340" alt="Single-prompt 16-panel cavalry storyboard media">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/062/01.jpg" height="340" alt="Storyboard de cavalaria com 16 quadros a partir de um único prompt mídia">
 
 <details open>
 <summary>Prompt</summary>
@@ -672,23 +735,43 @@ Tags: `prompt-available`
 </details>
 
 ---
+
+<a id="community-usecase-37"></a>
+
+### Community Use Case 37: [Diagrama técnico explodido a partir de um único prompt](https://x.com/Ciri_ai/status/2075248022515294567) (by [@Ciri_ai](https://x.com/Ciri_ai))
+
+**Use o Seedream para transformar uma instrução em uma composição técnica explodida e rotulada.**
+
+Type: Demo | Date: 2026-07-09 | Category: Prompts técnicos, diagramas e sequências
+
+Tags: `diagram` `multi-image` `structured-layout`
+
+<table><tr>
+<td width="33%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/072/01.jpg" height="180" alt="Diagrama técnico explodido a partir de um único prompt mídia"></td>
+<td width="33%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/072/02.jpg" height="180" alt="Diagrama técnico explodido a partir de um único prompt mídia"></td>
+<td width="33%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/072/03.jpg" height="180" alt="Diagrama técnico explodido a partir de um único prompt mídia"></td>
+</tr></table>
+
+---
+
+
 <a id="community-cinematic-character-visuals"></a>
 
-### Visuais cinematográficos, personagens e estilo
-
-Contagem de casos de uso: **10**.
+### Visuais cinematográficos, de personagens e de estilo
 
 <a id="community-usecase-12"></a>
 
-### Community Use Case 12: [Fisheye editorial portraits with miniature clone motif](https://x.com/magnific/status/2074872903938846900) (by [@magnific](https://x.com/magnific))
+### Community Use Case 12: [Retratos editoriais olho de peixe com motivo de clones em miniatura](https://x.com/magnific/status/2074872903938846900) (by [@magnific](https://x.com/magnific))
 
-Type: Demo | Date: 2026-07-08 | Category: Cinematic, Character & Style Visuals
+**A publicação de origem testa a qualidade cinematográfica, de personagens, moda ou estilo por meio dos resultados visuais publicados.**
+
+Type: Demo | Date: 2026-07-08 | Category: Visuais cinematográficos, de personagens e de estilo
 
 Tags: `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/008/01.jpg" height="180" alt="Fisheye editorial portraits with miniature clone motif media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/008/02.jpg" height="180" alt="Fisheye editorial portraits with miniature clone motif media"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/008/01.jpg" height="180" alt="Retratos editoriais olho de peixe com motivo de clones em miniatura mídia"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/008/02.jpg" height="180" alt="Retratos editoriais olho de peixe com motivo de clones em miniatura mídia"></td>
 </tr></table>
 
 <details open>
@@ -701,17 +784,20 @@ Shot on cinema camera with subtle halation effect, 35mm film grain, fashion edit
 </details>
 
 ---
+
 <a id="community-usecase-13"></a>
 
-### Community Use Case 13: [Melting-world-landmarks concept generation](https://x.com/magnific/status/2074918700709523881) (by [@magnific](https://x.com/magnific))
+### Community Use Case 13: [Geração conceitual de marcos mundiais derretendo](https://x.com/magnific/status/2074918700709523881) (by [@magnific](https://x.com/magnific))
 
-Type: Demo | Date: 2026-07-08 | Category: Cinematic, Character & Style Visuals
+**A publicação de origem testa a qualidade cinematográfica, de personagens, moda ou estilo por meio dos resultados visuais publicados.**
+
+Type: Demo | Date: 2026-07-08 | Category: Visuais cinematográficos, de personagens e de estilo
 
 Tags: `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/011/01.jpg" height="180" alt="Melting-world-landmarks concept generation media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/011/02.jpg" height="180" alt="Melting-world-landmarks concept generation media"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/011/01.jpg" height="180" alt="Geração conceitual de marcos mundiais derretendo mídia"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/011/02.jpg" height="180" alt="Geração conceitual de marcos mundiais derretendo mídia"></td>
 </tr></table>
 
 <details open>
@@ -724,15 +810,18 @@ world's landmarks, melting like wax
 </details>
 
 ---
+
 <a id="community-usecase-14"></a>
 
-### Community Use Case 14: [Photorealistic high-fashion portrait lighting](https://x.com/BubbleBrain/status/2074856963591290979) (by [@BubbleBrain](https://x.com/BubbleBrain))
+### Community Use Case 14: [Iluminação fotorrealista para retrato de alta moda](https://x.com/BubbleBrain/status/2074856963591290979) (by [@BubbleBrain](https://x.com/BubbleBrain))
 
-Type: Demo | Date: 2026-07-08 | Category: Cinematic, Character & Style Visuals
+**A publicação de origem testa a qualidade cinematográfica, de personagens, moda ou estilo por meio dos resultados visuais publicados.**
+
+Type: Demo | Date: 2026-07-08 | Category: Visuais cinematográficos, de personagens e de estilo
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/017/01.jpg" height="340" alt="Photorealistic high-fashion portrait lighting media">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/017/01.jpg" height="340" alt="Iluminação fotorrealista para retrato de alta moda mídia">
 
 <details open>
 <summary>Prompt</summary>
@@ -744,15 +833,18 @@ This is a highly photorealistic, high-fashion full-body portrait with an overall
 </details>
 
 ---
+
 <a id="community-usecase-15"></a>
 
-### Community Use Case 15: [Natural phone-photo scene at San Francisco sunset](https://x.com/mattworkman/status/2074850550349222210) (by [@mattworkman](https://x.com/mattworkman))
+### Community Use Case 15: [Cena natural de foto no celular ao pôr do sol em São Francisco](https://x.com/mattworkman/status/2074850550349222210) (by [@mattworkman](https://x.com/mattworkman))
 
-Type: Demo | Date: 2026-07-08 | Category: Cinematic, Character & Style Visuals
+**A publicação de origem testa a qualidade cinematográfica, de personagens, moda ou estilo por meio dos resultados visuais publicados.**
+
+Type: Demo | Date: 2026-07-08 | Category: Visuais cinematográficos, de personagens e de estilo
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/018/01.jpg" height="340" alt="Natural phone-photo scene at San Francisco sunset media">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/018/01.jpg" height="340" alt="Cena natural de foto no celular ao pôr do sol em São Francisco mídia">
 
 <details open>
 <summary>Prompt</summary>
@@ -764,15 +856,18 @@ a Korean girl in her twenties on her iPhone in San Francisco at sunset
 </details>
 
 ---
+
 <a id="community-usecase-16"></a>
 
-### Community Use Case 16: [Fantasy fallen-angel warrior key visual](https://x.com/SimplyAnnisa/status/2074900816662774189) (by [@SimplyAnnisa](https://x.com/SimplyAnnisa))
+### Community Use Case 16: [Visual principal de guerreiro anjo caído de fantasia](https://x.com/SimplyAnnisa/status/2074900816662774189) (by [@SimplyAnnisa](https://x.com/SimplyAnnisa))
 
-Type: Demo | Date: 2026-07-08 | Category: Cinematic, Character & Style Visuals
+**A publicação de origem testa a qualidade cinematográfica, de personagens, moda ou estilo por meio dos resultados visuais publicados.**
+
+Type: Demo | Date: 2026-07-08 | Category: Visuais cinematográficos, de personagens e de estilo
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/028/01.jpg" height="340" alt="Fantasy fallen-angel warrior key visual media">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/028/01.jpg" height="340" alt="Visual principal de guerreiro anjo caído de fantasia mídia">
 
 <details open>
 <summary>Prompt</summary>
@@ -784,19 +879,22 @@ A divine fallen angel warrior kneeling in the center of an ancient celestial tem
 </details>
 
 ---
+
 <a id="community-usecase-17"></a>
 
-### Community Use Case 17: [Japanese casual portrait styling set](https://x.com/Cia0_exe/status/2075033845032993261) (by [@Cia0_exe](https://x.com/Cia0_exe))
+### Community Use Case 17: [Conjunto de estilos para retrato casual japonês](https://x.com/Cia0_exe/status/2075033845032993261) (by [@Cia0_exe](https://x.com/Cia0_exe))
 
-Type: Demo | Date: 2026-07-09 | Category: Cinematic, Character & Style Visuals
+**A publicação de origem testa a qualidade cinematográfica, de personagens, moda ou estilo por meio dos resultados visuais publicados.**
+
+Type: Demo | Date: 2026-07-09 | Category: Visuais cinematográficos, de personagens e de estilo
 
 Tags: `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/029/01.jpg" height="180" alt="Japanese casual portrait styling set media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/029/02.jpg" height="180" alt="Japanese casual portrait styling set media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/029/03.jpg" height="180" alt="Japanese casual portrait styling set media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/029/04.jpg" height="180" alt="Japanese casual portrait styling set media"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/029/01.jpg" height="180" alt="Conjunto de estilos para retrato casual japonês mídia"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/029/02.jpg" height="180" alt="Conjunto de estilos para retrato casual japonês mídia"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/029/03.jpg" height="180" alt="Conjunto de estilos para retrato casual japonês mídia"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/029/04.jpg" height="180" alt="Conjunto de estilos para retrato casual japonês mídia"></td>
 </tr></table>
 
 <details open>
@@ -809,19 +907,22 @@ A beautiful young Japanese woman, natural and effortless beauty, soft glowing sk
 </details>
 
 ---
+
 <a id="community-usecase-18"></a>
 
-### Community Use Case 18: [ARRI-style cinematic city close-up](https://x.com/df_reno/status/2075055332452106476) (by [@df_reno](https://x.com/df_reno))
+### Community Use Case 18: [Close urbano cinematográfico no estilo ARRI](https://x.com/df_reno/status/2075055332452106476) (by [@df_reno](https://x.com/df_reno))
 
-Type: Demo | Date: 2026-07-09 | Category: Cinematic, Character & Style Visuals
+**A publicação de origem testa a qualidade cinematográfica, de personagens, moda ou estilo por meio dos resultados visuais publicados.**
+
+Type: Demo | Date: 2026-07-09 | Category: Visuais cinematográficos, de personagens e de estilo
 
 Tags: `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/035/01.jpg" height="180" alt="ARRI-style cinematic city close-up media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/035/02.jpg" height="180" alt="ARRI-style cinematic city close-up media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/035/03.jpg" height="180" alt="ARRI-style cinematic city close-up media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/035/04.jpg" height="180" alt="ARRI-style cinematic city close-up media"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/035/01.jpg" height="180" alt="Close urbano cinematográfico no estilo ARRI mídia"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/035/02.jpg" height="180" alt="Close urbano cinematográfico no estilo ARRI mídia"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/035/03.jpg" height="180" alt="Close urbano cinematográfico no estilo ARRI mídia"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/035/04.jpg" height="180" alt="Close urbano cinematográfico no estilo ARRI mídia"></td>
 </tr></table>
 
 <details open>
@@ -834,19 +935,22 @@ Tags: `multi-image` `prompt-available`
 </details>
 
 ---
+
 <a id="community-usecase-19"></a>
 
-### Community Use Case 19: [Fashion outfit editorial set in a parking structure](https://x.com/ChillaiKalan__/status/2075071088137208063) (by [@ChillaiKalan__](https://x.com/ChillaiKalan__))
+### Community Use Case 19: [Editorial de looks de moda em um estacionamento](https://x.com/ChillaiKalan__/status/2075071088137208063) (by [@ChillaiKalan__](https://x.com/ChillaiKalan__))
 
-Type: Demo | Date: 2026-07-09 | Category: Cinematic, Character & Style Visuals
+**A publicação de origem testa a qualidade cinematográfica, de personagens, moda ou estilo por meio dos resultados visuais publicados.**
+
+Type: Demo | Date: 2026-07-09 | Category: Visuais cinematográficos, de personagens e de estilo
 
 Tags: `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/038/01.jpg" height="180" alt="Fashion outfit editorial set in a parking structure media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/038/02.jpg" height="180" alt="Fashion outfit editorial set in a parking structure media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/038/03.jpg" height="180" alt="Fashion outfit editorial set in a parking structure media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/038/04.jpg" height="180" alt="Fashion outfit editorial set in a parking structure media"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/038/01.jpg" height="180" alt="Editorial de looks de moda em um estacionamento mídia"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/038/02.jpg" height="180" alt="Editorial de looks de moda em um estacionamento mídia"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/038/03.jpg" height="180" alt="Editorial de looks de moda em um estacionamento mídia"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/038/04.jpg" height="180" alt="Editorial de looks de moda em um estacionamento mídia"></td>
 </tr></table>
 
 <details open>
@@ -859,15 +963,18 @@ A stylish young woman with long layered black hair and soft curtain bangs, weari
 </details>
 
 ---
+
 <a id="community-usecase-20"></a>
 
-### Community Use Case 20: [Iridescent glass-flower editorial poster](https://x.com/ComfyUI/status/2075027810666914062) (by [@ComfyUI](https://x.com/ComfyUI))
+### Community Use Case 20: [Pôster editorial de flor de vidro iridescente](https://x.com/ComfyUI/status/2075027810666914062) (by [@ComfyUI](https://x.com/ComfyUI))
 
-Type: Demo | Date: 2026-07-09 | Category: Cinematic, Character & Style Visuals
+**A publicação de origem testa a qualidade cinematográfica, de personagens, moda ou estilo por meio dos resultados visuais publicados.**
+
+Type: Demo | Date: 2026-07-09 | Category: Visuais cinematográficos, de personagens e de estilo
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/044/01.jpg" height="340" alt="Iridescent glass-flower editorial poster media">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/044/01.jpg" height="340" alt="Pôster editorial de flor de vidro iridescente mídia">
 
 <details open>
 <summary>Prompt</summary>
@@ -879,19 +986,22 @@ An editorial graphic design poster on a solid black background. The central elem
 </details>
 
 ---
+
 <a id="community-usecase-21"></a>
 
-### Community Use Case 21: [Anime skateboard sequence with multiple shot prompts](https://x.com/asatoucan/status/2075060881067769903) (by [@asatoucan](https://x.com/asatoucan))
+### Community Use Case 21: [Sequência de skate em anime com vários prompts de plano](https://x.com/asatoucan/status/2075060881067769903) (by [@asatoucan](https://x.com/asatoucan))
 
-Type: Demo | Date: 2026-07-09 | Category: Cinematic, Character & Style Visuals
+**A publicação de origem testa a qualidade cinematográfica, de personagens, moda ou estilo por meio dos resultados visuais publicados.**
+
+Type: Demo | Date: 2026-07-09 | Category: Visuais cinematográficos, de personagens e de estilo
 
 Tags: `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/069/01.jpg" height="180" alt="Anime skateboard sequence with multiple shot prompts media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/069/02.jpg" height="180" alt="Anime skateboard sequence with multiple shot prompts media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/069/03.jpg" height="180" alt="Anime skateboard sequence with multiple shot prompts media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/069/04.jpg" height="180" alt="Anime skateboard sequence with multiple shot prompts media"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/069/01.jpg" height="180" alt="Sequência de skate em anime com vários prompts de plano mídia"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/069/02.jpg" height="180" alt="Sequência de skate em anime com vários prompts de plano mídia"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/069/03.jpg" height="180" alt="Sequência de skate em anime com vários prompts de plano mídia"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/069/04.jpg" height="180" alt="Sequência de skate em anime com vários prompts de plano mídia"></td>
 </tr></table>
 
 <details open>
@@ -904,21 +1014,39 @@ A girl with a sharp bob cut, purple hair with black accent strands, stylized lay
 </details>
 
 ---
+
+<a id="community-usecase-39"></a>
+
+### Community Use Case 39: [Quadros-chave do Seedream em um vídeo explicativo de ponta a ponta](https://x.com/alisaqqt/status/2075241584615108812) (by [@alisaqqt](https://x.com/alisaqqt))
+
+**Use o Seedream para criar quadros-chave em um pipeline multimodelo que produz um vídeo explicativo finalizado.**
+
+Type: Integration | Date: 2026-07-09 | Category: Visuais cinematográficos, de personagens e de estilo
+
+Tags: `integration` `keyframes` `video`
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/074/demo.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/074/poster.jpg" height="340" alt="Quadros-chave do Seedream em um vídeo explicativo de ponta a ponta mídia"></a>
+
+[Reproduzir vídeo de demonstração](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/074/demo.mp4)
+
+---
+
+
 <a id="community-concept-environment-worldbuilding"></a>
 
-### Arte conceitual, ambiente e worldbuilding
-
-Contagem de casos de uso: **3**.
+### Arte conceitual, ambientes e construção de mundos
 
 <a id="community-usecase-22"></a>
 
-### Community Use Case 22: [Solar-powered desert research station concept](https://x.com/ashen_one/status/2074915677815886071) (by [@ashen_one](https://x.com/ashen_one))
+### Community Use Case 22: [Conceito de estação de pesquisa no deserto movida a energia solar](https://x.com/ashen_one/status/2074915677815886071) (by [@ashen_one](https://x.com/ashen_one))
 
-Type: Demo | Date: 2026-07-08 | Category: Concept Art, Environment & Worldbuilding
+**A publicação de origem testa composições de ambientes, interiores, ficção científica ou construção de mundos, e não a edição de um único objeto.**
+
+Type: Demo | Date: 2026-07-08 | Category: Arte conceitual, ambientes e construção de mundos
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/021/01.jpg" height="340" alt="Solar-powered desert research station concept media">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/021/01.jpg" height="340" alt="Conceito de estação de pesquisa no deserto movida a energia solar mídia">
 
 <details open>
 <summary>Prompt</summary>
@@ -930,19 +1058,22 @@ A solar-powered research station in a desert, featuring domed structures, solar 
 </details>
 
 ---
+
 <a id="community-usecase-23"></a>
 
-### Community Use Case 23: [Impossible-scale cinematic sci-fi worldbuilding set](https://x.com/AllaAisling/status/2075036565147906511) (by [@AllaAisling](https://x.com/AllaAisling))
+### Community Use Case 23: [Construção de mundo sci-fi cinematográfico em escala impossível](https://x.com/AllaAisling/status/2075036565147906511) (by [@AllaAisling](https://x.com/AllaAisling))
 
-Type: Demo | Date: 2026-07-09 | Category: Concept Art, Environment & Worldbuilding
+**A publicação de origem testa composições de ambientes, interiores, ficção científica ou construção de mundos, e não a edição de um único objeto.**
+
+Type: Demo | Date: 2026-07-09 | Category: Arte conceitual, ambientes e construção de mundos
 
 Tags: `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/027/01.jpg" height="180" alt="Impossible-scale cinematic sci-fi worldbuilding set media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/027/02.jpg" height="180" alt="Impossible-scale cinematic sci-fi worldbuilding set media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/027/03.jpg" height="180" alt="Impossible-scale cinematic sci-fi worldbuilding set media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/027/04.jpg" height="180" alt="Impossible-scale cinematic sci-fi worldbuilding set media"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/027/01.jpg" height="180" alt="Construção de mundo sci-fi cinematográfico em escala impossível mídia"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/027/02.jpg" height="180" alt="Construção de mundo sci-fi cinematográfico em escala impossível mídia"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/027/03.jpg" height="180" alt="Construção de mundo sci-fi cinematográfico em escala impossível mídia"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/027/04.jpg" height="180" alt="Construção de mundo sci-fi cinematográfico em escala impossível mídia"></td>
 </tr></table>
 
 <details open>
@@ -955,19 +1086,22 @@ An industrial civilization is constructing an entire planet inside an enormous o
 </details>
 
 ---
+
 <a id="community-usecase-24"></a>
 
-### Community Use Case 24: [Bedroom design variations for MBTI types](https://x.com/FloraTechAI/status/2074866317484794131) (by [@FloraTechAI](https://x.com/FloraTechAI))
+### Community Use Case 24: [Variações de design de quarto para tipos MBTI](https://x.com/FloraTechAI/status/2074866317484794131) (by [@FloraTechAI](https://x.com/FloraTechAI))
 
-Type: Demo | Date: 2026-07-08 | Category: Concept Art, Environment & Worldbuilding
+**A publicação de origem testa composições de ambientes, interiores, ficção científica ou construção de mundos, e não a edição de um único objeto.**
+
+Type: Demo | Date: 2026-07-08 | Category: Arte conceitual, ambientes e construção de mundos
 
 Tags: `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/061/01.jpg" height="180" alt="Bedroom design variations for MBTI types media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/061/02.jpg" height="180" alt="Bedroom design variations for MBTI types media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/061/03.jpg" height="180" alt="Bedroom design variations for MBTI types media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/061/04.jpg" height="180" alt="Bedroom design variations for MBTI types media"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/061/01.jpg" height="180" alt="Variações de design de quarto para tipos MBTI mídia"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/061/02.jpg" height="180" alt="Variações de design de quarto para tipos MBTI mídia"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/061/03.jpg" height="180" alt="Variações de design de quarto para tipos MBTI mídia"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/061/04.jpg" height="180" alt="Variações de design de quarto para tipos MBTI mídia"></td>
 </tr></table>
 
 <details open>
@@ -980,25 +1114,27 @@ design a bedroom for each MBTI type
 </details>
 
 ---
+
+
 <a id="community-model-comparisons"></a>
 
 ### Comparações e avaliações de modelos
 
-Contagem de casos de uso: **11**.
-
 <a id="community-usecase-25"></a>
 
-### Community Use Case 25: [Multi-task Seedream capability sampling from four Chinese prompts](https://x.com/op7418/status/2074862226905948549) (by [@op7418](https://x.com/op7418))
+### Community Use Case 25: [Amostragem multitarefa das capacidades do Seedream com quatro prompts em chinês](https://x.com/op7418/status/2074862226905948549) (by [@op7418](https://x.com/op7418))
 
-Type: Evaluation | Date: 2026-07-08 | Category: Model Comparisons & Evaluations
+**A publicação de origem reúne várias tarefas em uma thread e funciona melhor como avaliação ampla de capacidades do que como caso de finalidade única.**
+
+Type: Evaluation | Date: 2026-07-08 | Category: Comparações e avaliações de modelos
 
 Tags: `capability-sampling` `model-comparison` `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/001/01.jpg" height="180" alt="Multi-task Seedream capability sampling from four Chinese prompts media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/001/02.jpg" height="180" alt="Multi-task Seedream capability sampling from four Chinese prompts media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/001/03.jpg" height="180" alt="Multi-task Seedream capability sampling from four Chinese prompts media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/001/04.jpg" height="180" alt="Multi-task Seedream capability sampling from four Chinese prompts media"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/001/01.jpg" height="180" alt="Amostragem multitarefa das capacidades do Seedream com quatro prompts em chinês mídia"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/001/02.jpg" height="180" alt="Amostragem multitarefa das capacidades do Seedream com quatro prompts em chinês mídia"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/001/03.jpg" height="180" alt="Amostragem multitarefa das capacidades do Seedream com quatro prompts em chinês mídia"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/001/04.jpg" height="180" alt="Amostragem multitarefa das capacidades do Seedream com quatro prompts em chinês mídia"></td>
 </tr></table>
 
 <details open>
@@ -1011,17 +1147,20 @@ Tags: `capability-sampling` `model-comparison` `multi-image` `prompt-available`
 </details>
 
 ---
+
 <a id="community-usecase-26"></a>
 
-### Community Use Case 26: [Seedream vs GPT Image 2 in realistic car selfie framing](https://x.com/johnAGI168/status/2074870910469677387) (by [@johnAGI168](https://x.com/johnAGI168))
+### Community Use Case 26: [Seedream contra GPT Image 2 em enquadramento realista de selfie no carro](https://x.com/johnAGI168/status/2074870910469677387) (by [@johnAGI168](https://x.com/johnAGI168))
 
-Type: Evaluation | Date: 2026-07-08 | Category: Model Comparisons & Evaluations
+**A publicação de origem compara o Seedream 5.0 Pro com outro modelo na mesma tarefa visual ou em uma tarefa muito próxima.**
+
+Type: Evaluation | Date: 2026-07-08 | Category: Comparações e avaliações de modelos
 
 Tags: `model-comparison` `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/006/01.jpg" height="180" alt="Seedream vs GPT Image 2 in realistic car selfie framing media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/006/02.jpg" height="180" alt="Seedream vs GPT Image 2 in realistic car selfie framing media"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/006/01.jpg" height="180" alt="Seedream contra GPT Image 2 em enquadramento realista de selfie no carro mídia"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/006/02.jpg" height="180" alt="Seedream contra GPT Image 2 em enquadramento realista de selfie no carro mídia"></td>
 </tr></table>
 
 <details open>
@@ -1034,17 +1173,20 @@ Tags: `model-comparison` `multi-image` `prompt-available`
 </details>
 
 ---
+
 <a id="community-usecase-27"></a>
 
-### Community Use Case 27: [Seedream vs GPT Image 2 for clean lifestyle portrait styling](https://x.com/liyue_ai/status/2074890690686005590) (by [@liyue_ai](https://x.com/liyue_ai))
+### Community Use Case 27: [Seedream contra GPT Image 2 em retrato clean de estilo de vida](https://x.com/liyue_ai/status/2074890690686005590) (by [@liyue_ai](https://x.com/liyue_ai))
 
-Type: Evaluation | Date: 2026-07-08 | Category: Model Comparisons & Evaluations
+**A publicação de origem compara o Seedream 5.0 Pro com outro modelo na mesma tarefa visual ou em uma tarefa muito próxima.**
+
+Type: Evaluation | Date: 2026-07-08 | Category: Comparações e avaliações de modelos
 
 Tags: `model-comparison` `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/012/01.jpg" height="180" alt="Seedream vs GPT Image 2 for clean lifestyle portrait styling media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/012/02.jpg" height="180" alt="Seedream vs GPT Image 2 for clean lifestyle portrait styling media"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/012/01.jpg" height="180" alt="Seedream contra GPT Image 2 em retrato clean de estilo de vida mídia"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/012/02.jpg" height="180" alt="Seedream contra GPT Image 2 em retrato clean de estilo de vida mídia"></td>
 </tr></table>
 
 <details open>
@@ -1057,17 +1199,20 @@ Tags: `model-comparison` `multi-image` `prompt-available`
 </details>
 
 ---
+
 <a id="community-usecase-28"></a>
 
-### Community Use Case 28: [Blueprint sports car comparison against GPT Image 2](https://x.com/marmaduke091/status/2074866077499105416) (by [@marmaduke091](https://x.com/marmaduke091))
+### Community Use Case 28: [Comparação de carro esportivo em planta técnica com GPT Image 2](https://x.com/marmaduke091/status/2074866077499105416) (by [@marmaduke091](https://x.com/marmaduke091))
 
-Type: Evaluation | Date: 2026-07-08 | Category: Model Comparisons & Evaluations
+**A publicação de origem compara o Seedream 5.0 Pro com outro modelo na mesma tarefa visual ou em uma tarefa muito próxima.**
+
+Type: Evaluation | Date: 2026-07-08 | Category: Comparações e avaliações de modelos
 
 Tags: `model-comparison` `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/019/01.jpg" height="180" alt="Blueprint sports car comparison against GPT Image 2 media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/019/02.jpg" height="180" alt="Blueprint sports car comparison against GPT Image 2 media"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/019/01.jpg" height="180" alt="Comparação de carro esportivo em planta técnica com GPT Image 2 mídia"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/019/02.jpg" height="180" alt="Comparação de carro esportivo em planta técnica com GPT Image 2 mídia"></td>
 </tr></table>
 
 <details open>
@@ -1080,19 +1225,22 @@ A technical drawing of a futuristic sports car in blueprint style. Include line 
 </details>
 
 ---
+
 <a id="community-usecase-29"></a>
 
-### Community Use Case 29: [Reference-image camera-angle change comparison](https://x.com/hasamaru_studio/status/2075052934409375918) (by [@hasamaru_studio](https://x.com/hasamaru_studio))
+### Community Use Case 29: [Comparação de mudança de ângulo de câmera com imagem de referência](https://x.com/hasamaru_studio/status/2075052934409375918) (by [@hasamaru_studio](https://x.com/hasamaru_studio))
 
-Type: Evaluation | Date: 2026-07-09 | Category: Model Comparisons & Evaluations
+**A publicação de origem compara o Seedream 5.0 Pro com outro modelo na mesma tarefa visual ou em uma tarefa muito próxima.**
+
+Type: Evaluation | Date: 2026-07-09 | Category: Comparações e avaliações de modelos
 
 Tags: `image-input` `model-comparison` `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/022/01.jpg" height="180" alt="Reference-image camera-angle change comparison media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/022/02.jpg" height="180" alt="Reference-image camera-angle change comparison media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/022/03.jpg" height="180" alt="Reference-image camera-angle change comparison media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/022/04.jpg" height="180" alt="Reference-image camera-angle change comparison media"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/022/01.jpg" height="180" alt="Comparação de mudança de ângulo de câmera com imagem de referência mídia"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/022/02.jpg" height="180" alt="Comparação de mudança de ângulo de câmera com imagem de referência mídia"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/022/03.jpg" height="180" alt="Comparação de mudança de ângulo de câmera com imagem de referência mídia"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/022/04.jpg" height="180" alt="Comparação de mudança de ângulo de câmera com imagem de referência mídia"></td>
 </tr></table>
 
 <details open>
@@ -1105,17 +1253,20 @@ Tags: `image-input` `model-comparison` `multi-image` `prompt-available`
 </details>
 
 ---
+
 <a id="community-usecase-30"></a>
 
-### Community Use Case 30: [Oversized beverage-can advertising composition comparison](https://x.com/emmanuel_2m/status/2075000101362131350) (by [@emmanuel_2m](https://x.com/emmanuel_2m))
+### Community Use Case 30: [Comparação de composição publicitária com lata de bebida gigante](https://x.com/emmanuel_2m/status/2075000101362131350) (by [@emmanuel_2m](https://x.com/emmanuel_2m))
 
-Type: Evaluation | Date: 2026-07-08 | Category: Model Comparisons & Evaluations
+**A publicação de origem compara o Seedream 5.0 Pro com outro modelo na mesma tarefa visual ou em uma tarefa muito próxima.**
+
+Type: Evaluation | Date: 2026-07-08 | Category: Comparações e avaliações de modelos
 
 Tags: `model-comparison` `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/023/01.jpg" height="180" alt="Oversized beverage-can advertising composition comparison media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/023/02.jpg" height="180" alt="Oversized beverage-can advertising composition comparison media"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/023/01.jpg" height="180" alt="Comparação de composição publicitária com lata de bebida gigante mídia"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/023/02.jpg" height="180" alt="Comparação de composição publicitária com lata de bebida gigante mídia"></td>
 </tr></table>
 
 <details open>
@@ -1128,17 +1279,20 @@ A premium infographic-style advertisement featuring an oversized Pepsi can place
 </details>
 
 ---
+
 <a id="community-usecase-31"></a>
 
-### Community Use Case 31: [Chengdu travel scrapbook poster comparison](https://x.com/DeepBlueAIX/status/2074872447229419956) (by [@DeepBlueAIX](https://x.com/DeepBlueAIX))
+### Community Use Case 31: [Comparação de pôster de viagem em scrapbook de Chengdu](https://x.com/DeepBlueAIX/status/2074872447229419956) (by [@DeepBlueAIX](https://x.com/DeepBlueAIX))
 
-Type: Evaluation | Date: 2026-07-08 | Category: Model Comparisons & Evaluations
+**A publicação de origem compara o Seedream 5.0 Pro com outro modelo na mesma tarefa visual ou em uma tarefa muito próxima.**
+
+Type: Evaluation | Date: 2026-07-08 | Category: Comparações e avaliações de modelos
 
 Tags: `model-comparison` `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/031/01.jpg" height="180" alt="Chengdu travel scrapbook poster comparison media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/031/02.jpg" height="180" alt="Chengdu travel scrapbook poster comparison media"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/031/01.jpg" height="180" alt="Comparação de pôster de viagem em scrapbook de Chengdu mídia"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/031/02.jpg" height="180" alt="Comparação de pôster de viagem em scrapbook de Chengdu mídia"></td>
 </tr></table>
 
 <details open>
@@ -1151,15 +1305,18 @@ Tags: `model-comparison` `multi-image` `prompt-available`
 </details>
 
 ---
+
 <a id="community-usecase-32"></a>
 
-### Community Use Case 32: [Anime key-visual comparison](https://x.com/roco_kn_roco/status/2074890020260094137) (by [@roco_kn_roco](https://x.com/roco_kn_roco))
+### Community Use Case 32: [Comparação de visual principal de anime](https://x.com/roco_kn_roco/status/2074890020260094137) (by [@roco_kn_roco](https://x.com/roco_kn_roco))
 
-Type: Evaluation | Date: 2026-07-08 | Category: Model Comparisons & Evaluations
+**A publicação de origem compara o Seedream 5.0 Pro com outro modelo na mesma tarefa visual ou em uma tarefa muito próxima.**
+
+Type: Evaluation | Date: 2026-07-08 | Category: Comparações e avaliações de modelos
 
 Tags: `model-comparison` `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/034/01.jpg" height="340" alt="Anime key-visual comparison media">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/034/01.jpg" height="340" alt="Comparação de visual principal de anime mídia">
 
 <details open>
 <summary>Prompt</summary>
@@ -1171,17 +1328,20 @@ Tags: `model-comparison` `prompt-available`
 </details>
 
 ---
+
 <a id="community-usecase-33"></a>
 
-### Community Use Case 33: [Travel-poster comparison with signature constraint](https://x.com/Bic_Revelation/status/2074959714366922857) (by [@Bic_Revelation](https://x.com/Bic_Revelation))
+### Community Use Case 33: [Comparação de pôster de viagem com restrição de assinatura](https://x.com/Bic_Revelation/status/2074959714366922857) (by [@Bic_Revelation](https://x.com/Bic_Revelation))
 
-Type: Evaluation | Date: 2026-07-08 | Category: Model Comparisons & Evaluations
+**A publicação de origem compara o Seedream 5.0 Pro com outro modelo na mesma tarefa visual ou em uma tarefa muito próxima.**
+
+Type: Evaluation | Date: 2026-07-08 | Category: Comparações e avaliações de modelos
 
 Tags: `model-comparison` `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/056/01.jpg" height="180" alt="Travel-poster comparison with signature constraint media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/056/02.jpg" height="180" alt="Travel-poster comparison with signature constraint media"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/056/01.jpg" height="180" alt="Comparação de pôster de viagem com restrição de assinatura mídia"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/056/02.jpg" height="180" alt="Comparação de pôster de viagem com restrição de assinatura mídia"></td>
 </tr></table>
 
 <details open>
@@ -1194,17 +1354,20 @@ With its crystal-clear waters, white sandy beaches, and vibrant coral reefs, the
 </details>
 
 ---
+
 <a id="community-usecase-34"></a>
 
-### Community Use Case 34: [Fantasy village watermill comparison against GPT Image 2](https://x.com/emmanuel_2m/status/2075000114427375742) (by [@emmanuel_2m](https://x.com/emmanuel_2m))
+### Community Use Case 34: [Moinho d’água de vila fantástica contra GPT Image 2](https://x.com/emmanuel_2m/status/2075000114427375742) (by [@emmanuel_2m](https://x.com/emmanuel_2m))
 
-Type: Evaluation | Date: 2026-07-08 | Category: Model Comparisons & Evaluations
+**A publicação de origem compara o Seedream 5.0 Pro com outro modelo na mesma tarefa visual ou em uma tarefa muito próxima.**
+
+Type: Evaluation | Date: 2026-07-08 | Category: Comparações e avaliações de modelos
 
 Tags: `model-comparison` `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/065/01.jpg" height="180" alt="Fantasy village watermill comparison against GPT Image 2 media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/065/02.jpg" height="180" alt="Fantasy village watermill comparison against GPT Image 2 media"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/065/01.jpg" height="180" alt="Moinho d’água de vila fantástica contra GPT Image 2 mídia"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/065/02.jpg" height="180" alt="Moinho d’água de vila fantástica contra GPT Image 2 mídia"></td>
 </tr></table>
 
 <details open>
@@ -1217,17 +1380,20 @@ stylized stylized fantasy village watermill, two-story half-timbered red-clay to
 </details>
 
 ---
+
 <a id="community-usecase-35"></a>
 
-### Community Use Case 35: [Lake Como fashion scene comparison against Banana Pro](https://x.com/cso6709/status/2075046425277399261) (by [@cso6709](https://x.com/cso6709))
+### Community Use Case 35: [Cena de moda no Lago de Como contra Banana Pro](https://x.com/cso6709/status/2075046425277399261) (by [@cso6709](https://x.com/cso6709))
 
-Type: Evaluation | Date: 2026-07-09 | Category: Model Comparisons & Evaluations
+**A publicação de origem compara o Seedream 5.0 Pro com outro modelo na mesma tarefa visual ou em uma tarefa muito próxima.**
+
+Type: Evaluation | Date: 2026-07-09 | Category: Comparações e avaliações de modelos
 
 Tags: `model-comparison` `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/066/01.jpg" height="180" alt="Lake Como fashion scene comparison against Banana Pro media"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/066/02.jpg" height="180" alt="Lake Como fashion scene comparison against Banana Pro media"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/066/01.jpg" height="180" alt="Cena de moda no Lago de Como contra Banana Pro mídia"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/066/02.jpg" height="180" alt="Cena de moda no Lago de Como contra Banana Pro mídia"></td>
 </tr></table>
 
 <details open>
@@ -1241,7 +1407,6 @@ A straight-on medium-wide cinematic shot at eye-level, static locked frame, 4:5 
 
 ---
 
-
 <a id="acknowledge"></a>
 
 ## 🙏 Agradecimentos
@@ -1254,7 +1419,8 @@ Obrigado aos autores da comunidade cujas publicações públicas são citadas ne
 
 - [@renataro9](https://x.com/renataro9), [@haruuraeadss](https://x.com/haruuraeadss), [@JennyAITech](https://x.com/JennyAITech), [@MishikaAI](https://x.com/MishikaAI), [@ComfyUI](https://x.com/ComfyUI), [@iamrealsnow](https://x.com/iamrealsnow), [@Strength04_X](https://x.com/Strength04_X), [@LiamEtherson](https://x.com/LiamEtherson)
 - [@AiwithZohaib](https://x.com/AiwithZohaib), [@munzxsdv](https://x.com/munzxsdv), [@sulekhat95](https://x.com/sulekhat95), [@magnific](https://x.com/magnific), [@BubbleBrain](https://x.com/BubbleBrain), [@mattworkman](https://x.com/mattworkman), [@SimplyAnnisa](https://x.com/SimplyAnnisa), [@Cia0_exe](https://x.com/Cia0_exe)
-- [@df_reno](https://x.com/df_reno), [@ChillaiKalan__](https://x.com/ChillaiKalan__), [@ashen_one](https://x.com/ashen_one), [@AllaAisling](https://x.com/AllaAisling), [@FloraTechAI](https://x.com/FloraTechAI), [@asatoucan](https://x.com/asatoucan), [@op7418](https://x.com/op7418), [@johnAGI168](https://x.com/johnAGI168)
+- [@df_reno](https://x.com/df_reno), [@ChillaiKalan__](https://x.com/ChillaiKalan__), [@asatoucan](https://x.com/asatoucan), [@ashen_one](https://x.com/ashen_one), [@AllaAisling](https://x.com/AllaAisling), [@FloraTechAI](https://x.com/FloraTechAI), [@op7418](https://x.com/op7418), [@johnAGI168](https://x.com/johnAGI168)
 - [@liyue_ai](https://x.com/liyue_ai), [@marmaduke091](https://x.com/marmaduke091), [@hasamaru_studio](https://x.com/hasamaru_studio), [@emmanuel_2m](https://x.com/emmanuel_2m), [@DeepBlueAIX](https://x.com/DeepBlueAIX), [@roco_kn_roco](https://x.com/roco_kn_roco), [@Bic_Revelation](https://x.com/Bic_Revelation), [@cso6709](https://x.com/cso6709)
+- [@Naonekozamurai](https://x.com/Naonekozamurai), [@Ciri_ai](https://x.com/Ciri_ai), [@YaZoraiz](https://x.com/YaZoraiz), [@alisaqqt](https://x.com/alisaqqt)
 
 Se algum autor quiser alterar ou remover a atribuição, abra uma issue com o link da publicação pública correspondente.
