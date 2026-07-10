@@ -9,3 +9,5 @@ raw_export.json
 .codex/usecase-update-loop/
 docs/
 downloaded-media/
+*data/
+.gitignore
