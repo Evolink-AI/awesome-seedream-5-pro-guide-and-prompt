@@ -1,14 +1,13 @@
 <div align="center">
 
-<a href="https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=banner&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=readme_banner"><img src="assets/banner.png" alt="Awesome Seedream 5.0 Pro EvoLink bannerı"></a>
+<a href="https://evolink.ai?utm_source=github&amp;utm_medium=banner&amp;utm_campaign=awesome-seedream-5-pro-guide-and-prompt&amp;utm_content=seedream_5_5_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/banner.svg" width="760" alt="Seedream 5.5 Guide and Cases · EvoLink"></a>
 
-# Awesome Seedream 5.0 Pro rehberi ve promptları
+# Seedream 5.5 Rehberi ve Örnekleri
 
-Seedream 5.0 Pro görüntü üretim ve düzenleme iş akışlarını değerlendirmek için kaynak destekli rehber, prompt kalıpları ve görsel örnekler.
+Seedream 5.5 ile görsel oluşturma ve düzenlemeye yönelik uygulamalı rehber; ardından ürün örnekleri ve sürümleri belirtilmiş Seedream 5.0 Pro örnek arşivi.
 
 [![License: MIT](assets/badges/license-mit.svg)](LICENSE)
-[![EvoLink’te kullan](assets/badges/use-on-evolink.svg)](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=badge&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=top_badge)
-[![API anahtarı al](assets/badges/get-api-key.svg)](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=api_key)
+[![EvoLink](assets/badges/use-on-evolink.svg)](https://evolink.ai?utm_source=github&utm_medium=badge&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=seedream_5_5_badge)
 
 [🇺🇸 English](README.md) · [🇪🇸 Español](README_es.md) · [🇵🇹 Português](README_pt.md) · [🇯🇵 日本語](README_ja.md) · [🇰🇷 한국어](README_ko.md) · [🇩🇪 Deutsch](README_de.md) · [🇫🇷 Français](README_fr.md) · [🇹🇷 Türkçe](README_tr.md) · [🇹🇼 繁體中文](README_zh-TW.md) · [🇨🇳 简体中文](README_zh-CN.md) · [🇷🇺 Русский](README_ru.md)
 
@@ -18,24 +17,52 @@ Seedream 5.0 Pro görüntü üretim ve düzenleme iş akışlarını değerlendi
 
 ## 🍌 Giriş
 
-Seedream 5.0 Pro, resmi lansman materyalinde kontrol edilebilir bir görüntü üretim ve düzenleme modeli olarak sunulur. Bu rehber, README içeriğini resmi yetenek menüsüyle hizalar: etkileşim kontrolü, eskizle düzenleme, katman düzenleme, çapa/konum düzenleme, katman ayırma, çoklu görüntü füzyonu, görsel efekt örnekleri ve çok dilli metin işleme.
+Seedream 5.5, üretime yönelik görsel iş akışlarına odaklanır: hassas yerel değişiklikler, çok turlu düzenlemede tutarlılık, gerçekçi özneler ve aydınlatma, okunabilir metin, şeffaf öğeler ve yeniden kullanılabilir katmanlar. Önce rehberi okuyun, 5.5 örneklerini inceleyin ve ardından önceki 5.0 Pro koleksiyonuna göz atın.
 
-**Bu depoyu kaynak destekli örnekleri incelemek, yalnızca resmi materyalde bulunan promptları kopyalamak ve her kategorinin görünen case’lerle nasıl eşleştiğini anlamak için kullanın.**
+9 Seedream 5.5 örneği · 25 Seedream 5.0 Pro ürün örneği · 39 Seedream 5.0 Pro topluluk örneği. Eski örneklerde özgün model bilgisi ve kaynak bağlantıları korunur.
 
-EvoLink model girişini deneyin: [Seedream 5.0 Pro’yu EvoLink’te açın](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=top_text_cta).
+<a id="seedream-55-guide"></a>
 
-**Hızlı başlangıç:** Bu depo, EvoLink üzerinde Seedream 5.0 Pro için doğrulanmış bir ilk API çalıştırma rotası olduğunu iddia etmez. Çalıştırma kanıtı kaydedilene kadar herkese açık model girişini, API anahtarı panelini ve resmi teknik referansı kullanın.
+## 📘 Seedream 5.5 Rehberi
 
-1. [Seedream 5.0 Pro EvoLink yolunu açın](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=model_link).
-2. [EvoLink API anahtarınızı alın](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=api_key).
-3. [Resmi ModelArk teknik referansını okuyun](https://docs.byteplus.com/en/docs/ModelArk/1541523).
+### Neler değerlendirilmeli?
 
-> [!NOTE]
-> Kaynak politikası: resmi lansman materyali. Özel Lark/Feishu URL’leri yalnızca yerel denetim kanıtında tutulur ve README’de herkese açık kaynak sayfaları olarak gösterilmez.
+- Hassas ve tekrarlı düzenleme: Görselin geri kalanını korurken adı belirtilen bir bölgeyi veya öğeyi değiştirin. Sağlanan saat gösterimi, art arda 100 düzenlemeyi izler.
+- Gerçekçilik: Referansları birleştirirken ifadeleri, vücut oranlarını, malzeme dokusunu, nesne ölçeğini, perspektifi ve aydınlatmayı inceleyin.
+- Küçük ve çok dilli metin: Afişler, etiketler ve bilgi grafikleri için tam metni, metin hiyerarşisini, satır sonlarını ve yerleşimi belirtin.
+- Şeffaf öğeler: Şeffaf arka plan ile şeffaf malzemeyi birbirinden ayırın. Hangi alanların boş, yarı saydam veya opak olacağını belirtin.
+- Katman iş akışları: Ürün materyalleri, sonraki düzenlemeler ve dil varyantları için arka planı, öğeleri ve metni ayırmayı açıklar. Katman çıktısını düzleştirilmiş önizlemeden ayrı inceleyin.
+
+### İstem nasıl yazılır?
+
+Teslim edilecek çıktıyı, özneyi, mekânsal yerleşimi, malzemeleri ve aydınlatmayı tanımlayın. Düzenlemede, yapılacak değişikliği ve korunacak ayrıntıları açıkça belirtin. Her tur, gerçekten verilen giriş görseline dayanmalı ve tek başına anlaşılabilmelidir.
+
+| Görev | Belirtilmesi gereken bilgiler |
+|---|---|
+| Grafik tasarım oluşturma | Formatı belirtin; başlık, ana görsel, bilgi ve marka alanlarını yerleştirin; bütün metni eksiksiz yazın ve hiyerarşisini tanımlayın. |
+| Grafik tasarım düzenleme | Her referansa bir rol verin; nelerin korunacağını, değişeceğini, taşınacağını veya kaldırılacağını belirleyin; son yerleşimi ve yeni metni eksiksiz tanımlayın. |
+| Ürün sunumu oluşturma | Ürünün biçimini, rengini, malzemesini ve logosunu sabitleyin; düz serim, askıda, üzerinde giyilmiş veya kolaj sunumunu belirtin; bakış açısını, kırpmayı, modeli ve ışığı tanımlayın. |
+| Şeffaf öğeler oluşturma | Arka plan şeffaflığını cam veya yarı saydam malzemelerden ayrı belirtin; boşaltılacak alanları, konturları, dolguyu ve öznenin görünür bölgelerini tanımlayın. |
+| Bilgi grafiği veya slayt oluşturma | Önce arka planı ve yerleşimi, ardından modül konumlarını, tam metin ve verileri, grafik türünü, eksenleri, eğilimleri, lejantı ve açıklamaları tanımlayın. |
+| Bilgi grafiği veya slayt düzenleme | Kaynak öğeleri son rollerine eşleyin; eklemeleri ve değişimleri, okların uç noktalarını, hizalamayı, örtüşmeyi ve tutarlı tipografiyi belirtin. |
+| Hikâye panosu oluşturma | Kare sayısını ve okuma sırasını tanımlayın; olay örgüsünü, çekim ölçeklerini, açıları, objektif ve derinlik ipuçlarını, ışığı, karakterleri ve devamlılığı belirtin. |
+| Referanstan hikâye panosu oluşturma | Referansın karakteri, atmosferi, mekânı, ilk kareyi veya son kareyi mi sağladığını belirleyin; eylemleri ve kamera devamlılığını tanımlayın. |
+| Hikâye görselini devam ettirme | Zaman ilişkisini belirtin; kamera hareketini, öznenin sonraki eylemini ve kadraja giren ya da kadrajdan çıkan öğeleri tanımlayın. |
+| Kamera dilini ayarlama | Çekim ölçeği, kamera bakış açısı ve odak değişikliklerini ayırın; başlangıçlarını, yönlerini, bitişlerini ve korunacak sahne ayrıntılarını belirtin. |
+| Yerel bölge rötuşlama | Tam bölgeyi, işlemi ve etki düzeyini belirleyin; sonuçtaki dokuyu ve kenarları tanımlayın; kimliği ve etkilenmemesi gereken alanları koruyun. |
+| Genel düzenleme veya referansları birleştirme | Stili renk, kontrast, gren ve ışık özellikleriyle ifade edin; kompozisyonu ve pozu tanımlayın; referans rollerini ve korunacak kimlik özelliklerini belirleyin. |
+| Eskizi görsele dönüştürme | İşaretleri konum ve renkle tanımlayın, nesnelerle eşleyin, amaçlanan boyut ve yerleşimi koruyun ve varsa afiş metnini ayrıca verin. |
+| Tam metin oluşturma | Metnin yer alacağı yüzeyi belirtin, her karakteri tırnak içinde verin; okuma sırasını, satırları, hizalamayı, aralıkları ve çizimlerle ilişkisini tanımlayın. |
+| Görseldeki metni değiştirme | Eski metni tam yeni metne eşleyin; yazımı, yerleşimi ve düzenlenmeyen alanları koruyun; açığa çıkan arka planı doğal biçimde yeniden oluşturun. |
+| Birden fazla turda düzenleme | Mevcut çıktıyı sonraki girdi olarak kullanın; mevcut nesneyi veya durumu ve hedef değişikliği belirtin; önemli koruma gereksinimlerini tekrarlayın. |
+
+Karşılaştırmanın bağlamı: Aşağıdaki örnekler, bu deponun yeniden uyguladığı bir kıyaslama değil, sağlanan gösterimlerdir. Materyalde ters ışıklı portre karşılaştırma modelinin adı verilmez; saat karşılaştırmasında Image 2.5, Sunburst/xhigh belirtilir. İstem eki 1–60. turları içerirken videolar 100 turluk diziler olarak sunulur.
 
 <a id="news"></a>
 
 ## 📰 Haberler
+
+- **3 Kasım 2026:** Rehber Seedream 5.5 için güncellendi, dokuz ürün örneği eklendi ve arşivdeki örneklerin medya dosyaları geri yüklendi.
 
 - **10 Temmuz 2026:** Herkese açık kaynaklı 4 topluluk örneği eklendi, 39 örneğin tüm başlıkları ve çıkarımları yerelleştirildi ve tıklanabilir bir video posteri eklendi.
 - **July 8, 2026:** İlk rehber resmi menü ve resmi olarak düzeltilen case envanteri etrafında yeniden kuruldu.
@@ -43,6 +70,21 @@ EvoLink model girişini deneyin: [Seedream 5.0 Pro’yu EvoLink’te açın](htt
 <a id="menu"></a>
 
 ## 📑 Menü
+
+- [📘 Seedream 5.5 Rehberi](#seedream-55-guide)
+- [🧪 Seedream 5.5 Örnekleri](#seedream-55-cases)
+  - [Seedream 5.5 Case 1: Ardışık portre düzenlemeleri](#seedream-55-case-1)
+  - [Seedream 5.5 Case 2: Tek bir yüzüğü yerel olarak değiştirme](#seedream-55-case-2)
+  - [Seedream 5.5 Case 3: 100 turluk saat düzenlemesi karşılaştırması](#seedream-55-case-3)
+  - [Seedream 5.5 Case 4: İnsanlar, malzemeler ve doğal ışık](#seedream-55-case-4)
+  - [Seedream 5.5 Case 5: Ters ışıklı portre karşılaştırması](#seedream-55-case-5)
+  - [Seedream 5.5 Case 6: Fenerli sahneye duman ekleme](#seedream-55-case-6)
+  - [Seedream 5.5 Case 7: Afiş metni ve yerleşimi](#seedream-55-case-7)
+  - [Seedream 5.5 Case 8: Malzeme odaklı ana görsel olarak metin](#seedream-55-case-8)
+  - [Seedream 5.5 Case 9: Şeffaf öğeleri birleştirme](#seedream-55-case-9)
+- [Seedream 5.0 Pro — Ürün Örnekleri Arşivi](#legacy-5-0-pro)
+- [Seedream 5.0 Pro — Topluluk Örnekleri Arşivi](#legacy-community-5-0-pro)
+
 
 - [🍌 Giriş](#introduction)
 - [📰 Haberler](#news)
@@ -90,6 +132,135 @@ EvoLink model girişini deneyin: [Seedream 5.0 Pro’yu EvoLink’te açın](htt
   - [Model karşılaştırmaları ve değerlendirmeleri](#community-model-comparisons)
 - [🙏 Teşekkür](#acknowledge)
 
+<a id="seedream-55-cases"></a>
+
+## 🧪 Seedream 5.5 Örnekleri
+
+Bu ürün örnekleri yerel düzenlemeyi, portreleri, aydınlatmayı, afiş metnini, metin malzemelerini ve şeffaf öğe kompozisyonunu kapsar. Tam istem metni yalnızca sağlandığı yerlerde eklenmiştir. Rehberde açıklanan RGBA ve katman özellikleri, bu görsel önizlemelerin ötesinde dışa aktarılan dosyalar üzerinden değerlendirilmelidir.
+
+<a id="seedream-55-case-1"></a>
+
+### Seedream 5.5 Case 1: Ardışık portre düzenlemeleri
+
+**Ardışık düzenlemelerde aksesuarları ve ifadeyi değiştirin; kimliğin, kadrajın ve ilgisiz ayrıntıların tutarlı kalıp kalmadığını inceleyin.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/person-iterative-edit.gif" height="420" alt="Seedream 5.5: Ardışık portre düzenlemeleri">
+
+---
+
+<a id="seedream-55-case-2"></a>
+
+### Seedream 5.5 Case 2: Tek bir yüzüğü yerel olarak değiştirme
+
+**Birden fazla yüzük içeren kompozisyonda tek bir yüzüğü hedefleyin ve çevredeki takıları, eli, malzemeleri ve aydınlatmayı istenmeyen değişiklikler açısından inceleyin.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/ring-local-edit.gif" height="420" alt="Seedream 5.5: Tek bir yüzüğü yerel olarak değiştirme">
+
+---
+
+<a id="seedream-55-case-3"></a>
+
+### Seedream 5.5 Case 3: 100 turluk saat düzenlemesi karşılaştırması
+
+**Her iki dizi aynı görselle başlar ve her turda aynı talimatı kullanır. Her modelin önceki çıktısı sonraki girdisi olur. Gösterilen saati her turda bir saniye ilerletin ve LCD saat alanının dışındaki değişiklikleri inceleyin.**
+
+<table><tr>
+<td width="50%" valign="top" align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/watch-seedream-5-5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/watch-seedream-5-5.jpg" height="300" alt="Seedream 5.5 — videoyu oynat"><br>Seedream 5.5 — videoyu oynat</a></td>
+<td width="50%" valign="top" align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/watch-image-2-5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/watch-image-2-5.jpg" height="300" alt="Image 2.5 · Sunburst/xhigh — videoyu oynat"><br>Image 2.5 · Sunburst/xhigh — videoyu oynat</a></td>
+</tr></table>
+
+İlk tur istemi — kaynak metin:
+
+```
+将卡西欧数字手表液晶屏上的时间从16:30:46准确更新为16:30:47。仅修改液晶屏HH:MM:SS时间区域中与这一秒变化对应的数字，保持液晶数字的字体、字宽、笔画、颜色、亮度和反射效果一致；星期、日期、功能图标及屏幕其他内容保持不变，表壳、按键、表带、摆放位置、拍摄角度、光线、阴影和背景完全不变。
+```
+
+Sonraki turlarda başlangıç ve hedef zamanlarını birer saniye artırın ve önceki sonucu sonraki girdi olarak kullanın.
+
+[1–60. turlar için sağlanan istemleri okuyun](docs/seedream-5-5-watch-prompts.txt)
+
+---
+
+<a id="seedream-55-case-4"></a>
+
+### Seedream 5.5 Case 4: İnsanlar, malzemeler ve doğal ışık
+
+**Moda, dış mekân portresi ve sahilde dans örneklerini ifade, oranlar, giysi dokusu, hareket ve ışık açısından karşılaştırın.**
+
+<table><tr>
+<td width="33%" valign="top" align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/fashion-portrait.png" height="300" alt="Moda portresi"><br>Moda portresi</td>
+<td width="33%" valign="top" align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/outdoor-portrait.png" height="300" alt="Dış mekân portresi"><br>Dış mekân portresi</td>
+<td width="33%" valign="top" align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/seaside-dance.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/seaside-dance-preview.jpg" height="300" alt="Sahilde dans"></a><br>Sahilde dans</td>
+</tr></table>
+
+---
+
+<a id="seedream-55-case-5"></a>
+
+### Seedream 5.5 Case 5: Ters ışıklı portre karşılaştırması
+
+**Materyal, her iki görseli aynı istemle sunar. Gölgede kalan cilt ayrıntılarını ve saç, yanak ve omuz çevresindeki kontur ışığını inceleyin. Kaynakta karşılaştırma modelinin adı verilmez.**
+
+<table><tr>
+<td width="50%" valign="top" align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/backlit-seedream-5-5.png" height="300" alt="Seedream 5.5"><br>Seedream 5.5</td>
+<td width="50%" valign="top" align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/backlit-comparison.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/backlit-comparison-preview.jpg" height="300" alt="Adı belirtilmeyen karşılaştırma modeli"></a><br>Adı belirtilmeyen karşılaştırma modeli</td>
+</tr></table>
+
+---
+
+<a id="seedream-55-case-6"></a>
+
+### Seedream 5.5 Case 6: Fenerli sahneye duman ekleme
+
+**Giriş görseli ile düzenlenmiş görseli dumanın yarı saydamlığı, ön ve arka plan örtüşmeleri ve fenerlerin çevresindeki ışık sürekliliği açısından karşılaştırın.**
+
+<table><tr>
+<td width="50%" valign="top" align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/lantern-before.png" height="300" alt="Önce"><br>Önce</td>
+<td width="50%" valign="top" align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/lantern-after.png" height="300" alt="Sonra · Seedream 5.5"><br>Sonra · Seedream 5.5</td>
+</tr></table>
+
+---
+
+<a id="seedream-55-case-7"></a>
+
+### Seedream 5.5 Case 7: Afiş metni ve yerleşimi
+
+**İşe alım, canlı yayın ve yaratıcı afiş örneklerini metin hiyerarşisi, küçük yazılar, çok dilli bilgiler ve tipografinin ana görselle bütünleşmesi açısından inceleyin.**
+
+<table><tr>
+<td width="33%" valign="top" align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/recruitment-poster.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/recruitment-poster-preview.jpg" height="300" alt="İşe alım afişi"></a><br>İşe alım afişi</td>
+<td width="33%" valign="top" align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/livestream-poster.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/livestream-poster-preview.jpg" height="300" alt="Canlı yayın afişi"></a><br>Canlı yayın afişi</td>
+<td width="33%" valign="top" align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/creative-poster.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/creative-poster-preview.jpg" height="300" alt="Yaratıcı afiş"></a><br>Yaratıcı afiş</td>
+</tr></table>
+
+---
+
+<a id="seedream-55-case-8"></a>
+
+### Seedream 5.5 Case 8: Malzeme odaklı ana görsel olarak metin
+
+**Harf biçimlerinin, yüzey malzemesinin ve stilin nasıl bir ana görselde birleştiğini incelemek için animasyon örneğini izleyin.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/text-material.gif" height="420" alt="Seedream 5.5: Malzeme odaklı ana görsel olarak metin">
+
+---
+
+<a id="seedream-55-case-9"></a>
+
+### Seedream 5.5 Case 9: Şeffaf öğeleri birleştirme
+
+**Çıkartmaların, simgelerin ve dekoratif öğelerin tasarımlarda birleştirildiği animasyonu izleyin. Animasyon kompozisyonu gösterir; gerçek şeffaflığı ve kenar kalitesini incelemek için dışa aktarılan öğeleri kullanın.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/transparent-assets.gif" height="420" alt="Seedream 5.5: Şeffaf öğeleri birleştirme">
+
+---
+
+<a id="legacy-5-0-pro"></a>
+
+## 🗃️ Seedream 5.0 Pro — Ürün Örnekleri Arşivi
+
+Aşağıdaki örnekler Seedream 5.0 Pro modelini gösterir. Başvuru amacıyla korunmuştur ve Seedream 5.5 performansını kanıtlamaz.
+
 <a id="official-capability-gallery"></a>
 
 ## 🧾 Resmi Yetenek Galerisi
@@ -106,17 +277,17 @@ Case sayısı: **2**.
 
 <a id="case-1"></a>
 
-### Case 1: Mekânsal niyet için oklar ve açıklama kutuları
+### Case 1: Seedream 5.0 Pro · Mekânsal niyet için oklar ve açıklama kutuları
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/003-arrows-annotation-boxes.gif?v=20260709-camo" height="420" alt="Mekânsal niyet için oklar ve açıklama kutuları">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/003-arrows-annotation-boxes.gif" height="420" alt="Mekânsal niyet için oklar ve açıklama kutuları">
 
 ---
 
 <a id="case-2"></a>
 
-### Case 2: Hedefli düzenleme için bölge kutusu nesne açıklaması
+### Case 2: Seedream 5.0 Pro · Hedefli düzenleme için bölge kutusu nesne açıklaması
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif" height="420" alt="Hedefli düzenleme için bölge kutusu nesne açıklaması">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif" height="420" alt="Hedefli düzenleme için bölge kutusu nesne açıklaması">
 
 **Prompt:**
 
@@ -136,33 +307,33 @@ Case sayısı: **4**.
 
 <a id="case-3"></a>
 
-### Case 3: Karalama rehberli nesne üretimi
+### Case 3: Seedream 5.0 Pro · Karalama rehberli nesne üretimi
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/005-doodles.gif?v=20260709-camo" height="420" alt="Karalama rehberli nesne üretimi">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/005-doodles.gif" height="420" alt="Karalama rehberli nesne üretimi">
 
 ---
 
 <a id="case-4"></a>
 
-### Case 4: Renk bloğu rehberli düzenleme
+### Case 4: Seedream 5.0 Pro · Renk bloğu rehberli düzenleme
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/006-color-block.gif?v=20260709-camo" height="420" alt="Renk bloğu rehberli düzenleme">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/006-color-block.gif" height="420" alt="Renk bloğu rehberli düzenleme">
 
 ---
 
 <a id="case-5"></a>
 
-### Case 5: Çizgi rehberli detay düzenleme
+### Case 5: Seedream 5.0 Pro · Çizgi rehberli detay düzenleme
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/007-lines.gif?v=20260709-camo" height="420" alt="Çizgi rehberli detay düzenleme">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/007-lines.gif" height="420" alt="Çizgi rehberli detay düzenleme">
 
 ---
 
 <a id="case-6"></a>
 
-### Case 6: Basit eskizden rafine görüntüye
+### Case 6: Seedream 5.0 Pro · Basit eskizden rafine görüntüye
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/008-simple-sketches.gif?v=20260709-camo" height="420" alt="Basit eskizden rafine görüntüye">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/008-simple-sketches.gif" height="420" alt="Basit eskizden rafine görüntüye">
 
 ---
 
@@ -176,49 +347,49 @@ Case sayısı: **6**.
 
 <a id="case-7"></a>
 
-### Case 7: Poster metni ve grafik katmanı düzenleme: Avery Turns
+### Case 7: Seedream 5.0 Pro · Poster metni ve grafik katmanı düzenleme: Avery Turns
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/009-Feishu-Docs-Image.gif" height="420" alt="Poster metni ve grafik katmanı düzenleme: Avery Turns">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/009-Feishu-Docs-Image.gif" height="420" alt="Poster metni ve grafik katmanı düzenleme: Avery Turns">
 
 ---
 
 <a id="case-8"></a>
 
-### Case 8: Poster teklif katmanı düzenleme: Happy Hour
+### Case 8: Seedream 5.0 Pro · Poster teklif katmanı düzenleme: Happy Hour
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/010-Feishu-Docs-Image.gif?v=20260709-camo2" height="420" alt="Poster teklif katmanı düzenleme: Happy Hour">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/010-Feishu-Docs-Image.gif" height="420" alt="Poster teklif katmanı düzenleme: Happy Hour">
 
 ---
 
 <a id="case-9"></a>
 
-### Case 9: Tasarım düzeni içinde moda görseli katmanı düzenleme
+### Case 9: Seedream 5.0 Pro · Tasarım düzeni içinde moda görseli katmanı düzenleme
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/011-Feishu-Docs-Image.gif" height="420" alt="Tasarım düzeni içinde moda görseli katmanı düzenleme">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/011-Feishu-Docs-Image.gif" height="420" alt="Tasarım düzeni içinde moda görseli katmanı düzenleme">
 
 ---
 
 <a id="case-10"></a>
 
-### Case 10: Spor posteri grafik katmanı düzenleme
+### Case 10: Seedream 5.0 Pro · Spor posteri grafik katmanı düzenleme
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/012-Feishu-Docs-Image.gif?v=20260709-camo2" height="420" alt="Spor posteri grafik katmanı düzenleme">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/012-Feishu-Docs-Image.gif" height="420" alt="Spor posteri grafik katmanı düzenleme">
 
 ---
 
 <a id="case-11"></a>
 
-### Case 11: Poster öğesi düzenleme: Public Joy
+### Case 11: Seedream 5.0 Pro · Poster öğesi düzenleme: Public Joy
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/013-Feishu-Docs-Image.gif?v=20260709-camo2" height="420" alt="Poster öğesi düzenleme: Public Joy">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/013-Feishu-Docs-Image.gif" height="420" alt="Poster öğesi düzenleme: Public Joy">
 
 ---
 
 <a id="case-12"></a>
 
-### Case 12: Hassas doku yanıtıyla malzeme yüzeyi değiştirme
+### Case 12: Seedream 5.0 Pro · Hassas doku yanıtıyla malzeme yüzeyi değiştirme
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/014-Feishu-Docs-Image.gif?v=20260709-camo2" height="420" alt="Hassas doku yanıtıyla malzeme yüzeyi değiştirme">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/014-Feishu-Docs-Image.gif" height="420" alt="Hassas doku yanıtıyla malzeme yüzeyi değiştirme">
 
 ---
 
@@ -232,7 +403,7 @@ Case sayısı: **1**.
 
 <a id="case-13"></a>
 
-### Case 13: Izgara konumuna göre nesne hareketi
+### Case 13: Seedream 5.0 Pro · Izgara konumuna göre nesne hareketi
 
 <table>
 <tr>
@@ -240,14 +411,14 @@ Case sayısı: **1**.
 
 **Önce:**
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/015-Feishu-Docs-Image.png" height="300" alt="Izgara konumuna göre nesne hareketi önce">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/015-Feishu-Docs-Image.png" height="300" alt="Izgara konumuna göre nesne hareketi önce">
 
 </td>
 <td width="50%" valign="top">
 
 **Sonra:**
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/016-Feishu-Docs-Image.png" height="300" alt="Izgara konumuna göre nesne hareketi sonra">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/016-Feishu-Docs-Image.png" height="300" alt="Izgara konumuna göre nesne hareketi sonra">
 
 </td>
 </tr>
@@ -271,9 +442,9 @@ Case sayısı: **1**.
 
 <a id="case-14"></a>
 
-### Case 14: Ön plan / kişi katmanı ayırma
+### Case 14: Seedream 5.0 Pro · Ön plan / kişi katmanı ayırma
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/017-Feishu-Docs-Image.png" height="420" alt="Ön plan / kişi katmanı ayırma">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/017-Feishu-Docs-Image.png" height="420" alt="Ön plan / kişi katmanı ayırma">
 
 ---
 
@@ -287,7 +458,7 @@ Case sayısı: **1**.
 
 <a id="case-15"></a>
 
-### Case 15: Yedi referanslı giriş/çıkış natürmort kompozisyonu
+### Case 15: Seedream 5.0 Pro · Yedi referanslı giriş/çıkış natürmort kompozisyonu
 
 <table>
 <tr>
@@ -295,14 +466,14 @@ Case sayısı: **1**.
 
 **Giriş:**
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/018-Feishu-Docs-Image.png" height="300" alt="Yedi referanslı natürmort kompozisyonu girişi">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/018-Feishu-Docs-Image.png" height="300" alt="Yedi referanslı natürmort kompozisyonu girişi">
 
 </td>
 <td width="50%" valign="top">
 
 **Çıkış:**
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/019-Feishu-Docs-Image.png" height="300" alt="Yedi referanslı natürmort kompozisyonu çıkışı">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/019-Feishu-Docs-Image.png" height="300" alt="Yedi referanslı natürmort kompozisyonu çıkışı">
 
 </td>
 </tr>
@@ -327,41 +498,41 @@ Case sayısı: **5**.
 
 <a id="case-16"></a>
 
-### Case 16: Cam kırılmalı sinematik tenis sahnesi
+### Case 16: Seedream 5.0 Pro · Cam kırılmalı sinematik tenis sahnesi
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" height="420" alt="Cam kırılmalı sinematik tenis sahnesi">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" height="420" alt="Cam kırılmalı sinematik tenis sahnesi">
 
 ---
 
 <a id="case-17"></a>
 
-### Case 17: Sinematik boks aksiyonu
+### Case 17: Seedream 5.0 Pro · Sinematik boks aksiyonu
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/021-Cinematic-narrative-action-boxing.png" height="420" alt="Sinematik boks aksiyonu">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/021-Cinematic-narrative-action-boxing.png" height="420" alt="Sinematik boks aksiyonu">
 
 ---
 
 <a id="case-18"></a>
 
-### Case 18: 3D animasyon tarzı sahne
+### Case 18: Seedream 5.0 Pro · 3D animasyon tarzı sahne
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/022-Cinematic-narrative-3D-animation.png" height="420" alt="3D animasyon tarzı sahne">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/022-Cinematic-narrative-3D-animation.png" height="420" alt="3D animasyon tarzı sahne">
 
 ---
 
 <a id="case-19"></a>
 
-### Case 19: Görsel konsept sanatı
+### Case 19: Seedream 5.0 Pro · Görsel konsept sanatı
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/023-Cinematic-narrative-visual-concept.png" height="420" alt="Görsel konsept sanatı">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/023-Cinematic-narrative-visual-concept.png" height="420" alt="Görsel konsept sanatı">
 
 ---
 
 <a id="case-20"></a>
 
-### Case 20: Oyun sahnesi görseli
+### Case 20: Seedream 5.0 Pro · Oyun sahnesi görseli
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/024-Cinematic-narrative-game-scene.png" height="420" alt="Oyun sahnesi görseli">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/024-Cinematic-narrative-game-scene.png" height="420" alt="Oyun sahnesi görseli">
 
 ---
 
@@ -375,43 +546,49 @@ Case sayısı: **5**.
 
 <a id="case-21"></a>
 
-### Case 21: Arapça ve İngilizce karşılama tabelası
+### Case 21: Seedream 5.0 Pro · Arapça ve İngilizce karşılama tabelası
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/025-Welcome.png" height="420" alt="Arapça ve İngilizce karşılama tabelası">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/025-Welcome.png" height="420" alt="Arapça ve İngilizce karşılama tabelası">
 
 ---
 
 <a id="case-22"></a>
 
-### Case 22: Korece 24 saat açık tabelası
+### Case 22: Seedream 5.0 Pro · Korece 24 saat açık tabelası
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/026-24-Open-24-hours.png" height="420" alt="Korece 24 saat açık tabelası">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/026-24-Open-24-hours.png" height="420" alt="Korece 24 saat açık tabelası">
 
 ---
 
 <a id="case-23"></a>
 
-### Case 23: Tayca temizlik tabelası
+### Case 23: Seedream 5.0 Pro · Tayca temizlik tabelası
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/027-Please-help-keep-the-place-clean-together.png" height="420" alt="Tayca temizlik tabelası">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/027-Please-help-keep-the-place-clean-together.png" height="420" alt="Tayca temizlik tabelası">
 
 ---
 
 <a id="case-24"></a>
 
-### Case 24: Fransızca yaratım posteri
+### Case 24: Seedream 5.0 Pro · Fransızca yaratım posteri
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/028-CREATION-FRANCAISE-Made-in-France.png" height="420" alt="Fransızca yaratım posteri">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/028-CREATION-FRANCAISE-Made-in-France.png" height="420" alt="Fransızca yaratım posteri">
 
 ---
 
 <a id="case-25"></a>
 
-### Case 25: Rusça gelecek posteri
+### Case 25: Seedream 5.0 Pro · Rusça gelecek posteri
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/029-Future.png" height="420" alt="Rusça gelecek posteri">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/029-Future.png" height="420" alt="Rusça gelecek posteri">
 
 ---
+
+<a id="legacy-community-5-0-pro"></a>
+
+## 🗃️ Seedream 5.0 Pro — Topluluk Örnekleri Arşivi
+
+Aşağıdaki örnekler Seedream 5.0 Pro modelini gösterir. Başvuru amacıyla korunmuştur ve Seedream 5.5 performansını kanıtlamaz.
 
 <a id="community-use-cases"></a>
 
@@ -425,7 +602,7 @@ Herkese açık kaynaklara dayanan bu 39 topluluk örneği, kullanıcı görevi v
 
 <a id="community-usecase-1"></a>
 
-### Community Use Case 1: [Makyajsız görüntü düzenleme için Japonca talimat](https://x.com/renataro9/status/2075059699112652908) (by [@renataro9](https://x.com/renataro9))
+### Community Use Case 1: Seedream 5.0 Pro · [Makyajsız görüntü düzenleme için Japonca talimat](https://x.com/renataro9/status/2075059699112652908) (by [@renataro9](https://x.com/renataro9))
 
 **Kaynak gönderi, girdiler arasındaki ilişkinin son görsel kadar önemli olduğu bir görsel düzenleme veya girdi kontrolü iş akışını gösterir.**
 
@@ -434,8 +611,8 @@ Type: Tutorial | Date: 2026-07-09 | Category: Düzenleme ve girdi kontrolü iş 
 Tags: `image-input` `multi-image` `prompt-available` `tutorial`
 
 <table><tr>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/043/01.jpg" height="180" alt="Makyajsız görüntü düzenleme için Japonca talimat medya"></td>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/043/02.jpg" height="180" alt="Makyajsız görüntü düzenleme için Japonca talimat medya"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/043/01.jpg" height="180" alt="Makyajsız görüntü düzenleme için Japonca talimat medya"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/043/02.jpg" height="180" alt="Makyajsız görüntü düzenleme için Japonca talimat medya"></td>
 </tr></table>
 
 <details open>
@@ -451,7 +628,7 @@ Tags: `image-input` `multi-image` `prompt-available` `tutorial`
 
 <a id="community-usecase-2"></a>
 
-### Community Use Case 2: [Kompozisyonu koruyup tek bir özneyi değiştiren yerelleştirilmiş anime düzenlemesi](https://x.com/haruuraeadss/status/2075035201391255593) (by [@haruuraeadss](https://x.com/haruuraeadss))
+### Community Use Case 2: Seedream 5.0 Pro · [Kompozisyonu koruyup tek bir özneyi değiştiren yerelleştirilmiş anime düzenlemesi](https://x.com/haruuraeadss/status/2075035201391255593) (by [@haruuraeadss](https://x.com/haruuraeadss))
 
 **Kaynak gönderi, girdiler arasındaki ilişkinin son görsel kadar önemli olduğu bir görsel düzenleme veya girdi kontrolü iş akışını gösterir.**
 
@@ -460,8 +637,8 @@ Type: Tutorial | Date: 2026-07-09 | Category: Düzenleme ve girdi kontrolü iş 
 Tags: `multi-image` `prompt-available` `tutorial`
 
 <table><tr>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/052/01.jpg" height="180" alt="Kompozisyonu koruyup tek bir özneyi değiştiren yerelleştirilmiş anime düzenlemesi medya"></td>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/052/02.jpg" height="180" alt="Kompozisyonu koruyup tek bir özneyi değiştiren yerelleştirilmiş anime düzenlemesi medya"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/052/01.jpg" height="180" alt="Kompozisyonu koruyup tek bir özneyi değiştiren yerelleştirilmiş anime düzenlemesi medya"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/052/02.jpg" height="180" alt="Kompozisyonu koruyup tek bir özneyi değiştiren yerelleştirilmiş anime düzenlemesi medya"></td>
 </tr></table>
 
 <details open>
@@ -477,7 +654,7 @@ Tags: `multi-image` `prompt-available` `tutorial`
 
 <a id="community-usecase-3"></a>
 
-### Community Use Case 3: [Görsel girdisiyle kediden mecha'ya dönüşüm](https://x.com/JennyAITech/status/2074870477651398972) (by [@JennyAITech](https://x.com/JennyAITech))
+### Community Use Case 3: Seedream 5.0 Pro · [Görsel girdisiyle kediden mecha'ya dönüşüm](https://x.com/JennyAITech/status/2074870477651398972) (by [@JennyAITech](https://x.com/JennyAITech))
 
 **Kaynak gönderi, girdiler arasındaki ilişkinin son görsel kadar önemli olduğu bir görsel düzenleme veya girdi kontrolü iş akışını gösterir.**
 
@@ -486,8 +663,8 @@ Type: Demo | Date: 2026-07-08 | Category: Düzenleme ve girdi kontrolü iş akı
 Tags: `image-input` `multi-image` `prompt-available`
 
 <table><tr>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/058/01.jpg" height="180" alt="Görsel girdisiyle kediden mecha&#x27;ya dönüşüm medya"></td>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/058/02.jpg" height="180" alt="Görsel girdisiyle kediden mecha&#x27;ya dönüşüm medya"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/058/01.jpg" height="180" alt="Görsel girdisiyle kediden mecha&#x27;ya dönüşüm medya"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/058/02.jpg" height="180" alt="Görsel girdisiyle kediden mecha&#x27;ya dönüşüm medya"></td>
 </tr></table>
 
 <details open>
@@ -503,7 +680,7 @@ a pic of my cat, asked for a mecha version
 
 <a id="community-usecase-36"></a>
 
-### Community Use Case 36: [Niji7 kaynağından referans görsel varyasyonu](https://x.com/Naonekozamurai/status/2075407158129353026) (by [@Naonekozamurai](https://x.com/Naonekozamurai))
+### Community Use Case 36: Seedream 5.0 Pro · [Niji7 kaynağından referans görsel varyasyonu](https://x.com/Naonekozamurai/status/2075407158129353026) (by [@Naonekozamurai](https://x.com/Naonekozamurai))
 
 **Mevcut bir illüstrasyonu görsel temel olarak kullanın ve Seedream ile kontrollü bir alternatif üretin.**
 
@@ -512,15 +689,15 @@ Type: Demo | Date: 2026-07-10 | Category: Düzenleme ve girdi kontrolü iş akı
 Tags: `image-input` `multi-image` `reference-variation`
 
 <table><tr>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/071/01.jpg" height="180" alt="Niji7 kaynağından referans görsel varyasyonu medya"></td>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/071/02.jpg" height="180" alt="Niji7 kaynağından referans görsel varyasyonu medya"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/071/01.jpg" height="180" alt="Niji7 kaynağından referans görsel varyasyonu medya"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/071/02.jpg" height="180" alt="Niji7 kaynağından referans görsel varyasyonu medya"></td>
 </tr></table>
 
 ---
 
 <a id="community-usecase-38"></a>
 
-### Community Use Case 38: [Kimliği koruyan makyaj aktarımı](https://x.com/YaZoraiz/status/2075189150127726801) (by [@YaZoraiz](https://x.com/YaZoraiz))
+### Community Use Case 38: Seedream 5.0 Pro · [Kimliği koruyan makyaj aktarımı](https://x.com/YaZoraiz/status/2075189150127726801) (by [@YaZoraiz](https://x.com/YaZoraiz))
 
 **Bir referanstaki makyajı, hedef kişinin kimliğini koruyarak aktarın.**
 
@@ -529,10 +706,10 @@ Type: Evaluation | Date: 2026-07-09 | Category: Düzenleme ve girdi kontrolü i�
 Tags: `identity-preservation` `image-input` `model-comparison` `multi-image`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/073/01.jpg" height="180" alt="Kimliği koruyan makyaj aktarımı medya"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/073/02.jpg" height="180" alt="Kimliği koruyan makyaj aktarımı medya"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/073/03.jpg" height="180" alt="Kimliği koruyan makyaj aktarımı medya"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/073/04.jpg" height="180" alt="Kimliği koruyan makyaj aktarımı medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/073/01.jpg" height="180" alt="Kimliği koruyan makyaj aktarımı medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/073/02.jpg" height="180" alt="Kimliği koruyan makyaj aktarımı medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/073/03.jpg" height="180" alt="Kimliği koruyan makyaj aktarımı medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/073/04.jpg" height="180" alt="Kimliği koruyan makyaj aktarımı medya"></td>
 </tr></table>
 
 ---
@@ -544,7 +721,7 @@ Tags: `identity-preservation` `image-input` `model-comparison` `multi-image`
 
 <a id="community-usecase-4"></a>
 
-### Community Use Case 4: [Piyasa mikro yapısı ayrıntılı işlem terminali arayüzü](https://x.com/MishikaAI/status/2074879603446026333) (by [@MishikaAI](https://x.com/MishikaAI))
+### Community Use Case 4: Seedream 5.0 Pro · [Piyasa mikro yapısı ayrıntılı işlem terminali arayüzü](https://x.com/MishikaAI/status/2074879603446026333) (by [@MishikaAI](https://x.com/MishikaAI))
 
 **Kaynak gönderi, Seedream'in kullanılabilir bir ticari görsel, arayüz, ürün reklamı veya poster biçimli çıktı üretip üretemediğini sınar.**
 
@@ -552,7 +729,7 @@ Type: Demo | Date: 2026-07-08 | Category: Ürün, arayüz ve poster tasarımı
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/004/01.jpg" height="340" alt="Piyasa mikro yapısı ayrıntılı işlem terminali arayüzü medya">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/004/01.jpg" height="340" alt="Piyasa mikro yapısı ayrıntılı işlem terminali arayüzü medya">
 
 <details open>
 <summary>Prompt</summary>
@@ -567,7 +744,7 @@ a full trading terminal — K-lines, order book, bid/ask, volume, timestamps
 
 <a id="community-usecase-5"></a>
 
-### Community Use Case 5: [Siberpunk android grafik posteri](https://x.com/ComfyUI/status/2075027793491226677) (by [@ComfyUI](https://x.com/ComfyUI))
+### Community Use Case 5: Seedream 5.0 Pro · [Siberpunk android grafik posteri](https://x.com/ComfyUI/status/2075027793491226677) (by [@ComfyUI](https://x.com/ComfyUI))
 
 **Kaynak gönderi, Seedream'in kullanılabilir bir ticari görsel, arayüz, ürün reklamı veya poster biçimli çıktı üretip üretemediğini sınar.**
 
@@ -575,7 +752,7 @@ Type: Demo | Date: 2026-07-09 | Category: Ürün, arayüz ve poster tasarımı
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/042/01.jpg" height="340" alt="Siberpunk android grafik posteri medya">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/042/01.jpg" height="340" alt="Siberpunk android grafik posteri medya">
 
 <details open>
 <summary>Prompt</summary>
@@ -590,7 +767,7 @@ A sci-fi cyberpunk graphic design poster. In the center, a striking portrait of 
 
 <a id="community-usecase-6"></a>
 
-### Community Use Case 6: [Premium spor ayakkabı reklam seti](https://x.com/iamrealsnow/status/2075063569486598281) (by [@iamrealsnow](https://x.com/iamrealsnow))
+### Community Use Case 6: Seedream 5.0 Pro · [Premium spor ayakkabı reklam seti](https://x.com/iamrealsnow/status/2075063569486598281) (by [@iamrealsnow](https://x.com/iamrealsnow))
 
 **Kaynak gönderi, Seedream'in kullanılabilir bir ticari görsel, arayüz, ürün reklamı veya poster biçimli çıktı üretip üretemediğini sınar.**
 
@@ -599,10 +776,10 @@ Type: Demo | Date: 2026-07-09 | Category: Ürün, arayüz ve poster tasarımı
 Tags: `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/047/01.jpg" height="180" alt="Premium spor ayakkabı reklam seti medya"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/047/02.jpg" height="180" alt="Premium spor ayakkabı reklam seti medya"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/047/03.jpg" height="180" alt="Premium spor ayakkabı reklam seti medya"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/047/04.jpg" height="180" alt="Premium spor ayakkabı reklam seti medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/047/01.jpg" height="180" alt="Premium spor ayakkabı reklam seti medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/047/02.jpg" height="180" alt="Premium spor ayakkabı reklam seti medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/047/03.jpg" height="180" alt="Premium spor ayakkabı reklam seti medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/047/04.jpg" height="180" alt="Premium spor ayakkabı reklam seti medya"></td>
 </tr></table>
 
 <details open>
@@ -618,7 +795,7 @@ Ultra-realistic premium sports footwear commercial advertisement featuring a mod
 
 <a id="community-usecase-7"></a>
 
-### Community Use Case 7: [Çocuklar için kil el işi reklam posteri](https://x.com/Strength04_X/status/2075063250656621054) (by [@Strength04_X](https://x.com/Strength04_X))
+### Community Use Case 7: Seedream 5.0 Pro · [Çocuklar için kil el işi reklam posteri](https://x.com/Strength04_X/status/2075063250656621054) (by [@Strength04_X](https://x.com/Strength04_X))
 
 **Kaynak gönderi, Seedream'in kullanılabilir bir ticari görsel, arayüz, ürün reklamı veya poster biçimli çıktı üretip üretemediğini sınar.**
 
@@ -626,7 +803,7 @@ Type: Demo | Date: 2026-07-09 | Category: Ürün, arayüz ve poster tasarımı
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/050/01.jpg" height="340" alt="Çocuklar için kil el işi reklam posteri medya">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/050/01.jpg" height="340" alt="Çocuklar için kil el işi reklam posteri medya">
 
 <details open>
 <summary>Prompt</summary>
@@ -646,7 +823,7 @@ A messy fun kids advertisement poster. A laughing young girl age 6 with clay all
 
 <a id="community-usecase-8"></a>
 
-### Community Use Case 8: [Yoğun ölçülendirmeli teknik plan görselleştirmesi](https://x.com/LiamEtherson/status/2074862867442962667) (by [@LiamEtherson](https://x.com/LiamEtherson))
+### Community Use Case 8: Seedream 5.0 Pro · [Yoğun ölçülendirmeli teknik plan görselleştirmesi](https://x.com/LiamEtherson/status/2074862867442962667) (by [@LiamEtherson](https://x.com/LiamEtherson))
 
 **Kaynak gönderi; diyagramlar, teknik düzenler, çekim listeleri veya çok kareli sekans mantığı içeren yapılandırılmış prompt takibini sınar.**
 
@@ -654,7 +831,7 @@ Type: Demo | Date: 2026-07-08 | Category: Teknik çizim, diyagram ve sekans prom
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/003/01.jpg" height="340" alt="Yoğun ölçülendirmeli teknik plan görselleştirmesi medya">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/003/01.jpg" height="340" alt="Yoğun ölçülendirmeli teknik plan görselleştirmesi medya">
 
 <details open>
 <summary>Prompt</summary>
@@ -669,7 +846,7 @@ technical blueprint with abundant measurement values
 
 <a id="community-usecase-9"></a>
 
-### Community Use Case 9: [Patlatılmış teknik görünümlü konsept otomobil planı](https://x.com/AiwithZohaib/status/2074880584107909602) (by [@AiwithZohaib](https://x.com/AiwithZohaib))
+### Community Use Case 9: Seedream 5.0 Pro · [Patlatılmış teknik görünümlü konsept otomobil planı](https://x.com/AiwithZohaib/status/2074880584107909602) (by [@AiwithZohaib](https://x.com/AiwithZohaib))
 
 **Kaynak gönderi; diyagramlar, teknik düzenler, çekim listeleri veya çok kareli sekans mantığı içeren yapılandırılmış prompt takibini sınar.**
 
@@ -677,7 +854,7 @@ Type: Demo | Date: 2026-07-08 | Category: Teknik çizim, diyagram ve sekans prom
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/005/01.jpg" height="340" alt="Patlatılmış teknik görünümlü konsept otomobil planı medya">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/005/01.jpg" height="340" alt="Patlatılmış teknik görünümlü konsept otomobil planı medya">
 
 <details open>
 <summary>Prompt</summary>
@@ -692,7 +869,7 @@ a blueprint-style technical drawing of a concept car: front/side/rear views, exp
 
 <a id="community-usecase-10"></a>
 
-### Community Use Case 10: [Çekim listesiyle yönlendirilen gri tonlu sahne planlama](https://x.com/munzxsdv/status/2074865454485483885) (by [@munzxsdv](https://x.com/munzxsdv))
+### Community Use Case 10: Seedream 5.0 Pro · [Çekim listesiyle yönlendirilen gri tonlu sahne planlama](https://x.com/munzxsdv/status/2074865454485483885) (by [@munzxsdv](https://x.com/munzxsdv))
 
 **Kaynak gönderi; diyagramlar, teknik düzenler, çekim listeleri veya çok kareli sekans mantığı içeren yapılandırılmış prompt takibini sınar.**
 
@@ -700,7 +877,7 @@ Type: Demo | Date: 2026-07-08 | Category: Teknik çizim, diyagram ve sekans prom
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/007/01.jpg" height="340" alt="Çekim listesiyle yönlendirilen gri tonlu sahne planlama medya">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/007/01.jpg" height="340" alt="Çekim listesiyle yönlendirilen gri tonlu sahne planlama medya">
 
 <details open>
 <summary>Prompt</summary>
@@ -715,7 +892,7 @@ a shot list — panel-by-panel direction, camera moves, grayscale spec
 
 <a id="community-usecase-11"></a>
 
-### Community Use Case 11: [Tek promptla 16 panelli süvari storyboard'u](https://x.com/sulekhat95/status/2074966196563431636) (by [@sulekhat95](https://x.com/sulekhat95))
+### Community Use Case 11: Seedream 5.0 Pro · [Tek promptla 16 panelli süvari storyboard'u](https://x.com/sulekhat95/status/2074966196563431636) (by [@sulekhat95](https://x.com/sulekhat95))
 
 **Kaynak gönderi; diyagramlar, teknik düzenler, çekim listeleri veya çok kareli sekans mantığı içeren yapılandırılmış prompt takibini sınar.**
 
@@ -723,7 +900,7 @@ Type: Demo | Date: 2026-07-08 | Category: Teknik çizim, diyagram ve sekans prom
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/062/01.jpg" height="340" alt="Tek promptla 16 panelli süvari storyboard&#x27;u medya">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/062/01.jpg" height="340" alt="Tek promptla 16 panelli süvari storyboard&#x27;u medya">
 
 <details open>
 <summary>Prompt</summary>
@@ -738,7 +915,7 @@ Tags: `prompt-available`
 
 <a id="community-usecase-37"></a>
 
-### Community Use Case 37: [Tek prompttan patlatılmış teknik diyagram](https://x.com/Ciri_ai/status/2075248022515294567) (by [@Ciri_ai](https://x.com/Ciri_ai))
+### Community Use Case 37: Seedream 5.0 Pro · [Tek prompttan patlatılmış teknik diyagram](https://x.com/Ciri_ai/status/2075248022515294567) (by [@Ciri_ai](https://x.com/Ciri_ai))
 
 **Seedream ile tek bir talimatı etiketli patlatılmış teknik kompozisyona dönüştürün.**
 
@@ -747,9 +924,9 @@ Type: Demo | Date: 2026-07-09 | Category: Teknik çizim, diyagram ve sekans prom
 Tags: `diagram` `multi-image` `structured-layout`
 
 <table><tr>
-<td width="33%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/072/01.jpg" height="180" alt="Tek prompttan patlatılmış teknik diyagram medya"></td>
-<td width="33%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/072/02.jpg" height="180" alt="Tek prompttan patlatılmış teknik diyagram medya"></td>
-<td width="33%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/072/03.jpg" height="180" alt="Tek prompttan patlatılmış teknik diyagram medya"></td>
+<td width="33%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/072/01.jpg" height="180" alt="Tek prompttan patlatılmış teknik diyagram medya"></td>
+<td width="33%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/072/02.jpg" height="180" alt="Tek prompttan patlatılmış teknik diyagram medya"></td>
+<td width="33%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/072/03.jpg" height="180" alt="Tek prompttan patlatılmış teknik diyagram medya"></td>
 </tr></table>
 
 ---
@@ -761,7 +938,7 @@ Tags: `diagram` `multi-image` `structured-layout`
 
 <a id="community-usecase-12"></a>
 
-### Community Use Case 12: [Minyatür klon motifli balık gözü editoryal portreler](https://x.com/magnific/status/2074872903938846900) (by [@magnific](https://x.com/magnific))
+### Community Use Case 12: Seedream 5.0 Pro · [Minyatür klon motifli balık gözü editoryal portreler](https://x.com/magnific/status/2074872903938846900) (by [@magnific](https://x.com/magnific))
 
 **Kaynak gönderi, yayımlanan medya çıktılarıyla sinematik, karakter, moda veya stil işleme kalitesini sınar.**
 
@@ -770,8 +947,8 @@ Type: Demo | Date: 2026-07-08 | Category: Sinematik, karakter ve stil görseller
 Tags: `multi-image` `prompt-available`
 
 <table><tr>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/008/01.jpg" height="180" alt="Minyatür klon motifli balık gözü editoryal portreler medya"></td>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/008/02.jpg" height="180" alt="Minyatür klon motifli balık gözü editoryal portreler medya"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/008/01.jpg" height="180" alt="Minyatür klon motifli balık gözü editoryal portreler medya"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/008/02.jpg" height="180" alt="Minyatür klon motifli balık gözü editoryal portreler medya"></td>
 </tr></table>
 
 <details open>
@@ -787,7 +964,7 @@ Shot on cinema camera with subtle halation effect, 35mm film grain, fashion edit
 
 <a id="community-usecase-13"></a>
 
-### Community Use Case 13: [Eriyen dünya simgeleri konsept üretimi](https://x.com/magnific/status/2074918700709523881) (by [@magnific](https://x.com/magnific))
+### Community Use Case 13: Seedream 5.0 Pro · [Eriyen dünya simgeleri konsept üretimi](https://x.com/magnific/status/2074918700709523881) (by [@magnific](https://x.com/magnific))
 
 **Kaynak gönderi, yayımlanan medya çıktılarıyla sinematik, karakter, moda veya stil işleme kalitesini sınar.**
 
@@ -796,8 +973,8 @@ Type: Demo | Date: 2026-07-08 | Category: Sinematik, karakter ve stil görseller
 Tags: `multi-image` `prompt-available`
 
 <table><tr>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/011/01.jpg" height="180" alt="Eriyen dünya simgeleri konsept üretimi medya"></td>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/011/02.jpg" height="180" alt="Eriyen dünya simgeleri konsept üretimi medya"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/011/01.jpg" height="180" alt="Eriyen dünya simgeleri konsept üretimi medya"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/011/02.jpg" height="180" alt="Eriyen dünya simgeleri konsept üretimi medya"></td>
 </tr></table>
 
 <details open>
@@ -813,7 +990,7 @@ world's landmarks, melting like wax
 
 <a id="community-usecase-14"></a>
 
-### Community Use Case 14: [Fotogerçekçi yüksek moda portre ışığı](https://x.com/BubbleBrain/status/2074856963591290979) (by [@BubbleBrain](https://x.com/BubbleBrain))
+### Community Use Case 14: Seedream 5.0 Pro · [Fotogerçekçi yüksek moda portre ışığı](https://x.com/BubbleBrain/status/2074856963591290979) (by [@BubbleBrain](https://x.com/BubbleBrain))
 
 **Kaynak gönderi, yayımlanan medya çıktılarıyla sinematik, karakter, moda veya stil işleme kalitesini sınar.**
 
@@ -821,7 +998,7 @@ Type: Demo | Date: 2026-07-08 | Category: Sinematik, karakter ve stil görseller
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/017/01.jpg" height="340" alt="Fotogerçekçi yüksek moda portre ışığı medya">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/017/01.jpg" height="340" alt="Fotogerçekçi yüksek moda portre ışığı medya">
 
 <details open>
 <summary>Prompt</summary>
@@ -836,7 +1013,7 @@ This is a highly photorealistic, high-fashion full-body portrait with an overall
 
 <a id="community-usecase-15"></a>
 
-### Community Use Case 15: [San Francisco gün batımında doğal telefon fotoğrafı sahnesi](https://x.com/mattworkman/status/2074850550349222210) (by [@mattworkman](https://x.com/mattworkman))
+### Community Use Case 15: Seedream 5.0 Pro · [San Francisco gün batımında doğal telefon fotoğrafı sahnesi](https://x.com/mattworkman/status/2074850550349222210) (by [@mattworkman](https://x.com/mattworkman))
 
 **Kaynak gönderi, yayımlanan medya çıktılarıyla sinematik, karakter, moda veya stil işleme kalitesini sınar.**
 
@@ -844,7 +1021,7 @@ Type: Demo | Date: 2026-07-08 | Category: Sinematik, karakter ve stil görseller
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/018/01.jpg" height="340" alt="San Francisco gün batımında doğal telefon fotoğrafı sahnesi medya">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/018/01.jpg" height="340" alt="San Francisco gün batımında doğal telefon fotoğrafı sahnesi medya">
 
 <details open>
 <summary>Prompt</summary>
@@ -859,7 +1036,7 @@ a Korean girl in her twenties on her iPhone in San Francisco at sunset
 
 <a id="community-usecase-16"></a>
 
-### Community Use Case 16: [Fantastik düşmüş melek savaşçı ana görseli](https://x.com/SimplyAnnisa/status/2074900816662774189) (by [@SimplyAnnisa](https://x.com/SimplyAnnisa))
+### Community Use Case 16: Seedream 5.0 Pro · [Fantastik düşmüş melek savaşçı ana görseli](https://x.com/SimplyAnnisa/status/2074900816662774189) (by [@SimplyAnnisa](https://x.com/SimplyAnnisa))
 
 **Kaynak gönderi, yayımlanan medya çıktılarıyla sinematik, karakter, moda veya stil işleme kalitesini sınar.**
 
@@ -867,7 +1044,7 @@ Type: Demo | Date: 2026-07-08 | Category: Sinematik, karakter ve stil görseller
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/028/01.jpg" height="340" alt="Fantastik düşmüş melek savaşçı ana görseli medya">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/028/01.jpg" height="340" alt="Fantastik düşmüş melek savaşçı ana görseli medya">
 
 <details open>
 <summary>Prompt</summary>
@@ -882,7 +1059,7 @@ A divine fallen angel warrior kneeling in the center of an ancient celestial tem
 
 <a id="community-usecase-17"></a>
 
-### Community Use Case 17: [Japon gündelik portre stil seti](https://x.com/Cia0_exe/status/2075033845032993261) (by [@Cia0_exe](https://x.com/Cia0_exe))
+### Community Use Case 17: Seedream 5.0 Pro · [Japon gündelik portre stil seti](https://x.com/Cia0_exe/status/2075033845032993261) (by [@Cia0_exe](https://x.com/Cia0_exe))
 
 **Kaynak gönderi, yayımlanan medya çıktılarıyla sinematik, karakter, moda veya stil işleme kalitesini sınar.**
 
@@ -891,10 +1068,10 @@ Type: Demo | Date: 2026-07-09 | Category: Sinematik, karakter ve stil görseller
 Tags: `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/029/01.jpg" height="180" alt="Japon gündelik portre stil seti medya"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/029/02.jpg" height="180" alt="Japon gündelik portre stil seti medya"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/029/03.jpg" height="180" alt="Japon gündelik portre stil seti medya"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/029/04.jpg" height="180" alt="Japon gündelik portre stil seti medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/029/01.jpg" height="180" alt="Japon gündelik portre stil seti medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/029/02.jpg" height="180" alt="Japon gündelik portre stil seti medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/029/03.jpg" height="180" alt="Japon gündelik portre stil seti medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/029/04.jpg" height="180" alt="Japon gündelik portre stil seti medya"></td>
 </tr></table>
 
 <details open>
@@ -910,7 +1087,7 @@ A beautiful young Japanese woman, natural and effortless beauty, soft glowing sk
 
 <a id="community-usecase-18"></a>
 
-### Community Use Case 18: [ARRI tarzı sinematik şehir yakın planı](https://x.com/df_reno/status/2075055332452106476) (by [@df_reno](https://x.com/df_reno))
+### Community Use Case 18: Seedream 5.0 Pro · [ARRI tarzı sinematik şehir yakın planı](https://x.com/df_reno/status/2075055332452106476) (by [@df_reno](https://x.com/df_reno))
 
 **Kaynak gönderi, yayımlanan medya çıktılarıyla sinematik, karakter, moda veya stil işleme kalitesini sınar.**
 
@@ -919,10 +1096,10 @@ Type: Demo | Date: 2026-07-09 | Category: Sinematik, karakter ve stil görseller
 Tags: `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/035/01.jpg" height="180" alt="ARRI tarzı sinematik şehir yakın planı medya"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/035/02.jpg" height="180" alt="ARRI tarzı sinematik şehir yakın planı medya"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/035/03.jpg" height="180" alt="ARRI tarzı sinematik şehir yakın planı medya"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/035/04.jpg" height="180" alt="ARRI tarzı sinematik şehir yakın planı medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/035/01.jpg" height="180" alt="ARRI tarzı sinematik şehir yakın planı medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/035/02.jpg" height="180" alt="ARRI tarzı sinematik şehir yakın planı medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/035/03.jpg" height="180" alt="ARRI tarzı sinematik şehir yakın planı medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/035/04.jpg" height="180" alt="ARRI tarzı sinematik şehir yakın planı medya"></td>
 </tr></table>
 
 <details open>
@@ -938,7 +1115,7 @@ Tags: `multi-image` `prompt-available`
 
 <a id="community-usecase-19"></a>
 
-### Community Use Case 19: [Otoparkta moda kıyafetleri editoryal seti](https://x.com/ChillaiKalan__/status/2075071088137208063) (by [@ChillaiKalan__](https://x.com/ChillaiKalan__))
+### Community Use Case 19: Seedream 5.0 Pro · [Otoparkta moda kıyafetleri editoryal seti](https://x.com/ChillaiKalan__/status/2075071088137208063) (by [@ChillaiKalan__](https://x.com/ChillaiKalan__))
 
 **Kaynak gönderi, yayımlanan medya çıktılarıyla sinematik, karakter, moda veya stil işleme kalitesini sınar.**
 
@@ -947,10 +1124,10 @@ Type: Demo | Date: 2026-07-09 | Category: Sinematik, karakter ve stil görseller
 Tags: `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/038/01.jpg" height="180" alt="Otoparkta moda kıyafetleri editoryal seti medya"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/038/02.jpg" height="180" alt="Otoparkta moda kıyafetleri editoryal seti medya"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/038/03.jpg" height="180" alt="Otoparkta moda kıyafetleri editoryal seti medya"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/038/04.jpg" height="180" alt="Otoparkta moda kıyafetleri editoryal seti medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/038/01.jpg" height="180" alt="Otoparkta moda kıyafetleri editoryal seti medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/038/02.jpg" height="180" alt="Otoparkta moda kıyafetleri editoryal seti medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/038/03.jpg" height="180" alt="Otoparkta moda kıyafetleri editoryal seti medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/038/04.jpg" height="180" alt="Otoparkta moda kıyafetleri editoryal seti medya"></td>
 </tr></table>
 
 <details open>
@@ -966,7 +1143,7 @@ A stylish young woman with long layered black hair and soft curtain bangs, weari
 
 <a id="community-usecase-20"></a>
 
-### Community Use Case 20: [Yanardöner cam çiçek editoryal posteri](https://x.com/ComfyUI/status/2075027810666914062) (by [@ComfyUI](https://x.com/ComfyUI))
+### Community Use Case 20: Seedream 5.0 Pro · [Yanardöner cam çiçek editoryal posteri](https://x.com/ComfyUI/status/2075027810666914062) (by [@ComfyUI](https://x.com/ComfyUI))
 
 **Kaynak gönderi, yayımlanan medya çıktılarıyla sinematik, karakter, moda veya stil işleme kalitesini sınar.**
 
@@ -974,7 +1151,7 @@ Type: Demo | Date: 2026-07-09 | Category: Sinematik, karakter ve stil görseller
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/044/01.jpg" height="340" alt="Yanardöner cam çiçek editoryal posteri medya">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/044/01.jpg" height="340" alt="Yanardöner cam çiçek editoryal posteri medya">
 
 <details open>
 <summary>Prompt</summary>
@@ -989,7 +1166,7 @@ An editorial graphic design poster on a solid black background. The central elem
 
 <a id="community-usecase-21"></a>
 
-### Community Use Case 21: [Birden çok çekim promptlu anime kaykay sekansı](https://x.com/asatoucan/status/2075060881067769903) (by [@asatoucan](https://x.com/asatoucan))
+### Community Use Case 21: Seedream 5.0 Pro · [Birden çok çekim promptlu anime kaykay sekansı](https://x.com/asatoucan/status/2075060881067769903) (by [@asatoucan](https://x.com/asatoucan))
 
 **Kaynak gönderi, yayımlanan medya çıktılarıyla sinematik, karakter, moda veya stil işleme kalitesini sınar.**
 
@@ -998,10 +1175,10 @@ Type: Demo | Date: 2026-07-09 | Category: Sinematik, karakter ve stil görseller
 Tags: `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/069/01.jpg" height="180" alt="Birden çok çekim promptlu anime kaykay sekansı medya"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/069/02.jpg" height="180" alt="Birden çok çekim promptlu anime kaykay sekansı medya"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/069/03.jpg" height="180" alt="Birden çok çekim promptlu anime kaykay sekansı medya"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/069/04.jpg" height="180" alt="Birden çok çekim promptlu anime kaykay sekansı medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/069/01.jpg" height="180" alt="Birden çok çekim promptlu anime kaykay sekansı medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/069/02.jpg" height="180" alt="Birden çok çekim promptlu anime kaykay sekansı medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/069/03.jpg" height="180" alt="Birden çok çekim promptlu anime kaykay sekansı medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/069/04.jpg" height="180" alt="Birden çok çekim promptlu anime kaykay sekansı medya"></td>
 </tr></table>
 
 <details open>
@@ -1017,7 +1194,7 @@ A girl with a sharp bob cut, purple hair with black accent strands, stylized lay
 
 <a id="community-usecase-39"></a>
 
-### Community Use Case 39: [Uçtan uca açıklayıcı videoda Seedream ana kareleri](https://x.com/alisaqqt/status/2075241584615108812) (by [@alisaqqt](https://x.com/alisaqqt))
+### Community Use Case 39: Seedream 5.0 Pro · [Uçtan uca açıklayıcı videoda Seedream ana kareleri](https://x.com/alisaqqt/status/2075241584615108812) (by [@alisaqqt](https://x.com/alisaqqt))
 
 **Bitmiş bir açıklayıcı video üreten çok modelli işlem hattında ana kareler için Seedream kullanın.**
 
@@ -1025,9 +1202,9 @@ Type: Integration | Date: 2026-07-09 | Category: Sinematik, karakter ve stil gö
 
 Tags: `integration` `keyframes` `video`
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/074/demo.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/074/poster.jpg" height="340" alt="Uçtan uca açıklayıcı videoda Seedream ana kareleri medya"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/074/demo.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/074/poster.jpg" height="340" alt="Uçtan uca açıklayıcı videoda Seedream ana kareleri medya"></a>
 
-[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/074/demo.mp4)
+[Demo videosunu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/074/demo.mp4)
 
 ---
 
@@ -1038,7 +1215,7 @@ Tags: `integration` `keyframes` `video`
 
 <a id="community-usecase-22"></a>
 
-### Community Use Case 22: [Güneş enerjili çöl araştırma istasyonu konsepti](https://x.com/ashen_one/status/2074915677815886071) (by [@ashen_one](https://x.com/ashen_one))
+### Community Use Case 22: Seedream 5.0 Pro · [Güneş enerjili çöl araştırma istasyonu konsepti](https://x.com/ashen_one/status/2074915677815886071) (by [@ashen_one](https://x.com/ashen_one))
 
 **Kaynak gönderi, tek bir nesne düzenlemesi yerine ortam, iç mekân, bilim kurgu veya dünya kurma kompozisyonunu sınar.**
 
@@ -1046,7 +1223,7 @@ Type: Demo | Date: 2026-07-08 | Category: Konsept sanat, ortam ve dünya kurma
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/021/01.jpg" height="340" alt="Güneş enerjili çöl araştırma istasyonu konsepti medya">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/021/01.jpg" height="340" alt="Güneş enerjili çöl araştırma istasyonu konsepti medya">
 
 <details open>
 <summary>Prompt</summary>
@@ -1061,7 +1238,7 @@ A solar-powered research station in a desert, featuring domed structures, solar 
 
 <a id="community-usecase-23"></a>
 
-### Community Use Case 23: [İmkânsız ölçekte sinematik bilim kurgu dünya kurma seti](https://x.com/AllaAisling/status/2075036565147906511) (by [@AllaAisling](https://x.com/AllaAisling))
+### Community Use Case 23: Seedream 5.0 Pro · [İmkânsız ölçekte sinematik bilim kurgu dünya kurma seti](https://x.com/AllaAisling/status/2075036565147906511) (by [@AllaAisling](https://x.com/AllaAisling))
 
 **Kaynak gönderi, tek bir nesne düzenlemesi yerine ortam, iç mekân, bilim kurgu veya dünya kurma kompozisyonunu sınar.**
 
@@ -1070,10 +1247,10 @@ Type: Demo | Date: 2026-07-09 | Category: Konsept sanat, ortam ve dünya kurma
 Tags: `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/027/01.jpg" height="180" alt="İmkânsız ölçekte sinematik bilim kurgu dünya kurma seti medya"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/027/02.jpg" height="180" alt="İmkânsız ölçekte sinematik bilim kurgu dünya kurma seti medya"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/027/03.jpg" height="180" alt="İmkânsız ölçekte sinematik bilim kurgu dünya kurma seti medya"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/027/04.jpg" height="180" alt="İmkânsız ölçekte sinematik bilim kurgu dünya kurma seti medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/027/01.jpg" height="180" alt="İmkânsız ölçekte sinematik bilim kurgu dünya kurma seti medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/027/02.jpg" height="180" alt="İmkânsız ölçekte sinematik bilim kurgu dünya kurma seti medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/027/03.jpg" height="180" alt="İmkânsız ölçekte sinematik bilim kurgu dünya kurma seti medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/027/04.jpg" height="180" alt="İmkânsız ölçekte sinematik bilim kurgu dünya kurma seti medya"></td>
 </tr></table>
 
 <details open>
@@ -1089,7 +1266,7 @@ An industrial civilization is constructing an entire planet inside an enormous o
 
 <a id="community-usecase-24"></a>
 
-### Community Use Case 24: [MBTI tiplerine göre yatak odası tasarım varyasyonları](https://x.com/FloraTechAI/status/2074866317484794131) (by [@FloraTechAI](https://x.com/FloraTechAI))
+### Community Use Case 24: Seedream 5.0 Pro · [MBTI tiplerine göre yatak odası tasarım varyasyonları](https://x.com/FloraTechAI/status/2074866317484794131) (by [@FloraTechAI](https://x.com/FloraTechAI))
 
 **Kaynak gönderi, tek bir nesne düzenlemesi yerine ortam, iç mekân, bilim kurgu veya dünya kurma kompozisyonunu sınar.**
 
@@ -1098,10 +1275,10 @@ Type: Demo | Date: 2026-07-08 | Category: Konsept sanat, ortam ve dünya kurma
 Tags: `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/061/01.jpg" height="180" alt="MBTI tiplerine göre yatak odası tasarım varyasyonları medya"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/061/02.jpg" height="180" alt="MBTI tiplerine göre yatak odası tasarım varyasyonları medya"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/061/03.jpg" height="180" alt="MBTI tiplerine göre yatak odası tasarım varyasyonları medya"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/061/04.jpg" height="180" alt="MBTI tiplerine göre yatak odası tasarım varyasyonları medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/061/01.jpg" height="180" alt="MBTI tiplerine göre yatak odası tasarım varyasyonları medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/061/02.jpg" height="180" alt="MBTI tiplerine göre yatak odası tasarım varyasyonları medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/061/03.jpg" height="180" alt="MBTI tiplerine göre yatak odası tasarım varyasyonları medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/061/04.jpg" height="180" alt="MBTI tiplerine göre yatak odası tasarım varyasyonları medya"></td>
 </tr></table>
 
 <details open>
@@ -1122,7 +1299,7 @@ design a bedroom for each MBTI type
 
 <a id="community-usecase-25"></a>
 
-### Community Use Case 25: [Dört Çince promptla çok görevli Seedream yetenek örneklemesi](https://x.com/op7418/status/2074862226905948549) (by [@op7418](https://x.com/op7418))
+### Community Use Case 25: Seedream 5.0 Pro · [Dört Çince promptla çok görevli Seedream yetenek örneklemesi](https://x.com/op7418/status/2074862226905948549) (by [@op7418](https://x.com/op7418))
 
 **Kaynak gönderi tek bir zincirde birden fazla görevi örneklediği için tek amaçlı bir örnekten çok genel yetenek kontrolü olarak uygundur.**
 
@@ -1131,10 +1308,10 @@ Type: Evaluation | Date: 2026-07-08 | Category: Model karşılaştırmaları ve 
 Tags: `capability-sampling` `model-comparison` `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/001/01.jpg" height="180" alt="Dört Çince promptla çok görevli Seedream yetenek örneklemesi medya"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/001/02.jpg" height="180" alt="Dört Çince promptla çok görevli Seedream yetenek örneklemesi medya"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/001/03.jpg" height="180" alt="Dört Çince promptla çok görevli Seedream yetenek örneklemesi medya"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/001/04.jpg" height="180" alt="Dört Çince promptla çok görevli Seedream yetenek örneklemesi medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/001/01.jpg" height="180" alt="Dört Çince promptla çok görevli Seedream yetenek örneklemesi medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/001/02.jpg" height="180" alt="Dört Çince promptla çok görevli Seedream yetenek örneklemesi medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/001/03.jpg" height="180" alt="Dört Çince promptla çok görevli Seedream yetenek örneklemesi medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/001/04.jpg" height="180" alt="Dört Çince promptla çok görevli Seedream yetenek örneklemesi medya"></td>
 </tr></table>
 
 <details open>
@@ -1150,7 +1327,7 @@ Tags: `capability-sampling` `model-comparison` `multi-image` `prompt-available`
 
 <a id="community-usecase-26"></a>
 
-### Community Use Case 26: [Gerçekçi otomobil selfie'sinde Seedream ve GPT Image 2 karşılaştırması](https://x.com/johnAGI168/status/2074870910469677387) (by [@johnAGI168](https://x.com/johnAGI168))
+### Community Use Case 26: Seedream 5.0 Pro · [Gerçekçi otomobil selfie'sinde Seedream ve GPT Image 2 karşılaştırması](https://x.com/johnAGI168/status/2074870910469677387) (by [@johnAGI168](https://x.com/johnAGI168))
 
 **Kaynak gönderi, aynı veya yakından ilişkili görsel görevde Seedream 5.0 Pro ile başka bir modeli karşılaştırır.**
 
@@ -1159,8 +1336,8 @@ Type: Evaluation | Date: 2026-07-08 | Category: Model karşılaştırmaları ve 
 Tags: `model-comparison` `multi-image` `prompt-available`
 
 <table><tr>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/006/01.jpg" height="180" alt="Gerçekçi otomobil selfie&#x27;sinde Seedream ve GPT Image 2 karşılaştırması medya"></td>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/006/02.jpg" height="180" alt="Gerçekçi otomobil selfie&#x27;sinde Seedream ve GPT Image 2 karşılaştırması medya"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/006/01.jpg" height="180" alt="Gerçekçi otomobil selfie&#x27;sinde Seedream ve GPT Image 2 karşılaştırması medya"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/006/02.jpg" height="180" alt="Gerçekçi otomobil selfie&#x27;sinde Seedream ve GPT Image 2 karşılaştırması medya"></td>
 </tr></table>
 
 <details open>
@@ -1176,7 +1353,7 @@ Tags: `model-comparison` `multi-image` `prompt-available`
 
 <a id="community-usecase-27"></a>
 
-### Community Use Case 27: [Temiz yaşam tarzı portresinde Seedream ve GPT Image 2 karşılaştırması](https://x.com/liyue_ai/status/2074890690686005590) (by [@liyue_ai](https://x.com/liyue_ai))
+### Community Use Case 27: Seedream 5.0 Pro · [Temiz yaşam tarzı portresinde Seedream ve GPT Image 2 karşılaştırması](https://x.com/liyue_ai/status/2074890690686005590) (by [@liyue_ai](https://x.com/liyue_ai))
 
 **Kaynak gönderi, aynı veya yakından ilişkili görsel görevde Seedream 5.0 Pro ile başka bir modeli karşılaştırır.**
 
@@ -1185,8 +1362,8 @@ Type: Evaluation | Date: 2026-07-08 | Category: Model karşılaştırmaları ve 
 Tags: `model-comparison` `multi-image` `prompt-available`
 
 <table><tr>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/012/01.jpg" height="180" alt="Temiz yaşam tarzı portresinde Seedream ve GPT Image 2 karşılaştırması medya"></td>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/012/02.jpg" height="180" alt="Temiz yaşam tarzı portresinde Seedream ve GPT Image 2 karşılaştırması medya"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/012/01.jpg" height="180" alt="Temiz yaşam tarzı portresinde Seedream ve GPT Image 2 karşılaştırması medya"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/012/02.jpg" height="180" alt="Temiz yaşam tarzı portresinde Seedream ve GPT Image 2 karşılaştırması medya"></td>
 </tr></table>
 
 <details open>
@@ -1202,7 +1379,7 @@ Tags: `model-comparison` `multi-image` `prompt-available`
 
 <a id="community-usecase-28"></a>
 
-### Community Use Case 28: [Teknik plan spor otomobilinde GPT Image 2 karşılaştırması](https://x.com/marmaduke091/status/2074866077499105416) (by [@marmaduke091](https://x.com/marmaduke091))
+### Community Use Case 28: Seedream 5.0 Pro · [Teknik plan spor otomobilinde GPT Image 2 karşılaştırması](https://x.com/marmaduke091/status/2074866077499105416) (by [@marmaduke091](https://x.com/marmaduke091))
 
 **Kaynak gönderi, aynı veya yakından ilişkili görsel görevde Seedream 5.0 Pro ile başka bir modeli karşılaştırır.**
 
@@ -1211,8 +1388,8 @@ Type: Evaluation | Date: 2026-07-08 | Category: Model karşılaştırmaları ve 
 Tags: `model-comparison` `multi-image` `prompt-available`
 
 <table><tr>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/019/01.jpg" height="180" alt="Teknik plan spor otomobilinde GPT Image 2 karşılaştırması medya"></td>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/019/02.jpg" height="180" alt="Teknik plan spor otomobilinde GPT Image 2 karşılaştırması medya"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/019/01.jpg" height="180" alt="Teknik plan spor otomobilinde GPT Image 2 karşılaştırması medya"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/019/02.jpg" height="180" alt="Teknik plan spor otomobilinde GPT Image 2 karşılaştırması medya"></td>
 </tr></table>
 
 <details open>
@@ -1228,7 +1405,7 @@ A technical drawing of a futuristic sports car in blueprint style. Include line 
 
 <a id="community-usecase-29"></a>
 
-### Community Use Case 29: [Referans görselde kamera açısı değiştirme karşılaştırması](https://x.com/hasamaru_studio/status/2075052934409375918) (by [@hasamaru_studio](https://x.com/hasamaru_studio))
+### Community Use Case 29: Seedream 5.0 Pro · [Referans görselde kamera açısı değiştirme karşılaştırması](https://x.com/hasamaru_studio/status/2075052934409375918) (by [@hasamaru_studio](https://x.com/hasamaru_studio))
 
 **Kaynak gönderi, aynı veya yakından ilişkili görsel görevde Seedream 5.0 Pro ile başka bir modeli karşılaştırır.**
 
@@ -1237,10 +1414,10 @@ Type: Evaluation | Date: 2026-07-09 | Category: Model karşılaştırmaları ve 
 Tags: `image-input` `model-comparison` `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/022/01.jpg" height="180" alt="Referans görselde kamera açısı değiştirme karşılaştırması medya"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/022/02.jpg" height="180" alt="Referans görselde kamera açısı değiştirme karşılaştırması medya"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/022/03.jpg" height="180" alt="Referans görselde kamera açısı değiştirme karşılaştırması medya"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/022/04.jpg" height="180" alt="Referans görselde kamera açısı değiştirme karşılaştırması medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/022/01.jpg" height="180" alt="Referans görselde kamera açısı değiştirme karşılaştırması medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/022/02.jpg" height="180" alt="Referans görselde kamera açısı değiştirme karşılaştırması medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/022/03.jpg" height="180" alt="Referans görselde kamera açısı değiştirme karşılaştırması medya"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/022/04.jpg" height="180" alt="Referans görselde kamera açısı değiştirme karşılaştırması medya"></td>
 </tr></table>
 
 <details open>
@@ -1256,7 +1433,7 @@ Tags: `image-input` `model-comparison` `multi-image` `prompt-available`
 
 <a id="community-usecase-30"></a>
 
-### Community Use Case 30: [Dev içecek kutulu reklam kompozisyonu karşılaştırması](https://x.com/emmanuel_2m/status/2075000101362131350) (by [@emmanuel_2m](https://x.com/emmanuel_2m))
+### Community Use Case 30: Seedream 5.0 Pro · [Dev içecek kutulu reklam kompozisyonu karşılaştırması](https://x.com/emmanuel_2m/status/2075000101362131350) (by [@emmanuel_2m](https://x.com/emmanuel_2m))
 
 **Kaynak gönderi, aynı veya yakından ilişkili görsel görevde Seedream 5.0 Pro ile başka bir modeli karşılaştırır.**
 
@@ -1265,8 +1442,8 @@ Type: Evaluation | Date: 2026-07-08 | Category: Model karşılaştırmaları ve 
 Tags: `model-comparison` `multi-image` `prompt-available`
 
 <table><tr>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/023/01.jpg" height="180" alt="Dev içecek kutulu reklam kompozisyonu karşılaştırması medya"></td>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/023/02.jpg" height="180" alt="Dev içecek kutulu reklam kompozisyonu karşılaştırması medya"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/023/01.jpg" height="180" alt="Dev içecek kutulu reklam kompozisyonu karşılaştırması medya"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/023/02.jpg" height="180" alt="Dev içecek kutulu reklam kompozisyonu karşılaştırması medya"></td>
 </tr></table>
 
 <details open>
@@ -1282,7 +1459,7 @@ A premium infographic-style advertisement featuring an oversized Pepsi can place
 
 <a id="community-usecase-31"></a>
 
-### Community Use Case 31: [Chengdu seyahat albümü posteri karşılaştırması](https://x.com/DeepBlueAIX/status/2074872447229419956) (by [@DeepBlueAIX](https://x.com/DeepBlueAIX))
+### Community Use Case 31: Seedream 5.0 Pro · [Chengdu seyahat albümü posteri karşılaştırması](https://x.com/DeepBlueAIX/status/2074872447229419956) (by [@DeepBlueAIX](https://x.com/DeepBlueAIX))
 
 **Kaynak gönderi, aynı veya yakından ilişkili görsel görevde Seedream 5.0 Pro ile başka bir modeli karşılaştırır.**
 
@@ -1291,8 +1468,8 @@ Type: Evaluation | Date: 2026-07-08 | Category: Model karşılaştırmaları ve 
 Tags: `model-comparison` `multi-image` `prompt-available`
 
 <table><tr>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/031/01.jpg" height="180" alt="Chengdu seyahat albümü posteri karşılaştırması medya"></td>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/031/02.jpg" height="180" alt="Chengdu seyahat albümü posteri karşılaştırması medya"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/031/01.jpg" height="180" alt="Chengdu seyahat albümü posteri karşılaştırması medya"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/031/02.jpg" height="180" alt="Chengdu seyahat albümü posteri karşılaştırması medya"></td>
 </tr></table>
 
 <details open>
@@ -1308,7 +1485,7 @@ Tags: `model-comparison` `multi-image` `prompt-available`
 
 <a id="community-usecase-32"></a>
 
-### Community Use Case 32: [Anime ana görsel karşılaştırması](https://x.com/roco_kn_roco/status/2074890020260094137) (by [@roco_kn_roco](https://x.com/roco_kn_roco))
+### Community Use Case 32: Seedream 5.0 Pro · [Anime ana görsel karşılaştırması](https://x.com/roco_kn_roco/status/2074890020260094137) (by [@roco_kn_roco](https://x.com/roco_kn_roco))
 
 **Kaynak gönderi, aynı veya yakından ilişkili görsel görevde Seedream 5.0 Pro ile başka bir modeli karşılaştırır.**
 
@@ -1316,7 +1493,7 @@ Type: Evaluation | Date: 2026-07-08 | Category: Model karşılaştırmaları ve 
 
 Tags: `model-comparison` `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/034/01.jpg" height="340" alt="Anime ana görsel karşılaştırması medya">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/034/01.jpg" height="340" alt="Anime ana görsel karşılaştırması medya">
 
 <details open>
 <summary>Prompt</summary>
@@ -1331,7 +1508,7 @@ Tags: `model-comparison` `prompt-available`
 
 <a id="community-usecase-33"></a>
 
-### Community Use Case 33: [İmza kısıtlamalı seyahat posteri karşılaştırması](https://x.com/Bic_Revelation/status/2074959714366922857) (by [@Bic_Revelation](https://x.com/Bic_Revelation))
+### Community Use Case 33: Seedream 5.0 Pro · [İmza kısıtlamalı seyahat posteri karşılaştırması](https://x.com/Bic_Revelation/status/2074959714366922857) (by [@Bic_Revelation](https://x.com/Bic_Revelation))
 
 **Kaynak gönderi, aynı veya yakından ilişkili görsel görevde Seedream 5.0 Pro ile başka bir modeli karşılaştırır.**
 
@@ -1340,8 +1517,8 @@ Type: Evaluation | Date: 2026-07-08 | Category: Model karşılaştırmaları ve 
 Tags: `model-comparison` `multi-image` `prompt-available`
 
 <table><tr>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/056/01.jpg" height="180" alt="İmza kısıtlamalı seyahat posteri karşılaştırması medya"></td>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/056/02.jpg" height="180" alt="İmza kısıtlamalı seyahat posteri karşılaştırması medya"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/056/01.jpg" height="180" alt="İmza kısıtlamalı seyahat posteri karşılaştırması medya"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/056/02.jpg" height="180" alt="İmza kısıtlamalı seyahat posteri karşılaştırması medya"></td>
 </tr></table>
 
 <details open>
@@ -1357,7 +1534,7 @@ With its crystal-clear waters, white sandy beaches, and vibrant coral reefs, the
 
 <a id="community-usecase-34"></a>
 
-### Community Use Case 34: [Fantastik köy su değirmeninde GPT Image 2 karşılaştırması](https://x.com/emmanuel_2m/status/2075000114427375742) (by [@emmanuel_2m](https://x.com/emmanuel_2m))
+### Community Use Case 34: Seedream 5.0 Pro · [Fantastik köy su değirmeninde GPT Image 2 karşılaştırması](https://x.com/emmanuel_2m/status/2075000114427375742) (by [@emmanuel_2m](https://x.com/emmanuel_2m))
 
 **Kaynak gönderi, aynı veya yakından ilişkili görsel görevde Seedream 5.0 Pro ile başka bir modeli karşılaştırır.**
 
@@ -1366,8 +1543,8 @@ Type: Evaluation | Date: 2026-07-08 | Category: Model karşılaştırmaları ve 
 Tags: `model-comparison` `multi-image` `prompt-available`
 
 <table><tr>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/065/01.jpg" height="180" alt="Fantastik köy su değirmeninde GPT Image 2 karşılaştırması medya"></td>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/065/02.jpg" height="180" alt="Fantastik köy su değirmeninde GPT Image 2 karşılaştırması medya"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/065/01.jpg" height="180" alt="Fantastik köy su değirmeninde GPT Image 2 karşılaştırması medya"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/065/02.jpg" height="180" alt="Fantastik köy su değirmeninde GPT Image 2 karşılaştırması medya"></td>
 </tr></table>
 
 <details open>
@@ -1383,7 +1560,7 @@ stylized stylized fantasy village watermill, two-story half-timbered red-clay to
 
 <a id="community-usecase-35"></a>
 
-### Community Use Case 35: [Como Gölü moda sahnesinde Banana Pro karşılaştırması](https://x.com/cso6709/status/2075046425277399261) (by [@cso6709](https://x.com/cso6709))
+### Community Use Case 35: Seedream 5.0 Pro · [Como Gölü moda sahnesinde Banana Pro karşılaştırması](https://x.com/cso6709/status/2075046425277399261) (by [@cso6709](https://x.com/cso6709))
 
 **Kaynak gönderi, aynı veya yakından ilişkili görsel görevde Seedream 5.0 Pro ile başka bir modeli karşılaştırır.**
 
@@ -1392,8 +1569,8 @@ Type: Evaluation | Date: 2026-07-09 | Category: Model karşılaştırmaları ve 
 Tags: `model-comparison` `multi-image` `prompt-available`
 
 <table><tr>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/066/01.jpg" height="180" alt="Como Gölü moda sahnesinde Banana Pro karşılaştırması medya"></td>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/066/02.jpg" height="180" alt="Como Gölü moda sahnesinde Banana Pro karşılaştırması medya"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/066/01.jpg" height="180" alt="Como Gölü moda sahnesinde Banana Pro karşılaştırması medya"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/066/02.jpg" height="180" alt="Como Gölü moda sahnesinde Banana Pro karşılaştırması medya"></td>
 </tr></table>
 
 <details open>
@@ -1407,9 +1584,17 @@ A straight-on medium-wide cinematic shot at eye-level, static locked frame, 4:5 
 
 ---
 
+<a id="related-repositories"></a>
+
+## İlgili Depolar
+
+[GPT Image 2.5 istemleri ve örnekleri](https://github.com/Evolink-AI/awesome-gpt-image-2-5-prompts)
+
 <a id="acknowledge"></a>
 
 ## 🙏 Teşekkür
+
+Seedream 5.5 rehberi ve ürün örnekleri, Seedream ürün materyallerine dayanır. Önceki ürün örneklerinin ve topluluk kaynaklarının atıfları aşağıda korunmaktadır.
 
 Bu depo, 8 Temmuz 2026’da dışa aktarılan resmi Seedream 5.0 Pro lansman materyaline ve kullanım örneği galerisi alıntılanan herkese açık topluluk gönderilerine dayanır.
 
@@ -1417,10 +1602,8 @@ Resmi örnekler, ürün materyalleri ve teknik referanslar için Seedream ekibin
 
 Bu depoda herkese açık gönderileri alıntılanan topluluk yazarlarına teşekkürler:
 
-- [@renataro9](https://x.com/renataro9), [@haruuraeadss](https://x.com/haruuraeadss), [@JennyAITech](https://x.com/JennyAITech), [@MishikaAI](https://x.com/MishikaAI), [@ComfyUI](https://x.com/ComfyUI), [@iamrealsnow](https://x.com/iamrealsnow), [@Strength04_X](https://x.com/Strength04_X), [@LiamEtherson](https://x.com/LiamEtherson)
-- [@AiwithZohaib](https://x.com/AiwithZohaib), [@munzxsdv](https://x.com/munzxsdv), [@sulekhat95](https://x.com/sulekhat95), [@magnific](https://x.com/magnific), [@BubbleBrain](https://x.com/BubbleBrain), [@mattworkman](https://x.com/mattworkman), [@SimplyAnnisa](https://x.com/SimplyAnnisa), [@Cia0_exe](https://x.com/Cia0_exe)
-- [@df_reno](https://x.com/df_reno), [@ChillaiKalan__](https://x.com/ChillaiKalan__), [@asatoucan](https://x.com/asatoucan), [@ashen_one](https://x.com/ashen_one), [@AllaAisling](https://x.com/AllaAisling), [@FloraTechAI](https://x.com/FloraTechAI), [@op7418](https://x.com/op7418), [@johnAGI168](https://x.com/johnAGI168)
-- [@liyue_ai](https://x.com/liyue_ai), [@marmaduke091](https://x.com/marmaduke091), [@hasamaru_studio](https://x.com/hasamaru_studio), [@emmanuel_2m](https://x.com/emmanuel_2m), [@DeepBlueAIX](https://x.com/DeepBlueAIX), [@roco_kn_roco](https://x.com/roco_kn_roco), [@Bic_Revelation](https://x.com/Bic_Revelation), [@cso6709](https://x.com/cso6709)
-- [@Naonekozamurai](https://x.com/Naonekozamurai), [@Ciri_ai](https://x.com/Ciri_ai), [@YaZoraiz](https://x.com/YaZoraiz), [@alisaqqt](https://x.com/alisaqqt)
+[@renataro9](https://x.com/renataro9), [@haruuraeadss](https://x.com/haruuraeadss), [@JennyAITech](https://x.com/JennyAITech), [@MishikaAI](https://x.com/MishikaAI), [@ComfyUI](https://x.com/ComfyUI), [@iamrealsnow](https://x.com/iamrealsnow), [@Strength04_X](https://x.com/Strength04_X), [@LiamEtherson](https://x.com/LiamEtherson), [@AiwithZohaib](https://x.com/AiwithZohaib), [@munzxsdv](https://x.com/munzxsdv), [@sulekhat95](https://x.com/sulekhat95), [@magnific](https://x.com/magnific), [@BubbleBrain](https://x.com/BubbleBrain), [@mattworkman](https://x.com/mattworkman), [@SimplyAnnisa](https://x.com/SimplyAnnisa), [@Cia0_exe](https://x.com/Cia0_exe), [@df_reno](https://x.com/df_reno), [@ChillaiKalan__](https://x.com/ChillaiKalan__), [@asatoucan](https://x.com/asatoucan), [@ashen_one](https://x.com/ashen_one), [@AllaAisling](https://x.com/AllaAisling), [@FloraTechAI](https://x.com/FloraTechAI), [@op7418](https://x.com/op7418), [@johnAGI168](https://x.com/johnAGI168), [@liyue_ai](https://x.com/liyue_ai), [@marmaduke091](https://x.com/marmaduke091), [@hasamaru_studio](https://x.com/hasamaru_studio), [@emmanuel_2m](https://x.com/emmanuel_2m), [@DeepBlueAIX](https://x.com/DeepBlueAIX), [@roco_kn_roco](https://x.com/roco_kn_roco), [@Bic_Revelation](https://x.com/Bic_Revelation), [@cso6709](https://x.com/cso6709), [@Naonekozamurai](https://x.com/Naonekozamurai), [@Ciri_ai](https://x.com/Ciri_ai), [@YaZoraiz](https://x.com/YaZoraiz), [@alisaqqt](https://x.com/alisaqqt)
 
 Bir yazar attribution bilgisinin değiştirilmesini veya kaldırılmasını isterse, ilgili herkese açık gönderi bağlantısıyla issue açabilir.
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Evolink-AI/awesome-seedream-5-pro-guide-and-prompt&type=Date)](https://www.star-history.com/#Evolink-AI/awesome-seedream-5-pro-guide-and-prompt&Date)

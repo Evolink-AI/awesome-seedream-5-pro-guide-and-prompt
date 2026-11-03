@@ -1,40 +1,36 @@
 # Maintenance
 
-## Source Policy
+## Content and version policy
 
-- First scaffold uses owner-provided source material only.
-- Do not invent prompts to fill missing cases.
-- Community or X/Twitter updates must go through the model-repo usecase update loop before README mutation.
-- Official-source-only cases use the README-level source policy and do not use pseudo-author labels.
-- Private export URLs and section-level provenance stay in ignored local audit evidence, not in public README links or public source pages.
-- Prompt text copied from owner-provided source material may be translated when the README is English, but the private source boundary must remain recorded in the run evidence.
-- Collected GIFs from the official material must be embedded as GIFs when they are public cases; do not silently replace them with static PNG fallbacks.
-- If a prompt has no paired public output image in the official material, keep it prompt-only instead of borrowing unrelated media.
-- Owner-corrected case counts are part of the contract: `Interaction Control = 2` and `Layer Editing = 6`.
+- The front guide and the nine `seedream-55-case-N` cases describe Seedream 5.5.
+- The 25 product cases and 39 community cases in the archive describe Seedream 5.0 Pro. Preserve their model labels, source attribution, original dates, prompts, and stable anchors.
+- New product examples use supplied Seedream product materials. Community additions require an original public source and creator attribution.
+- Do not invent missing prompts, test results, release dates, pricing, API behavior, or the name of an undisclosed comparison model.
+- The watch sequences are presented as 100-round demonstrations. The supplied prompt attachment contains exactly rounds 1–60. These are separate evidence items.
+- Preserve exact source prompt text across languages, including the Chinese first-round watch instruction and attachment.
 
-## Community Case Rendering
+## Presentation and localization
 
-- JSON, scripts, raw collections, and audit runtime artifacts are local-only and ignored by this public repository.
-- Public delivery consists of the rendered README files and public maintenance documentation.
-- Run the canonical model-repo pipeline agent from its own repository; do not copy its verifier or working data into this public repository.
-- Images render directly from R2. Multiple images for one case render in one table row.
-- GIFs render directly from their R2 GIF URL; do not substitute a static image when the GIF is the evidence.
-- Videos render as a poster frame linked to the playable R2 video URL; do not use a direct-download presentation.
-- Prompt blocks preserve the source prompt byte-for-byte across every locale. Cases without a public exact prompt do not invent one.
+- Keep the guide before cases. Display Seedream 5.5 cases before the versioned Seedream 5.0 Pro archive.
+- English README.md is the structural source. Synchronize all ten localized READMEs after checking English.
+- Translate visible titles, notes, labels, and guide text. Preserve anchors, media filenames, source URLs, model names, and exact prompts.
+- Existing case-N and community-usecase-N anchors remain stable for inbound links. The new seedream-55-case-N namespace prevents collisions.
 
-## Update Cadence
+## Media
 
-- Manual updates until a recurring prompt update loop is explicitly approved.
-- Each update should record selected, deferred, unsure, and dropped counts.
+- Public case media use verified R2 URLs. The repaired collection uses the repository-specific restored-2026-11-03 prefix.
+- Keep a recoverable source inventory outside the public repository, with the source or Git object and checksum for every upload.
+- Preserve animation in GIF examples. Display derivatives must retain content, order, and duration.
+- Videos use clickable posters linked to playable MP4 files. Keep comparison labels and media in one table.
+- Check both R2 origins and GitHub-rendered images. Successful uploads alone do not prove README rendering.
 
-## Verification
+## Review before a pull request
 
-Before public release, run:
+- Confirm the 9/25/39 case counts and explicit model boundaries across all 11 READMEs.
+- Compare every old case source, anchor, prompt, and media item with the baseline.
+- Check image/video URLs, relative files, and Menu anchors.
+- Inspect desktop and narrow rendering and verify GIF/video evidence.
+- Run git diff --check and review the changed file list.
+- Keep credentials, raw collections, and internal run evidence outside Git.
 
-```bash
-python3 /path/to/model-repo-pipeline/bundled-skills/usecase-update-loop/scripts/verify_usecase_update.py --repo .
-git diff --check
-find . \( -name .DS_Store -o -name __pycache__ -o -name '*.pyc' \) -print
-```
-
-Public release also needs owner-approved GitHub repository creation, push evidence, About metadata verification, and a decision on real EvoLink API smoke-test evidence or waiver.
+Updates remain manual. A content pull request does not authorize merging, renaming the repository, or changing recurring automation.
