@@ -1,5 +1,14 @@
 # Update Log
 
+## 2026-11-03
+
+- Updated the front guide to Seedream 5.5, including task-specific prompt guidance for design, storyboarding, retouching, and interactive editing.
+- Added nine product cases covering iterative edits, local jewelry edits, the watch editing comparison, portraits, lighting, posters, material text, and transparent-asset composition.
+- Retained all 25 product and 39 community Seedream 5.0 Pro cases with explicit version labels and preserved source links and anchors.
+- Restored the 112 legacy case visuals and the linked video from Git history and original community sources, replacing missing R2 object URLs.
+- Added the supplied watch prompt attachment for rounds 1–60; retained the distinction from the 100-round video sequences.
+- Synchronized the guide and new cases across all 11 README languages and refreshed media verification and maintenance instructions.
+
 ## 2026-07-10
 
 - Added four source-backed community use cases from the recurring update package.

@@ -1,14 +1,13 @@
 <div align="center">
 
-<a href="https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=banner&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=readme_banner"><img src="assets/banner.png" alt="Awesome Seedream 5.0 Pro EvoLink-Banner"></a>
+<a href="https://evolink.ai?utm_source=github&amp;utm_medium=banner&amp;utm_campaign=awesome-seedream-5-pro-guide-and-prompt&amp;utm_content=seedream_5_5_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/banner.svg" width="760" alt="Seedream 5.5 Guide and Cases · EvoLink"></a>
 
-# Awesome Seedream 5.0 Pro Guide und Prompts
+# Seedream 5.5: Leitfaden und Beispiele
 
-Quellengestützter Guide, Prompt-Muster und visuelle Beispiele zur Bewertung von Seedream 5.0 Pro Workflows für Bildgenerierung und Bildbearbeitung.
+Ein praktischer Leitfaden zur Bilderzeugung und Bildbearbeitung mit Seedream 5.5, gefolgt von Produktbeispielen und einem nach Version gekennzeichneten Archiv mit Seedream 5.0 Pro-Beispielen.
 
 [![License: MIT](assets/badges/license-mit.svg)](LICENSE)
-[![Auf EvoLink nutzen](assets/badges/use-on-evolink.svg)](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=badge&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=top_badge)
-[![API-Key abrufen](assets/badges/get-api-key.svg)](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=api_key)
+[![EvoLink](assets/badges/use-on-evolink.svg)](https://evolink.ai?utm_source=github&utm_medium=badge&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=seedream_5_5_badge)
 
 [🇺🇸 English](README.md) · [🇪🇸 Español](README_es.md) · [🇵🇹 Português](README_pt.md) · [🇯🇵 日本語](README_ja.md) · [🇰🇷 한국어](README_ko.md) · [🇩🇪 Deutsch](README_de.md) · [🇫🇷 Français](README_fr.md) · [🇹🇷 Türkçe](README_tr.md) · [🇹🇼 繁體中文](README_zh-TW.md) · [🇨🇳 简体中文](README_zh-CN.md) · [🇷🇺 Русский](README_ru.md)
 
@@ -18,24 +17,52 @@ Quellengestützter Guide, Prompt-Muster und visuelle Beispiele zur Bewertung von
 
 ## 🍌 Einführung
 
-Seedream 5.0 Pro wird im offiziellen Launch-Material als steuerbares Modell für Bildgenerierung und Bildbearbeitung beschrieben. Dieser Guide richtet das öffentliche README am offiziellen Fähigkeitsmenü aus: Interaktionssteuerung, Skizzenbearbeitung, Ebenenbearbeitung, Anker-/Positionsbearbeitung, Ebenentrennung, Multi-Image-Fusion, visuelle Effektbeispiele und mehrsprachiges Textrendering.
+Seedream 5.5 konzentriert sich auf Bildbearbeitungsabläufe für die Produktion: präzise lokale Änderungen, konsistente Bearbeitung über mehrere Runden, realistische Motive und Beleuchtung, lesbaren Text, transparente Assets und wiederverwendbare Ebenen. Beginnen Sie mit dem Leitfaden, sehen Sie sich die 5.5-Beispiele an und erkunden Sie anschließend die frühere 5.0 Pro-Sammlung.
 
-**Nutze dieses Repository, um quellengestützte Beispiele zu prüfen, nur die im offiziellen Material vorhandenen Prompts zu kopieren und die Zuordnung von Kategorien zu sichtbaren Cases zu verstehen.**
+9 Seedream 5.5-Beispiele · 25 Seedream 5.0 Pro-Produktbeispiele · 39 Seedream 5.0 Pro-Community-Beispiele. Bei den älteren Beispielen bleiben die ursprüngliche Modellzuordnung und die Quellenlinks erhalten.
 
-Teste den Modelleinstieg auf EvoLink: [Seedream 5.0 Pro auf EvoLink öffnen](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=top_text_cta).
+<a id="seedream-55-guide"></a>
 
-**Schnellstart:** Dieses Repository behauptet nicht, dass eine EvoLink-First-Run-API-Route für Seedream 5.0 Pro verifiziert wurde. Nutze bis zum Runtime-Nachweis den öffentlichen Modelleinstieg, das API-Key-Dashboard und die offizielle technische Referenz.
+## 📘 Seedream 5.5-Leitfaden
 
-1. [Seedream 5.0 Pro EvoLink-Pfad öffnen](https://evolink.ai/seedream-5-0-pro?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=model_link).
-2. [EvoLink API-Key abrufen](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-seedream-5-pro-guide-and-prompt&utm_content=api_key).
-3. [Offizielle ModelArk-Technikreferenz lesen](https://docs.byteplus.com/en/docs/ModelArk/1541523).
+### Was sich prüfen lässt
 
-> [!NOTE]
-> Quellenrichtlinie: offizielles Einführungsmaterial. Private Lark/Feishu-URLs bleiben nur in lokalen Prüfnachweisen und werden nicht als öffentliche README-Quellseiten veröffentlicht.
+- Präzise, wiederholte Bearbeitung: Ändern Sie einen benannten Bereich oder ein Element und bewahren Sie den Rest des Bildes. Die bereitgestellte Uhrendemonstration zeigt 100 aufeinanderfolgende Bearbeitungen.
+- Realismus: Prüfen Sie beim Kombinieren von Referenzen Gesichtsausdruck, Körperproportionen, Materialtextur, Objektgrößen, Perspektive und Beleuchtung.
+- Kleiner und mehrsprachiger Text: Geben Sie für Poster, Beschriftungen und Infografiken den exakten Wortlaut, die Texthierarchie, Zeilenumbrüche und Positionierung an.
+- Transparente Assets: Unterscheiden Sie zwischen einem transparenten Hintergrund und einem transparenten Material. Legen Sie fest, welche Bereiche leer, durchscheinend oder deckend sind.
+- Ebenen-Workflows: Die Produktunterlagen beschreiben die Trennung von Hintergründen, Elementen und Text für spätere Bearbeitungen und Sprachvarianten. Prüfen Sie die Ebenenausgabe getrennt von einer zusammengeführten Vorschau.
+
+### So formulieren Sie den Prompt
+
+Definieren Sie das gewünschte Ergebnis, das Motiv, die räumliche Anordnung, die Materialien und die Beleuchtung. Benennen Sie bei Bearbeitungen ausdrücklich die Änderung und die zu bewahrenden Details. Jede Runde sollte sich auf das tatsächlich eingegebene Bild beziehen und für sich verständlich sein.
+
+| Aufgabe | Erforderliche Angaben |
+|---|---|
+| Ein Grafikdesign erzeugen | Nennen Sie das Format; ordnen Sie Titel, Hauptmotiv, Informationen und Markenelemente ihren Bereichen zu; geben Sie alle Texte exakt an und legen Sie ihre Hierarchie fest. |
+| Ein Grafikdesign bearbeiten | Weisen Sie jeder Referenz eine Rolle zu; bestimmen Sie, was bleibt, sich ändert, verschoben wird oder entfällt; beschreiben Sie das endgültige Layout und den genauen Ersatztext. |
+| Eine Produktpräsentation erstellen | Fixieren Sie Produktform, Farbe, Material und Logo; wählen Sie flach ausgelegt, hängend, getragen oder als Collage; legen Sie Ansicht, Beschnitt, Model und Licht fest. |
+| Transparente Assets erzeugen | Legen Sie die Hintergrundtransparenz getrennt von Glas oder durchscheinenden Materialien fest; beschreiben Sie Aussparungen, Konturen, Füllung und sichtbare Motivbereiche. |
+| Eine Infografik oder Folie erzeugen | Beschreiben Sie zuerst Hintergrund und Layout, dann Modulpositionen, exakte Texte und Daten, Diagrammtyp, Achsen, Trends, Legende und Anmerkungen. |
+| Eine Infografik oder Folie bearbeiten | Ordnen Sie Ausgangselemente ihren endgültigen Rollen zu; benennen Sie Ergänzungen und Ersetzungen, Pfeilendpunkte, Ausrichtung, Überlagerung und einheitliche Typografie. |
+| Ein Storyboard erzeugen | Legen Sie Bildanzahl und Lesereihenfolge fest; beschreiben Sie Handlungsbogen, Einstellungsgrößen, Winkel, Objektiv- und Tiefenwirkung, Beleuchtung, Figuren und Kontinuität. |
+| Ein Storyboard aus einer Referenz erstellen | Klären Sie, ob die Referenz Figur, Stimmung, Schauplatz, Anfangsbild oder Schlussbild liefert; beschreiben Sie Aktionen und Kamerakontinuität. |
+| Ein Erzählbild fortsetzen | Benennen Sie den zeitlichen Zusammenhang; beschreiben Sie Kamerabewegung, nächste Handlung des Motivs und Elemente, die ins Bild kommen oder es verlassen. |
+| Die Kamerasprache anpassen | Unterscheiden Sie Änderungen der Einstellungsgröße, des Kamerastandpunkts und des Fokus; geben Sie Ausgangspunkt, Richtung, Endpunkt und zu bewahrende Szenendetails an. |
+| Einen lokalen Bereich retuschieren | Lokalisieren Sie Bereich, Bearbeitung und Stärke exakt; beschreiben Sie die resultierende Textur und die Kanten; bewahren Sie Identität und unberührte Bereiche. |
+| Das gesamte Bild bearbeiten oder Referenzen kombinieren | Übersetzen Sie Stil in Farbe, Kontrast, Körnung und Licht; definieren Sie Komposition und Pose; weisen Sie Referenzen Rollen zu und benennen Sie zu bewahrende Identitätsmerkmale. |
+| Eine Skizze in ein Bild umwandeln | Identifizieren Sie Markierungen anhand von Position und Farbe, ordnen Sie ihnen Objekte zu, bewahren Sie vorgesehene Größen und Anordnung und geben Sie Postertext gesondert an. |
+| Exakten Text erzeugen | Benennen Sie den Textträger, setzen Sie jedes Zeichen in Anführungszeichen und definieren Sie Lesereihenfolge, Zeilen, Ausrichtung, Abstände und Beziehungen zu Illustrationen. |
+| Text in einem Bild ersetzen | Ordnen Sie dem alten Text den exakten neuen Text zu; bewahren Sie Schreibweise, Layout und unbearbeitete Bereiche; rekonstruieren Sie freigelegten Hintergrund natürlich. |
+| Über mehrere Runden bearbeiten | Verwenden Sie die aktuelle Ausgabe als nächste Eingabe; benennen Sie aktuelles Objekt beziehungsweise Zustand und gewünschte Änderung; wiederholen Sie wichtige Erhaltungsanforderungen. |
+
+Vergleichskontext: Die folgenden Beispiele sind bereitgestellte Demonstrationen und kein von diesem Repository reproduzierter Benchmark. Das Vergleichsmodell für das Gegenlichtporträt wird im Material nicht genannt; beim Uhrenvergleich ist Image 2.5, Sunburst/xhigh angegeben. Der Prompt-Anhang enthält die Runden 1–60, während die Videos als Sequenzen mit 100 Runden vorgestellt werden.
 
 <a id="news"></a>
 
 ## 📰 Neuigkeiten
+
+- **3. November 2026:** Leitfaden auf Seedream 5.5 aktualisiert, neun Produktbeispiele ergänzt und Medien der archivierten Beispiele wiederhergestellt.
 
 - **10. Juli 2026:** Vier quellenbasierte Community-Fälle ergänzt, alle 39 Community-Titel und Kernaussagen lokalisiert und ein anklickbares Videoposter hinzugefügt.
 - **July 8, 2026:** Erster Guide anhand des offiziellen Menüs und des offiziell korrigierten Case-Inventars neu aufgebaut.
@@ -43,6 +70,21 @@ Teste den Modelleinstieg auf EvoLink: [Seedream 5.0 Pro auf EvoLink öffnen](htt
 <a id="menu"></a>
 
 ## 📑 Menü
+
+- [📘 Seedream 5.5-Leitfaden](#seedream-55-guide)
+- [🧪 Seedream 5.5-Beispiele](#seedream-55-cases)
+  - [Seedream 5.5 Case 1: Wiederholte Porträtbearbeitung](#seedream-55-case-1)
+  - [Seedream 5.5 Case 2: Einen Ring lokal ersetzen](#seedream-55-case-2)
+  - [Seedream 5.5 Case 3: Uhrenbearbeitung über 100 Runden im Vergleich](#seedream-55-case-3)
+  - [Seedream 5.5 Case 4: Menschen, Materialien und natürliches Licht](#seedream-55-case-4)
+  - [Seedream 5.5 Case 5: Gegenlichtporträts im Vergleich](#seedream-55-case-5)
+  - [Seedream 5.5 Case 6: Rauch zu einer Laternenszene hinzufügen](#seedream-55-case-6)
+  - [Seedream 5.5 Case 7: Postertext und Layout](#seedream-55-case-7)
+  - [Seedream 5.5 Case 8: Text als materialgeprägtes Hauptmotiv](#seedream-55-case-8)
+  - [Seedream 5.5 Case 9: Transparente Assets kombinieren](#seedream-55-case-9)
+- [Seedream 5.0 Pro — Archiv der Produktbeispiele](#legacy-5-0-pro)
+- [Seedream 5.0 Pro — Archiv der Community-Beispiele](#legacy-community-5-0-pro)
+
 
 - [🍌 Einführung](#introduction)
 - [📰 Neuigkeiten](#news)
@@ -90,6 +132,135 @@ Teste den Modelleinstieg auf EvoLink: [Seedream 5.0 Pro auf EvoLink öffnen](htt
   - [Modellvergleiche und Bewertungen](#community-model-comparisons)
 - [🙏 Danksagung](#acknowledge)
 
+<a id="seedream-55-cases"></a>
+
+## 🧪 Seedream 5.5-Beispiele
+
+Diese Produktbeispiele behandeln lokale Bearbeitung, Porträts, Beleuchtung, Postertext, Textmaterialien und die Komposition transparenter Assets. Exakter Prompt-Text ist nur enthalten, wenn er bereitgestellt wurde. Die im Leitfaden beschriebenen RGBA- und Ebenenfunktionen sollten anhand exportierter Dateien zusätzlich zu diesen visuellen Vorschauen geprüft werden.
+
+<a id="seedream-55-case-1"></a>
+
+### Seedream 5.5 Case 1: Wiederholte Porträtbearbeitung
+
+**Ändern Sie Accessoires und Gesichtsausdruck in aufeinanderfolgenden Bearbeitungen; prüfen Sie, ob Identität, Bildausschnitt und nicht betroffene Details stabil bleiben.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/person-iterative-edit.gif" height="420" alt="Seedream 5.5: Wiederholte Porträtbearbeitung">
+
+---
+
+<a id="seedream-55-case-2"></a>
+
+### Seedream 5.5 Case 2: Einen Ring lokal ersetzen
+
+**Wählen Sie einen Ring in einer Komposition mit mehreren Ringen gezielt aus und prüfen Sie den umliegenden Schmuck, die Hand, Materialien und Beleuchtung auf unbeabsichtigte Änderungen.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/ring-local-edit.gif" height="420" alt="Seedream 5.5: Einen Ring lokal ersetzen">
+
+---
+
+<a id="seedream-55-case-3"></a>
+
+### Seedream 5.5 Case 3: Uhrenbearbeitung über 100 Runden im Vergleich
+
+**Beide Sequenzen beginnen mit demselben Bild und verwenden pro Runde dieselbe Anweisung. Die vorherige Ausgabe jedes Modells wird zu seiner nächsten Eingabe. Erhöhen Sie die angezeigte Zeit pro Runde um eine Sekunde und prüfen Sie Änderungen außerhalb des LCD-Zeitbereichs.**
+
+<table><tr>
+<td width="50%" valign="top" align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/watch-seedream-5-5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/watch-seedream-5-5.jpg" height="300" alt="Seedream 5.5 — Video abspielen"><br>Seedream 5.5 — Video abspielen</a></td>
+<td width="50%" valign="top" align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/watch-image-2-5.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/watch-image-2-5.jpg" height="300" alt="Image 2.5 · Sunburst/xhigh — Video abspielen"><br>Image 2.5 · Sunburst/xhigh — Video abspielen</a></td>
+</tr></table>
+
+Prompt der ersten Runde — Originaltext:
+
+```
+将卡西欧数字手表液晶屏上的时间从16:30:46准确更新为16:30:47。仅修改液晶屏HH:MM:SS时间区域中与这一秒变化对应的数字，保持液晶数字的字体、字宽、笔画、颜色、亮度和反射效果一致；星期、日期、功能图标及屏幕其他内容保持不变，表壳、按键、表带、摆放位置、拍摄角度、光线、阴影和背景完全不变。
+```
+
+Erhöhen Sie in späteren Runden sowohl Ausgangs- als auch Zielzeit um eine Sekunde und verwenden Sie das vorherige Ergebnis als nächste Eingabe.
+
+[Die bereitgestellten Prompts für die Runden 1–60 lesen](docs/seedream-5-5-watch-prompts.txt)
+
+---
+
+<a id="seedream-55-case-4"></a>
+
+### Seedream 5.5 Case 4: Menschen, Materialien und natürliches Licht
+
+**Vergleichen Sie Mode-, Outdoorporträt- und Strandtanzbeispiele hinsichtlich Ausdruck, Proportionen, Kleidungstextur, Bewegung und Licht.**
+
+<table><tr>
+<td width="33%" valign="top" align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/fashion-portrait.png" height="300" alt="Modeporträt"><br>Modeporträt</td>
+<td width="33%" valign="top" align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/outdoor-portrait.png" height="300" alt="Outdoorporträt"><br>Outdoorporträt</td>
+<td width="33%" valign="top" align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/seaside-dance.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/seaside-dance-preview.jpg" height="300" alt="Tanz am Meer"></a><br>Tanz am Meer</td>
+</tr></table>
+
+---
+
+<a id="seedream-55-case-5"></a>
+
+### Seedream 5.5 Case 5: Gegenlichtporträts im Vergleich
+
+**Das Material zeigt beide Bilder mit demselben Prompt. Prüfen Sie Hautdetails auf der Schattenseite und das Konturlicht an Haaren, Wange und Schulter. Das Vergleichsmodell wird in der Quelle nicht genannt.**
+
+<table><tr>
+<td width="50%" valign="top" align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/backlit-seedream-5-5.png" height="300" alt="Seedream 5.5"><br>Seedream 5.5</td>
+<td width="50%" valign="top" align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/backlit-comparison.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/backlit-comparison-preview.jpg" height="300" alt="Nicht genanntes Vergleichsmodell"></a><br>Nicht genanntes Vergleichsmodell</td>
+</tr></table>
+
+---
+
+<a id="seedream-55-case-6"></a>
+
+### Seedream 5.5 Case 6: Rauch zu einer Laternenszene hinzufügen
+
+**Vergleichen Sie Eingabe und bearbeitetes Bild hinsichtlich Rauchtransparenz, Verdeckung zwischen Vorder- und Hintergrund und Lichtkontinuität um die Laternen.**
+
+<table><tr>
+<td width="50%" valign="top" align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/lantern-before.png" height="300" alt="Vorher"><br>Vorher</td>
+<td width="50%" valign="top" align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/lantern-after.png" height="300" alt="Nachher · Seedream 5.5"><br>Nachher · Seedream 5.5</td>
+</tr></table>
+
+---
+
+<a id="seedream-55-case-7"></a>
+
+### Seedream 5.5 Case 7: Postertext und Layout
+
+**Prüfen Sie Recruiting-, Livestream- und Kreativposter auf Texthierarchie, Kleinschrift, mehrsprachige Informationen und die Einbindung der Typografie in das Hauptmotiv.**
+
+<table><tr>
+<td width="33%" valign="top" align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/recruitment-poster.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/recruitment-poster-preview.jpg" height="300" alt="Recruitingposter"></a><br>Recruitingposter</td>
+<td width="33%" valign="top" align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/livestream-poster.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/livestream-poster-preview.jpg" height="300" alt="Livestreamposter"></a><br>Livestreamposter</td>
+<td width="33%" valign="top" align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/creative-poster.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/creative-poster-preview.jpg" height="300" alt="Kreativposter"></a><br>Kreativposter</td>
+</tr></table>
+
+---
+
+<a id="seedream-55-case-8"></a>
+
+### Seedream 5.5 Case 8: Text als materialgeprägtes Hauptmotiv
+
+**Verfolgen Sie das animierte Beispiel und prüfen Sie, wie Buchstabenformen, Oberflächenmaterial und Stil zu einem Hauptmotiv zusammenwirken.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/text-material.gif" height="420" alt="Seedream 5.5: Text als materialgeprägtes Hauptmotiv">
+
+---
+
+<a id="seedream-55-case-9"></a>
+
+### Seedream 5.5 Case 9: Transparente Assets kombinieren
+
+**Verfolgen Sie in der bereitgestellten Animation, wie Sticker, Symbole und Dekorationselemente zu Designs kombiniert werden. Die Animation veranschaulicht die Komposition; prüfen Sie tatsächliche Transparenz und Kantenqualität anhand exportierter Assets.**
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/seedream-5-5/transparent-assets.gif" height="420" alt="Seedream 5.5: Transparente Assets kombinieren">
+
+---
+
+<a id="legacy-5-0-pro"></a>
+
+## 🗃️ Seedream 5.0 Pro — Archiv der Produktbeispiele
+
+Die folgenden Beispiele zeigen Seedream 5.0 Pro. Sie bleiben als Referenz erhalten und belegen nicht die Leistung von Seedream 5.5.
+
 <a id="official-capability-gallery"></a>
 
 ## 🧾 Offizielle Funktionsgalerie
@@ -106,17 +277,17 @@ Case-Anzahl: **2**.
 
 <a id="case-1"></a>
 
-### Case 1: Pfeile und Anmerkungsboxen für räumliche Absicht
+### Case 1: Seedream 5.0 Pro · Pfeile und Anmerkungsboxen für räumliche Absicht
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/003-arrows-annotation-boxes.gif?v=20260709-camo" height="420" alt="Pfeile und Anmerkungsboxen für räumliche Absicht">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/003-arrows-annotation-boxes.gif" height="420" alt="Pfeile und Anmerkungsboxen für räumliche Absicht">
 
 ---
 
 <a id="case-2"></a>
 
-### Case 2: Objektbeschreibung nach Bereichsboxen für gezielte Bearbeitung
+### Case 2: Seedream 5.0 Pro · Objektbeschreibung nach Bereichsboxen für gezielte Bearbeitung
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif" height="420" alt="Objektbeschreibung nach Bereichsboxen für gezielte Bearbeitung">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/004-Red-box-A-huge-blue-furred-head-with-a-ferocious-squished-ex.gif" height="420" alt="Objektbeschreibung nach Bereichsboxen für gezielte Bearbeitung">
 
 **Prompt:**
 
@@ -136,33 +307,33 @@ Case-Anzahl: **4**.
 
 <a id="case-3"></a>
 
-### Case 3: Objektgenerierung mit Doodle-Vorgabe
+### Case 3: Seedream 5.0 Pro · Objektgenerierung mit Doodle-Vorgabe
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/005-doodles.gif?v=20260709-camo" height="420" alt="Objektgenerierung mit Doodle-Vorgabe">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/005-doodles.gif" height="420" alt="Objektgenerierung mit Doodle-Vorgabe">
 
 ---
 
 <a id="case-4"></a>
 
-### Case 4: Bearbeitung mit Farbblock-Vorgabe
+### Case 4: Seedream 5.0 Pro · Bearbeitung mit Farbblock-Vorgabe
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/006-color-block.gif?v=20260709-camo" height="420" alt="Bearbeitung mit Farbblock-Vorgabe">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/006-color-block.gif" height="420" alt="Bearbeitung mit Farbblock-Vorgabe">
 
 ---
 
 <a id="case-5"></a>
 
-### Case 5: Detailbearbeitung mit Linienvorgabe
+### Case 5: Seedream 5.0 Pro · Detailbearbeitung mit Linienvorgabe
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/007-lines.gif?v=20260709-camo" height="420" alt="Detailbearbeitung mit Linienvorgabe">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/007-lines.gif" height="420" alt="Detailbearbeitung mit Linienvorgabe">
 
 ---
 
 <a id="case-6"></a>
 
-### Case 6: Von einfacher Skizze zu verfeinertem Bild
+### Case 6: Seedream 5.0 Pro · Von einfacher Skizze zu verfeinertem Bild
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/008-simple-sketches.gif?v=20260709-camo" height="420" alt="Von einfacher Skizze zu verfeinertem Bild">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/008-simple-sketches.gif" height="420" alt="Von einfacher Skizze zu verfeinertem Bild">
 
 ---
 
@@ -176,49 +347,49 @@ Case-Anzahl: **6**.
 
 <a id="case-7"></a>
 
-### Case 7: Text- und Grafikebenen im Poster bearbeiten: Avery Turns
+### Case 7: Seedream 5.0 Pro · Text- und Grafikebenen im Poster bearbeiten: Avery Turns
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/009-Feishu-Docs-Image.gif" height="420" alt="Text- und Grafikebenen im Poster bearbeiten: Avery Turns">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/009-Feishu-Docs-Image.gif" height="420" alt="Text- und Grafikebenen im Poster bearbeiten: Avery Turns">
 
 ---
 
 <a id="case-8"></a>
 
-### Case 8: Angebots-Ebene im Poster bearbeiten: Happy Hour
+### Case 8: Seedream 5.0 Pro · Angebots-Ebene im Poster bearbeiten: Happy Hour
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/010-Feishu-Docs-Image.gif?v=20260709-camo2" height="420" alt="Angebots-Ebene im Poster bearbeiten: Happy Hour">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/010-Feishu-Docs-Image.gif" height="420" alt="Angebots-Ebene im Poster bearbeiten: Happy Hour">
 
 ---
 
 <a id="case-9"></a>
 
-### Case 9: Modebild-Ebene innerhalb eines Designlayouts bearbeiten
+### Case 9: Seedream 5.0 Pro · Modebild-Ebene innerhalb eines Designlayouts bearbeiten
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/011-Feishu-Docs-Image.gif" height="420" alt="Modebild-Ebene innerhalb eines Designlayouts bearbeiten">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/011-Feishu-Docs-Image.gif" height="420" alt="Modebild-Ebene innerhalb eines Designlayouts bearbeiten">
 
 ---
 
 <a id="case-10"></a>
 
-### Case 10: Grafikebene eines Sportposters bearbeiten
+### Case 10: Seedream 5.0 Pro · Grafikebene eines Sportposters bearbeiten
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/012-Feishu-Docs-Image.gif?v=20260709-camo2" height="420" alt="Grafikebene eines Sportposters bearbeiten">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/012-Feishu-Docs-Image.gif" height="420" alt="Grafikebene eines Sportposters bearbeiten">
 
 ---
 
 <a id="case-11"></a>
 
-### Case 11: Posterelement bearbeiten: Public Joy
+### Case 11: Seedream 5.0 Pro · Posterelement bearbeiten: Public Joy
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/013-Feishu-Docs-Image.gif?v=20260709-camo2" height="420" alt="Posterelement bearbeiten: Public Joy">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/013-Feishu-Docs-Image.gif" height="420" alt="Posterelement bearbeiten: Public Joy">
 
 ---
 
 <a id="case-12"></a>
 
-### Case 12: Materialoberfläche mit präziser Texturreaktion austauschen
+### Case 12: Seedream 5.0 Pro · Materialoberfläche mit präziser Texturreaktion austauschen
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/014-Feishu-Docs-Image.gif?v=20260709-camo2" height="420" alt="Materialoberfläche mit präziser Texturreaktion austauschen">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/014-Feishu-Docs-Image.gif" height="420" alt="Materialoberfläche mit präziser Texturreaktion austauschen">
 
 ---
 
@@ -232,7 +403,7 @@ Case-Anzahl: **1**.
 
 <a id="case-13"></a>
 
-### Case 13: Objektbewegung anhand einer Rasterposition
+### Case 13: Seedream 5.0 Pro · Objektbewegung anhand einer Rasterposition
 
 <table>
 <tr>
@@ -240,14 +411,14 @@ Case-Anzahl: **1**.
 
 **Vorher:**
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/015-Feishu-Docs-Image.png" height="300" alt="Objektbewegung anhand einer Rasterposition vorher">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/015-Feishu-Docs-Image.png" height="300" alt="Objektbewegung anhand einer Rasterposition vorher">
 
 </td>
 <td width="50%" valign="top">
 
 **Nachher:**
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/016-Feishu-Docs-Image.png" height="300" alt="Objektbewegung anhand einer Rasterposition nachher">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/016-Feishu-Docs-Image.png" height="300" alt="Objektbewegung anhand einer Rasterposition nachher">
 
 </td>
 </tr>
@@ -271,9 +442,9 @@ Case-Anzahl: **1**.
 
 <a id="case-14"></a>
 
-### Case 14: Vordergrund-/Personenebene trennen
+### Case 14: Seedream 5.0 Pro · Vordergrund-/Personenebene trennen
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/017-Feishu-Docs-Image.png" height="420" alt="Vordergrund-/Personenebene trennen">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/017-Feishu-Docs-Image.png" height="420" alt="Vordergrund-/Personenebene trennen">
 
 ---
 
@@ -287,7 +458,7 @@ Case-Anzahl: **1**.
 
 <a id="case-15"></a>
 
-### Case 15: Stillleben-Komposition mit sieben Referenzen als Input/Output
+### Case 15: Seedream 5.0 Pro · Stillleben-Komposition mit sieben Referenzen als Input/Output
 
 <table>
 <tr>
@@ -295,14 +466,14 @@ Case-Anzahl: **1**.
 
 **Input:**
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/018-Feishu-Docs-Image.png" height="300" alt="Stillleben-Komposition mit sieben Referenzen als Input">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/018-Feishu-Docs-Image.png" height="300" alt="Stillleben-Komposition mit sieben Referenzen als Input">
 
 </td>
 <td width="50%" valign="top">
 
 **Output:**
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/019-Feishu-Docs-Image.png" height="300" alt="Stillleben-Komposition mit sieben Referenzen als Output">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/019-Feishu-Docs-Image.png" height="300" alt="Stillleben-Komposition mit sieben Referenzen als Output">
 
 </td>
 </tr>
@@ -327,41 +498,41 @@ Case-Anzahl: **5**.
 
 <a id="case-16"></a>
 
-### Case 16: Filmische Tennisszene mit splitterndem Glas
+### Case 16: Seedream 5.0 Pro · Filmische Tennisszene mit splitterndem Glas
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" height="420" alt="Filmische Tennisszene mit splitterndem Glas">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/020-Cinematic-narrative-tennis-glass-shatter.png" height="420" alt="Filmische Tennisszene mit splitterndem Glas">
 
 ---
 
 <a id="case-17"></a>
 
-### Case 17: Filmische Boxaktion
+### Case 17: Seedream 5.0 Pro · Filmische Boxaktion
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/021-Cinematic-narrative-action-boxing.png" height="420" alt="Filmische Boxaktion">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/021-Cinematic-narrative-action-boxing.png" height="420" alt="Filmische Boxaktion">
 
 ---
 
 <a id="case-18"></a>
 
-### Case 18: Szene im 3D-Animationsstil
+### Case 18: Seedream 5.0 Pro · Szene im 3D-Animationsstil
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/022-Cinematic-narrative-3D-animation.png" height="420" alt="Szene im 3D-Animationsstil">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/022-Cinematic-narrative-3D-animation.png" height="420" alt="Szene im 3D-Animationsstil">
 
 ---
 
 <a id="case-19"></a>
 
-### Case 19: Visuelle Concept Art
+### Case 19: Seedream 5.0 Pro · Visuelle Concept Art
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/023-Cinematic-narrative-visual-concept.png" height="420" alt="Visuelle Concept Art">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/023-Cinematic-narrative-visual-concept.png" height="420" alt="Visuelle Concept Art">
 
 ---
 
 <a id="case-20"></a>
 
-### Case 20: Game-Scene-Visual
+### Case 20: Seedream 5.0 Pro · Game-Scene-Visual
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/024-Cinematic-narrative-game-scene.png" height="420" alt="Game-Scene-Visual">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/024-Cinematic-narrative-game-scene.png" height="420" alt="Game-Scene-Visual">
 
 ---
 
@@ -375,43 +546,49 @@ Case-Anzahl: **5**.
 
 <a id="case-21"></a>
 
-### Case 21: Willkommensschild auf Arabisch und Englisch
+### Case 21: Seedream 5.0 Pro · Willkommensschild auf Arabisch und Englisch
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/025-Welcome.png" height="420" alt="Willkommensschild auf Arabisch und Englisch">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/025-Welcome.png" height="420" alt="Willkommensschild auf Arabisch und Englisch">
 
 ---
 
 <a id="case-22"></a>
 
-### Case 22: Koreanisches 24-Stunden-geöffnet-Schild
+### Case 22: Seedream 5.0 Pro · Koreanisches 24-Stunden-geöffnet-Schild
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/026-24-Open-24-hours.png" height="420" alt="Koreanisches 24-Stunden-geöffnet-Schild">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/026-24-Open-24-hours.png" height="420" alt="Koreanisches 24-Stunden-geöffnet-Schild">
 
 ---
 
 <a id="case-23"></a>
 
-### Case 23: Thailändisches Sauberkeitsschild
+### Case 23: Seedream 5.0 Pro · Thailändisches Sauberkeitsschild
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/027-Please-help-keep-the-place-clean-together.png" height="420" alt="Thailändisches Sauberkeitsschild">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/027-Please-help-keep-the-place-clean-together.png" height="420" alt="Thailändisches Sauberkeitsschild">
 
 ---
 
 <a id="case-24"></a>
 
-### Case 24: Französisches Creation-Poster
+### Case 24: Seedream 5.0 Pro · Französisches Creation-Poster
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/028-CREATION-FRANCAISE-Made-in-France.png" height="420" alt="Französisches Creation-Poster">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/028-CREATION-FRANCAISE-Made-in-France.png" height="420" alt="Französisches Creation-Poster">
 
 ---
 
 <a id="case-25"></a>
 
-### Case 25: Russisches Zukunftsposter
+### Case 25: Seedream 5.0 Pro · Russisches Zukunftsposter
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/assets/media/029-Future.png" height="420" alt="Russisches Zukunftsposter">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/assets/media/029-Future.png" height="420" alt="Russisches Zukunftsposter">
 
 ---
+
+<a id="legacy-community-5-0-pro"></a>
+
+## 🗃️ Seedream 5.0 Pro — Archiv der Community-Beispiele
+
+Die folgenden Beispiele zeigen Seedream 5.0 Pro. Sie bleiben als Referenz erhalten und belegen nicht die Leistung von Seedream 5.5.
 
 <a id="community-use-cases"></a>
 
@@ -425,7 +602,7 @@ Diese 39 quellenbasierten Community-Fälle sind nach Nutzeraufgabe und Ausgabezi
 
 <a id="community-usecase-1"></a>
 
-### Community Use Case 1: [Japanische Anweisung zur Bildbearbeitung ohne Make-up](https://x.com/renataro9/status/2075059699112652908) (by [@renataro9](https://x.com/renataro9))
+### Community Use Case 1: Seedream 5.0 Pro · [Japanische Anweisung zur Bildbearbeitung ohne Make-up](https://x.com/renataro9/status/2075059699112652908) (by [@renataro9](https://x.com/renataro9))
 
 **Der Quellbeitrag zeigt einen Bildbearbeitungs- oder Eingabesteuerungs-Workflow, bei dem die Beziehung der Eingaben ebenso wichtig ist wie das Endbild.**
 
@@ -434,8 +611,8 @@ Type: Tutorial | Date: 2026-07-09 | Category: Bearbeitung und Eingabesteuerung
 Tags: `image-input` `multi-image` `prompt-available` `tutorial`
 
 <table><tr>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/043/01.jpg" height="180" alt="Japanische Anweisung zur Bildbearbeitung ohne Make-up Medien"></td>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/043/02.jpg" height="180" alt="Japanische Anweisung zur Bildbearbeitung ohne Make-up Medien"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/043/01.jpg" height="180" alt="Japanische Anweisung zur Bildbearbeitung ohne Make-up Medien"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/043/02.jpg" height="180" alt="Japanische Anweisung zur Bildbearbeitung ohne Make-up Medien"></td>
 </tr></table>
 
 <details open>
@@ -451,7 +628,7 @@ Tags: `image-input` `multi-image` `prompt-available` `tutorial`
 
 <a id="community-usecase-2"></a>
 
-### Community Use Case 2: [Lokalisierte Anime-Bearbeitung mit unveränderter Komposition und einem geänderten Motiv](https://x.com/haruuraeadss/status/2075035201391255593) (by [@haruuraeadss](https://x.com/haruuraeadss))
+### Community Use Case 2: Seedream 5.0 Pro · [Lokalisierte Anime-Bearbeitung mit unveränderter Komposition und einem geänderten Motiv](https://x.com/haruuraeadss/status/2075035201391255593) (by [@haruuraeadss](https://x.com/haruuraeadss))
 
 **Der Quellbeitrag zeigt einen Bildbearbeitungs- oder Eingabesteuerungs-Workflow, bei dem die Beziehung der Eingaben ebenso wichtig ist wie das Endbild.**
 
@@ -460,8 +637,8 @@ Type: Tutorial | Date: 2026-07-09 | Category: Bearbeitung und Eingabesteuerung
 Tags: `multi-image` `prompt-available` `tutorial`
 
 <table><tr>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/052/01.jpg" height="180" alt="Lokalisierte Anime-Bearbeitung mit unveränderter Komposition und einem geänderten Motiv Medien"></td>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/052/02.jpg" height="180" alt="Lokalisierte Anime-Bearbeitung mit unveränderter Komposition und einem geänderten Motiv Medien"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/052/01.jpg" height="180" alt="Lokalisierte Anime-Bearbeitung mit unveränderter Komposition und einem geänderten Motiv Medien"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/052/02.jpg" height="180" alt="Lokalisierte Anime-Bearbeitung mit unveränderter Komposition und einem geänderten Motiv Medien"></td>
 </tr></table>
 
 <details open>
@@ -477,7 +654,7 @@ Tags: `multi-image` `prompt-available` `tutorial`
 
 <a id="community-usecase-3"></a>
 
-### Community Use Case 3: [Verwandlung einer Katze in einen Mecha per Bildeingabe](https://x.com/JennyAITech/status/2074870477651398972) (by [@JennyAITech](https://x.com/JennyAITech))
+### Community Use Case 3: Seedream 5.0 Pro · [Verwandlung einer Katze in einen Mecha per Bildeingabe](https://x.com/JennyAITech/status/2074870477651398972) (by [@JennyAITech](https://x.com/JennyAITech))
 
 **Der Quellbeitrag zeigt einen Bildbearbeitungs- oder Eingabesteuerungs-Workflow, bei dem die Beziehung der Eingaben ebenso wichtig ist wie das Endbild.**
 
@@ -486,8 +663,8 @@ Type: Demo | Date: 2026-07-08 | Category: Bearbeitung und Eingabesteuerung
 Tags: `image-input` `multi-image` `prompt-available`
 
 <table><tr>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/058/01.jpg" height="180" alt="Verwandlung einer Katze in einen Mecha per Bildeingabe Medien"></td>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/058/02.jpg" height="180" alt="Verwandlung einer Katze in einen Mecha per Bildeingabe Medien"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/058/01.jpg" height="180" alt="Verwandlung einer Katze in einen Mecha per Bildeingabe Medien"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/058/02.jpg" height="180" alt="Verwandlung einer Katze in einen Mecha per Bildeingabe Medien"></td>
 </tr></table>
 
 <details open>
@@ -503,7 +680,7 @@ a pic of my cat, asked for a mecha version
 
 <a id="community-usecase-36"></a>
 
-### Community Use Case 36: [Referenzbild-Variation auf Basis einer Niji7-Quelle](https://x.com/Naonekozamurai/status/2075407158129353026) (by [@Naonekozamurai](https://x.com/Naonekozamurai))
+### Community Use Case 36: Seedream 5.0 Pro · [Referenzbild-Variation auf Basis einer Niji7-Quelle](https://x.com/Naonekozamurai/status/2075407158129353026) (by [@Naonekozamurai](https://x.com/Naonekozamurai))
 
 **Eine vorhandene Illustration dient als visuelle Basis, aus der Seedream eine kontrollierte Variante erzeugt.**
 
@@ -512,15 +689,15 @@ Type: Demo | Date: 2026-07-10 | Category: Bearbeitung und Eingabesteuerung
 Tags: `image-input` `multi-image` `reference-variation`
 
 <table><tr>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/071/01.jpg" height="180" alt="Referenzbild-Variation auf Basis einer Niji7-Quelle Medien"></td>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/071/02.jpg" height="180" alt="Referenzbild-Variation auf Basis einer Niji7-Quelle Medien"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/071/01.jpg" height="180" alt="Referenzbild-Variation auf Basis einer Niji7-Quelle Medien"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/071/02.jpg" height="180" alt="Referenzbild-Variation auf Basis einer Niji7-Quelle Medien"></td>
 </tr></table>
 
 ---
 
 <a id="community-usecase-38"></a>
 
-### Community Use Case 38: [Make-up-Übertragung bei erhaltener Identität](https://x.com/YaZoraiz/status/2075189150127726801) (by [@YaZoraiz](https://x.com/YaZoraiz))
+### Community Use Case 38: Seedream 5.0 Pro · [Make-up-Übertragung bei erhaltener Identität](https://x.com/YaZoraiz/status/2075189150127726801) (by [@YaZoraiz](https://x.com/YaZoraiz))
 
 **Das Make-up einer Referenz wird übertragen, während die Identität der Zielperson erhalten bleibt.**
 
@@ -529,10 +706,10 @@ Type: Evaluation | Date: 2026-07-09 | Category: Bearbeitung und Eingabesteuerung
 Tags: `identity-preservation` `image-input` `model-comparison` `multi-image`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/073/01.jpg" height="180" alt="Make-up-Übertragung bei erhaltener Identität Medien"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/073/02.jpg" height="180" alt="Make-up-Übertragung bei erhaltener Identität Medien"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/073/03.jpg" height="180" alt="Make-up-Übertragung bei erhaltener Identität Medien"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/073/04.jpg" height="180" alt="Make-up-Übertragung bei erhaltener Identität Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/073/01.jpg" height="180" alt="Make-up-Übertragung bei erhaltener Identität Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/073/02.jpg" height="180" alt="Make-up-Übertragung bei erhaltener Identität Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/073/03.jpg" height="180" alt="Make-up-Übertragung bei erhaltener Identität Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/073/04.jpg" height="180" alt="Make-up-Übertragung bei erhaltener Identität Medien"></td>
 </tr></table>
 
 ---
@@ -544,7 +721,7 @@ Tags: `identity-preservation` `image-input` `model-comparison` `multi-image`
 
 <a id="community-usecase-4"></a>
 
-### Community Use Case 4: [Trading-Terminal mit Details zur Markt-Mikrostruktur](https://x.com/MishikaAI/status/2074879603446026333) (by [@MishikaAI](https://x.com/MishikaAI))
+### Community Use Case 4: Seedream 5.0 Pro · [Trading-Terminal mit Details zur Markt-Mikrostruktur](https://x.com/MishikaAI/status/2074879603446026333) (by [@MishikaAI](https://x.com/MishikaAI))
 
 **Der Quellbeitrag prüft, ob Seedream nutzbare kommerzielle Visuals, Interfaces, Produktanzeigen oder posterartige Ausgaben erzeugen kann.**
 
@@ -552,7 +729,7 @@ Type: Demo | Date: 2026-07-08 | Category: Produkt-, Interface- und Posterdesign
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/004/01.jpg" height="340" alt="Trading-Terminal mit Details zur Markt-Mikrostruktur Medien">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/004/01.jpg" height="340" alt="Trading-Terminal mit Details zur Markt-Mikrostruktur Medien">
 
 <details open>
 <summary>Prompt</summary>
@@ -567,7 +744,7 @@ a full trading terminal — K-lines, order book, bid/ask, volume, timestamps
 
 <a id="community-usecase-5"></a>
 
-### Community Use Case 5: [Grafikposter mit Cyberpunk-Android](https://x.com/ComfyUI/status/2075027793491226677) (by [@ComfyUI](https://x.com/ComfyUI))
+### Community Use Case 5: Seedream 5.0 Pro · [Grafikposter mit Cyberpunk-Android](https://x.com/ComfyUI/status/2075027793491226677) (by [@ComfyUI](https://x.com/ComfyUI))
 
 **Der Quellbeitrag prüft, ob Seedream nutzbare kommerzielle Visuals, Interfaces, Produktanzeigen oder posterartige Ausgaben erzeugen kann.**
 
@@ -575,7 +752,7 @@ Type: Demo | Date: 2026-07-09 | Category: Produkt-, Interface- und Posterdesign
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/042/01.jpg" height="340" alt="Grafikposter mit Cyberpunk-Android Medien">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/042/01.jpg" height="340" alt="Grafikposter mit Cyberpunk-Android Medien">
 
 <details open>
 <summary>Prompt</summary>
@@ -590,7 +767,7 @@ A sci-fi cyberpunk graphic design poster. In the center, a striking portrait of 
 
 <a id="community-usecase-6"></a>
 
-### Community Use Case 6: [Werbeserie für hochwertige Sportschuhe](https://x.com/iamrealsnow/status/2075063569486598281) (by [@iamrealsnow](https://x.com/iamrealsnow))
+### Community Use Case 6: Seedream 5.0 Pro · [Werbeserie für hochwertige Sportschuhe](https://x.com/iamrealsnow/status/2075063569486598281) (by [@iamrealsnow](https://x.com/iamrealsnow))
 
 **Der Quellbeitrag prüft, ob Seedream nutzbare kommerzielle Visuals, Interfaces, Produktanzeigen oder posterartige Ausgaben erzeugen kann.**
 
@@ -599,10 +776,10 @@ Type: Demo | Date: 2026-07-09 | Category: Produkt-, Interface- und Posterdesign
 Tags: `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/047/01.jpg" height="180" alt="Werbeserie für hochwertige Sportschuhe Medien"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/047/02.jpg" height="180" alt="Werbeserie für hochwertige Sportschuhe Medien"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/047/03.jpg" height="180" alt="Werbeserie für hochwertige Sportschuhe Medien"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/047/04.jpg" height="180" alt="Werbeserie für hochwertige Sportschuhe Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/047/01.jpg" height="180" alt="Werbeserie für hochwertige Sportschuhe Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/047/02.jpg" height="180" alt="Werbeserie für hochwertige Sportschuhe Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/047/03.jpg" height="180" alt="Werbeserie für hochwertige Sportschuhe Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/047/04.jpg" height="180" alt="Werbeserie für hochwertige Sportschuhe Medien"></td>
 </tr></table>
 
 <details open>
@@ -618,7 +795,7 @@ Ultra-realistic premium sports footwear commercial advertisement featuring a mod
 
 <a id="community-usecase-7"></a>
 
-### Community Use Case 7: [Werbeplakat für Kinder-Bastelarbeiten aus Ton](https://x.com/Strength04_X/status/2075063250656621054) (by [@Strength04_X](https://x.com/Strength04_X))
+### Community Use Case 7: Seedream 5.0 Pro · [Werbeplakat für Kinder-Bastelarbeiten aus Ton](https://x.com/Strength04_X/status/2075063250656621054) (by [@Strength04_X](https://x.com/Strength04_X))
 
 **Der Quellbeitrag prüft, ob Seedream nutzbare kommerzielle Visuals, Interfaces, Produktanzeigen oder posterartige Ausgaben erzeugen kann.**
 
@@ -626,7 +803,7 @@ Type: Demo | Date: 2026-07-09 | Category: Produkt-, Interface- und Posterdesign
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/050/01.jpg" height="340" alt="Werbeplakat für Kinder-Bastelarbeiten aus Ton Medien">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/050/01.jpg" height="340" alt="Werbeplakat für Kinder-Bastelarbeiten aus Ton Medien">
 
 <details open>
 <summary>Prompt</summary>
@@ -646,7 +823,7 @@ A messy fun kids advertisement poster. A laughing young girl age 6 with clay all
 
 <a id="community-usecase-8"></a>
 
-### Community Use Case 8: [Technische Blaupause mit zahlreichen Maßangaben](https://x.com/LiamEtherson/status/2074862867442962667) (by [@LiamEtherson](https://x.com/LiamEtherson))
+### Community Use Case 8: Seedream 5.0 Pro · [Technische Blaupause mit zahlreichen Maßangaben](https://x.com/LiamEtherson/status/2074862867442962667) (by [@LiamEtherson](https://x.com/LiamEtherson))
 
 **Der Quellbeitrag prüft die Befolgung strukturierter Prompts mit Diagrammen, technischen Layouts, Shot-Listen oder Mehrbild-Sequenzlogik.**
 
@@ -654,7 +831,7 @@ Type: Demo | Date: 2026-07-08 | Category: Technische Darstellungen, Diagramme un
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/003/01.jpg" height="340" alt="Technische Blaupause mit zahlreichen Maßangaben Medien">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/003/01.jpg" height="340" alt="Technische Blaupause mit zahlreichen Maßangaben Medien">
 
 <details open>
 <summary>Prompt</summary>
@@ -669,7 +846,7 @@ technical blueprint with abundant measurement values
 
 <a id="community-usecase-9"></a>
 
-### Community Use Case 9: [Konzeptfahrzeug-Blaupause mit technischen Explosionsansichten](https://x.com/AiwithZohaib/status/2074880584107909602) (by [@AiwithZohaib](https://x.com/AiwithZohaib))
+### Community Use Case 9: Seedream 5.0 Pro · [Konzeptfahrzeug-Blaupause mit technischen Explosionsansichten](https://x.com/AiwithZohaib/status/2074880584107909602) (by [@AiwithZohaib](https://x.com/AiwithZohaib))
 
 **Der Quellbeitrag prüft die Befolgung strukturierter Prompts mit Diagrammen, technischen Layouts, Shot-Listen oder Mehrbild-Sequenzlogik.**
 
@@ -677,7 +854,7 @@ Type: Demo | Date: 2026-07-08 | Category: Technische Darstellungen, Diagramme un
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/005/01.jpg" height="340" alt="Konzeptfahrzeug-Blaupause mit technischen Explosionsansichten Medien">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/005/01.jpg" height="340" alt="Konzeptfahrzeug-Blaupause mit technischen Explosionsansichten Medien">
 
 <details open>
 <summary>Prompt</summary>
@@ -692,7 +869,7 @@ a blueprint-style technical drawing of a concept car: front/side/rear views, exp
 
 <a id="community-usecase-10"></a>
 
-### Community Use Case 10: [Durch eine Shot-Liste gesteuerte Graustufen-Szenenplanung](https://x.com/munzxsdv/status/2074865454485483885) (by [@munzxsdv](https://x.com/munzxsdv))
+### Community Use Case 10: Seedream 5.0 Pro · [Durch eine Shot-Liste gesteuerte Graustufen-Szenenplanung](https://x.com/munzxsdv/status/2074865454485483885) (by [@munzxsdv](https://x.com/munzxsdv))
 
 **Der Quellbeitrag prüft die Befolgung strukturierter Prompts mit Diagrammen, technischen Layouts, Shot-Listen oder Mehrbild-Sequenzlogik.**
 
@@ -700,7 +877,7 @@ Type: Demo | Date: 2026-07-08 | Category: Technische Darstellungen, Diagramme un
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/007/01.jpg" height="340" alt="Durch eine Shot-Liste gesteuerte Graustufen-Szenenplanung Medien">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/007/01.jpg" height="340" alt="Durch eine Shot-Liste gesteuerte Graustufen-Szenenplanung Medien">
 
 <details open>
 <summary>Prompt</summary>
@@ -715,7 +892,7 @@ a shot list — panel-by-panel direction, camera moves, grayscale spec
 
 <a id="community-usecase-11"></a>
 
-### Community Use Case 11: [16-Panel-Kavallerie-Storyboard aus einem einzigen Prompt](https://x.com/sulekhat95/status/2074966196563431636) (by [@sulekhat95](https://x.com/sulekhat95))
+### Community Use Case 11: Seedream 5.0 Pro · [16-Panel-Kavallerie-Storyboard aus einem einzigen Prompt](https://x.com/sulekhat95/status/2074966196563431636) (by [@sulekhat95](https://x.com/sulekhat95))
 
 **Der Quellbeitrag prüft die Befolgung strukturierter Prompts mit Diagrammen, technischen Layouts, Shot-Listen oder Mehrbild-Sequenzlogik.**
 
@@ -723,7 +900,7 @@ Type: Demo | Date: 2026-07-08 | Category: Technische Darstellungen, Diagramme un
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/062/01.jpg" height="340" alt="16-Panel-Kavallerie-Storyboard aus einem einzigen Prompt Medien">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/062/01.jpg" height="340" alt="16-Panel-Kavallerie-Storyboard aus einem einzigen Prompt Medien">
 
 <details open>
 <summary>Prompt</summary>
@@ -738,7 +915,7 @@ Tags: `prompt-available`
 
 <a id="community-usecase-37"></a>
 
-### Community Use Case 37: [Technische Explosionszeichnung aus einem einzigen Prompt](https://x.com/Ciri_ai/status/2075248022515294567) (by [@Ciri_ai](https://x.com/Ciri_ai))
+### Community Use Case 37: Seedream 5.0 Pro · [Technische Explosionszeichnung aus einem einzigen Prompt](https://x.com/Ciri_ai/status/2075248022515294567) (by [@Ciri_ai](https://x.com/Ciri_ai))
 
 **Seedream verwandelt eine Anweisung in eine beschriftete technische Explosionsdarstellung.**
 
@@ -747,9 +924,9 @@ Type: Demo | Date: 2026-07-09 | Category: Technische Darstellungen, Diagramme un
 Tags: `diagram` `multi-image` `structured-layout`
 
 <table><tr>
-<td width="33%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/072/01.jpg" height="180" alt="Technische Explosionszeichnung aus einem einzigen Prompt Medien"></td>
-<td width="33%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/072/02.jpg" height="180" alt="Technische Explosionszeichnung aus einem einzigen Prompt Medien"></td>
-<td width="33%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/072/03.jpg" height="180" alt="Technische Explosionszeichnung aus einem einzigen Prompt Medien"></td>
+<td width="33%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/072/01.jpg" height="180" alt="Technische Explosionszeichnung aus einem einzigen Prompt Medien"></td>
+<td width="33%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/072/02.jpg" height="180" alt="Technische Explosionszeichnung aus einem einzigen Prompt Medien"></td>
+<td width="33%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/072/03.jpg" height="180" alt="Technische Explosionszeichnung aus einem einzigen Prompt Medien"></td>
 </tr></table>
 
 ---
@@ -761,7 +938,7 @@ Tags: `diagram` `multi-image` `structured-layout`
 
 <a id="community-usecase-12"></a>
 
-### Community Use Case 12: [Fisheye-Editorialporträts mit Miniaturklon-Motiv](https://x.com/magnific/status/2074872903938846900) (by [@magnific](https://x.com/magnific))
+### Community Use Case 12: Seedream 5.0 Pro · [Fisheye-Editorialporträts mit Miniaturklon-Motiv](https://x.com/magnific/status/2074872903938846900) (by [@magnific](https://x.com/magnific))
 
 **Der Quellbeitrag prüft anhand sichtbarer Medienausgaben die Qualität filmischer, charakterbezogener, modischer oder stilistischer Darstellung.**
 
@@ -770,8 +947,8 @@ Type: Demo | Date: 2026-07-08 | Category: Filmische, charakterbezogene und stili
 Tags: `multi-image` `prompt-available`
 
 <table><tr>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/008/01.jpg" height="180" alt="Fisheye-Editorialporträts mit Miniaturklon-Motiv Medien"></td>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/008/02.jpg" height="180" alt="Fisheye-Editorialporträts mit Miniaturklon-Motiv Medien"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/008/01.jpg" height="180" alt="Fisheye-Editorialporträts mit Miniaturklon-Motiv Medien"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/008/02.jpg" height="180" alt="Fisheye-Editorialporträts mit Miniaturklon-Motiv Medien"></td>
 </tr></table>
 
 <details open>
@@ -787,7 +964,7 @@ Shot on cinema camera with subtle halation effect, 35mm film grain, fashion edit
 
 <a id="community-usecase-13"></a>
 
-### Community Use Case 13: [Konzeptgenerierung schmelzender Wahrzeichen der Welt](https://x.com/magnific/status/2074918700709523881) (by [@magnific](https://x.com/magnific))
+### Community Use Case 13: Seedream 5.0 Pro · [Konzeptgenerierung schmelzender Wahrzeichen der Welt](https://x.com/magnific/status/2074918700709523881) (by [@magnific](https://x.com/magnific))
 
 **Der Quellbeitrag prüft anhand sichtbarer Medienausgaben die Qualität filmischer, charakterbezogener, modischer oder stilistischer Darstellung.**
 
@@ -796,8 +973,8 @@ Type: Demo | Date: 2026-07-08 | Category: Filmische, charakterbezogene und stili
 Tags: `multi-image` `prompt-available`
 
 <table><tr>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/011/01.jpg" height="180" alt="Konzeptgenerierung schmelzender Wahrzeichen der Welt Medien"></td>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/011/02.jpg" height="180" alt="Konzeptgenerierung schmelzender Wahrzeichen der Welt Medien"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/011/01.jpg" height="180" alt="Konzeptgenerierung schmelzender Wahrzeichen der Welt Medien"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/011/02.jpg" height="180" alt="Konzeptgenerierung schmelzender Wahrzeichen der Welt Medien"></td>
 </tr></table>
 
 <details open>
@@ -813,7 +990,7 @@ world's landmarks, melting like wax
 
 <a id="community-usecase-14"></a>
 
-### Community Use Case 14: [Fotorealistische Beleuchtung für High-Fashion-Porträts](https://x.com/BubbleBrain/status/2074856963591290979) (by [@BubbleBrain](https://x.com/BubbleBrain))
+### Community Use Case 14: Seedream 5.0 Pro · [Fotorealistische Beleuchtung für High-Fashion-Porträts](https://x.com/BubbleBrain/status/2074856963591290979) (by [@BubbleBrain](https://x.com/BubbleBrain))
 
 **Der Quellbeitrag prüft anhand sichtbarer Medienausgaben die Qualität filmischer, charakterbezogener, modischer oder stilistischer Darstellung.**
 
@@ -821,7 +998,7 @@ Type: Demo | Date: 2026-07-08 | Category: Filmische, charakterbezogene und stili
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/017/01.jpg" height="340" alt="Fotorealistische Beleuchtung für High-Fashion-Porträts Medien">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/017/01.jpg" height="340" alt="Fotorealistische Beleuchtung für High-Fashion-Porträts Medien">
 
 <details open>
 <summary>Prompt</summary>
@@ -836,7 +1013,7 @@ This is a highly photorealistic, high-fashion full-body portrait with an overall
 
 <a id="community-usecase-15"></a>
 
-### Community Use Case 15: [Natürliche Smartphone-Fotoszene bei Sonnenuntergang in San Francisco](https://x.com/mattworkman/status/2074850550349222210) (by [@mattworkman](https://x.com/mattworkman))
+### Community Use Case 15: Seedream 5.0 Pro · [Natürliche Smartphone-Fotoszene bei Sonnenuntergang in San Francisco](https://x.com/mattworkman/status/2074850550349222210) (by [@mattworkman](https://x.com/mattworkman))
 
 **Der Quellbeitrag prüft anhand sichtbarer Medienausgaben die Qualität filmischer, charakterbezogener, modischer oder stilistischer Darstellung.**
 
@@ -844,7 +1021,7 @@ Type: Demo | Date: 2026-07-08 | Category: Filmische, charakterbezogene und stili
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/018/01.jpg" height="340" alt="Natürliche Smartphone-Fotoszene bei Sonnenuntergang in San Francisco Medien">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/018/01.jpg" height="340" alt="Natürliche Smartphone-Fotoszene bei Sonnenuntergang in San Francisco Medien">
 
 <details open>
 <summary>Prompt</summary>
@@ -859,7 +1036,7 @@ a Korean girl in her twenties on her iPhone in San Francisco at sunset
 
 <a id="community-usecase-16"></a>
 
-### Community Use Case 16: [Key Visual eines Fantasy-Kriegers als gefallener Engel](https://x.com/SimplyAnnisa/status/2074900816662774189) (by [@SimplyAnnisa](https://x.com/SimplyAnnisa))
+### Community Use Case 16: Seedream 5.0 Pro · [Key Visual eines Fantasy-Kriegers als gefallener Engel](https://x.com/SimplyAnnisa/status/2074900816662774189) (by [@SimplyAnnisa](https://x.com/SimplyAnnisa))
 
 **Der Quellbeitrag prüft anhand sichtbarer Medienausgaben die Qualität filmischer, charakterbezogener, modischer oder stilistischer Darstellung.**
 
@@ -867,7 +1044,7 @@ Type: Demo | Date: 2026-07-08 | Category: Filmische, charakterbezogene und stili
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/028/01.jpg" height="340" alt="Key Visual eines Fantasy-Kriegers als gefallener Engel Medien">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/028/01.jpg" height="340" alt="Key Visual eines Fantasy-Kriegers als gefallener Engel Medien">
 
 <details open>
 <summary>Prompt</summary>
@@ -882,7 +1059,7 @@ A divine fallen angel warrior kneeling in the center of an ancient celestial tem
 
 <a id="community-usecase-17"></a>
 
-### Community Use Case 17: [Serie japanisch-lässiger Porträtstile](https://x.com/Cia0_exe/status/2075033845032993261) (by [@Cia0_exe](https://x.com/Cia0_exe))
+### Community Use Case 17: Seedream 5.0 Pro · [Serie japanisch-lässiger Porträtstile](https://x.com/Cia0_exe/status/2075033845032993261) (by [@Cia0_exe](https://x.com/Cia0_exe))
 
 **Der Quellbeitrag prüft anhand sichtbarer Medienausgaben die Qualität filmischer, charakterbezogener, modischer oder stilistischer Darstellung.**
 
@@ -891,10 +1068,10 @@ Type: Demo | Date: 2026-07-09 | Category: Filmische, charakterbezogene und stili
 Tags: `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/029/01.jpg" height="180" alt="Serie japanisch-lässiger Porträtstile Medien"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/029/02.jpg" height="180" alt="Serie japanisch-lässiger Porträtstile Medien"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/029/03.jpg" height="180" alt="Serie japanisch-lässiger Porträtstile Medien"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/029/04.jpg" height="180" alt="Serie japanisch-lässiger Porträtstile Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/029/01.jpg" height="180" alt="Serie japanisch-lässiger Porträtstile Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/029/02.jpg" height="180" alt="Serie japanisch-lässiger Porträtstile Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/029/03.jpg" height="180" alt="Serie japanisch-lässiger Porträtstile Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/029/04.jpg" height="180" alt="Serie japanisch-lässiger Porträtstile Medien"></td>
 </tr></table>
 
 <details open>
@@ -910,7 +1087,7 @@ A beautiful young Japanese woman, natural and effortless beauty, soft glowing sk
 
 <a id="community-usecase-18"></a>
 
-### Community Use Case 18: [Filmische Stadt-Nahaufnahme im ARRI-Stil](https://x.com/df_reno/status/2075055332452106476) (by [@df_reno](https://x.com/df_reno))
+### Community Use Case 18: Seedream 5.0 Pro · [Filmische Stadt-Nahaufnahme im ARRI-Stil](https://x.com/df_reno/status/2075055332452106476) (by [@df_reno](https://x.com/df_reno))
 
 **Der Quellbeitrag prüft anhand sichtbarer Medienausgaben die Qualität filmischer, charakterbezogener, modischer oder stilistischer Darstellung.**
 
@@ -919,10 +1096,10 @@ Type: Demo | Date: 2026-07-09 | Category: Filmische, charakterbezogene und stili
 Tags: `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/035/01.jpg" height="180" alt="Filmische Stadt-Nahaufnahme im ARRI-Stil Medien"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/035/02.jpg" height="180" alt="Filmische Stadt-Nahaufnahme im ARRI-Stil Medien"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/035/03.jpg" height="180" alt="Filmische Stadt-Nahaufnahme im ARRI-Stil Medien"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/035/04.jpg" height="180" alt="Filmische Stadt-Nahaufnahme im ARRI-Stil Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/035/01.jpg" height="180" alt="Filmische Stadt-Nahaufnahme im ARRI-Stil Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/035/02.jpg" height="180" alt="Filmische Stadt-Nahaufnahme im ARRI-Stil Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/035/03.jpg" height="180" alt="Filmische Stadt-Nahaufnahme im ARRI-Stil Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/035/04.jpg" height="180" alt="Filmische Stadt-Nahaufnahme im ARRI-Stil Medien"></td>
 </tr></table>
 
 <details open>
@@ -938,7 +1115,7 @@ Tags: `multi-image` `prompt-available`
 
 <a id="community-usecase-19"></a>
 
-### Community Use Case 19: [Mode-Editorial in einem Parkhaus](https://x.com/ChillaiKalan__/status/2075071088137208063) (by [@ChillaiKalan__](https://x.com/ChillaiKalan__))
+### Community Use Case 19: Seedream 5.0 Pro · [Mode-Editorial in einem Parkhaus](https://x.com/ChillaiKalan__/status/2075071088137208063) (by [@ChillaiKalan__](https://x.com/ChillaiKalan__))
 
 **Der Quellbeitrag prüft anhand sichtbarer Medienausgaben die Qualität filmischer, charakterbezogener, modischer oder stilistischer Darstellung.**
 
@@ -947,10 +1124,10 @@ Type: Demo | Date: 2026-07-09 | Category: Filmische, charakterbezogene und stili
 Tags: `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/038/01.jpg" height="180" alt="Mode-Editorial in einem Parkhaus Medien"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/038/02.jpg" height="180" alt="Mode-Editorial in einem Parkhaus Medien"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/038/03.jpg" height="180" alt="Mode-Editorial in einem Parkhaus Medien"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/038/04.jpg" height="180" alt="Mode-Editorial in einem Parkhaus Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/038/01.jpg" height="180" alt="Mode-Editorial in einem Parkhaus Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/038/02.jpg" height="180" alt="Mode-Editorial in einem Parkhaus Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/038/03.jpg" height="180" alt="Mode-Editorial in einem Parkhaus Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/038/04.jpg" height="180" alt="Mode-Editorial in einem Parkhaus Medien"></td>
 </tr></table>
 
 <details open>
@@ -966,7 +1143,7 @@ A stylish young woman with long layered black hair and soft curtain bangs, weari
 
 <a id="community-usecase-20"></a>
 
-### Community Use Case 20: [Editorialposter mit irisierender Glasblume](https://x.com/ComfyUI/status/2075027810666914062) (by [@ComfyUI](https://x.com/ComfyUI))
+### Community Use Case 20: Seedream 5.0 Pro · [Editorialposter mit irisierender Glasblume](https://x.com/ComfyUI/status/2075027810666914062) (by [@ComfyUI](https://x.com/ComfyUI))
 
 **Der Quellbeitrag prüft anhand sichtbarer Medienausgaben die Qualität filmischer, charakterbezogener, modischer oder stilistischer Darstellung.**
 
@@ -974,7 +1151,7 @@ Type: Demo | Date: 2026-07-09 | Category: Filmische, charakterbezogene und stili
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/044/01.jpg" height="340" alt="Editorialposter mit irisierender Glasblume Medien">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/044/01.jpg" height="340" alt="Editorialposter mit irisierender Glasblume Medien">
 
 <details open>
 <summary>Prompt</summary>
@@ -989,7 +1166,7 @@ An editorial graphic design poster on a solid black background. The central elem
 
 <a id="community-usecase-21"></a>
 
-### Community Use Case 21: [Anime-Skateboardsequenz mit mehreren Shot-Prompts](https://x.com/asatoucan/status/2075060881067769903) (by [@asatoucan](https://x.com/asatoucan))
+### Community Use Case 21: Seedream 5.0 Pro · [Anime-Skateboardsequenz mit mehreren Shot-Prompts](https://x.com/asatoucan/status/2075060881067769903) (by [@asatoucan](https://x.com/asatoucan))
 
 **Der Quellbeitrag prüft anhand sichtbarer Medienausgaben die Qualität filmischer, charakterbezogener, modischer oder stilistischer Darstellung.**
 
@@ -998,10 +1175,10 @@ Type: Demo | Date: 2026-07-09 | Category: Filmische, charakterbezogene und stili
 Tags: `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/069/01.jpg" height="180" alt="Anime-Skateboardsequenz mit mehreren Shot-Prompts Medien"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/069/02.jpg" height="180" alt="Anime-Skateboardsequenz mit mehreren Shot-Prompts Medien"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/069/03.jpg" height="180" alt="Anime-Skateboardsequenz mit mehreren Shot-Prompts Medien"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/069/04.jpg" height="180" alt="Anime-Skateboardsequenz mit mehreren Shot-Prompts Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/069/01.jpg" height="180" alt="Anime-Skateboardsequenz mit mehreren Shot-Prompts Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/069/02.jpg" height="180" alt="Anime-Skateboardsequenz mit mehreren Shot-Prompts Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/069/03.jpg" height="180" alt="Anime-Skateboardsequenz mit mehreren Shot-Prompts Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/069/04.jpg" height="180" alt="Anime-Skateboardsequenz mit mehreren Shot-Prompts Medien"></td>
 </tr></table>
 
 <details open>
@@ -1017,7 +1194,7 @@ A girl with a sharp bob cut, purple hair with black accent strands, stylized lay
 
 <a id="community-usecase-39"></a>
 
-### Community Use Case 39: [Seedream-Keyframes in einem vollständigen Erklärvideo-Workflow](https://x.com/alisaqqt/status/2075241584615108812) (by [@alisaqqt](https://x.com/alisaqqt))
+### Community Use Case 39: Seedream 5.0 Pro · [Seedream-Keyframes in einem vollständigen Erklärvideo-Workflow](https://x.com/alisaqqt/status/2075241584615108812) (by [@alisaqqt](https://x.com/alisaqqt))
 
 **Seedream erzeugt Keyframes in einer Multi-Modell-Pipeline, die ein fertiges Erklärvideo ausgibt.**
 
@@ -1025,9 +1202,9 @@ Type: Integration | Date: 2026-07-09 | Category: Filmische, charakterbezogene un
 
 Tags: `integration` `keyframes` `video`
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/074/demo.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/074/poster.jpg" height="340" alt="Seedream-Keyframes in einem vollständigen Erklärvideo-Workflow Medien"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/074/demo.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/074/poster.jpg" height="340" alt="Seedream-Keyframes in einem vollständigen Erklärvideo-Workflow Medien"></a>
 
-[Demo-Video abspielen](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/074/demo.mp4)
+[Demo-Video abspielen](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/074/demo.mp4)
 
 ---
 
@@ -1038,7 +1215,7 @@ Tags: `integration` `keyframes` `video`
 
 <a id="community-usecase-22"></a>
 
-### Community Use Case 22: [Konzept einer solarbetriebenen Wüstenforschungsstation](https://x.com/ashen_one/status/2074915677815886071) (by [@ashen_one](https://x.com/ashen_one))
+### Community Use Case 22: Seedream 5.0 Pro · [Konzept einer solarbetriebenen Wüstenforschungsstation](https://x.com/ashen_one/status/2074915677815886071) (by [@ashen_one](https://x.com/ashen_one))
 
 **Der Quellbeitrag prüft Kompositionen für Umgebungen, Innenräume, Science-Fiction oder Weltenbau statt einer einzelnen Objektbearbeitung.**
 
@@ -1046,7 +1223,7 @@ Type: Demo | Date: 2026-07-08 | Category: Konzeptkunst, Umgebungen und Weltenbau
 
 Tags: `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/021/01.jpg" height="340" alt="Konzept einer solarbetriebenen Wüstenforschungsstation Medien">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/021/01.jpg" height="340" alt="Konzept einer solarbetriebenen Wüstenforschungsstation Medien">
 
 <details open>
 <summary>Prompt</summary>
@@ -1061,7 +1238,7 @@ A solar-powered research station in a desert, featuring domed structures, solar 
 
 <a id="community-usecase-23"></a>
 
-### Community Use Case 23: [Filmisches Sci-Fi-Worldbuilding in unmöglichem Maßstab](https://x.com/AllaAisling/status/2075036565147906511) (by [@AllaAisling](https://x.com/AllaAisling))
+### Community Use Case 23: Seedream 5.0 Pro · [Filmisches Sci-Fi-Worldbuilding in unmöglichem Maßstab](https://x.com/AllaAisling/status/2075036565147906511) (by [@AllaAisling](https://x.com/AllaAisling))
 
 **Der Quellbeitrag prüft Kompositionen für Umgebungen, Innenräume, Science-Fiction oder Weltenbau statt einer einzelnen Objektbearbeitung.**
 
@@ -1070,10 +1247,10 @@ Type: Demo | Date: 2026-07-09 | Category: Konzeptkunst, Umgebungen und Weltenbau
 Tags: `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/027/01.jpg" height="180" alt="Filmisches Sci-Fi-Worldbuilding in unmöglichem Maßstab Medien"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/027/02.jpg" height="180" alt="Filmisches Sci-Fi-Worldbuilding in unmöglichem Maßstab Medien"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/027/03.jpg" height="180" alt="Filmisches Sci-Fi-Worldbuilding in unmöglichem Maßstab Medien"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/027/04.jpg" height="180" alt="Filmisches Sci-Fi-Worldbuilding in unmöglichem Maßstab Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/027/01.jpg" height="180" alt="Filmisches Sci-Fi-Worldbuilding in unmöglichem Maßstab Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/027/02.jpg" height="180" alt="Filmisches Sci-Fi-Worldbuilding in unmöglichem Maßstab Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/027/03.jpg" height="180" alt="Filmisches Sci-Fi-Worldbuilding in unmöglichem Maßstab Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/027/04.jpg" height="180" alt="Filmisches Sci-Fi-Worldbuilding in unmöglichem Maßstab Medien"></td>
 </tr></table>
 
 <details open>
@@ -1089,7 +1266,7 @@ An industrial civilization is constructing an entire planet inside an enormous o
 
 <a id="community-usecase-24"></a>
 
-### Community Use Case 24: [Schlafzimmer-Designvarianten für MBTI-Typen](https://x.com/FloraTechAI/status/2074866317484794131) (by [@FloraTechAI](https://x.com/FloraTechAI))
+### Community Use Case 24: Seedream 5.0 Pro · [Schlafzimmer-Designvarianten für MBTI-Typen](https://x.com/FloraTechAI/status/2074866317484794131) (by [@FloraTechAI](https://x.com/FloraTechAI))
 
 **Der Quellbeitrag prüft Kompositionen für Umgebungen, Innenräume, Science-Fiction oder Weltenbau statt einer einzelnen Objektbearbeitung.**
 
@@ -1098,10 +1275,10 @@ Type: Demo | Date: 2026-07-08 | Category: Konzeptkunst, Umgebungen und Weltenbau
 Tags: `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/061/01.jpg" height="180" alt="Schlafzimmer-Designvarianten für MBTI-Typen Medien"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/061/02.jpg" height="180" alt="Schlafzimmer-Designvarianten für MBTI-Typen Medien"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/061/03.jpg" height="180" alt="Schlafzimmer-Designvarianten für MBTI-Typen Medien"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/061/04.jpg" height="180" alt="Schlafzimmer-Designvarianten für MBTI-Typen Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/061/01.jpg" height="180" alt="Schlafzimmer-Designvarianten für MBTI-Typen Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/061/02.jpg" height="180" alt="Schlafzimmer-Designvarianten für MBTI-Typen Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/061/03.jpg" height="180" alt="Schlafzimmer-Designvarianten für MBTI-Typen Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/061/04.jpg" height="180" alt="Schlafzimmer-Designvarianten für MBTI-Typen Medien"></td>
 </tr></table>
 
 <details open>
@@ -1122,7 +1299,7 @@ design a bedroom for each MBTI type
 
 <a id="community-usecase-25"></a>
 
-### Community Use Case 25: [Multi-Task-Stichprobe der Seedream-Fähigkeiten mit vier chinesischen Prompts](https://x.com/op7418/status/2074862226905948549) (by [@op7418](https://x.com/op7418))
+### Community Use Case 25: Seedream 5.0 Pro · [Multi-Task-Stichprobe der Seedream-Fähigkeiten mit vier chinesischen Prompts](https://x.com/op7418/status/2074862226905948549) (by [@op7418](https://x.com/op7418))
 
 **Der Quellbeitrag erprobt mehrere Aufgaben in einem Thread und eignet sich daher eher als breiter Fähigkeitstest als als Einzelfall.**
 
@@ -1131,10 +1308,10 @@ Type: Evaluation | Date: 2026-07-08 | Category: Modellvergleiche und Bewertungen
 Tags: `capability-sampling` `model-comparison` `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/001/01.jpg" height="180" alt="Multi-Task-Stichprobe der Seedream-Fähigkeiten mit vier chinesischen Prompts Medien"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/001/02.jpg" height="180" alt="Multi-Task-Stichprobe der Seedream-Fähigkeiten mit vier chinesischen Prompts Medien"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/001/03.jpg" height="180" alt="Multi-Task-Stichprobe der Seedream-Fähigkeiten mit vier chinesischen Prompts Medien"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/001/04.jpg" height="180" alt="Multi-Task-Stichprobe der Seedream-Fähigkeiten mit vier chinesischen Prompts Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/001/01.jpg" height="180" alt="Multi-Task-Stichprobe der Seedream-Fähigkeiten mit vier chinesischen Prompts Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/001/02.jpg" height="180" alt="Multi-Task-Stichprobe der Seedream-Fähigkeiten mit vier chinesischen Prompts Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/001/03.jpg" height="180" alt="Multi-Task-Stichprobe der Seedream-Fähigkeiten mit vier chinesischen Prompts Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/001/04.jpg" height="180" alt="Multi-Task-Stichprobe der Seedream-Fähigkeiten mit vier chinesischen Prompts Medien"></td>
 </tr></table>
 
 <details open>
@@ -1150,7 +1327,7 @@ Tags: `capability-sampling` `model-comparison` `multi-image` `prompt-available`
 
 <a id="community-usecase-26"></a>
 
-### Community Use Case 26: [Seedream gegen GPT Image 2 bei einem realistischen Auto-Selfie](https://x.com/johnAGI168/status/2074870910469677387) (by [@johnAGI168](https://x.com/johnAGI168))
+### Community Use Case 26: Seedream 5.0 Pro · [Seedream gegen GPT Image 2 bei einem realistischen Auto-Selfie](https://x.com/johnAGI168/status/2074870910469677387) (by [@johnAGI168](https://x.com/johnAGI168))
 
 **Der Quellbeitrag vergleicht Seedream 5.0 Pro mit einem anderen Modell bei derselben oder einer eng verwandten visuellen Aufgabe.**
 
@@ -1159,8 +1336,8 @@ Type: Evaluation | Date: 2026-07-08 | Category: Modellvergleiche und Bewertungen
 Tags: `model-comparison` `multi-image` `prompt-available`
 
 <table><tr>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/006/01.jpg" height="180" alt="Seedream gegen GPT Image 2 bei einem realistischen Auto-Selfie Medien"></td>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/006/02.jpg" height="180" alt="Seedream gegen GPT Image 2 bei einem realistischen Auto-Selfie Medien"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/006/01.jpg" height="180" alt="Seedream gegen GPT Image 2 bei einem realistischen Auto-Selfie Medien"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/006/02.jpg" height="180" alt="Seedream gegen GPT Image 2 bei einem realistischen Auto-Selfie Medien"></td>
 </tr></table>
 
 <details open>
@@ -1176,7 +1353,7 @@ Tags: `model-comparison` `multi-image` `prompt-available`
 
 <a id="community-usecase-27"></a>
 
-### Community Use Case 27: [Seedream gegen GPT Image 2 bei einem klaren Lifestyle-Porträt](https://x.com/liyue_ai/status/2074890690686005590) (by [@liyue_ai](https://x.com/liyue_ai))
+### Community Use Case 27: Seedream 5.0 Pro · [Seedream gegen GPT Image 2 bei einem klaren Lifestyle-Porträt](https://x.com/liyue_ai/status/2074890690686005590) (by [@liyue_ai](https://x.com/liyue_ai))
 
 **Der Quellbeitrag vergleicht Seedream 5.0 Pro mit einem anderen Modell bei derselben oder einer eng verwandten visuellen Aufgabe.**
 
@@ -1185,8 +1362,8 @@ Type: Evaluation | Date: 2026-07-08 | Category: Modellvergleiche und Bewertungen
 Tags: `model-comparison` `multi-image` `prompt-available`
 
 <table><tr>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/012/01.jpg" height="180" alt="Seedream gegen GPT Image 2 bei einem klaren Lifestyle-Porträt Medien"></td>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/012/02.jpg" height="180" alt="Seedream gegen GPT Image 2 bei einem klaren Lifestyle-Porträt Medien"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/012/01.jpg" height="180" alt="Seedream gegen GPT Image 2 bei einem klaren Lifestyle-Porträt Medien"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/012/02.jpg" height="180" alt="Seedream gegen GPT Image 2 bei einem klaren Lifestyle-Porträt Medien"></td>
 </tr></table>
 
 <details open>
@@ -1202,7 +1379,7 @@ Tags: `model-comparison` `multi-image` `prompt-available`
 
 <a id="community-usecase-28"></a>
 
-### Community Use Case 28: [Blaupausen-Sportwagen im Vergleich mit GPT Image 2](https://x.com/marmaduke091/status/2074866077499105416) (by [@marmaduke091](https://x.com/marmaduke091))
+### Community Use Case 28: Seedream 5.0 Pro · [Blaupausen-Sportwagen im Vergleich mit GPT Image 2](https://x.com/marmaduke091/status/2074866077499105416) (by [@marmaduke091](https://x.com/marmaduke091))
 
 **Der Quellbeitrag vergleicht Seedream 5.0 Pro mit einem anderen Modell bei derselben oder einer eng verwandten visuellen Aufgabe.**
 
@@ -1211,8 +1388,8 @@ Type: Evaluation | Date: 2026-07-08 | Category: Modellvergleiche und Bewertungen
 Tags: `model-comparison` `multi-image` `prompt-available`
 
 <table><tr>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/019/01.jpg" height="180" alt="Blaupausen-Sportwagen im Vergleich mit GPT Image 2 Medien"></td>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/019/02.jpg" height="180" alt="Blaupausen-Sportwagen im Vergleich mit GPT Image 2 Medien"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/019/01.jpg" height="180" alt="Blaupausen-Sportwagen im Vergleich mit GPT Image 2 Medien"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/019/02.jpg" height="180" alt="Blaupausen-Sportwagen im Vergleich mit GPT Image 2 Medien"></td>
 </tr></table>
 
 <details open>
@@ -1228,7 +1405,7 @@ A technical drawing of a futuristic sports car in blueprint style. Include line 
 
 <a id="community-usecase-29"></a>
 
-### Community Use Case 29: [Vergleich einer Kamerawinkeländerung anhand eines Referenzbilds](https://x.com/hasamaru_studio/status/2075052934409375918) (by [@hasamaru_studio](https://x.com/hasamaru_studio))
+### Community Use Case 29: Seedream 5.0 Pro · [Vergleich einer Kamerawinkeländerung anhand eines Referenzbilds](https://x.com/hasamaru_studio/status/2075052934409375918) (by [@hasamaru_studio](https://x.com/hasamaru_studio))
 
 **Der Quellbeitrag vergleicht Seedream 5.0 Pro mit einem anderen Modell bei derselben oder einer eng verwandten visuellen Aufgabe.**
 
@@ -1237,10 +1414,10 @@ Type: Evaluation | Date: 2026-07-09 | Category: Modellvergleiche und Bewertungen
 Tags: `image-input` `model-comparison` `multi-image` `prompt-available`
 
 <table><tr>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/022/01.jpg" height="180" alt="Vergleich einer Kamerawinkeländerung anhand eines Referenzbilds Medien"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/022/02.jpg" height="180" alt="Vergleich einer Kamerawinkeländerung anhand eines Referenzbilds Medien"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/022/03.jpg" height="180" alt="Vergleich einer Kamerawinkeländerung anhand eines Referenzbilds Medien"></td>
-<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/022/04.jpg" height="180" alt="Vergleich einer Kamerawinkeländerung anhand eines Referenzbilds Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/022/01.jpg" height="180" alt="Vergleich einer Kamerawinkeländerung anhand eines Referenzbilds Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/022/02.jpg" height="180" alt="Vergleich einer Kamerawinkeländerung anhand eines Referenzbilds Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/022/03.jpg" height="180" alt="Vergleich einer Kamerawinkeländerung anhand eines Referenzbilds Medien"></td>
+<td width="25%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/022/04.jpg" height="180" alt="Vergleich einer Kamerawinkeländerung anhand eines Referenzbilds Medien"></td>
 </tr></table>
 
 <details open>
@@ -1256,7 +1433,7 @@ Tags: `image-input` `model-comparison` `multi-image` `prompt-available`
 
 <a id="community-usecase-30"></a>
 
-### Community Use Case 30: [Vergleich einer Werbekomposition mit übergroßer Getränkedose](https://x.com/emmanuel_2m/status/2075000101362131350) (by [@emmanuel_2m](https://x.com/emmanuel_2m))
+### Community Use Case 30: Seedream 5.0 Pro · [Vergleich einer Werbekomposition mit übergroßer Getränkedose](https://x.com/emmanuel_2m/status/2075000101362131350) (by [@emmanuel_2m](https://x.com/emmanuel_2m))
 
 **Der Quellbeitrag vergleicht Seedream 5.0 Pro mit einem anderen Modell bei derselben oder einer eng verwandten visuellen Aufgabe.**
 
@@ -1265,8 +1442,8 @@ Type: Evaluation | Date: 2026-07-08 | Category: Modellvergleiche und Bewertungen
 Tags: `model-comparison` `multi-image` `prompt-available`
 
 <table><tr>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/023/01.jpg" height="180" alt="Vergleich einer Werbekomposition mit übergroßer Getränkedose Medien"></td>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/023/02.jpg" height="180" alt="Vergleich einer Werbekomposition mit übergroßer Getränkedose Medien"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/023/01.jpg" height="180" alt="Vergleich einer Werbekomposition mit übergroßer Getränkedose Medien"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/023/02.jpg" height="180" alt="Vergleich einer Werbekomposition mit übergroßer Getränkedose Medien"></td>
 </tr></table>
 
 <details open>
@@ -1282,7 +1459,7 @@ A premium infographic-style advertisement featuring an oversized Pepsi can place
 
 <a id="community-usecase-31"></a>
 
-### Community Use Case 31: [Vergleich eines Chengdu-Reise-Scrapbook-Posters](https://x.com/DeepBlueAIX/status/2074872447229419956) (by [@DeepBlueAIX](https://x.com/DeepBlueAIX))
+### Community Use Case 31: Seedream 5.0 Pro · [Vergleich eines Chengdu-Reise-Scrapbook-Posters](https://x.com/DeepBlueAIX/status/2074872447229419956) (by [@DeepBlueAIX](https://x.com/DeepBlueAIX))
 
 **Der Quellbeitrag vergleicht Seedream 5.0 Pro mit einem anderen Modell bei derselben oder einer eng verwandten visuellen Aufgabe.**
 
@@ -1291,8 +1468,8 @@ Type: Evaluation | Date: 2026-07-08 | Category: Modellvergleiche und Bewertungen
 Tags: `model-comparison` `multi-image` `prompt-available`
 
 <table><tr>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/031/01.jpg" height="180" alt="Vergleich eines Chengdu-Reise-Scrapbook-Posters Medien"></td>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/031/02.jpg" height="180" alt="Vergleich eines Chengdu-Reise-Scrapbook-Posters Medien"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/031/01.jpg" height="180" alt="Vergleich eines Chengdu-Reise-Scrapbook-Posters Medien"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/031/02.jpg" height="180" alt="Vergleich eines Chengdu-Reise-Scrapbook-Posters Medien"></td>
 </tr></table>
 
 <details open>
@@ -1308,7 +1485,7 @@ Tags: `model-comparison` `multi-image` `prompt-available`
 
 <a id="community-usecase-32"></a>
 
-### Community Use Case 32: [Vergleich eines Anime-Key-Visuals](https://x.com/roco_kn_roco/status/2074890020260094137) (by [@roco_kn_roco](https://x.com/roco_kn_roco))
+### Community Use Case 32: Seedream 5.0 Pro · [Vergleich eines Anime-Key-Visuals](https://x.com/roco_kn_roco/status/2074890020260094137) (by [@roco_kn_roco](https://x.com/roco_kn_roco))
 
 **Der Quellbeitrag vergleicht Seedream 5.0 Pro mit einem anderen Modell bei derselben oder einer eng verwandten visuellen Aufgabe.**
 
@@ -1316,7 +1493,7 @@ Type: Evaluation | Date: 2026-07-08 | Category: Modellvergleiche und Bewertungen
 
 Tags: `model-comparison` `prompt-available`
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/034/01.jpg" height="340" alt="Vergleich eines Anime-Key-Visuals Medien">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/034/01.jpg" height="340" alt="Vergleich eines Anime-Key-Visuals Medien">
 
 <details open>
 <summary>Prompt</summary>
@@ -1331,7 +1508,7 @@ Tags: `model-comparison` `prompt-available`
 
 <a id="community-usecase-33"></a>
 
-### Community Use Case 33: [Vergleich eines Reiseposters mit Signaturvorgabe](https://x.com/Bic_Revelation/status/2074959714366922857) (by [@Bic_Revelation](https://x.com/Bic_Revelation))
+### Community Use Case 33: Seedream 5.0 Pro · [Vergleich eines Reiseposters mit Signaturvorgabe](https://x.com/Bic_Revelation/status/2074959714366922857) (by [@Bic_Revelation](https://x.com/Bic_Revelation))
 
 **Der Quellbeitrag vergleicht Seedream 5.0 Pro mit einem anderen Modell bei derselben oder einer eng verwandten visuellen Aufgabe.**
 
@@ -1340,8 +1517,8 @@ Type: Evaluation | Date: 2026-07-08 | Category: Modellvergleiche und Bewertungen
 Tags: `model-comparison` `multi-image` `prompt-available`
 
 <table><tr>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/056/01.jpg" height="180" alt="Vergleich eines Reiseposters mit Signaturvorgabe Medien"></td>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/056/02.jpg" height="180" alt="Vergleich eines Reiseposters mit Signaturvorgabe Medien"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/056/01.jpg" height="180" alt="Vergleich eines Reiseposters mit Signaturvorgabe Medien"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/056/02.jpg" height="180" alt="Vergleich eines Reiseposters mit Signaturvorgabe Medien"></td>
 </tr></table>
 
 <details open>
@@ -1357,7 +1534,7 @@ With its crystal-clear waters, white sandy beaches, and vibrant coral reefs, the
 
 <a id="community-usecase-34"></a>
 
-### Community Use Case 34: [Fantasy-Dorfwassermühle im Vergleich mit GPT Image 2](https://x.com/emmanuel_2m/status/2075000114427375742) (by [@emmanuel_2m](https://x.com/emmanuel_2m))
+### Community Use Case 34: Seedream 5.0 Pro · [Fantasy-Dorfwassermühle im Vergleich mit GPT Image 2](https://x.com/emmanuel_2m/status/2075000114427375742) (by [@emmanuel_2m](https://x.com/emmanuel_2m))
 
 **Der Quellbeitrag vergleicht Seedream 5.0 Pro mit einem anderen Modell bei derselben oder einer eng verwandten visuellen Aufgabe.**
 
@@ -1366,8 +1543,8 @@ Type: Evaluation | Date: 2026-07-08 | Category: Modellvergleiche und Bewertungen
 Tags: `model-comparison` `multi-image` `prompt-available`
 
 <table><tr>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/065/01.jpg" height="180" alt="Fantasy-Dorfwassermühle im Vergleich mit GPT Image 2 Medien"></td>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/065/02.jpg" height="180" alt="Fantasy-Dorfwassermühle im Vergleich mit GPT Image 2 Medien"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/065/01.jpg" height="180" alt="Fantasy-Dorfwassermühle im Vergleich mit GPT Image 2 Medien"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/065/02.jpg" height="180" alt="Fantasy-Dorfwassermühle im Vergleich mit GPT Image 2 Medien"></td>
 </tr></table>
 
 <details open>
@@ -1383,7 +1560,7 @@ stylized stylized fantasy village watermill, two-story half-timbered red-clay to
 
 <a id="community-usecase-35"></a>
 
-### Community Use Case 35: [Modeszene am Comer See im Vergleich mit Banana Pro](https://x.com/cso6709/status/2075046425277399261) (by [@cso6709](https://x.com/cso6709))
+### Community Use Case 35: Seedream 5.0 Pro · [Modeszene am Comer See im Vergleich mit Banana Pro](https://x.com/cso6709/status/2075046425277399261) (by [@cso6709](https://x.com/cso6709))
 
 **Der Quellbeitrag vergleicht Seedream 5.0 Pro mit einem anderen Modell bei derselben oder einer eng verwandten visuellen Aufgabe.**
 
@@ -1392,8 +1569,8 @@ Type: Evaluation | Date: 2026-07-09 | Category: Modellvergleiche und Bewertungen
 Tags: `model-comparison` `multi-image` `prompt-available`
 
 <table><tr>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/066/01.jpg" height="180" alt="Modeszene am Comer See im Vergleich mit Banana Pro Medien"></td>
-<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/downloaded-media/media/066/02.jpg" height="180" alt="Modeszene am Comer See im Vergleich mit Banana Pro Medien"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/066/01.jpg" height="180" alt="Modeszene am Comer See im Vergleich mit Banana Pro Medien"></td>
+<td width="50%" valign="top"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-seedream-5-pro-guide-and-prompt/restored-2026-11-03/downloaded-media/media/066/02.jpg" height="180" alt="Modeszene am Comer See im Vergleich mit Banana Pro Medien"></td>
 </tr></table>
 
 <details open>
@@ -1407,9 +1584,17 @@ A straight-on medium-wide cinematic shot at eye-level, static locked frame, 4:5 
 
 ---
 
+<a id="related-repositories"></a>
+
+## Verwandte Repositories
+
+[Prompts und Beispiele für GPT Image 2.5](https://github.com/Evolink-AI/awesome-gpt-image-2-5-prompts)
+
 <a id="acknowledge"></a>
 
 ## 🙏 Danksagung
+
+Der Seedream 5.5-Leitfaden und die Produktbeispiele beruhen auf Seedream-Produktunterlagen. Frühere Produktbeispiele und Community-Quellen sind nachfolgend weiterhin mit Quellenangaben versehen.
 
 Dieses Repository basiert auf dem offiziellen Seedream 5.0 Pro Einführungsmaterial, exportiert am 8. Juli 2026, sowie auf den öffentlichen Community-Posts, die in der Use-Case-Galerie zitiert werden.
 
@@ -1417,10 +1602,8 @@ Danke an das Seedream-Team für die offiziellen Beispiele, Produktmaterialien un
 
 Danke an die Community-Autorinnen und -Autoren, deren öffentliche Posts in diesem Repository zitiert werden:
 
-- [@renataro9](https://x.com/renataro9), [@haruuraeadss](https://x.com/haruuraeadss), [@JennyAITech](https://x.com/JennyAITech), [@MishikaAI](https://x.com/MishikaAI), [@ComfyUI](https://x.com/ComfyUI), [@iamrealsnow](https://x.com/iamrealsnow), [@Strength04_X](https://x.com/Strength04_X), [@LiamEtherson](https://x.com/LiamEtherson)
-- [@AiwithZohaib](https://x.com/AiwithZohaib), [@munzxsdv](https://x.com/munzxsdv), [@sulekhat95](https://x.com/sulekhat95), [@magnific](https://x.com/magnific), [@BubbleBrain](https://x.com/BubbleBrain), [@mattworkman](https://x.com/mattworkman), [@SimplyAnnisa](https://x.com/SimplyAnnisa), [@Cia0_exe](https://x.com/Cia0_exe)
-- [@df_reno](https://x.com/df_reno), [@ChillaiKalan__](https://x.com/ChillaiKalan__), [@asatoucan](https://x.com/asatoucan), [@ashen_one](https://x.com/ashen_one), [@AllaAisling](https://x.com/AllaAisling), [@FloraTechAI](https://x.com/FloraTechAI), [@op7418](https://x.com/op7418), [@johnAGI168](https://x.com/johnAGI168)
-- [@liyue_ai](https://x.com/liyue_ai), [@marmaduke091](https://x.com/marmaduke091), [@hasamaru_studio](https://x.com/hasamaru_studio), [@emmanuel_2m](https://x.com/emmanuel_2m), [@DeepBlueAIX](https://x.com/DeepBlueAIX), [@roco_kn_roco](https://x.com/roco_kn_roco), [@Bic_Revelation](https://x.com/Bic_Revelation), [@cso6709](https://x.com/cso6709)
-- [@Naonekozamurai](https://x.com/Naonekozamurai), [@Ciri_ai](https://x.com/Ciri_ai), [@YaZoraiz](https://x.com/YaZoraiz), [@alisaqqt](https://x.com/alisaqqt)
+[@renataro9](https://x.com/renataro9), [@haruuraeadss](https://x.com/haruuraeadss), [@JennyAITech](https://x.com/JennyAITech), [@MishikaAI](https://x.com/MishikaAI), [@ComfyUI](https://x.com/ComfyUI), [@iamrealsnow](https://x.com/iamrealsnow), [@Strength04_X](https://x.com/Strength04_X), [@LiamEtherson](https://x.com/LiamEtherson), [@AiwithZohaib](https://x.com/AiwithZohaib), [@munzxsdv](https://x.com/munzxsdv), [@sulekhat95](https://x.com/sulekhat95), [@magnific](https://x.com/magnific), [@BubbleBrain](https://x.com/BubbleBrain), [@mattworkman](https://x.com/mattworkman), [@SimplyAnnisa](https://x.com/SimplyAnnisa), [@Cia0_exe](https://x.com/Cia0_exe), [@df_reno](https://x.com/df_reno), [@ChillaiKalan__](https://x.com/ChillaiKalan__), [@asatoucan](https://x.com/asatoucan), [@ashen_one](https://x.com/ashen_one), [@AllaAisling](https://x.com/AllaAisling), [@FloraTechAI](https://x.com/FloraTechAI), [@op7418](https://x.com/op7418), [@johnAGI168](https://x.com/johnAGI168), [@liyue_ai](https://x.com/liyue_ai), [@marmaduke091](https://x.com/marmaduke091), [@hasamaru_studio](https://x.com/hasamaru_studio), [@emmanuel_2m](https://x.com/emmanuel_2m), [@DeepBlueAIX](https://x.com/DeepBlueAIX), [@roco_kn_roco](https://x.com/roco_kn_roco), [@Bic_Revelation](https://x.com/Bic_Revelation), [@cso6709](https://x.com/cso6709), [@Naonekozamurai](https://x.com/Naonekozamurai), [@Ciri_ai](https://x.com/Ciri_ai), [@YaZoraiz](https://x.com/YaZoraiz), [@alisaqqt](https://x.com/alisaqqt)
 
 Wenn eine Autorin oder ein Autor eine Änderung oder Entfernung der Zuschreibung wünscht, bitte ein Issue mit dem entsprechenden öffentlichen Post-Link öffnen.
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Evolink-AI/awesome-seedream-5-pro-guide-and-prompt&type=Date)](https://www.star-history.com/#Evolink-AI/awesome-seedream-5-pro-guide-and-prompt&Date)

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Seedream 5.5 Guide and Cases by EvoLink">
+  <rect width="1200" height="340" rx="24" fill="#071b2b"/>
+  <path d="M850 0h350v340H670z" fill="#103d50"/>
+  <circle cx="1060" cy="86" r="150" fill="#126475" opacity=".5"/>
+  <circle cx="1075" cy="252" r="84" fill="none" stroke="#4bd7e7" stroke-width="2" opacity=".65"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="64" y="66" font-size="25" fill="#62deeb" font-weight="700">EvoLink.ai</text>
+    <text x="60" y="158" font-size="72" fill="#fff" font-weight="700">Seedream 5.5</text>
+    <text x="64" y="218" font-size="32" fill="#d2e8ee">Guide and Cases</text>
+    <text x="64" y="282" font-size="21" fill="#a2c1cc">Precise editing · Realistic visuals · Text · Transparent assets</text>
+  </g>
+  <g fill="none" stroke="#62deeb" stroke-width="4" opacity=".8">
+    <rect x="927" y="104" width="130" height="154" rx="12" transform="rotate(-13 992 181)"/>
+    <rect x="976" y="81" width="130" height="154" rx="12" transform="rotate(11 1041 158)"/>
+  </g>
+</svg>

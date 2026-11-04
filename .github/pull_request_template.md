@@ -4,8 +4,11 @@
 
 ## Verification
 
-- [ ] `python3 scripts/verify_repo.py`
-- [ ] `python3 scripts/audit_public_surface.py --repo . --out local-audits/<run>/public-surface-link-audit.md`
+- [ ] All 11 READMEs have the same case identities, source links, media, and exact prompts
+- [ ] Guide precedes cases; archived model versions remain explicit
+- [ ] Image origins and GitHub-rendered images load successfully
+- [ ] Comparison labels and playable video posters match their media
+- [ ] Desktop and narrow rendering reviewed
 - [ ] `git diff --check`
 
 ## Source Policy
